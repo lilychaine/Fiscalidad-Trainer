@@ -1,10 +1,10 @@
-# 🧠 Fiscalidad Trainer — Entrenador Profesional de Impuestos (España)
+#  Fiscalidad Trainer — Entrenador Profesional de Impuestos (España)
 
 > Plataforma de entrenamiento tipo test para dominar la fiscalidad española a nivel profesional (máster / oposiciones).
 
 ---
 
-## 🚀 ¿Qué es esto?
+##  ¿Qué es esto?
 
 **Fiscalidad Trainer** es una app interactiva que te entrena con preguntas tipo test de alto nivel sobre:
 
@@ -23,7 +23,7 @@ Diseñada para:
 
 ---
 
-## 🎯 Diferencial clave
+##  Diferencial clave
 
 No es un test cualquiera.
 
