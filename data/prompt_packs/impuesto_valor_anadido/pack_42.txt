@@ -1,0 +1,53 @@
+A partir EXCLUSIVAMENTE del siguiente contenido, genera exactamente 8 preguntas tipo test.
+
+Reglas obligatorias:
+
+- No uses conocimiento externo
+- No inventes contenido
+- Si una regla no aparece claramente en el texto, no la conviertas en pregunta
+- No hagas preguntas cuya respuesta sea únicamente el número de artículos
+- No uses abreviaturas en el contenido visible
+- Nivel profesional alto
+- Mezcla conceptos técnicos, mini casos y preguntas trampa
+- Devuelve exclusivamente un JSON válido
+- No añadas comentarios ni texto fuera del JSON
+
+Formato obligatorio:
+
+[
+  {
+    "id": 1,
+    "subject": "Impuesto Valor Anadido",
+    "topic": "...",
+    "subtopic": "...",
+    "question": "...",
+    "options": {
+      "A": "...",
+      "B": "...",
+      "C": "...",
+      "D": "..."
+    },
+    "answer": "A",
+    "explanation": "...",
+    "reference": "Nombre del PDF o bloque del que sale la regla",
+    "difficulty": "alta",
+    "question_type": "concepto/caso/trampa",
+    "trap_level": "bajo/medio/alto",
+    "tags": ["...", "..."]
+  }
+]
+
+Contenido fuente:
+
+===== FUENTE: Supuestos IVA R_chunk_4.txt =====
+[PÁGINA 23]
+23 IMPUESTO SOBRE EL VALOR AÑADIDO SUPUESTO GENERAL DE LIQUIDACIÓN Una sociedad de capital, que se dedica a la venta de ordenadores y programas informáticos, ha realizado las siguientes operaciones en el ejercicio X: 1. Ha vendido ordenadores por valor de 120.000 eu ros en el 2º trimestre de 90.000 euros en el 3 er trimestre, aunque se tiene conocimiento de las siguientes operaciones, que se encuentran incluidas circunstancias en la citada cifra de volumen de ventas: - En fecha 30 de septiembre se realizó una venta de ordenadores, por un importe de 9.000 euros, emitiendo la correspondiente factura, que fue pagada el día 15 de noviembre. - En el tercer trimestre se encuentra una venta realizada el 14 de septiembre, por una cuantía de 20.000 euros, en la que practi có un descuento del 10%, en atención a que el pago se realizó el mismo día de la entrega del mobiliario. BASE IMPONIBLE: ARTÍCULO 78.3.2 LIVA - El día 15 de septiembre recibió un pago a cuenta de 1.000 euros de un cliente, por una venta que se formalizó el día 15 de octubre, pues la empresa no disponía de existencias del producto solicitado. DEVENGO: ARTÍCULO 75.2 LIVA 2. Ha vendido una fotocopiador a afecta a la actividad ec onómica, a un vecino del administrador de la sociedad por un impo rte de 6.000 euros. La entrega de la fotocopiadora se realizó el dí a 20 de junio, mientras que el cobro se hizo el día 4 de julio. SUJETO AL IVA. ART. 4.2.b) LIVA
+
+[PÁGINA 24]
+24 3. Hasta el 1 de julio ha venido desarrollando la actividad comercial en un local, propiedad de un familiar del socio mayoritario de la empresa, al que ha venido pagando en concepto de renta un total de 900 euros mensuales. SUJETO AL IVA. 4. Ha adquirido material de papelería para las tareas administrativas del establecimiento el día 25 de junio, por un importe de 2.000 euros, importe que fue pagado el 5 de julio. SUJETO AL IVA. 5. El 15 de junio adquirió en documento priv ado, un local que pretende afectar a la actividad, momento en el que formaliza la entrega 60.000 euros. La cantidad restante, que se eleva a 80.000 euros, se paga por partes iguales el día 1 de septiembre, que es el momento de la formalización de la escritura en la notaría y el día 1 de octubre. DEEVENGO: ARTÍCULO 75.2 LIVA 6. El día 6 de septiembre ha a dquirido para la gestión diaria de la actividad comercial una caja registradora por un precio de 900 euro s y una impresora por un precio de 250 euros. SUJETO AL IVA. 7. En atención a que se ha reformado la vivienda particular del gerente de la empresa, en fecha 4 de agosto del año X se han instal ado de forma gratuita, equipos y programas informáticos por un valor de mercado de 6.000 euros, que tuvieron un coste de adquisición de 3.000 euros. SUJETO AL IVA. AUTOCOSUMO: ARTÍCULO 9 LIVA 8. Ha comprado productos para la limpieza del lo cal comercial en fecha 9 de julio, por un total de 200 euros y dispone del correspond iente tique de compra, habiendo calculado mediante una sencilla operación el coste de los productos y el IVA soportado. NO ES DEDUCIBLE. ARTÍCULO 97.1 LIVA 9. Tiene contratado a un auxiliar administrativo que percibe 750 euros mensuales, pagas extraordinarias incluidas. NO SUJETO AL IVA. ARTÍCULO 7.6 LIVA
+
+[PÁGINA 25]
+25 10. Entre los papeles del archivo de la empresa ha encontrado el día 20 de abril una factura que se había extraviado, de 10 de noviembr e del año X-1, correspondiente a la compra de material de oficina destinado en su tota lidad a la actividad comercial, por un importe de 500 euros. ES DEDUCIBLE. ARTÍCULO 99.3.3º LIVA 11. Se compró una mesa de oficina para la tie nda, que le fue entregada el 15 de febrero, cuyo precio fue de 750 euros y que fue pagada el mismo día de la entrega. SUJETO AL IVA. 12. Ha transmitido el 4 de mayo un equipo inform ático con el que se ha venido trabajando en los últimos años, a un estudiante de qui nto curso de Arquitectura, por un importe de 1.500 euros. En el momento de la entrega reci bió 1.000 euros y el resto lo recibió el día 4 de julio. SUJETO AL IVA. ART. 4.2.b) LIVA 13. Celebró en fecha 2 de mayo una pequeña rece pción en la tienda, a la que ha invitado a sus mejores clientes, con ocasión de la obtención de un premio al consumo responsable. Para la celebración del evento se comp raron alimentos, bebidas refrescantes y alcohólica por un valor de 300 euros, de los que se tienen las correspondientes facturas. NO ES DEDUCUBLE. ARTÍCULO 96.1.3 LIVA 14. Ha comprado ordenadores por un precio de 20.000 euros, el día 2 de mayo, habiendo pagado también unos gastos de transporte de 400 euros. SUJETO AL IVA. BASE IMPONIBLE: ARTÍCULO 78.2.1 LIVA
+
+[PÁGINA 26]
+26 15. El 15 de mayo adquirió material de papelería por un valor de 300 euros, compra de la que solo guarda fotocopia de la factura. NO ES DEDUCIBLE. ARTÍCULO 97.1.2 LIVA 16. En fecha 20 de junio del a ño X ha adquirido una furgoneta que tiene previsto dedicar a actividades de transporte relacionadas con la actividad económica que realiza, que le ha costado 30.000 euros. DEDUCIBLE. BIEN DE INVERSIÓN: ARTÍCULO 107 LIVA 17. Invitó a sus mejores clientes a un espectác ulo deportivo importante celebrado el día 4 de junio, que tuvo un coste de 900 euros. NO ES DEDUCIBLE. ARTÍCULO 96.1.4 LIVA 18. Ha adquirido el día 9 de agosto un telé fono móvil, por un precio de 600 euros, que utiliza la encargada del establecimiento comercial para gestiones de la actividad económica y de carácter personal. NO ES DEDUCIBLE. ARTÍCULO 95.2.2 LIVA 19. El día 24 de julio adquirió papel y cartón para envolver los productos que vende, por una cuantía de 200 euros. SUJETO AL IVA. 20. El día 26 de junio formalizó la compra de programas informáticos para su venta, por una cuantía de 9.000 euros, aunque el pago efectivo lo realizó el día 1 de julio. SUJETO AL IVA. Tiene pendiente de compensar del 1er trimestre del año X la cantidad de 1.200 euros. DEDUCIBLE. ARTÍCULO 99.5 LIVA Calcular las liquidaciones de IVA del 2º y 3er trimestre del año X.

@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Delimitacion",
+    "subtopic": "Compatibilidad con el impuesto sobre el valor añadido",
+    "question": "Una transmisión onerosa de un inmueble realizada por un empresario sujeta al impuesto sobre el valor añadido:",
+    "options": {
+      "A": "Tributa también por transmisiones patrimoniales onerosas",
+      "B": "No tributa por transmisiones patrimoniales onerosas por incompatibilidad",
+      "C": "Tributa por ambas figuras siempre",
+      "D": "Queda no sujeta a ambos impuestos"
+    },
+    "answer": "B",
+    "explanation": "Las operaciones sujetas al impuesto sobre el valor añadido no tributan por la modalidad de transmisiones patrimoniales onerosas.",
+    "reference": "Texto refundido del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, reglas de incompatibilidad",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "alto",
+    "tags": ["compatibilidad", "transmisiones patrimoniales"]
+  },
+  {
+    "id": 2,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Hecho imponible",
+    "subtopic": "Transmisiones patrimoniales onerosas",
+    "question": "La compraventa de un inmueble entre particulares se somete a:",
+    "options": {
+      "A": "Impuesto sobre el valor añadido",
+      "B": "Transmisiones patrimoniales onerosas",
+      "C": "Actos jurídicos documentados",
+      "D": "Impuesto sobre sociedades"
+    },
+    "answer": "B",
+    "explanation": "Las transmisiones entre particulares no sujetas al impuesto sobre el valor añadido tributan por transmisiones patrimoniales onerosas.",
+    "reference": "Texto refundido del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, hecho imponible",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["hecho imponible", "transmisiones"]
+  },
+  {
+    "id": 3,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Sujeto pasivo",
+    "subtopic": "Transmisiones patrimoniales",
+    "question": "En una compraventa de inmueble entre particulares, el sujeto pasivo es:",
+    "options": {
+      "A": "El vendedor",
+      "B": "El comprador",
+      "C": "El notario",
+      "D": "Ambas partes"
+    },
+    "answer": "B",
+    "explanation": "En transmisiones patrimoniales onerosas, el sujeto pasivo es el adquirente.",
+    "reference": "Texto refundido del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, sujeto pasivo",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["sujeto pasivo"]
+  },
+  {
+    "id": 4,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Base imponible",
+    "subtopic": "Valoracion",
+    "question": "La base imponible en transmisiones patrimoniales se determina por:",
+    "options": {
+      "A": "El valor declarado libremente",
+      "B": "El valor de mercado del bien transmitido",
+      "C": "El valor catastral",
+      "D": "El precio escriturado siempre"
+    },
+    "answer": "B",
+    "explanation": "La base imponible es el valor real o de mercado del bien transmitido.",
+    "reference": "Texto refundido del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, base imponible",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "alto",
+    "tags": ["base imponible", "valoracion"]
+  },
+  {
+    "id": 5,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Hecho imponible",
+    "subtopic": "Operaciones societarias",
+    "question": "La constitución de una sociedad está sujeta a:",
+    "options": {
+      "A": "Transmisiones patrimoniales onerosas",
+      "B": "Operaciones societarias",
+      "C": "Actos jurídicos documentados siempre",
+      "D": "No está sujeta"
+    },
+    "answer": "B",
+    "explanation": "La constitución de sociedades constituye hecho imponible en la modalidad de operaciones societarias.",
+    "reference": "Texto refundido del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, operaciones societarias",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["operaciones societarias"]
+  },
+  {
+    "id": 6,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Actos jurídicos documentados",
+    "subtopic": "Documentos notariales",
+    "question": "Un documento notarial tributa por actos jurídicos documentados cuando:",
+    "options": {
+      "A": "Siempre",
+      "B": "Contiene acto inscribible y con contenido económico",
+      "C": "Es privado",
+      "D": "Es gratuito"
+    },
+    "answer": "B",
+    "explanation": "Debe ser inscribible en un registro público y tener contenido económico.",
+    "reference": "Texto refundido del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, documentos notariales",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "alto",
+    "tags": ["actos juridicos documentados"]
+  },
+  {
+    "id": 7,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Exenciones",
+    "subtopic": "Operaciones societarias",
+    "question": "Las operaciones de reestructuración empresarial pueden estar:",
+    "options": {
+      "A": "Siempre sujetas",
+      "B": "Exentas en determinados supuestos",
+      "C": "No sujetas siempre",
+      "D": "Gravadas doblemente"
+    },
+    "answer": "B",
+    "explanation": "Existen exenciones para operaciones de reestructuración que cumplen requisitos legales.",
+    "reference": "Texto refundido del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, exenciones",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["exenciones", "societarias"]
+  },
+  {
+    "id": 8,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Delimitacion",
+    "subtopic": "Donaciones",
+    "question": "Una transmisión gratuita inter vivos se somete a:",
+    "options": {
+      "A": "Transmisiones patrimoniales onerosas",
+      "B": "Impuesto sobre sucesiones y donaciones",
+      "C": "Actos jurídicos documentados",
+      "D": "No tributa"
+    },
+    "answer": "B",
+    "explanation": "Las transmisiones gratuitas inter vivos tributan por el impuesto sobre sucesiones y donaciones.",
+    "reference": "Normativa de delimitación entre figuras tributarias patrimoniales",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "alto",
+    "tags": ["delimitacion", "donaciones"]
+  },
+  {
+    "id": 9,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Devengo",
+    "subtopic": "Transmisiones",
+    "question": "El devengo en una compraventa se produce:",
+    "options": {
+      "A": "Al pago",
+      "B": "En el momento de la formalización del acto",
+      "C": "Al inscribirse",
+      "D": "Al facturarse"
+    },
+    "answer": "B",
+    "explanation": "El devengo se produce en el momento en que se formaliza el acto o contrato.",
+    "reference": "Texto refundido del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, devengo",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["devengo"]
+  },
+  {
+    "id": 10,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Base imponible",
+    "subtopic": "Comprobacion de valores",
+    "question": "Si el valor declarado es inferior al valor de mercado:",
+    "options": {
+      "A": "Se acepta siempre",
+      "B": "La Administración puede comprobar valores",
+      "C": "Se anula la operación",
+      "D": "Se tributa por el valor declarado"
+    },
+    "answer": "B",
+    "explanation": "La Administración puede comprobar el valor real del bien transmitido.",
+    "reference": "Normativa general tributaria y del impuesto sobre transmisiones patrimoniales",
+    "difficulty": "alta",
+    "question_type": "trampa",
+    "trap_level": "alto",
+    "tags": ["valoracion"]
+  },
+  {
+    "id": 11,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Actos jurídicos documentados",
+    "subtopic": "Cuota variable",
+    "question": "La cuota variable se exige cuando:",
+    "options": {
+      "A": "Siempre",
+      "B": "El documento es inscribible y tiene cuantía",
+      "C": "Es documento privado",
+      "D": "No hay contenido económico"
+    },
+    "answer": "B",
+    "explanation": "La cuota variable se aplica a documentos notariales inscribibles con contenido económico.",
+    "reference": "Texto refundido del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "alto",
+    "tags": ["actos juridicos documentados"]
+  },
+  {
+    "id": 12,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Operaciones societarias",
+    "subtopic": "Reduccion de capital",
+    "question": "La reducción de capital con devolución de aportaciones tributa como:",
+    "options": {
+      "A": "Transmisiones patrimoniales",
+      "B": "Operaciones societarias",
+      "C": "Actos jurídicos documentados",
+      "D": "No tributa"
+    },
+    "answer": "B",
+    "explanation": "Se encuadra dentro de operaciones societarias.",
+    "reference": "Texto refundido del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["societarias"]
+  },
+  {
+    "id": 13,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Sujeto pasivo",
+    "subtopic": "Actos jurídicos documentados",
+    "question": "En documentos notariales, el sujeto pasivo es:",
+    "options": {
+      "A": "El notario",
+      "B": "El adquirente del derecho",
+      "C": "El vendedor",
+      "D": "El registrador"
+    },
+    "answer": "B",
+    "explanation": "Es sujeto pasivo quien adquiere el derecho o interés que se documenta.",
+    "reference": "Texto refundido del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "alto",
+    "tags": ["sujeto pasivo"]
+  },
+  {
+    "id": 14,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Hecho imponible",
+    "subtopic": "Arrendamientos",
+    "question": "Un contrato de arrendamiento entre particulares está sujeto a:",
+    "options": {
+      "A": "Actos jurídicos documentados",
+      "B": "Transmisiones patrimoniales onerosas",
+      "C": "Impuesto sobre sociedades",
+      "D": "No tributa"
+    },
+    "answer": "B",
+    "explanation": "Los arrendamientos entre particulares tributan como transmisiones patrimoniales onerosas.",
+    "reference": "Texto refundido del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["arrendamientos"]
+  },
+  {
+    "id": 15,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Delimitacion",
+    "subtopic": "Segundas entregas de inmuebles",
+    "question": "Una segunda entrega de inmueble por empresario sin renuncia a exención:",
+    "options": {
+      "A": "Tributa por impuesto sobre el valor añadido",
+      "B": "Tributa por transmisiones patrimoniales onerosas",
+      "C": "No tributa",
+      "D": "Tributa por ambos"
+    },
+    "answer": "B",
+    "explanation": "Al estar exenta en el impuesto sobre el valor añadido, tributa por transmisiones patrimoniales.",
+    "reference": "Normativa de delimitación entre impuesto sobre el valor añadido y transmisiones patrimoniales",
+    "difficulty": "alta",
+    "question_type": "trampa",
+    "trap_level": "alto",
+    "tags": ["inmuebles", "delimitacion"]
+  },
+  {
+    "id": 16,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Base imponible",
+    "subtopic": "Derechos reales",
+    "question": "La constitución de un usufructo se valora:",
+    "options": {
+      "A": "Por el precio pactado siempre",
+      "B": "Según reglas específicas de valoración del derecho",
+      "C": "Por valor catastral",
+      "D": "No se valora"
+    },
+    "answer": "B",
+    "explanation": "Existen reglas específicas para valorar derechos reales como el usufructo.",
+    "reference": "Normativa del impuesto sobre transmisiones patrimoniales, valoración de derechos reales",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["derechos reales"]
+  },
+  {
+    "id": 17,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Exenciones",
+    "subtopic": "Administraciones públicas",
+    "question": "Las transmisiones realizadas por Administraciones públicas pueden estar:",
+    "options": {
+      "A": "Siempre sujetas",
+      "B": "Exentas en determinados supuestos",
+      "C": "No sujetas siempre",
+      "D": "Gravadas doblemente"
+    },
+    "answer": "B",
+    "explanation": "Existen exenciones aplicables a determinadas operaciones realizadas por Administraciones públicas.",
+    "reference": "Texto refundido del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, exenciones",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["exenciones"]
+  },
+  {
+    "id": 18,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Actos jurídicos documentados",
+    "subtopic": "Documentos mercantiles",
+    "question": "Los documentos mercantiles tributan cuando:",
+    "options": {
+      "A": "Siempre",
+      "B": "Están sujetos a gravamen específico según normativa",
+      "C": "Son privados",
+      "D": "No tienen cuantía"
+    },
+    "answer": "B",
+    "explanation": "Los documentos mercantiles pueden tributar según su naturaleza específica.",
+    "reference": "Texto refundido del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["documentos mercantiles"]
+  },
+  {
+    "id": 19,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Delimitacion",
+    "subtopic": "Operaciones societarias y aportaciones",
+    "question": "La aportación de bienes a una sociedad sin contraprestación dineraria se califica como:",
+    "options": {
+      "A": "Transmisión patrimonial onerosa",
+      "B": "Operación societaria",
+      "C": "Donación",
+      "D": "Acto jurídico documentado"
+    },
+    "answer": "B",
+    "explanation": "Las aportaciones a sociedades forman parte de las operaciones societarias.",
+    "reference": "Texto refundido del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "alto",
+    "tags": ["operaciones societarias"]
+  },
+  {
+    "id": 20,
+    "subject": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados",
+    "topic": "Devengo",
+    "subtopic": "Actos jurídicos documentados",
+    "question": "En documentos notariales, el devengo se produce:",
+    "options": {
+      "A": "Al pago",
+      "B": "En el momento de formalización del documento",
+      "C": "Al inscribirse",
+      "D": "Al declararse"
+    },
+    "answer": "B",
+    "explanation": "El devengo se produce en el momento de formalización del documento notarial.",
+    "reference": "Texto refundido del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, devengo",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["devengo"]
+  }
+]

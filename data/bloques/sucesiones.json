@@ -1,0 +1,402 @@
+[
+{
+"id": 1,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Hecho imponible",
+"subtopic": "Adquisiciones lucrativas por causa de muerte",
+"question": "Una persona física adquiere bienes y derechos por herencia tras el fallecimiento de su madre. ¿Qué figura tributaria resulta aplicable con carácter principal a esa adquisición?",
+"options": {
+"A": "Impuesto sobre la Renta de las Personas Físicas",
+"B": "Impuesto sobre Sucesiones y Donaciones",
+"C": "Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados, modalidad transmisiones patrimoniales onerosas",
+"D": "Impuesto sobre el Valor Añadido"
+},
+"answer": "B",
+"explanation": "El impuesto grava los incrementos patrimoniales obtenidos a título lucrativo por personas físicas, incluyendo las adquisiciones por causa de muerte. ",
+"reference": "Ley 29/1987, de 18 de diciembre, del Impuesto sobre Sucesiones y Donaciones, disposición general sobre naturaleza y hecho imponible. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["hecho imponible", "adquisicion hereditaria"]
+},
+{
+"id": 2,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Hecho imponible",
+"subtopic": "Donaciones y negocios gratuitos",
+"question": "Un padre dona en vida a su hija un inmueble sin contraprestación. ¿Cómo se califica la operación desde la perspectiva del impuesto?",
+"options": {
+"A": "Adquisición lucrativa entre vivos sujeta al Impuesto sobre Sucesiones y Donaciones",
+"B": "Transmisión patrimonial onerosa",
+"C": "Operación sujeta al Impuesto sobre el Valor Añadido por el mero carácter inmobiliario del bien",
+"D": "Renta del trabajo en sede de la donataria"
+},
+"answer": "A",
+"explanation": "Las adquisiciones gratuitas entre vivos constituyen uno de los hechos imponibles propios del impuesto. ",
+"reference": "Ley 29/1987, de 18 de diciembre, del Impuesto sobre Sucesiones y Donaciones, configuración del hecho imponible de las donaciones. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["donaciones", "adquisicion gratuita"]
+},
+{
+"id": 3,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Delimitacion",
+"subtopic": "Seguros sobre la vida",
+"question": "Cuando una persona física percibe cantidades derivadas de un seguro sobre la vida contratado por un tercero distinto del beneficiario, ¿qué tratamiento corresponde con carácter general?",
+"options": {
+"A": "Tributa como rendimiento del capital mobiliario exclusivamente",
+"B": "Queda fuera del sistema tributario por su origen asegurador",
+"C": "Se integra en el ámbito del Impuesto sobre Sucesiones y Donaciones en los términos legalmente previstos",
+"D": "Tributa siempre por transmisiones patrimoniales onerosas"
+},
+"answer": "C",
+"explanation": "La percepción de cantidades por beneficiarios de seguros sobre la vida cuando el contratante es persona distinta del beneficiario se integra en el ámbito del impuesto. ",
+"reference": "Ley 29/1987, de 18 de diciembre, del Impuesto sobre Sucesiones y Donaciones, delimitación de percepciones de seguros sobre la vida. ",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "alto",
+"tags": ["seguros sobre la vida", "delimitacion"]
+},
+{
+"id": 4,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Sujeto pasivo",
+"subtopic": "Contribuyente en adquisiciones mortis causa",
+"question": "En una sucesión hereditaria con varios herederos, ¿quién ostenta la condición de contribuyente por el impuesto?",
+"options": {
+"A": "La herencia yacente como patrimonio separado con carácter exclusivo",
+"B": "Cada causahabiente por el incremento patrimonial que obtiene",
+"C": "El albacea siempre",
+"D": "El notario autorizante de la escritura de adjudicación"
+},
+"answer": "B",
+"explanation": "El contribuyente es la persona física que adquiere bienes o derechos a título lucrativo, por lo que cada causahabiente tributa por su propia adquisición. ",
+"reference": "Ley 29/1987, de 18 de diciembre, del Impuesto sobre Sucesiones y Donaciones, reglas subjetivas del tributo. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "alto",
+"tags": ["contribuyente", "herederos"]
+},
+{
+"id": 5,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Sujeto pasivo",
+"subtopic": "Donaciones",
+"question": "En una donación pura y simple de dinero, el sujeto pasivo del impuesto es:",
+"options": {
+"A": "El donante",
+"B": "El donatario",
+"C": "La entidad financiera que canaliza la transferencia",
+"D": "Ambas partes por mitad"
+},
+"answer": "B",
+"explanation": "En las adquisiciones lucrativas entre vivos, el obligado principal es quien adquiere el incremento patrimonial, esto es, el donatario. ",
+"reference": "Ley 29/1987, de 18 de diciembre, del Impuesto sobre Sucesiones y Donaciones, reglas subjetivas en donaciones. ",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "medio",
+"tags": ["donatario", "sujeto pasivo"]
+},
+{
+"id": 6,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Base imponible",
+"subtopic": "Valor neto de la adquisición hereditaria",
+"question": "Para determinar la base imponible en una adquisición por causa de muerte debe atenderse principalmente a:",
+"options": {
+"A": "El valor nominal de los bienes heredados sin consideración de cargas ni deudas",
+"B": "El valor neto de la adquisición individual, minorado por cargas, deudas y gastos deducibles",
+"C": "El valor catastral de los inmuebles y el nominal del resto de bienes en todo caso",
+"D": "La cuota particional pactada aunque no refleje el valor real"
+},
+"answer": "B",
+"explanation": "La base imponible se construye sobre el valor neto de la adquisición, teniendo en cuenta las reglas de valoración y las partidas deducibles legalmente admitidas. ",
+"reference": "Ley 29/1987 y Reglamento del Impuesto sobre Sucesiones y Donaciones, regulación de base imponible, cargas, deudas y gastos deducibles. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "alto",
+"tags": ["base imponible", "valor neto"]
+},
+{
+"id": 7,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Base imponible",
+"subtopic": "Ajuar domestico",
+"question": "En una sucesión mortis causa, la inclusión del ajuar doméstico responde a:",
+"options": {
+"A": "Una presunción legal integrada en la masa hereditaria salvo prueba en contrario en los términos admitidos",
+"B": "Un concepto ajeno al impuesto porque se trata de bienes de uso personal",
+"C": "Una partida deducible obligatoria",
+"D": "Un incremento patrimonial que tributa en la renta del heredero"
+},
+"answer": "A",
+"explanation": "El ajuar doméstico opera como una presunción legal dentro de la masa hereditaria, con el alcance que ha sido perfilado normativamente y jurisprudencialmente. ",
+"reference": "Ley 29/1987 y Reglamento del Impuesto sobre Sucesiones y Donaciones, determinación de la masa hereditaria y ajuar doméstico. ",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "alto",
+"tags": ["ajuar domestico", "masa hereditaria"]
+},
+{
+"id": 8,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Base imponible",
+"subtopic": "Cargas y deudas deducibles",
+"question": "Para que una deuda del causante reduzca la base imponible de la adquisición hereditaria, la deuda debe:",
+"options": {
+"A": "Ser meramente alegada por el heredero sin soporte documental",
+"B": "Carecer de justificación porque toda deuda es deducible",
+"C": "Ser acreditada y reunir los requisitos materiales exigidos por la normativa",
+"D": "Haber sido reconocida judicialmente en todos los casos"
+},
+"answer": "C",
+"explanation": "La deducción de deudas exige acreditación y cumplimiento de los requisitos normativos; no basta la simple manifestación del heredero. ",
+"reference": "Reglamento del Impuesto sobre Sucesiones y Donaciones, régimen de acreditación de deudas, cargas y gastos deducibles. ",
+"difficulty": "alta",
+"question_type": "caso",
+"trap_level": "alto",
+"tags": ["deudas deducibles", "acreditacion"]
+},
+{
+"id": 9,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Devengo",
+"subtopic": "Adquisiciones por causa de muerte",
+"question": "En una sucesión hereditaria, el devengo del impuesto se produce:",
+"options": {
+"A": "En la aceptación de la herencia",
+"B": "En la adjudicación de bienes concretos",
+"C": "En la fecha de fallecimiento del causante",
+"D": "En la inscripción registral de los inmuebles heredados"
+},
+"answer": "C",
+"explanation": "El devengo de las adquisiciones mortis causa se produce con el fallecimiento del causante, con independencia de actuaciones posteriores de aceptación o partición. ",
+"reference": "Ley 29/1987 y Reglamento del Impuesto sobre Sucesiones y Donaciones, reglas de devengo en sucesiones. ",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "alto",
+"tags": ["devengo", "sucesion"]
+},
+{
+"id": 10,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Devengo",
+"subtopic": "Donaciones",
+"question": "En una donación formalizada en escritura pública, el devengo se produce con carácter general:",
+"options": {
+"A": "Cuando el donatario presenta la autoliquidación",
+"B": "Cuando se perfecciona el negocio jurídico de donación",
+"C": "Cuando se inscribe el bien en el registro correspondiente",
+"D": "Cuando el donante decide revocar la liberalidad"
+},
+"answer": "B",
+"explanation": "En las donaciones, el devengo se vincula a la perfección del acto o contrato del que deriva la adquisición lucrativa entre vivos. ",
+"reference": "Ley 29/1987 y Reglamento del Impuesto sobre Sucesiones y Donaciones, devengo en adquisiciones lucrativas entre vivos. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["devengo", "donaciones"]
+},
+{
+"id": 11,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Delimitacion",
+"subtopic": "Compatibilidad con impuesto sobre transmisiones patrimoniales",
+"question": "Una adquisición gratuita entre vivos documentada en escritura pública, además de quedar dentro del ámbito del Impuesto sobre Sucesiones y Donaciones, ¿queda sometida por ello a la modalidad de transmisiones patrimoniales onerosas?",
+"options": {
+"A": "Sí, porque toda transmisión patrimonial documentada tributa también por onerosas",
+"B": "No, porque la gratuidad sitúa la operación fuera de la modalidad onerosa",
+"C": "Sí, salvo que se trate de dinero",
+"D": "Sí, únicamente si el bien donado es inmueble"
+},
+"answer": "B",
+"explanation": "La gratuidad de la adquisición la sitúa en el ámbito del Impuesto sobre Sucesiones y Donaciones y no en la modalidad de transmisiones patrimoniales onerosas. ",
+"reference": "Ley 29/1987 y normativa delimitadora respecto del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados. ",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "alto",
+"tags": ["compatibilidad", "gratuidad"]
+},
+{
+"id": 12,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Delimitacion",
+"subtopic": "Compatibilidad con impuesto sobre la renta",
+"question": "Desde la perspectiva del adquirente persona física, una herencia se integra en el impuesto sobre la renta de las personas físicas:",
+"options": {
+"A": "Sí, como ganancia patrimonial ordinaria",
+"B": "Sí, como rendimiento del capital",
+"C": "No, porque la adquisición lucrativa mortis causa se canaliza por el Impuesto sobre Sucesiones y Donaciones",
+"D": "Solo si la herencia incluye dinero"
+},
+"answer": "C",
+"explanation": "Las adquisiciones lucrativas mortis causa por personas físicas se someten al Impuesto sobre Sucesiones y Donaciones, no a la renta del adquirente como regla de calificación del incremento patrimonial. ",
+"reference": "Ley 29/1987, exposición de motivos y configuración del impuesto como gravamen complementario en la imposición directa. ",
+"difficulty": "alta",
+"question_type": "diferencia entre figuras",
+"trap_level": "alto",
+"tags": ["compatibilidad", "impuesto sobre la renta"]
+},
+{
+"id": 13,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Reducciones",
+"subtopic": "Empresa individual y participaciones",
+"question": "La transmisión lucrativa de una empresa individual o de participaciones en entidades puede disfrutar de una reducción relevante cuando:",
+"options": {
+"A": "Basta con que existan participaciones, cualquiera que sea la función del causante o donante",
+"B": "Se cumplen los requisitos materiales y de mantenimiento establecidos por la normativa",
+"C": "La sociedad tiene pérdidas contables",
+"D": "La adquisición se produce exclusivamente por legado"
+},
+"answer": "B",
+"explanation": "La normativa prevé reducciones significativas para empresa individual, negocio profesional y participaciones, condicionadas al cumplimiento de requisitos sustantivos y, en su caso, de mantenimiento. ",
+"reference": "Ley 29/1987 y Reglamento del Impuesto sobre Sucesiones y Donaciones, reducciones por empresa familiar y participaciones. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "alto",
+"tags": ["reducciones", "empresa familiar"]
+},
+{
+"id": 14,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "No sujecion",
+"subtopic": "Exceso de adjudicacion por particion hereditaria",
+"question": "En una partición hereditaria, un heredero recibe un bien indivisible y compensa en metálico a los demás exactamente por el valor de sus haberes. Desde la óptica del impuesto sobre sucesiones, la cuestión principal consiste en distinguir si existe:",
+"options": {
+"A": "Una segunda adquisición lucrativa adicional para quien recibe el bien entero",
+"B": "Una mera concreción o especificación de derechos hereditarios sin adquisición lucrativa autónoma adicional, si concurren los presupuestos civiles y fiscales exigibles",
+"C": "Una donación automática entre coherederos en todo caso",
+"D": "Una operación sujeta al impuesto sobre el valor añadido"
+},
+"answer": "B",
+"explanation": "La partición hereditaria puede constituir una mera especificación de derechos preexistentes, siempre que no encubra desplazamientos patrimoniales gratuitos adicionales distintos del reparto de la herencia. ",
+"reference": "Reglamento del Impuesto sobre Sucesiones y Donaciones y doctrina administrativa sobre partición y excesos de adjudicación. ",
+"difficulty": "alta",
+"question_type": "caso",
+"trap_level": "alto",
+"tags": ["particion hereditaria", "exceso de adjudicacion"]
+},
+{
+"id": 15,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Base imponible",
+"subtopic": "Usufructo y nuda propiedad",
+"question": "Cuando en una sucesión se adjudica a una persona el usufructo y a otra la nuda propiedad, la valoración de cada adquisición:",
+"options": {
+"A": "Se realiza conforme a reglas específicas de valoración de derechos reales",
+"B": "Se determina por reparto libre entre las partes sin efectos fiscales",
+"C": "Se fija exclusivamente por el valor catastral del bien",
+"D": "No procede hasta la consolidación del dominio"
+},
+"answer": "A",
+"explanation": "La normativa del impuesto contiene reglas específicas para valorar usufructo, nuda propiedad y demás derechos reales limitados. ",
+"reference": "Reglamento del Impuesto sobre Sucesiones y Donaciones, valoración de usufructo, nuda propiedad y otros derechos reales. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["usufructo", "nuda propiedad"]
+},
+{
+"id": 16,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Gestion",
+"subtopic": "Prorroga del plazo en sucesiones",
+"question": "En una adquisición por causa de muerte, la posibilidad de solicitar prórroga del plazo de presentación responde a:",
+"options": {
+"A": "Un derecho inexistente en este impuesto",
+"B": "Una facultad condicionada a que la solicitud se formule en tiempo y con los requisitos reglamentarios",
+"C": "Una ampliación automática sin solicitud",
+"D": "Una decisión exclusiva del notario autorizante"
+},
+"answer": "B",
+"explanation": "La normativa reglamentaria contempla la prórroga del plazo de presentación en sucesiones, sujeta a solicitud tempestiva y a las condiciones que establece el reglamento. ",
+"reference": "Reglamento del Impuesto sobre Sucesiones y Donaciones, gestión y prórroga del plazo en adquisiciones mortis causa. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["gestion", "prorroga"]
+},
+{
+"id": 17,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Delimitacion territorial",
+"subtopic": "Punto de conexion autonómico",
+"question": "La determinación de la Administración competente y de la normativa autonómica aplicable en este impuesto depende, con carácter general, de:",
+"options": {
+"A": "La nacionalidad del causante o del donante",
+"B": "Los puntos de conexión establecidos por la normativa, como residencia habitual o localización de bienes según el supuesto",
+"C": "La voluntad unilateral del contribuyente",
+"D": "El lugar en que se otorgue la escritura"
+},
+"answer": "B",
+"explanation": "La aplicación de normativa y competencia administrativa se articula mediante puntos de conexión territoriales, especialmente residencia habitual y localización de determinados bienes o derechos. ",
+"reference": "Normativa estatal y desarrollo de gestión en materia de impuesto sobre sucesiones y donaciones, con remisión a los puntos de conexión del sistema de cesión. ",
+"difficulty": "alta",
+"question_type": "diferencia entre figuras",
+"trap_level": "alto",
+"tags": ["competencia territorial", "normativa autonómica"]
+},
+{
+"id": 18,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Reducciones",
+"subtopic": "Parentesco y discapacidad",
+"question": "Las reducciones por parentesco y, en su caso, por discapacidad en el impuesto operan como:",
+"options": {
+"A": "Beneficios ajenos a la base imponible y aplicables sobre la cuota",
+"B": "Minoraciones de la base imponible en los términos legalmente establecidos",
+"C": "Deducciones sobre el valor catastral",
+"D": "Exenciones automáticas de toda adquisición lucrativa"
+},
+"answer": "B",
+"explanation": "La estructura del impuesto contempla reducciones sobre la base imponible, entre ellas las relacionadas con parentesco y discapacidad, con el alcance que disponga la normativa estatal o autonómica aplicable. ",
+"reference": "Ley 29/1987 y régimen de cesión y normativa autonómica aplicable, reducciones sobre la base imponible. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["reducciones", "parentesco"]
+},
+{
+"id": 19,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Seguros sobre la vida",
+"subtopic": "Acumulacion y delimitacion",
+"question": "Si un heredero es además beneficiario de un seguro sobre la vida contratado por el causante, la tributación exige analizar:",
+"options": {
+"A": "Solo la herencia, porque el seguro queda siempre fuera del impuesto",
+"B": "La posible integración o acumulación de la percepción del seguro conforme a las reglas propias del impuesto",
+"C": "Solo la renta del trabajo del beneficiario",
+"D": "Exclusivamente la escritura de partición"
+},
+"answer": "B",
+"explanation": "La percepción del seguro sobre la vida puede integrarse en la tributación del beneficiario dentro del impuesto, conforme a sus reglas específicas de delimitación y acumulación. ",
+"reference": "Ley 29/1987 y Reglamento del Impuesto sobre Sucesiones y Donaciones, tratamiento de seguros sobre la vida. ",
+"difficulty": "alta",
+"question_type": "caso",
+"trap_level": "alto",
+"tags": ["seguros sobre la vida", "acumulacion"]
+},
+{
+"id": 20,
+"subject": "Impuesto sobre Sucesiones y Donaciones",
+"topic": "Delimitacion",
+"subtopic": "Negocios mixtos y liberalidad indirecta",
+"question": "En una compraventa entre familiares por precio notoriamente inferior al valor real, la cuestión jurídica relevante para este impuesto consiste en determinar si existe:",
+"options": {
+"A": "Solo una transmisión onerosa inmune a cualquier análisis adicional",
+"B": "Una posible liberalidad parcial susceptible de tributación como donación en la parte gratuita",
+"C": "Una operación necesariamente exenta",
+"D": "Un supuesto propio del impuesto sobre el valor añadido por razón del parentesco"
+},
+"answer": "B",
+"explanation": "Cuando una operación aparentemente onerosa encubre un desplazamiento patrimonial gratuito total o parcial, debe analizarse la existencia de una donación en la parte de liberalidad. ",
+"reference": "Ley 29/1987 y doctrina administrativa sobre negocios mixtos, simulación relativa y liberalidades indirectas. ",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "alto",
+"tags": ["negocios mixtos", "liberalidad indirecta"]
+}
+]

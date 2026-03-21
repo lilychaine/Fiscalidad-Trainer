@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Tributación local",
+    "topic": "Impuesto sobre Bienes Inmuebles",
+    "subtopic": "Hecho imponible",
+    "question": "Un contribuyente ostenta un derecho de usufructo sobre un inmueble urbano. ¿Está sujeto al impuesto?",
+    "options": {
+      "A": "No, solo tributa el propietario",
+      "B": "Sí, el usufructuario es sujeto pasivo",
+      "C": "Solo si el inmueble está arrendado",
+      "D": "Solo si el usufructo es temporal"
+    },
+    "answer": "B",
+    "explanation": "El impuesto grava la titularidad de derechos reales, incluido el usufructo, siendo sujeto pasivo quien ostenta dicho derecho.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, impuesto sobre bienes inmuebles",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["tributación local", "bienes inmuebles", "sujeto pasivo"]
+  },
+  {
+    "id": 2,
+    "subject": "Tributación local",
+    "topic": "Impuesto sobre Bienes Inmuebles",
+    "subtopic": "Sujeto pasivo",
+    "question": "En un inmueble con concesión administrativa, ¿quién es sujeto pasivo?",
+    "options": {
+      "A": "El propietario",
+      "B": "El concesionario",
+      "C": "El arrendatario",
+      "D": "El Ayuntamiento"
+    },
+    "answer": "B",
+    "explanation": "El concesionario es sujeto pasivo al ostentar un derecho real sobre el inmueble.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, impuesto sobre bienes inmuebles",
+    "difficulty": "alta",
+    "question_type": "trampa",
+    "trap_level": "alto",
+    "tags": ["tributación local", "bienes inmuebles", "concesión"]
+  },
+  {
+    "id": 3,
+    "subject": "Tributación local",
+    "topic": "Impuesto sobre Actividades Económicas",
+    "subtopic": "Hecho imponible",
+    "question": "Una sociedad desarrolla una actividad económica pero tiene una cifra de negocios inferior al umbral legal. ¿Debe tributar?",
+    "options": {
+      "A": "Sí, siempre",
+      "B": "No, está exenta por volumen de negocio",
+      "C": "Solo si tiene empleados",
+      "D": "Solo si es sociedad mercantil"
+    },
+    "answer": "B",
+    "explanation": "Existe exención para entidades con cifra de negocios inferior al límite legal.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, impuesto sobre actividades económicas",
+    "difficulty": "alta",
+    "question_type": "caso",
+    "trap_level": "alto",
+    "tags": ["tributación local", "actividades económicas", "exenciones"]
+  },
+  {
+    "id": 4,
+    "subject": "Tributación local",
+    "topic": "Impuesto sobre Vehículos de Tracción Mecánica",
+    "subtopic": "Hecho imponible",
+    "question": "El impuesto grava:",
+    "options": {
+      "A": "La circulación efectiva",
+      "B": "La titularidad del vehículo apto para circular",
+      "C": "El uso del vehículo",
+      "D": "El consumo de combustible"
+    },
+    "answer": "B",
+    "explanation": "El impuesto grava la titularidad de vehículos aptos para circular, con independencia de su uso efectivo.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, impuesto sobre vehículos de tracción mecánica",
+    "difficulty": "alta",
+    "question_type": "trampa",
+    "trap_level": "alto",
+    "tags": ["tributación local", "vehículos", "hecho imponible"]
+  },
+  {
+    "id": 5,
+    "subject": "Tributación local",
+    "topic": "Impuesto sobre Construcciones, Instalaciones y Obras",
+    "subtopic": "Base imponible",
+    "question": "La base imponible se determina por:",
+    "options": {
+      "A": "El valor catastral",
+      "B": "El coste real y efectivo de la construcción",
+      "C": "El valor de mercado del inmueble",
+      "D": "El presupuesto sin visado"
+    },
+    "answer": "B",
+    "explanation": "La base es el coste real y efectivo de la obra, excluyendo impuestos y honorarios.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, impuesto sobre construcciones, instalaciones y obras",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["tributación local", "construcciones", "base imponible"]
+  },
+  {
+    "id": 6,
+    "subject": "Tributación local",
+    "topic": "Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana",
+    "subtopic": "Hecho imponible",
+    "question": "El impuesto se devenga cuando:",
+    "options": {
+      "A": "Se adquiere el terreno",
+      "B": "Se transmite la propiedad o un derecho real",
+      "C": "Se urbaniza el terreno",
+      "D": "Se paga el impuesto"
+    },
+    "answer": "B",
+    "explanation": "El hecho imponible es la transmisión del terreno o de derechos reales sobre el mismo.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, impuesto sobre el incremento de valor de los terrenos de naturaleza urbana",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["tributación local", "incremento de valor"]
+  },
+  {
+    "id": 7,
+    "subject": "Tributación local",
+    "topic": "Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana",
+    "subtopic": "No sujeción",
+    "question": "Una transmisión en la que no existe incremento de valor real del terreno:",
+    "options": {
+      "A": "Siempre tributa",
+      "B": "No está sujeta si se acredita la inexistencia de incremento",
+      "C": "Está exenta",
+      "D": "Tributa parcialmente"
+    },
+    "answer": "B",
+    "explanation": "La inexistencia de incremento de valor excluye el hecho imponible.",
+    "reference": "Jurisprudencia constitucional y normativa local sobre el impuesto sobre el incremento de valor de los terrenos de naturaleza urbana",
+    "difficulty": "alta",
+    "question_type": "trampa",
+    "trap_level": "alto",
+    "tags": ["tributación local", "incremento de valor", "no sujeción"]
+  },
+  {
+    "id": 8,
+    "subject": "Tributación local",
+    "topic": "Impuesto sobre Actividades Económicas",
+    "subtopic": "Sujeto pasivo",
+    "question": "Es sujeto pasivo quien:",
+    "options": {
+      "A": "Consume el servicio",
+      "B": "Ejerce la actividad económica",
+      "C": "Es propietario del local",
+      "D": "Es cliente habitual"
+    },
+    "answer": "B",
+    "explanation": "El impuesto grava el ejercicio de actividades económicas, siendo sujeto pasivo quien las realiza.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, impuesto sobre actividades económicas",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["tributación local", "actividades económicas"]
+  },
+  {
+    "id": 9,
+    "subject": "Tributación local",
+    "topic": "Tasas",
+    "subtopic": "Hecho imponible",
+    "question": "Una tasa se exige cuando:",
+    "options": {
+      "A": "Existe capacidad económica general",
+      "B": "Se utiliza un servicio público de forma voluntaria",
+      "C": "Se obtiene un beneficio general",
+      "D": "Se paga un impuesto estatal"
+    },
+    "answer": "B",
+    "explanation": "Las tasas se exigen por la utilización privativa o por la prestación de servicios públicos en los términos legales.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, tasas",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["tributación local", "tasas"]
+  },
+  {
+    "id": 10,
+    "subject": "Tributación local",
+    "topic": "Contribuciones especiales",
+    "subtopic": "Delimitación",
+    "question": "Las contribuciones especiales se exigen cuando:",
+    "options": {
+      "A": "Existe uso general del servicio",
+      "B": "Se produce un beneficio especial derivado de obras públicas",
+      "C": "Se paga un impuesto indirecto",
+      "D": "Se obtiene renta"
+    },
+    "answer": "B",
+    "explanation": "Se exigen cuando el sujeto obtiene un beneficio especial por obras o servicios públicos.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, contribuciones especiales",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["tributación local", "contribuciones especiales"]
+  },
+  {
+    "id": 11,
+    "subject": "Tributación local",
+    "topic": "Impuesto sobre Bienes Inmuebles",
+    "subtopic": "Base imponible",
+    "question": "La base imponible se determina por:",
+    "options": {
+      "A": "Valor de mercado",
+      "B": "Valor catastral",
+      "C": "Valor declarado",
+      "D": "Valor contable"
+    },
+    "answer": "B",
+    "explanation": "El valor catastral es la base del impuesto.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, impuesto sobre bienes inmuebles",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["tributación local", "base imponible", "bienes inmuebles"]
+  },
+  {
+    "id": 12,
+    "subject": "Tributación local",
+    "topic": "Impuesto sobre Vehículos de Tracción Mecánica",
+    "subtopic": "Exenciones",
+    "question": "Un vehículo histórico puede estar:",
+    "options": {
+      "A": "Siempre sujeto",
+      "B": "Exento si cumple requisitos",
+      "C": "No sujeto",
+      "D": "Gravado doblemente"
+    },
+    "answer": "B",
+    "explanation": "Determinados vehículos históricos pueden disfrutar de exención.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, impuesto sobre vehículos de tracción mecánica",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["tributación local", "vehículos", "exenciones"]
+  },
+  {
+    "id": 13,
+    "subject": "Tributación local",
+    "topic": "Impuesto sobre Construcciones, Instalaciones y Obras",
+    "subtopic": "Devengo",
+    "question": "El devengo se produce cuando:",
+    "options": {
+      "A": "Se inicia la obra",
+      "B": "Se concede la licencia",
+      "C": "Se finaliza la obra",
+      "D": "Se paga el impuesto"
+    },
+    "answer": "A",
+    "explanation": "El impuesto se devenga al iniciarse la construcción.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, impuesto sobre construcciones, instalaciones y obras",
+    "difficulty": "alta",
+    "question_type": "trampa",
+    "trap_level": "alto",
+    "tags": ["tributación local", "devengo", "construcciones"]
+  },
+  {
+    "id": 14,
+    "subject": "Tributación local",
+    "topic": "Tasas",
+    "subtopic": "Diferencias con impuestos",
+    "question": "La diferencia principal entre tasas e impuestos es:",
+    "options": {
+      "A": "El importe",
+      "B": "La existencia de una contraprestación directa",
+      "C": "El sujeto pasivo",
+      "D": "El territorio"
+    },
+    "answer": "B",
+    "explanation": "Las tasas implican una contraprestación directa por un servicio o uso.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, tasas",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["tributación local", "tasas", "impuestos"]
+  },
+  {
+    "id": 15,
+    "subject": "Tributación local",
+    "topic": "Impuesto sobre Actividades Económicas",
+    "subtopic": "Delimitación",
+    "question": "El impuesto grava:",
+    "options": {
+      "A": "Los beneficios",
+      "B": "El ejercicio de actividades económicas",
+      "C": "El patrimonio",
+      "D": "El consumo"
+    },
+    "answer": "B",
+    "explanation": "Grava el mero ejercicio de actividades económicas.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, impuesto sobre actividades económicas",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["tributación local", "actividades económicas"]
+  },
+  {
+    "id": 16,
+    "subject": "Tributación local",
+    "topic": "Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana",
+    "subtopic": "Sujeto pasivo",
+    "question": "En una transmisión onerosa, el sujeto pasivo es:",
+    "options": {
+      "A": "El adquirente",
+      "B": "El transmitente",
+      "C": "El notario",
+      "D": "El registrador"
+    },
+    "answer": "B",
+    "explanation": "En transmisiones onerosas, el sujeto pasivo es el transmitente.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, impuesto sobre el incremento de valor de los terrenos de naturaleza urbana",
+    "difficulty": "alta",
+    "question_type": "trampa",
+    "trap_level": "alto",
+    "tags": ["tributación local", "sujeto pasivo", "incremento de valor"]
+  },
+  {
+    "id": 17,
+    "subject": "Tributación local",
+    "topic": "Impuesto sobre Bienes Inmuebles",
+    "subtopic": "Exenciones",
+    "question": "Los bienes de dominio público están:",
+    "options": {
+      "A": "Siempre sujetos",
+      "B": "Exentos",
+      "C": "No sujetos",
+      "D": "Gravados parcialmente"
+    },
+    "answer": "C",
+    "explanation": "Los bienes de dominio público no constituyen hecho imponible.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, impuesto sobre bienes inmuebles",
+    "difficulty": "alta",
+    "question_type": "trampa",
+    "trap_level": "alto",
+    "tags": ["tributación local", "no sujeción", "bienes inmuebles"]
+  },
+  {
+    "id": 18,
+    "subject": "Tributación local",
+    "topic": "Contribuciones especiales",
+    "subtopic": "Base imponible",
+    "question": "La base se determina en función de:",
+    "options": {
+      "A": "Ingresos del contribuyente",
+      "B": "Coste de la obra o servicio y beneficio individual",
+      "C": "Valor catastral",
+      "D": "Beneficio empresarial"
+    },
+    "answer": "B",
+    "explanation": "Se distribuye el coste según el beneficio especial obtenido.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, contribuciones especiales",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["tributación local", "contribuciones especiales", "base imponible"]
+  },
+  {
+    "id": 19,
+    "subject": "Tributación local",
+    "topic": "Impuesto sobre Vehículos de Tracción Mecánica",
+    "subtopic": "Devengo",
+    "question": "El devengo del impuesto se produce:",
+    "options": {
+      "A": "Cuando se matricula el vehículo",
+      "B": "El primer día del periodo impositivo",
+      "C": "Cuando se utiliza",
+      "D": "Cuando se paga"
+    },
+    "answer": "B",
+    "explanation": "El impuesto se devenga el primer día del periodo impositivo anual.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, impuesto sobre vehículos de tracción mecánica",
+    "difficulty": "alta",
+    "question_type": "trampa",
+    "trap_level": "medio",
+    "tags": ["tributación local", "devengo", "vehículos"]
+  },
+  {
+    "id": 20,
+    "subject": "Tributación local",
+    "topic": "Tasas",
+    "subtopic": "Exigibilidad",
+    "question": "Una tasa puede exigirse cuando:",
+    "options": {
+      "A": "Existe obligación general",
+      "B": "Se solicita o recibe un servicio público específico",
+      "C": "Se obtiene renta",
+      "D": "Se realiza una actividad económica"
+    },
+    "answer": "B",
+    "explanation": "Las tasas se exigen por la prestación de servicios o utilización privativa del dominio público.",
+    "reference": "Texto refundido de la normativa reguladora de las haciendas locales, tasas",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["tributación local", "tasas"]
+  }
+]

@@ -1,0 +1,89 @@
+A partir EXCLUSIVAMENTE del siguiente contenido, genera exactamente 8 preguntas tipo test.
+
+Reglas obligatorias:
+
+- No uses conocimiento externo
+- No inventes contenido
+- Si una regla no aparece claramente en el texto, no la conviertas en pregunta
+- No hagas preguntas cuya respuesta sea únicamente el número de artículos
+- No uses abreviaturas en el contenido visible
+- Nivel profesional alto
+- Mezcla conceptos técnicos, mini casos y preguntas trampa
+- Devuelve exclusivamente un JSON válido
+- No añadas comentarios ni texto fuera del JSON
+
+Formato obligatorio:
+
+[
+  {
+    "id": 1,
+    "subject": "Irpf",
+    "topic": "...",
+    "subtopic": "...",
+    "question": "...",
+    "options": {
+      "A": "...",
+      "B": "...",
+      "C": "...",
+      "D": "..."
+    },
+    "answer": "A",
+    "explanation": "...",
+    "reference": "Nombre del PDF o bloque del que sale la regla",
+    "difficulty": "alta",
+    "question_type": "concepto/caso/trampa",
+    "trap_level": "bajo/medio/alto",
+    "tags": ["...", "..."]
+  }
+]
+
+Contenido fuente:
+
+===== FUENTE: IRPF 2025_chunk_9.txt =====
+[PÁGINA 141]
+141 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASCÁLCULO RENDIMIENTO NETO:FASE 1ª: Nº unidades de los módulos (x) Rendimiento anual por unidad = Rendimiento neto previo FASE 2ª: (−) Minoraciones por incentivos al empleo y a la inversión = Rendimiento neto minorado FASE 3ª: (x) Índices correctores = Rendimiento neto de módulos Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 142]
+142 RENDIMIENTOS DE ACTIVIDADES ECONÓMICAS CONT.FASE 4ª: (−) 5% Reducción general (−) Gastos extraordinarios (+) Otras percepciones empresariales = Rendimiento neto de la actividad FASE 5ª: (−) 30% Reducción rendimientos irregulares (*). = Rendimiento neto reducido (−) Reducción por rentas totales inferiores a 12.000 € incluidas las de la actividad (art. 32.2.3º LIRPF). = Rendimiento neto reducido total(*)Aplicable únicamente respecto del componente "Otras percepciones empresariales" con período de generación superior a dos años o que se califiquen reglamentariamente como obtenidas de forma notoriamente irregular en el tiempo. Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 143]
+143 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASLa primera operación que debe realizarse para determinar el rendimiento neto previo consiste en cuantificar el número de unidades empleadas, utilizadas o instaladas de cada uno de los módulos fijados para cada actividad.La Orden HAC/1347/2024, de 28 de noviembreestablece en su Anexo II en apartado 2.1 de sus Instrucciones las reglas para cuantificación del número de unidades de los distintos signos o módulos que pasamos a examinar a continuación. . Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 144]
+144 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASEl cálculo del promedio de los signos, índices o módulos se determina: En los módulos “personal asalariado” y “personal no asalariado” en función de las horas trabajadas. En los módulos “distancia recorrida” y “consumo de energía eléctrica” se tendrán en cuenta, respectivamente, los kilómetros recorridos o los kilovatios/hora consumidos. En los restantes casos, en función de los días de efectivo empleo, utilización o instalación, teniendo en cuenta que los mismos comprenden los días normales de descanso y vacaciones, ya que las cuantías que se fijan en la Orden tienen carácter anual. Cuando del promedio calculado no resulte un número entero, se expresará con dos cifras decimales. Módulos comunes a varias actividades: cuando exista utilización parcial de un módulo en la actividad o sector de actividad, el valor a computar será el que resulte de su prorrateo en función de su utilización efectiva. Si no fuera posible determinar ésta, se imputará por partes iguales a cada una de las utilizaciones del módulo. Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 145]
+145 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASUNIDADES DE MÓDULO EMPLEADAS, UTILIZADAS O INSTALADASLa Orden HAC/1347/2024, de 28 de noviembre, establece los siguientes módulos:Módulo “Personal no asalariado”: Personal no asalariado es elempresario. También tendrán esta consideración,sucónyuge y los hijos menoresque convivan con él, cuando, trabajando efectivamente enla actividad,no constituyan personal asalariadoporno concurriralguno de losrequisitos siguientes:- Que trabajen habitualmente y con continuidad en la actividad empresarial.- Que exista el correspondiente contrato laboral.- Que estén afiliados al régimen general de la Seguridad Social. Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 146]
+146 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASEmpresario:computará como una persona no asalariada(1.800 horas/año).En los casos en los que pueda acreditarse unadedicación inferior a 1.800horas/año por causas objetivas, tales como jubilación, incapacidad, pluralidad deactividades o cierre temporal de la explotación, se computará el tiempo efectivo dedicado ala actividad.En estos supuestos, para la cuantificación de lastareas de dirección, organización yplanificaciónde la actividad y, en general, las inherentes a la titularidad de la misma, secomputará altitular de la actividad en0,25 personas/año,salvo cuando se acredite unadedicación efectiva superior o inferior.En estos casosel cálculo del personal no asalariadoserá:Personal no asalariado = Horas efectivas/ 1.800 horas Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 147]
+147 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASCónyuge e hijos menores del titular de la actividad que convivan con él:computarán como una persona no asalariada, cuando trabajen en la actividad, almenos, 1.800 horas/año.Cuando elnúmero de horas de trabajo al año sea inferior a 1.800, se estimarácomo cuantía de la persona no asalariada laproporción existente entre elnúmero de horas efectivamente trabajadas en el año y 1.800 horas/año.El número de unidades del módulo "personal no asalariado"se expresará condos decimales.Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 148]
+148 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASEl personal no asalariado con un grado de discapacidad igual o superior al 33por 100se computará al 75 por 100.A estos efectos, se tomará en consideraciónla situación existente en la fecha de devengo del impuesto (normalmente, el 31de diciembre).Cuando tengan la consideración de no asalariados,el cónyuge o los hijos menoresdel empresario se computarán al 50 por 100, siempre queel titular de la actividad secompute por entero,antes de aplicar, en su caso, la reducción prevista para personascon discapacidad,y no haya más de una persona asalariada. La reducción del 50 por100 se practicará después de haber aplicado, en su caso, la correspondiente por gradode discapacidad igual o superior al 33 por 100. Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 149]
+149 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASINFORMA.125326-CÓMPUTO DE CÓNYUGE E HIJOS MENORES AL 50 POR 100Para que el cónyuge y los hijos menores se computen al 50%, el requisito de que no haya más deuna persona asalariada, ¿Significa que el número de unidades de dicho módulo no sea superior auno?A los efectos de la cuantificación al 50 por 100 del módulo personal no asalariado para el cónyugee hijos menores cuando el titular se compute por entero y no haya más de una persona asalariadaen el método de estimación objetiva del IRPF,la magnitud consistente en un máximo de 1trabajador debe computarseen función del número de horas anuales prorrateadaspor trabajadoresfijado en el convenio colectivo correspondiente.Interpretación DGT a raízSentencia T.S. de 13 de diciembre de 2023 . STS1667/2023. R. Casación 2702/2022. Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 150]
+150 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASMódulo “Personal asalariado”:Tienen la condición de personal asalariado:a) Las personas que trabajen en la actividad y no tengan la condición de personal no asalariado.b) El cónyuge y los hijos menores del titular de la actividad que convivan con él, siempre que,existiendo el oportuno contrato laboral y la afiliación al régimen general de la Seguridad Social,trabajen habitualmente y con continuidad en la actividad económica desarrollada por elcontribuyente.Determinación del número de unidades del módulo "personal asalariado“ REGLASa)Si existe convenio colectivo, se computará como una persona asalariada la que trabaje el númerode horas anuales por trabajador que haya sido fijado en dicho convenio.b)Si no existe convenio colectivo, se estimará que una persona asalariada equivale a 1.800horas/año. Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 151]
+151 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASCuando el número de horassea inferior o superior al indicado, se estimará laproporciónexistente entre el número de horas efectivamente trabajadas y lasfijadas en el convenio colectivo o, en su defecto, 1.800 horas/año.El número de unidades del módulo "personal asalariado"se expresará con dosdecimales.Se computará en un 60 por 100 al personal asalariado menor de 19 años y al quepreste sus servicios bajo un contrato de aprendizaje o para la formación.Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 152]
+152 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASSe computa en un 40 por 100 el personal asalariado con grado de discapacidadsuperior al 33 por ciento.Cuando una persona asalariada cumpla 19 años o se le reconozca un grado dediscapacidad del 33 por 100 o superior durante el período impositivo, elcómputo del 60 por 100 o, en su caso, del 40 por 100 se efectuará únicamenterespecto de la parte del período en la que se den cualquiera de estascircunstancias.Las reducciones del 60 por 100 y del 40 por 100 anteriormente comentadas sonincompatibles entre sí.. Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 153]
+153 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASMódulo “Superficie del local”:A efectos de la aplicación del módulo, se entiende por locales lasconstrucciones, edificaciones o instalaciones, así como las superficies, cubiertas o sin cubrir, abiertas o no alpúblico, que se utilicen para el desarrollo de la Actividad. La unidad del módulo "Superficie del local" es elmetro cuadrado (m2).Módulo "Consumo de energía eléctrica“:Por consumo de energía eléctrica se entenderálafacturada por la empresa suministradora, cuya unidad es 100 kilovatios por hora (kw/h).Cuando en la factura se distinga entre energía "activa" y "reactiva", sólo se computará la primera.Módulo “Potencia eléctrica”:Se entenderá por potencia eléctrica la contratada con la empresasuministradora de la energía, cuya unidad es el kilovatiocontratado (kw).Módulo "Número de habitantes”:El número de habitantes será el de la población de derecho delmunicipio, constituida por el total de los residentes inscritos en el Padrón Municipal de Habitantes, presentesy ausentes.. Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 154]
+154 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASMódulo “Carga del vehículo”:Que consta en laTarjeta Técnica.Módulo “Plazas”:En las actividades de servicio de hospedaje, se entenderá por"plazas“ el número de unidades de capacidad de alojamiento delestablecimiento.Módulo “Asientos”:En las actividades de transporte urbano colectivo y deviajeros por carretera, se entenderá por"asientos" el número de unidades quefigura en la Tarjeta de Inspección Técnica del vehículo, excluidos el delconductor y el del guía.. Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 155]
+155 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASMódulo "Máquinas recreativas“:Únicamente se computarán lasmáquinasrecreativas instaladas que no sean propiedad del titular de la actividad. Lasmáquinas que son propiedad del titular constituyen una actividad independiente(hay dos tipos: A solo son de juego, y B pueden llevar aparejado un premio).Módulo "Potencia fiscal del vehículo”:En las actividades que lo tienen asignado,este módulo viene definido por lapotencia fiscal que figura en la Tarjeta deInspección Técnica del vehículo, expresada en caballos fiscales (CVF).. Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 156]
+156 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASMódulo “Longitud de barra”:Por barra se entenderá elmostrador donde sesirven y apoyan las bebidas y alimentos solicitados por los clientes.Lalongitud de barra se medirá por el lado del público y de ella se excluirá lazona reservada al servicio de camareros. Si existiesen barras auxiliares de apoyoadosadas a las paredes, pilares, etc., dispongan o no de taburetes, se incluirá sulongitud para el cálculo del módulo. La unidad de este módulo es el metro lineal(m.l.). El número de unidades se expresará, en su caso, con dos decimales.Módulo “Distancia recorrida”:La actividad de transporte por autotaxis tienecomo módulo asignado la "distancia recorrida" por cada vehículo afecto a laactividad, debiendo computarse la totalidad de los recorridos en el año. Launidad está constituida por 1.000 km. Estimación objetiva, signos, índices o módulos

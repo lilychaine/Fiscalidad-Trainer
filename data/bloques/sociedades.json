@@ -1,0 +1,402 @@
+[
+{
+"id": 1,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Base imponible",
+"subtopic": "Resultado contable y correcciones fiscales",
+"question": "La base imponible del impuesto se determina, con carácter general, a partir de:",
+"options": {
+"A": "La tesorería generada en el ejercicio, ajustada por cobros y pagos pendientes",
+"B": "El resultado contable corregido por la aplicación de los preceptos fiscales",
+"C": "La cifra de negocios minorada en todos los gastos contabilizados",
+"D": "El patrimonio neto al cierre del período impositivo"
+},
+"answer": "B",
+"explanation": "La estructura del impuesto parte del resultado contable y exige practicar las correcciones fiscales previstas en la normativa para llegar a la base imponible. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, determinación de la base imponible a partir del resultado contable corregido. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["base imponible", "resultado contable"]
+},
+{
+"id": 2,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Gastos no deducibles",
+"subtopic": "Multas y sanciones",
+"question": "Una sociedad contabiliza como gasto una sanción administrativa firme impuesta por la autoridad de competencia. Desde la perspectiva fiscal, ese importe:",
+"options": {
+"A": "Es deducible si se ha contabilizado correctamente",
+"B": "Es deducible si guarda relación con la actividad económica",
+"C": "No es fiscalmente deducible y exige un ajuste positivo",
+"D": "Solo es deducible si la sanción no es penal"
+},
+"answer": "C",
+"explanation": "La contabilización del gasto no basta para su deducibilidad. Las multas y sanciones constituyen un gasto fiscalmente no deducible y obligan a incrementar la base imponible mediante ajuste positivo. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, régimen de gastos no deducibles. ",
+"difficulty": "alta",
+"question_type": "caso",
+"trap_level": "alto",
+"tags": ["gastos no deducibles", "sanciones"]
+},
+{
+"id": 3,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Amortizaciones",
+"subtopic": "Requisitos de deducibilidad",
+"question": "Para que la amortización de un inmovilizado material sea fiscalmente deducible, la regla general exige que:",
+"options": {
+"A": "Coincida necesariamente con el criterio de caja",
+"B": "Sea efectiva y responda a depreciación, conforme a alguno de los métodos admitidos",
+"C": "Se practique íntegramente en el primer ejercicio de uso",
+"D": "Se limite al importe que decida libremente la junta general"
+},
+"answer": "B",
+"explanation": "La deducibilidad de la amortización exige que refleje la depreciación efectiva del elemento y se practique conforme a métodos admitidos por la normativa fiscal. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, reglas de amortización fiscal. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["amortizacion", "deducibilidad"]
+},
+{
+"id": 4,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Deterioros",
+"subtopic": "Deducibilidad fiscal",
+"question": "Una sociedad contabiliza un deterioro del valor de sus participaciones en otra entidad. Con carácter general, en el impuesto:",
+"options": {
+"A": "Ese deterioro es deducible si existe informe de auditoría",
+"B": "Ese deterioro es deducible si la participada tiene pérdidas dos ejercicios seguidos",
+"C": "Ese deterioro no es deducible, salvo supuestos expresamente admitidos por la norma",
+"D": "Ese deterioro siempre se integra en la base del ahorro"
+},
+"answer": "C",
+"explanation": "La normativa fiscal limita fuertemente la deducción de deterioros, en particular los relativos a participaciones, que con carácter general no resultan deducibles. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, régimen de deterioros y correcciones de valor. ",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "alto",
+"tags": ["deterioros", "participaciones"]
+},
+{
+"id": 5,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Gastos financieros",
+"subtopic": "Limitación de deducibilidad",
+"question": "La limitación general de gastos financieros netos responde a la idea de que:",
+"options": {
+"A": "Todos los gastos financieros son siempre deducibles si están contabilizados",
+"B": "La deducción puede quedar condicionada por un porcentaje sobre una magnitud operativa fiscal, con mínimo legal aplicable",
+"C": "Solo las entidades financieras pueden deducir gastos financieros",
+"D": "Los gastos financieros se deducen exclusivamente cuando financian inmovilizado"
+},
+"answer": "B",
+"explanation": "La ley establece una limitación general a la deducción de gastos financieros netos vinculada a una magnitud operativa fiscal, junto con un importe mínimo de deducción en los términos legales. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, limitación a la deducibilidad de gastos financieros. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "alto",
+"tags": ["gastos financieros", "limitacion"]
+},
+{
+"id": 6,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Exención para evitar la doble imposición",
+"subtopic": "Dividendos y participaciones",
+"question": "Una entidad residente percibe dividendos de una participada. La posible aplicación de la exención exige, entre otros elementos, verificar:",
+"options": {
+"A": "Solo que el dividendo haya sido contabilizado como ingreso",
+"B": "La concurrencia de los requisitos materiales previstos para la participación y la entidad participada",
+"C": "Únicamente que la participada sea extranjera",
+"D": "Exclusivamente que el dividendo se distribuya en metálico"
+},
+"answer": "B",
+"explanation": "La exención sobre dividendos no opera por la mera contabilización del ingreso, sino por el cumplimiento de requisitos objetivos y subjetivos relativos a la participación y, en su caso, a la tributación de la participada. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, exención para evitar la doble imposición sobre dividendos y rentas derivadas de participaciones. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "alto",
+"tags": ["doble imposicion", "dividendos"]
+},
+{
+"id": 7,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Compensación de bases imponibles negativas",
+"subtopic": "Límites y requisitos",
+"question": "Una sociedad con base imponible positiva pretende compensar pérdidas fiscales de ejercicios anteriores. ¿Cuál es la afirmación más correcta?",
+"options": {
+"A": "La compensación queda prohibida si han pasado más de cuatro años",
+"B": "La compensación puede realizarse, pero está sujeta a los límites cuantitativos previstos en la norma",
+"C": "La compensación es libre e ilimitada en cualquier cuantía",
+"D": "La compensación solo procede en entidades de reducida dimensión"
+},
+"answer": "B",
+"explanation": "La ley permite compensar bases imponibles negativas de ejercicios anteriores, pero sujeta esa compensación a límites cuantitativos y a determinadas reglas específicas. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, régimen de compensación de bases imponibles negativas. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["bases imponibles negativas", "compensacion"]
+},
+{
+"id": 8,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Reserva de capitalización",
+"subtopic": "Requisitos materiales",
+"question": "La reducción asociada a la reserva de capitalización se vincula esencialmente a:",
+"options": {
+"A": "La disminución del patrimonio neto de la entidad",
+"B": "El incremento de fondos propios y el mantenimiento de dicho incremento con dotación indisponible",
+"C": "La existencia de pérdidas contables en el ejercicio",
+"D": "La adquisición de inmuebles afectos a la actividad"
+},
+"answer": "B",
+"explanation": "La reserva de capitalización incentiva la autofinanciación empresarial, condicionando la reducción al incremento de fondos propios y a su mantenimiento, así como a la dotación de una reserva indisponible. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, reducción por reserva de capitalización. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "alto",
+"tags": ["reserva de capitalizacion", "fondos propios"]
+},
+{
+"id": 9,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Reserva de nivelación",
+"subtopic": "Entidades de reducida dimensión",
+"question": "La reserva de nivelación puede ser aplicada por:",
+"options": {
+"A": "Cualquier contribuyente del impuesto, sin requisitos adicionales",
+"B": "Exclusivamente entidades de reducida dimensión que cumplan los requisitos legales",
+"C": "Solo grupos fiscales en consolidación",
+"D": "Únicamente entidades parcialmente exentas"
+},
+"answer": "B",
+"explanation": "La reserva de nivelación se configura como un incentivo específico para entidades de reducida dimensión y requiere el cumplimiento de las condiciones legalmente previstas. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, incentivos fiscales para entidades de reducida dimensión y reserva de nivelación. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["reserva de nivelacion", "entidades de reducida dimension"]
+},
+{
+"id": 10,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Operaciones vinculadas",
+"subtopic": "Principio de libre competencia",
+"question": "Una sociedad vende existencias a su administrador único por un precio muy inferior al de mercado. Fiscalmente, la operación:",
+"options": {
+"A": "Se acepta siempre por prevalecer la autonomía de la voluntad",
+"B": "Puede ser valorada por su valor de mercado conforme a las reglas de operaciones vinculadas",
+"C": "Queda no sujeta al impuesto por realizarse entre partes vinculadas",
+"D": "Se transforma en gasto no deducible sin afectar al ingreso"
+},
+"answer": "B",
+"explanation": "Las operaciones entre personas o entidades vinculadas deben valorarse por su valor de mercado, conforme al principio de libre competencia y a la metodología establecida por la normativa. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, régimen de operaciones vinculadas. ",
+"difficulty": "alta",
+"question_type": "caso",
+"trap_level": "alto",
+"tags": ["operaciones vinculadas", "valor de mercado"]
+},
+{
+"id": 11,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Imputación temporal",
+"subtopic": "Inscripción contable",
+"question": "Un gasto contabilizado en un ejercicio distinto de aquel en que procedería según devengo puede deducirse fiscalmente:",
+"options": {
+"A": "Nunca, porque cualquier error contable impide toda deducción",
+"B": "Siempre, en el ejercicio en que la sociedad prefiera",
+"C": "Con arreglo a las reglas fiscales de imputación temporal y sin que ello produzca una menor tributación global",
+"D": "Solo si la Administración autoriza previamente el asiento contable"
+},
+"answer": "C",
+"explanation": "La normativa del impuesto conecta el criterio fiscal con el devengo contable, pero admite determinadas correcciones siempre que no se derive una menor tributación que la que habría correspondido aplicando la regla temporal correcta. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, reglas de imputación temporal e inscripción contable. ",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "alto",
+"tags": ["imputacion temporal", "inscripcion contable"]
+},
+{
+"id": 12,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Provisiones",
+"subtopic": "Deducibilidad",
+"question": "Una provisión por riesgos futuros genéricos, no individualizados ni suficientemente justificados, tendrá con carácter general el siguiente tratamiento fiscal:",
+"options": {
+"A": "Será deducible por el solo hecho de responder al principio de prudencia",
+"B": "No será deducible al no cumplir los requisitos fiscales de concreción y justificación",
+"C": "Será deducible siempre que la apruebe el órgano de administración",
+"D": "Quedará automáticamente diferida hasta el momento del pago"
+},
+"answer": "B",
+"explanation": "La prudencia contable no determina por sí sola la deducibilidad fiscal. Las provisiones exigen cumplir los requisitos específicos establecidos por la normativa tributaria. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, régimen de provisiones y otros gastos. ",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "alto",
+"tags": ["provisiones", "deducibilidad fiscal"]
+},
+{
+"id": 13,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Entidades parcialmente exentas",
+"subtopic": "Rentas exentas y no exentas",
+"question": "En una entidad parcialmente exenta, los ingresos derivados de explotaciones económicas no exentas:",
+"options": {
+"A": "Quedan automáticamente fuera del impuesto por la naturaleza de la entidad",
+"B": "Se someten a tributación en los términos previstos para las rentas no exentas",
+"C": "Nunca pueden coexistir con rentas exentas",
+"D": "Se integran exclusivamente si provienen del extranjero"
+},
+"answer": "B",
+"explanation": "El régimen de entidades parcialmente exentas no implica una exención total. Determinadas rentas pueden quedar exentas y otras tributar conforme a la propia ley. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, régimen de entidades parcialmente exentas. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["entidades parcialmente exentas", "rentas no exentas"]
+},
+{
+"id": 14,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Deducciones en cuota",
+"subtopic": "Investigación y desarrollo e innovación",
+"question": "Las actividades de investigación y desarrollo y las de innovación tecnológica:",
+"options": {
+"A": "Dan derecho a la misma deducción sin necesidad de diferenciación conceptual",
+"B": "Pueden originar deducciones en cuota, pero exigen distinguir correctamente entre ambas categorías conforme a la norma",
+"C": "Nunca generan incentivos fiscales si ya se ha aplicado libertad de amortización",
+"D": "Solo son relevantes en entidades parcialmente exentas"
+},
+"answer": "B",
+"explanation": "La ley reconoce deducciones en cuota para investigación y desarrollo y para innovación tecnológica, con tratamiento diferenciado y requisitos propios. Cambios recientes también han afectado a ciertos porcentajes de deducción en ámbitos concretos. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, deducciones por investigación y desarrollo e innovación tecnológica. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "alto",
+"tags": ["deducciones en cuota", "investigacion y desarrollo"]
+},
+{
+"id": 15,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Operaciones de reestructuración",
+"subtopic": "Neutralidad fiscal",
+"question": "En una operación de fusión acogida al régimen especial de reestructuración, la idea central del régimen es:",
+"options": {
+"A": "La tributación inmediata de todas las plusvalías latentes",
+"B": "La neutralidad fiscal mediante diferimiento, siempre que concurran los requisitos legales y no exista fraude o evasión",
+"C": "La exención definitiva e incondicionada de todas las rentas",
+"D": "La inaplicación del impuesto sobre sociedades a la entidad absorbente"
+},
+"answer": "B",
+"explanation": "El régimen especial de reestructuración persigue la neutralidad fiscal y el diferimiento de la tributación de determinadas rentas, condicionado al cumplimiento de los requisitos legales y a la existencia de motivos económicos válidos cuando resulte exigible. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, régimen especial de fusiones, escisiones, aportaciones y canje de valores. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "alto",
+"tags": ["reestructuracion", "neutralidad fiscal"]
+},
+{
+"id": 16,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Consolidación fiscal",
+"subtopic": "Grupo fiscal",
+"question": "El régimen de consolidación fiscal permite, en esencia:",
+"options": {
+"A": "Que cada entidad del grupo tribute siempre de forma completamente aislada",
+"B": "Que el grupo determine una base imponible agregada conforme a las reglas específicas del régimen",
+"C": "La desaparición de la personalidad jurídica de las dependientes",
+"D": "La compensación libre entre socios y sociedades del grupo"
+},
+"answer": "B",
+"explanation": "La consolidación fiscal permite determinar una base imponible del grupo mediante reglas específicas de agregación, eliminaciones e incorporaciones, sin que desaparezca la personalidad jurídica individual de las entidades. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, régimen de consolidación fiscal. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["consolidacion fiscal", "grupo fiscal"]
+},
+{
+"id": 17,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Asimetrías híbridas",
+"subtopic": "Corrección de desajustes",
+"question": "Las reglas sobre asimetrías híbridas persiguen principalmente evitar:",
+"options": {
+"A": "La doble tributación económica ordinaria sobre dividendos",
+"B": "Supuestos de doble deducción o deducción sin inclusión derivados de diferencias de calificación entre jurisdicciones",
+"C": "La aplicación de convenios para evitar la doble imposición",
+"D": "La tributación mínima de las entidades sin actividad"
+},
+"answer": "B",
+"explanation": "La normativa incorporó reglas específicas para neutralizar desajustes híbridos que generen doble deducción o deducción sin inclusión por divergencias entre ordenamientos. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, reglas anti asimetrías híbridas tras sus modificaciones recientes. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "alto",
+"tags": ["asimetrías hibridas", "desajustes fiscales"]
+},
+{
+"id": 18,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Tipo de gravamen",
+"subtopic": "Cuota íntegra",
+"question": "La cuota íntegra del impuesto se obtiene, con carácter general, aplicando:",
+"options": {
+"A": "El tipo de gravamen sobre la base liquidable que corresponda según la ley",
+"B": "El tipo de gravamen sobre el resultado contable antes de impuestos",
+"C": "La deducción por doble imposición sobre la base imponible",
+"D": "El tipo de gravamen sobre la cifra de negocios"
+},
+"answer": "A",
+"explanation": "La cuota íntegra se calcula aplicando el tipo de gravamen a la base liquidable o magnitud equivalente prevista por la ley dentro de la estructura del tributo. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, estructura de la deuda tributaria y tipo de gravamen. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "bajo",
+"tags": ["tipo de gravamen", "cuota integra"]
+},
+{
+"id": 19,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Pagos fraccionados",
+"subtopic": "Naturaleza y función",
+"question": "Los pagos fraccionados del impuesto tienen la naturaleza de:",
+"options": {
+"A": "Sanciones encubiertas por retraso en la autoliquidación anual",
+"B": "Anticipos a cuenta de la liquidación definitiva del período impositivo",
+"C": "Cuotas autónomas desvinculadas de la declaración anual",
+"D": "Retenciones practicadas por los clientes de la sociedad"
+},
+"answer": "B",
+"explanation": "Los pagos fraccionados son ingresos a cuenta de la deuda final del impuesto y se articulan mediante modelos específicos aprobados por orden ministerial. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, y órdenes ministeriales reguladoras de modelos de declaración y pagos fraccionados. ",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["pagos fraccionados", "ingresos a cuenta"]
+},
+{
+"id": 20,
+"subject": "Impuesto sobre Sociedades",
+"topic": "Compatibilidad entre figuras tributarias",
+"subtopic": "Relación con el impuesto sobre la renta de las personas físicas",
+"question": "Una sociedad limitada desarrolla una actividad económica y obtiene beneficios. La tributación ordinaria de esos beneficios exige distinguir correctamente que:",
+"options": {
+"A": "La sociedad tributa por el impuesto sobre sociedades y, en su caso, el socio persona física tributará separadamente por las rentas que perciba de la sociedad",
+"B": "Los beneficios de la sociedad se imputan siempre directamente al socio persona física",
+"C": "La sociedad puede elegir libremente entre tributar por el impuesto sobre sociedades o por el impuesto sobre la renta de las personas físicas",
+"D": "La existencia de un solo socio convierte automáticamente a la sociedad en contribuyente del impuesto sobre la renta de las personas físicas"
+},
+"answer": "A",
+"explanation": "La personalidad jurídica de la sociedad determina su sujeción al impuesto sobre sociedades. Las rentas que luego perciba el socio persona física constituyen un hecho distinto y tributan en su impuesto propio según su naturaleza. ",
+"reference": "Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades, naturaleza del tributo sobre personas jurídicas, en relación con la Ley 35/2006 del Impuesto sobre la Renta de las Personas Físicas. ",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "alto",
+"tags": ["compatibilidad entre impuestos", "sociedad y socio"]
+}
+]

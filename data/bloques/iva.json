@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Hecho imponible",
+    "subtopic": "Operaciones no sujetas",
+    "question": "Una sociedad transmite la totalidad de su patrimonio empresarial a otra entidad que continúa la actividad sin interrupción. ¿Cuál es el tratamiento en el impuesto?",
+    "options": {
+      "A": "Entrega de bienes sujeta y no exenta",
+      "B": "Operación no sujeta por transmisión de unidad económica autónoma",
+      "C": "Prestación de servicios sujeta",
+      "D": "Operación sujeta y exenta"
+    },
+    "answer": "B",
+    "explanation": "La transmisión de una unidad económica autónoma capaz de continuar la actividad empresarial constituye un supuesto de no sujeción.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, delimitación del hecho imponible",
+    "difficulty": "alta",
+    "question_type": "caso",
+    "trap_level": "alto",
+    "tags": ["hecho imponible", "no sujeción"]
+  },
+  {
+    "id": 2,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Sujeto pasivo",
+    "subtopic": "Inversión del sujeto pasivo",
+    "question": "En una ejecución de obra inmobiliaria entre empresarios con aportación de materiales, ¿quién es sujeto pasivo?",
+    "options": {
+      "A": "El contratista siempre",
+      "B": "El promotor en todo caso",
+      "C": "El destinatario empresario en los supuestos previstos",
+      "D": "El notario autorizante"
+    },
+    "answer": "C",
+    "explanation": "En determinadas ejecuciones de obra inmobiliaria se aplica la inversión del sujeto pasivo, trasladando la obligación al destinatario.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, reglas de sujeto pasivo",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "alto",
+    "tags": ["sujeto pasivo", "inversión"]
+  },
+  {
+    "id": 3,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Exenciones",
+    "subtopic": "Operaciones inmobiliarias",
+    "question": "La segunda entrega de edificaciones está:",
+    "options": {
+      "A": "Sujeta y no exenta",
+      "B": "Exenta con posibilidad de renuncia",
+      "C": "No sujeta",
+      "D": "Siempre gravada"
+    },
+    "answer": "B",
+    "explanation": "Las segundas y ulteriores entregas están exentas, aunque cabe renuncia si se cumplen requisitos.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, exenciones inmobiliarias",
+    "difficulty": "alta",
+    "question_type": "trampa",
+    "trap_level": "alto",
+    "tags": ["exenciones", "inmuebles"]
+  },
+  {
+    "id": 4,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Base imponible",
+    "subtopic": "Concepto y ajustes",
+    "question": "Una empresa concede un descuento posterior por incumplimiento de condiciones contractuales. ¿Cómo afecta a la base imponible?",
+    "options": {
+      "A": "No se modifica",
+      "B": "Se incrementa",
+      "C": "Se reduce mediante rectificación",
+      "D": "Se elimina la operación"
+    },
+    "answer": "C",
+    "explanation": "Los descuentos posteriores permiten modificar la base imponible mediante la correspondiente rectificación.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, modificación de base imponible",
+    "difficulty": "alta",
+    "question_type": "trampa",
+    "trap_level": "alto",
+    "tags": ["base imponible", "rectificación"]
+  },
+  {
+    "id": 5,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Devengo",
+    "subtopic": "Entregas de bienes",
+    "question": "El devengo en una entrega de bienes se produce cuando:",
+    "options": {
+      "A": "Se emite la factura",
+      "B": "Se cobra el precio",
+      "C": "Se pone el bien a disposición del adquirente",
+      "D": "Se registra contablemente"
+    },
+    "answer": "C",
+    "explanation": "El devengo se produce en el momento en que se transmite el poder de disposición sobre el bien.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, reglas de devengo",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["devengo"]
+  },
+  {
+    "id": 6,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Devengo",
+    "subtopic": "Pagos anticipados",
+    "question": "En caso de pagos anticipados anteriores a la realización de la operación, el devengo se produce:",
+    "options": {
+      "A": "Cuando se entrega el bien",
+      "B": "Cuando se presta el servicio",
+      "C": "En el momento del cobro anticipado",
+      "D": "Cuando se emite la factura final"
+    },
+    "answer": "C",
+    "explanation": "Los pagos anticipados determinan el devengo en el momento de su percepción.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, devengo en pagos anticipados",
+    "difficulty": "alta",
+    "question_type": "trampa",
+    "trap_level": "alto",
+    "tags": ["devengo", "anticipos"]
+  },
+  {
+    "id": 7,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Deducciones",
+    "subtopic": "Requisitos",
+    "question": "Para que un empresario pueda deducir cuotas soportadas es necesario:",
+    "options": {
+      "A": "Disponer de factura y que el gasto esté afecto a la actividad",
+      "B": "Solo disponer de factura",
+      "C": "Solo registrar el gasto contablemente",
+      "D": "Que la operación esté exenta"
+    },
+    "answer": "A",
+    "explanation": "Se requiere factura válida y afectación a la actividad empresarial o profesional.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, derecho a deducción",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["deducciones"]
+  },
+  {
+    "id": 8,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Deducciones",
+    "subtopic": "Limitaciones",
+    "question": "Un vehículo utilizado parcialmente en la actividad económica permite:",
+    "options": {
+      "A": "Deducción total",
+      "B": "Deducción proporcional al grado de afectación",
+      "C": "Ninguna deducción",
+      "D": "Deducción solo si es industrial"
+    },
+    "answer": "B",
+    "explanation": "La deducción se limita al grado de afectación del bien a la actividad.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, limitaciones al derecho a deducción",
+    "difficulty": "alta",
+    "question_type": "caso",
+    "trap_level": "alto",
+    "tags": ["deducciones", "limitaciones"]
+  },
+  {
+    "id": 9,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Localización",
+    "subtopic": "Prestaciones de servicios",
+    "question": "Un servicio prestado entre empresarios se localiza con carácter general:",
+    "options": {
+      "A": "En el lugar del prestador",
+      "B": "En el lugar del destinatario",
+      "C": "En el lugar de emisión de la factura",
+      "D": "En el lugar de pago"
+    },
+    "answer": "B",
+    "explanation": "La regla general establece la localización en el lugar del destinatario empresario.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, reglas de localización de servicios",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["localización"]
+  },
+  {
+    "id": 10,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Operaciones intracomunitarias",
+    "subtopic": "Entregas intracomunitarias",
+    "question": "Para que una entrega intracomunitaria esté exenta es necesario:",
+    "options": {
+      "A": "Que el adquirente sea particular",
+      "B": "Que exista transporte a otro Estado miembro y adquirente identificado",
+      "C": "Que se facture en moneda extranjera",
+      "D": "Que no exista transporte"
+    },
+    "answer": "B",
+    "explanation": "La exención exige transporte a otro Estado miembro y adquirente empresario identificado.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, entregas intracomunitarias",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "alto",
+    "tags": ["intracomunitarias"]
+  },
+  {
+    "id": 11,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Importaciones",
+    "subtopic": "Hecho imponible",
+    "question": "El hecho imponible en las importaciones se produce cuando:",
+    "options": {
+      "A": "Se emite la factura",
+      "B": "Los bienes entran en territorio de aplicación del impuesto",
+      "C": "Se pagan los derechos arancelarios",
+      "D": "Se declara el impuesto"
+    },
+    "answer": "B",
+    "explanation": "El hecho imponible se produce con la entrada de bienes en el territorio de aplicación.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, importaciones",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["importaciones"]
+  },
+  {
+    "id": 12,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Exenciones",
+    "subtopic": "Servicios sanitarios",
+    "question": "Los servicios sanitarios prestados por profesionales cualificados están:",
+    "options": {
+      "A": "Siempre sujetos y no exentos",
+      "B": "Exentos si cumplen requisitos legales",
+      "C": "No sujetos",
+      "D": "Gravados al tipo reducido"
+    },
+    "answer": "B",
+    "explanation": "Determinados servicios sanitarios están exentos si cumplen condiciones legales.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, exenciones en servicios sanitarios",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["exenciones", "sanidad"]
+  },
+  {
+    "id": 13,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Base imponible",
+    "subtopic": "Gastos accesorios",
+    "question": "Los gastos de transporte repercutidos al cliente forman parte de la base imponible cuando:",
+    "options": {
+      "A": "Nunca",
+      "B": "Siempre que estén vinculados a la operación principal",
+      "C": "Solo si se facturan separadamente",
+      "D": "Solo si son internacionales"
+    },
+    "answer": "B",
+    "explanation": "Los gastos accesorios vinculados a la operación principal se integran en la base imponible.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, composición de la base imponible",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["base imponible"]
+  },
+  {
+    "id": 14,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Tipos impositivos",
+    "subtopic": "Aplicación",
+    "question": "El tipo reducido se aplica:",
+    "options": {
+      "A": "A cualquier operación empresarial",
+      "B": "Solo a bienes y servicios expresamente previstos",
+      "C": "A todas las entregas de bienes",
+      "D": "Solo a servicios financieros"
+    },
+    "answer": "B",
+    "explanation": "El tipo reducido se aplica únicamente a bienes y servicios determinados por la normativa.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, tipos impositivos",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["tipos impositivos"]
+  },
+  {
+    "id": 15,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Compatibilidad",
+    "subtopic": "Relación con transmisiones patrimoniales",
+    "question": "Una operación sujeta al impuesto sobre el valor añadido:",
+    "options": {
+      "A": "Puede tributar simultáneamente por transmisiones patrimoniales onerosas",
+      "B": "Nunca tributa por transmisiones patrimoniales onerosas",
+      "C": "Siempre tributa por ambos impuestos",
+      "D": "No tributa por ningún impuesto"
+    },
+    "answer": "B",
+    "explanation": "Existe incompatibilidad entre el impuesto sobre el valor añadido y transmisiones patrimoniales onerosas.",
+    "reference": "Normativa del impuesto sobre transmisiones patrimoniales y actos jurídicos documentados, reglas de incompatibilidad",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "alto",
+    "tags": ["compatibilidad"]
+  },
+  {
+    "id": 16,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Regímenes especiales",
+    "subtopic": "Agricultura",
+    "question": "El régimen especial de agricultura implica:",
+    "options": {
+      "A": "Repercusión del impuesto y deducción",
+      "B": "Compensación a tanto alzado sin deducción de cuotas",
+      "C": "Exención total sin obligaciones",
+      "D": "Aplicación del tipo general"
+    },
+    "answer": "B",
+    "explanation": "El régimen especial sustituye la deducción por una compensación.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, régimen especial de agricultura",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "alto",
+    "tags": ["regímenes especiales"]
+  },
+  {
+    "id": 17,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Repercusión",
+    "subtopic": "Obligación",
+    "question": "La repercusión del impuesto por el sujeto pasivo es:",
+    "options": {
+      "A": "Opcional",
+      "B": "Obligatoria salvo excepciones legales",
+      "C": "Prohibida",
+      "D": "Limitada a operaciones internacionales"
+    },
+    "answer": "B",
+    "explanation": "El sujeto pasivo debe repercutir el impuesto salvo supuestos específicos.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, repercusión del impuesto",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["repercusión"]
+  },
+  {
+    "id": 18,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Rectificación",
+    "subtopic": "Cuotas",
+    "question": "La rectificación de cuotas repercutidas procede cuando:",
+    "options": {
+      "A": "Existe error o modificación de la base imponible",
+      "B": "Siempre que el empresario lo desee",
+      "C": "Solo en operaciones internacionales",
+      "D": "Nunca"
+    },
+    "answer": "A",
+    "explanation": "Se permite rectificar cuotas en caso de error o modificación de la base imponible.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, rectificación de cuotas",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["rectificación"]
+  },
+  {
+    "id": 19,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Hecho imponible",
+    "subtopic": "Prestaciones de servicios",
+    "question": "La cesión temporal de uso de un bien se califica como:",
+    "options": {
+      "A": "Entrega de bienes",
+      "B": "Prestación de servicios",
+      "C": "Operación no sujeta",
+      "D": "Importación"
+    },
+    "answer": "B",
+    "explanation": "La cesión de uso constituye prestación de servicios en el impuesto.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, delimitación de servicios",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["prestaciones de servicios"]
+  },
+  {
+    "id": 20,
+    "subject": "Impuesto sobre el Valor Añadido",
+    "topic": "Exenciones",
+    "subtopic": "Educación",
+    "question": "Los servicios educativos están exentos cuando:",
+    "options": {
+      "A": "Siempre",
+      "B": "Cumplen requisitos legales específicos",
+      "C": "Son prestados por empresas privadas",
+      "D": "Se facturan sin impuesto"
+    },
+    "answer": "B",
+    "explanation": "La exención depende del cumplimiento de condiciones legales sobre la naturaleza del servicio.",
+    "reference": "Ley del Impuesto sobre el Valor Añadido, exenciones en educación",
+    "difficulty": "alta",
+    "question_type": "concepto",
+    "trap_level": "medio",
+    "tags": ["exenciones", "educación"]
+  }
+]

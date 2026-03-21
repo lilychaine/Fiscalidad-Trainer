@@ -1,0 +1,1314 @@
+A partir EXCLUSIVAMENTE del siguiente contenido, genera exactamente 8 preguntas tipo test.
+
+Reglas obligatorias:
+
+- No uses conocimiento externo
+- No inventes contenido
+- Si una regla no aparece claramente en el texto, no la conviertas en pregunta
+- No hagas preguntas cuya respuesta sea únicamente el número de artículos
+- No uses abreviaturas en el contenido visible
+- Nivel profesional alto
+- Mezcla conceptos técnicos, mini casos y preguntas trampa
+- Devuelve exclusivamente un JSON válido
+- No añadas comentarios ni texto fuera del JSON
+
+Formato obligatorio:
+
+[
+  {
+    "id": 1,
+    "subject": "Impuesto Sociedades",
+    "topic": "...",
+    "subtopic": "...",
+    "question": "...",
+    "options": {
+      "A": "...",
+      "B": "...",
+      "C": "...",
+      "D": "..."
+    },
+    "answer": "A",
+    "explanation": "...",
+    "reference": "Nombre del PDF o bloque del que sale la regla",
+    "difficulty": "alta",
+    "question_type": "concepto/caso/trampa",
+    "trap_level": "bajo/medio/alto",
+    "tags": ["...", "..."]
+  }
+]
+
+Contenido fuente:
+
+===== FUENTE: 1.IS-Sesión 1_Videoconferencia_chunk_1.txt =====
+[PÁGINA 1]
+
+
+[PÁGINA 2]
+
+
+[PÁGINA 3]
+
+
+[PÁGINA 4]
+
+
+[PÁGINA 5]
+
+
+[PÁGINA 6]
+
+
+[PÁGINA 7]
+
+
+[PÁGINA 8]
+
+
+[PÁGINA 9]
+
+
+[PÁGINA 10]
+
+
+[PÁGINA 11]
+
+
+[PÁGINA 12]
+
+
+[PÁGINA 13]
+
+
+[PÁGINA 14]
+
+
+[PÁGINA 15]
+
+
+[PÁGINA 16]
+
+
+[PÁGINA 17]
+
+
+[PÁGINA 18]
+
+
+[PÁGINA 19]
+
+
+[PÁGINA 20]
+
+
+[PÁGINA 21]
+
+
+[PÁGINA 22]
+
+
+[PÁGINA 23]
+
+
+[PÁGINA 24]
+
+
+[PÁGINA 25]
+
+
+[PÁGINA 26]
+
+
+[PÁGINA 27]
+
+
+[PÁGINA 28]
+
+
+[PÁGINA 29]
+
+
+[PÁGINA 30]
+
+
+[PÁGINA 31]
+
+
+[PÁGINA 32]
+
+
+[PÁGINA 33]
+
+
+[PÁGINA 34]
+
+
+[PÁGINA 35]
+
+
+[PÁGINA 36]
+
+
+[PÁGINA 37]
+
+
+[PÁGINA 38]
+
+
+[PÁGINA 39]
+
+
+[PÁGINA 40]
+
+
+[PÁGINA 41]
+
+
+[PÁGINA 42]
+
+
+[PÁGINA 43]
+
+
+[PÁGINA 44]
+
+
+[PÁGINA 45]
+
+
+[PÁGINA 46]
+
+
+[PÁGINA 47]
+
+
+[PÁGINA 48]
+
+
+[PÁGINA 49]
+
+
+[PÁGINA 50]
+
+
+[PÁGINA 51]
+
+
+[PÁGINA 52]
+
+
+[PÁGINA 53]
+
+
+[PÁGINA 54]
+
+
+[PÁGINA 55]
+
+
+[PÁGINA 56]
+
+
+[PÁGINA 57]
+
+
+[PÁGINA 58]
+
+
+[PÁGINA 59]
+
+
+[PÁGINA 60]
+ESQUEMA DE LIQUIDACIÓN RESULTADO CONTABLE DEL EJERCICIO + Ajustes positivos y negativos al resultado contable - Reducciones en la base imponible: Rentas procedentes de determinados activos intangibles (Art. 23) Reserva de capitalización (Art. 24) - Compensación bases imponibles negativas de períodos impositivos anteriores (Art. 26) -/+ Reserva de nivelación de bases imponibles para ERD (Art. 105) BASE IMPONIBLE (Art. 10) x Tipo de gravamen (Art. 29 y DT 34ª) CUOTA INTEGRA (Art. 30)
+
+[PÁGINA 61]
+- Bonificaciones Rentas obtenidas en Ceuta y Melilla (Art. 33) Prestación de servicios públicos locales (Art. 34) - Deducciones por doble imposición: Interna, pendientes de aplicar de periodos impositivos anteriores (DT 24ª) Internacional jurídica (Art. 31) Internacional económica (Art. 32) Cantidades no deducidas por insuficiencia de cuota íntegra a recuperar en los períodos impositivos siguientes.
+
+[PÁGINA 62]
+- Deducciones para incentivas la realización de determinadas actividades sujetas a límite: Actividades de investigación y desarrollo e innovación tecnológica (Art. 35) Inversiones en producciones cinematográficas (Art. 36) Creación de empleo (Art. 37) Creación de empleo para trabajadores con discapacidad (Art. 38) Deducciones pendientes de aplicar de periodos impositivos anteriores (DT 24ª) Límite: 25% ó 50% x (Cuota Íntegra – Bonificaciones – Deducciones por doble imposición). Cantidades no deducidas por insuficiencia de cuota íntegra a recuperar en los períodos impositivos que concluyan en los 15 años inmediatos y sucesivos, salvo para las deducciones del artículo 35 de la LIS que es de 18 años. - Deducción por reversión de medidas temporales (DT 37ª) Cantidades no deducidas por insuficiencia de cuota íntegra podrán deducirse en los períodos impositivos siguientes.
+
+[PÁGINA 63]
+- Pagos a cuenta (Art. 40) Retenciones Ingresos a cuenta Pagos fraccionados + Ajustes fiscales de la cuota para regularizar situaciones diversas (Art. 125) Incremento por pérdida de beneficios fiscales de ejercicios anteriores Intereses de demora CANTIDAD A INGRESAR O A DEVOLVER
+
+[PÁGINA 64]
+
+
+[PÁGINA 65]
+
+
+[PÁGINA 66]
+
+
+[PÁGINA 67]
+
+
+[PÁGINA 68]
+
+
+[PÁGINA 69]
+
+
+[PÁGINA 70]
+
+
+[PÁGINA 71]
+
+
+[PÁGINA 72]
+
+
+[PÁGINA 73]
+
+
+[PÁGINA 74]
+
+
+[PÁGINA 75]
+
+
+[PÁGINA 76]
+
+
+[PÁGINA 77]
+
+
+[PÁGINA 78]
+
+
+[PÁGINA 79]
+
+
+[PÁGINA 80]
+
+
+[PÁGINA 81]
+
+
+[PÁGINA 82]
+
+
+[PÁGINA 83]
+
+
+[PÁGINA 84]
+
+
+[PÁGINA 85]
+
+
+[PÁGINA 86]
+
+
+[PÁGINA 87]
+
+
+[PÁGINA 88]
+
+
+[PÁGINA 89]
+
+
+[PÁGINA 90]
+
+===== FUENTE: 1.Sistema Fiscal Español_chunk_1.txt =====
+[PÁGINA 1]
+
+
+[PÁGINA 2]
+
+
+[PÁGINA 3]
+
+
+[PÁGINA 4]
+
+
+[PÁGINA 5]
+
+
+[PÁGINA 6]
+
+
+[PÁGINA 7]
+
+
+[PÁGINA 8]
+
+
+[PÁGINA 9]
+
+===== FUENTE: 2.Ciclo Contable_chunk_1.txt =====
+[PÁGINA 1]
+
+
+[PÁGINA 2]
+
+===== FUENTE: 2.IS-Sesión 2_Videoconferencia_chunk_1.txt =====
+[PÁGINA 1]
+
+
+[PÁGINA 2]
+
+
+[PÁGINA 3]
+
+
+[PÁGINA 4]
+
+
+[PÁGINA 5]
+
+
+[PÁGINA 6]
+
+
+[PÁGINA 7]
+
+
+[PÁGINA 8]
+
+
+[PÁGINA 9]
+
+
+[PÁGINA 10]
+
+
+[PÁGINA 11]
+
+
+[PÁGINA 12]
+
+
+[PÁGINA 13]
+
+
+[PÁGINA 14]
+
+
+[PÁGINA 15]
+
+
+[PÁGINA 16]
+
+
+[PÁGINA 17]
+
+
+[PÁGINA 18]
+
+
+[PÁGINA 19]
+
+
+[PÁGINA 20]
+
+
+[PÁGINA 21]
+
+
+[PÁGINA 22]
+
+
+[PÁGINA 23]
+
+
+[PÁGINA 24]
+
+
+[PÁGINA 25]
+
+
+[PÁGINA 26]
+
+
+[PÁGINA 27]
+
+
+[PÁGINA 28]
+
+
+[PÁGINA 29]
+
+
+[PÁGINA 30]
+
+
+[PÁGINA 31]
+
+
+[PÁGINA 32]
+
+
+[PÁGINA 33]
+
+
+[PÁGINA 34]
+
+
+[PÁGINA 35]
+
+
+[PÁGINA 36]
+
+
+[PÁGINA 37]
+
+
+[PÁGINA 38]
+
+
+[PÁGINA 39]
+
+
+[PÁGINA 40]
+
+
+[PÁGINA 41]
+
+
+[PÁGINA 42]
+
+
+[PÁGINA 43]
+
+
+[PÁGINA 44]
+
+
+[PÁGINA 45]
+
+
+[PÁGINA 46]
+
+
+[PÁGINA 47]
+
+
+[PÁGINA 48]
+
+
+[PÁGINA 49]
+
+
+[PÁGINA 50]
+
+
+[PÁGINA 51]
+
+
+[PÁGINA 52]
+
+
+[PÁGINA 53]
+
+
+[PÁGINA 54]
+
+
+[PÁGINA 55]
+
+
+[PÁGINA 56]
+
+
+[PÁGINA 57]
+
+
+[PÁGINA 58]
+
+
+[PÁGINA 59]
+
+
+[PÁGINA 60]
+
+
+[PÁGINA 61]
+
+
+[PÁGINA 62]
+
+
+[PÁGINA 63]
+
+
+[PÁGINA 64]
+
+
+[PÁGINA 65]
+
+
+[PÁGINA 66]
+
+
+[PÁGINA 67]
+
+
+[PÁGINA 68]
+
+
+[PÁGINA 69]
+
+
+[PÁGINA 70]
+
+
+[PÁGINA 71]
+
+
+[PÁGINA 72]
+
+
+[PÁGINA 73]
+
+
+[PÁGINA 74]
+
+
+[PÁGINA 75]
+
+
+[PÁGINA 76]
+
+
+[PÁGINA 77]
+
+
+[PÁGINA 78]
+
+
+[PÁGINA 79]
+
+
+[PÁGINA 80]
+
+
+[PÁGINA 81]
+
+
+[PÁGINA 82]
+
+
+[PÁGINA 83]
+
+
+[PÁGINA 84]
+
+
+[PÁGINA 85]
+
+
+[PÁGINA 86]
+
+
+[PÁGINA 87]
+
+
+[PÁGINA 88]
+
+
+[PÁGINA 89]
+
+
+[PÁGINA 90]
+
+
+[PÁGINA 91]
+
+
+[PÁGINA 92]
+
+
+[PÁGINA 93]
+
+
+[PÁGINA 94]
+
+
+[PÁGINA 95]
+
+
+[PÁGINA 96]
+
+
+[PÁGINA 97]
+
+===== FUENTE: 3.Impuesto sobre beneficios_chunk_1.txt =====
+[PÁGINA 1]
+
+
+[PÁGINA 2]
+
+
+[PÁGINA 3]
+
+
+[PÁGINA 4]
+
+
+[PÁGINA 5]
+
+
+[PÁGINA 6]
+
+
+[PÁGINA 7]
+
+
+[PÁGINA 8]
+
+
+[PÁGINA 9]
+
+
+[PÁGINA 10]
+
+
+[PÁGINA 11]
+
+
+[PÁGINA 12]
+
+
+[PÁGINA 13]
+
+
+[PÁGINA 14]
+
+
+[PÁGINA 15]
+
+
+[PÁGINA 16]
+
+
+[PÁGINA 17]
+
+
+[PÁGINA 18]
+
+
+[PÁGINA 19]
+
+
+[PÁGINA 20]
+
+
+[PÁGINA 21]
+
+
+[PÁGINA 22]
+
+
+[PÁGINA 23]
+
+
+[PÁGINA 24]
+
+
+[PÁGINA 25]
+
+
+[PÁGINA 26]
+
+
+[PÁGINA 27]
+
+
+[PÁGINA 28]
+
+
+[PÁGINA 29]
+
+
+[PÁGINA 30]
+
+
+[PÁGINA 31]
+
+
+[PÁGINA 32]
+
+
+[PÁGINA 33]
+
+
+[PÁGINA 34]
+
+
+[PÁGINA 35]
+
+
+[PÁGINA 36]
+
+
+[PÁGINA 37]
+
+
+[PÁGINA 38]
+
+
+[PÁGINA 39]
+
+
+[PÁGINA 40]
+
+
+[PÁGINA 41]
+
+
+[PÁGINA 42]
+
+
+[PÁGINA 43]
+
+
+[PÁGINA 44]
+
+
+[PÁGINA 45]
+
+
+[PÁGINA 46]
+
+
+[PÁGINA 47]
+
+
+[PÁGINA 48]
+
+
+[PÁGINA 49]
+
+
+[PÁGINA 50]
+
+
+[PÁGINA 51]
+
+
+[PÁGINA 52]
+
+
+[PÁGINA 53]
+
+
+[PÁGINA 54]
+
+
+[PÁGINA 55]
+
+
+[PÁGINA 56]
+
+
+[PÁGINA 57]
+
+===== FUENTE: 3.IS-Sesión 3_Videoconferencia_chunk_1.txt =====
+[PÁGINA 1]
+IMPUESTO SOBRE SOCIEDADES Prof. Sonia E. Díaz Español se.diaz@ucv.es MÁSTER UNIVERSITARIO EN GESTIÓN ADMINISTRATIVA (Sesión 3)
+
+[PÁGINA 2]
+
+
+[PÁGINA 3]
+Título de la lámina: Candara 35 IMPUESTO SOBRE SOCIEDADESIMPUESTO SOBRE SOCIEDADES
+
+[PÁGINA 4]
+ESQUEMA DE LIQUIDACIÓN RESULTADO CONTABLE DEL EJERCICIO + Ajustes positivos y negativos al resultado contable - Reducciones en la base imponible: Rentas procedentes de determinados activos intangibles (Art. 23) Reserva de capitalización (Art. 25) - Compensación bases imponibles negativas de períodos impositivos anteriores (Art. 26) -/+ Reserva de nivelación de bases imponibles para ERD (Art. 105) BASE IMPONIBLE (Art. 10) x Tipo de gravamen (Art. 29 y DT 34ª) CUOTA INTEGRA (Art. 30)
+
+[PÁGINA 5]
+- Bonificaciones Rentas obtenidas en Ceuta y Melilla (Art. 33) Prestación de servicios públicos locales (Art. 34) - Deducciones por doble imposición: Interna, pendientes de aplicar de periodos impositivos anteriores (DT 24ª) Internacional jurídica (Art. 31) Internacional económica (Art. 32) Cantidades no deducidas por insuficiencia de cuota íntegra a recuperar en los períodos impositivos siguientes.
+
+[PÁGINA 6]
+- Deducciones para incentivas la realización de determinadas actividades sujetas a límite: Actividades de investigación y desarrollo e innovación tecnológica (Art. 35) Inversiones en producciones cinematográficas (Art. 36) Creación de empleo (Art. 37) Creación de empleo para trabajadores con discapacidad (Art. 38) Deducciones pendientes de aplicar de periodos impositivos anteriores (DT 24ª) Límite: 25% ó 50% x (Cuota Íntegra – Bonificaciones – Deducciones por doble imposición). Cantidades no deducidas por insuficiencia de cuota íntegra a recuperar en los períodos impositivos que concluyan en los 15 años inmediatos y sucesivos, salvo para las deducciones del artículo 35 de la LIS que es de 18 años. - Deducción por reversión de medidas temporales (DT 37ª) Cantidades no deducidas por insuficiencia de cuota íntegra podrán deducirse en los períodos impositivos siguientes.
+
+[PÁGINA 7]
+- Pagos a cuenta (Art. 40) Retenciones Ingresos a cuenta Pagos fraccionados + Ajustes fiscales de la cuota para regularizar situaciones diversas (Art. 125) Incremento por pérdida de beneficios fiscales de ejercicios anteriores Intereses de demora CANTIDAD A INGRESAR O A DEVOLVER
+
+[PÁGINA 8]
+Título de la lámina: Candara 35 SUPUESTOS PRÁCTICOS IMPUESTO SOBRE SOCIEDADESIMPUESTO SOBRE SOCIEDADES
+
+[PÁGINA 9]
+
+
+[PÁGINA 10]
+
+
+[PÁGINA 11]
+
+
+[PÁGINA 12]
+
+
+[PÁGINA 13]
+
+
+[PÁGINA 14]
+
+
+[PÁGINA 15]
+
+
+[PÁGINA 16]
+
+
+[PÁGINA 17]
+
+
+[PÁGINA 18]
+
+
+[PÁGINA 19]
+
+
+[PÁGINA 20]
+
+
+[PÁGINA 21]
+
+
+[PÁGINA 22]
+
+
+[PÁGINA 23]
+
+
+[PÁGINA 24]
+
+
+[PÁGINA 25]
+
+
+[PÁGINA 26]
+
+
+[PÁGINA 27]
+
+
+[PÁGINA 28]
+
+
+[PÁGINA 29]
+
+
+[PÁGINA 30]
+
+
+[PÁGINA 31]
+
+
+[PÁGINA 32]
+
+
+[PÁGINA 33]
+
+
+[PÁGINA 34]
+Título de la lámina: Candara 35 •REDUCCIÓN DE INGRESOS PROCEDENTES DE DETERMINADOS ACTIVOS INTANGIBLES.(Art.23) ➢Las rentas procedentes de la cesión del derecho de uso o explotación de determinados activos intangibles (propiedad industrial, incluyendo la cesión de know-how, fundamentalmente) tendrá derecho a una reducción en la BI en el porcentaje que resulte de multiplicar un 60% el resultado del siguiente cociente: ▪En el NUMERADOR, los gastos incurridos por la entidad cedente por la creación del activo, incluidos los de subcontratación con terceros no vinculados. Con incremento del 30%, sin que en ningún caso numerador pueda superar denominador. ▪En el DENOMINADOR, los gastos incurridos por la entidad cedente por la creación del activo, incluidos los de subcontratación con terceros no vinculados y vinculados. ▪En ningún caso se incluirán gastos financieros, amortizaciones de inmuebles u otros gastos no relacionados directamente con la creación. IMPUESTO SOBRE SOCIEDADESIMPUESTO SOBRE SOCIEDADES
+
+[PÁGINA 35]
+Título de la lámina: Candara 35 •REDUCCIÓN DE INGRESOS PROCEDENTES DE DETERMINADOS ACTIVOS INTANGIBLES.(Art.23) ➢Cumpliendo los siguientes requisitos: ➢Que el cesionario utilice los derechos de uso o de explotación en el desarrollo de una actividad económica y que los resultados de ese uso no se materialicen en la entrega de bienes o prestación de ss por el cesionario que generen gastos fiscalmente deducibles en la entidad cedente. ➢Que el cesionario no resida en un país o territorio calificado como jurisdicción no cooperativa. ➢Deben diferenciarse las prestaciones accesorias de bienes o servicios. ➢Debe disponerse de los registros contables necesarios para poder determinar cada uno de los ingresos y de los gastos directos. IMPUESTO SOBRE SOCIEDADESIMPUESTO SOBRE SOCIEDADES
+
+[PÁGINA 36]
+
+
+[PÁGINA 37]
+Título de la lámina: Candara 35 IMPUESTO SOBRE SOCIEDADES •RESERVA DE CAPITALIZACIÓN (Art. 25 LIS) ejercicio 2024 1. Los contribuyentes que tributen al tipo de gravamen previsto en el artículo 29.1 de esta Ley tendrán derecho a una reducción en la base imponible del 15 por ciento del importe del incremento de sus fondos propios, siempre que se cumplan los siguientes requisitos: a) Que el importe del incremento de los fondos propios de la entidad se mantenga durante un plazo de 3 años desde el cierre del período impositivo al que corresponda esta reducción, salvo por la existencia de pérdidas contables en la entidad. b) Que se dote una reserva por el importe de la reducción, que deberá figurar en el balance con absoluta separación y título apropiado y será indisponible durante el plazo previsto en la letra anterior. A estos efectos, no se entenderá que se ha dispuesto de la referida reserva, en los siguientes casos: IMPUESTO SOBRE SOCIEDADES
+
+[PÁGINA 38]
+
+
+[PÁGINA 39]
+
+
+[PÁGINA 40]
+
+
+[PÁGINA 41]
+Título de la lámina: Candara 35 IMPUESTO SOBRE SOCIEDADES •RESERVA DE CAPITALIZACIÓN (Art. 25 LIS) ejercicio 2025 1. Los contribuyentes que tributen al tipo de gravamen previsto en el artículo 29.1 de esta Ley tendrán derecho a una reducción en la base imponible del 20 por ciento del importe del incremento de sus fondos propios, siempre que se cumplan los siguientes requisitos: a) Que el importe del incremento de los fondos propios de la entidad se mantenga durante un plazo de 3 años desde el cierre del período impositivo al que corresponda esta reducción, salvo por la existencia de pérdidas contables en la entidad. b) Que se dote una reserva por el importe de la reducción, que deberá figurar en el balance con absoluta separación y título apropiado y será indisponible durante el plazo previsto en la letra anterior. A estos efectos, no se entenderá que se ha dispuesto de la referida reserva, en los siguientes casos: IMPUESTO SOBRE SOCIEDADES
+
+[PÁGINA 42]
+Título de la lámina: Candara 35 IMPUESTO SOBRE SOCIEDADES •RESERVA DE CAPITALIZACIÓN (Art. 25 LIS) ejercicio 2025 Sin perjuicio de lo anterior, derecho a reducción del 23 por ciento del incremento de los fondos propios, siempre que la plantilla media total se haya incrementado respecto el período anterior en un mínimo del 2 por ciento sin superar el 5 por ciento. Si el incremento de la plantilla está entre un 5 y un 10 por ciento, reducción del 26,5 por ciento. Si es superior el incremento de la plantilla al 10 por ciento, reducción del 30 por ciento. El incremento de plantilla debe mantenerse 3 años. IMPUESTO SOBRE SOCIEDADES
+
+[PÁGINA 43]
+Título de la lámina: Candara 35 IMPUESTO SOBRE SOCIEDADES •RESERVA DE CAPITALIZACIÓN (Art. 25 LIS) ejercicio 2025 En ningún caso, el derecho a la reducción prevista en este apartado podrá superar el siguiente importe: i) El 20 por ciento de la base imponible positiva del período impositivo previa a esta reducción, a la integración a que se refiere el apartado 12 del artículo 11 de esta ley y a la compensación de bases imponibles negativas. ii) El 25 por ciento de la base imponible positiva del período impositivo previa a esta reducción, a la integración a que se refiere el apartado 12 del artículo 11 de esta ley y a la compensación de bases imponibles negativas, tratándose de contribuyentes cuyo importe neto de la cifra de negocios sea inferior a 1 millón de euros durante los 12 meses anteriores a la fecha en que se inicie el período impositivo al que corresponda esta reducción. IMPUESTO SOBRE SOCIEDADES
+
+[PÁGINA 44]
+
+
+[PÁGINA 45]
+
+
+[PÁGINA 46]
+
+
+[PÁGINA 47]
+
+
+[PÁGINA 48]
+
+
+[PÁGINA 49]
+
+
+[PÁGINA 50]
+
+
+[PÁGINA 51]
+
+
+[PÁGINA 52]
+
+
+[PÁGINA 53]
+
+
+[PÁGINA 54]
+Título de la lámina: Candara 35 IMPUESTO SOBRE SOCIEDADES TIPOS DE GRAVAMEN PARA 2025 El tipo general de gravamen para los contribuyentes de este Impuesto será el 25 por ciento, excepto para las entidades cuyo importe neto de la cifra de negocios del período impositivo inmediato anterior sea inferior a 1 millón de euros que aplicarán los tipos que se indican en la siguiente escala, salvo que de acuerdo con lo previsto en este artículo deban tributar a un tipo diferente del general: a) Por la parte de base imponible comprendida entre 0 y 50.000 euros, al tipo del 17 por ciento. b) Por la parte de base imponible restante, al tipo del 20 por ciento. IMPUESTO SOBRE SOCIEDADES
+
+[PÁGINA 55]
+Título de la lámina: Candara 35 IMPUESTO SOBRE SOCIEDADES –TIPO IMPOSITIVO PARA LAS ENTIDADES DE NUEVA CREACIÓN. –En el primer período impositivo en que la base imponible resulte positiva y en el siguiente, al tipo del 15 por ciento, excepto si, de acuerdo con lo previsto en este artículo, deban tributar a un tipo inferior IMPUESTO SOBRE SOCIEDADES
+
+[PÁGINA 56]
+Título de la lámina: Candara 35 IMPUESTO SOBRE SOCIEDADES –TIPO IMPOSITIVO PARA LAS ENTIDADES DE NUEVA CREACIÓN. No se entenderá iniciada una actividad económica: Cuando la actividad económica hubiera sido realizada con carácter previo por otras personas o entidades vinculadas y transmitida, por cualquier título jurídico, a la entidad de nueva creación. Cuando la actividad económica hubiera sido ejercida, durante el año anterior a la constitución de la entidad, por una persona física que ostente una participación, directa o indirecta, en el capital o en los fondos propios de la entidad de nueva creación superior al 50%. No tendrán la consideración de entidades de nueva creación aquellas que formen parte de un grupo mercantil. IMPUESTO SOBRE SOCIEDADES
+
+[PÁGINA 57]
+Título de la lámina: Candara 35 IMPUESTO SOBRE SOCIEDADES Entidades de Reducida dimensión: Las entidades que cumplan las previsiones previstas en el artículo 101 de esta ley tributarán al tipo del 20 por ciento, excepto si de acuerdo con lo previsto en este artículo deban tributar a un tipo diferente del general. IMPUESTO SOBRE SOCIEDADES
+
+[PÁGINA 58]
+
+
+[PÁGINA 59]
+
+
+[PÁGINA 60]
+
+
+[PÁGINA 61]
+
+
+[PÁGINA 62]
+
+
+[PÁGINA 63]
+
+
+[PÁGINA 64]
+
+
+[PÁGINA 65]
+
+
+[PÁGINA 66]
+
+
+[PÁGINA 67]
+
+
+[PÁGINA 68]
+
+
+[PÁGINA 69]
+
+
+[PÁGINA 70]
+
+
+[PÁGINA 71]
+
+
+[PÁGINA 72]
+
+
+[PÁGINA 73]
+
+
+[PÁGINA 74]
+
+
+[PÁGINA 75]
+
+
+[PÁGINA 76]
+
+
+[PÁGINA 77]
+
+
+[PÁGINA 78]
+
+
+[PÁGINA 79]
+
+
+[PÁGINA 80]
+
+
+[PÁGINA 81]
+
+
+[PÁGINA 82]
+
+
+[PÁGINA 83]
+
+===== FUENTE: 4. IS-Sesión 1 (1)_chunk_1.txt =====
+[PÁGINA 1]
+IMPUESTO SOBRE SOCIEDADES Prof. Sonia E. Díaz Español se.diaz@ucv.es MÁSTER UNIVERSITARIO EN GESTIÓN ADMINISTRATIVA (Sesión 1)
+
+[PÁGINA 2]
+
+
+[PÁGINA 3]
+
+
+[PÁGINA 4]
+
+
+[PÁGINA 5]
+
+
+[PÁGINA 6]
+
+
+[PÁGINA 7]
+
+
+[PÁGINA 8]
+
+
+[PÁGINA 9]
+
+
+[PÁGINA 10]
+
+
+[PÁGINA 11]
+
+
+[PÁGINA 12]
+
+
+[PÁGINA 13]
+
+
+[PÁGINA 14]
+
+
+[PÁGINA 15]
+
+
+[PÁGINA 16]
+
+
+[PÁGINA 17]
+
+
+[PÁGINA 18]
+
+
+[PÁGINA 19]
+
+
+[PÁGINA 20]
+
+
+[PÁGINA 21]
+
+
+[PÁGINA 22]
+
+
+[PÁGINA 23]
+
+
+[PÁGINA 24]
+
+
+[PÁGINA 25]
+
+
+[PÁGINA 26]
+
+
+[PÁGINA 27]
+
+
+[PÁGINA 28]
+
+
+[PÁGINA 29]
+
+
+[PÁGINA 30]
+
+
+[PÁGINA 31]
+
+
+[PÁGINA 32]
+
+
+[PÁGINA 33]
+
+
+[PÁGINA 34]
+
+
+[PÁGINA 35]
+
+
+[PÁGINA 36]
+
+
+[PÁGINA 37]
+
+
+[PÁGINA 38]
+
+
+[PÁGINA 39]
+
+
+[PÁGINA 40]
+
+
+[PÁGINA 41]
+
+
+[PÁGINA 42]
+
+
+[PÁGINA 43]
+
+
+[PÁGINA 44]
+
+
+[PÁGINA 45]
+
+
+[PÁGINA 46]
+
+
+[PÁGINA 47]
+
+
+[PÁGINA 48]
+
+===== FUENTE: 4. IS-Sesión 4_Videoconferencia_chunk_1.txt =====
+[PÁGINA 1]
+IMPUESTO SOBRE SOCIEDADES Prof. Sonia E. Díaz Español se.diaz@ucv.es MÁSTER UNIVERSITARIO EN GESTIÓN ADMINISTRATIVA (Sesión 4)
+
+[PÁGINA 2]
+Título de la lámina: Candara 35 IMPUESTO SOBRE SOCIEDADES ESQUEMA LIQUIDATORIO DEL IMPUESTO SOBRE SOCIEDADES Resultado contable +/- Ajustes extracontables – Compensación de Bases Imponibles Negativas = Base Imponible x Tipo de gravamen = Cuota íntegra – Deducciones por doble imposición interna de dividendos y plusvalías -Deducción por doble imposición internacional – Bonificaciones = Cuota íntegra ajustada – Deducción por inversiones, por reinversión y por creación de empleo = Cuota líquida positiva – Retenciones e ingresos a cuenta – Pagos Fraccionados = Cuota diferencial = Líquido a ingresar o a devolver IMPUESTO SOBRE SOCIEDADES
+
+[PÁGINA 3]
+Título de la lámina: Candara 35 IMPUESTO SOBRE SOCIEDADES •DEDUCCIONES PARA INCENTIVAR LA REALIZACIÓN DE ACTIVIDADES (Art. 35 a 39). ➢Investigación y desarrollo e innovación tecnológica (I+D/IT)(art 35) ➢Inversiones en producciones cinematográficas, series audiovisuales y espectáculos en vivo de artes escénicas y musicales (art 36) ➢Por creación de empleo (art 37) ➢Por creación de empleo de trabajadores con discapacidad (art 38) ➢Inversiones realizadas por autoridades portuarias (art 38.bis) ➢Por contribuciones empresariales a sistemas de previsión social (art 38.ter) ➢Inversión de beneficios (derogada ) ➢Bienes culturales ((derogada), edición de libros ((derogada), sistemas navegación y localización de vehículos (derogada), adaptación de vehículos para discapacitados (derogada) y guarderías para hijos de trabajadores (derogada). ➢Inversiones medioambientales.(derogada) ➢Formación profesional. (derogada) ➢Deducción por reinversión de beneficios extraordinarios (derogada) IMPUESTO SOBRE SOCIEDADES
+
+[PÁGINA 4]
+Título de la lámina: Candara 35 IMPUESTO SOBRE SOCIEDADESIMPUESTO SOBRE SOCIEDADES
+
+[PÁGINA 5]
+DEDUCCION POR ACTIVIDADES DE INVESTIGACION Y DESARROLLO (I + D) INNOVACION TECNOLOGICA (IT) (ART. 35 LIS) 5
+
+[PÁGINA 6]
+DEDUCCION POR ACTIVIDADES DE I + D + IT INCENTIVOS FISCALES A LA I+D + IT EN EL LIS Libertad de amortización de inversiones en elementos del inmovilizado material e intangible afectos a actividades de I+D (salvo edificios que se amortizan al 10%) y de los gastos de I+D activados como inmovilizado intangible (artículo 12.3 LIS). Reducción en la base imponible del 50% de las rentas procedentes de la cesión de uso y transmisión de determinados activos intangibles de nueva creación (artículo 23 LIS). Deducción en la cuota por inversiones y gastos en actividades de I+D e IT (artículo 35 LIS). 6
+
+[PÁGINA 7]
+DEDUCCION POR ACTIVIDADES DE I + D + IT Concepto de I + D Investigación es la indagación original y planificada que persigue descubrir nuevos conocimientos y una superior comprensión en el ámbito científico o tecnológico. Desarrollo es la aplicación de los resultados de la investigación o de cualquier otro tipo de conocimiento científico para la fabricación de nuevos materiales o productos o para el diseño de nuevos procesos o sistemas de producción, así como para la mejora tecnológica sustancial de materiales, productos, procesos o sistemas preexistentes. 7
+
+[PÁGINA 8]
+DEDUCCION POR ACTIVIDADES DE I + D + IT Actividades que también se consideran de I + D La materialización de los resultados de la investigación en un plano, esquema o diseño. La creación de un primer prototipo no comercializable. Los proyectos de demostración inicial o proyectos piloto, siempre que los mismos no puedan convertirse o utilizarse para aplicaciones industriales o para su explotación comercial. El diseño y elaboración de muestrarios para el lanzamiento de nuevos productos. La concepción de software avanzado. 8
+
+[PÁGINA 9]
+DEDUCCION POR ACTIVIDADES DE I + D + IT Concepto de IT Se considera como IT la actividad cuyo resultado es la obtención de nuevos productos o procesos de producción, o de mejoras sustanciales, tecnológicamente significativas, de productos o procesos de producción ya existentes. En particular: ✓La materialización de los resultados de la innovación en un plano, esquema o diseño. ✓La creación de un primer prototipo no comercializable. ✓La realización de proyectos de demostración inicial o proyectos piloto ✓Y los muestrarios textiles, de calzado, de la industria del curtido, de la marroquineria, del juguete, del mueble y de la madera. 9
+
+[PÁGINA 10]
+DEDUCCION POR ACTIVIDADES DE I + D + IT Distinción entre I + D e IT A nivel teórico: La IT se refiere a aquellas novedades que sólo lo son desde un punto de vista subjetivo, esto es, no se requiere la obtención de un nuevo producto o proceso inexistente en el mercado, sino basta que se trate de un nuevo producto o proceso que no había sido desarrollado hasta el momento por la empresa que lo lleva a cabo. Por el contrario, en las actividades de I + D el nuevo producto o proceso ha de ser nuevo desde un punto de vista objetivo, esto es ha de haber una invención en sentido estricto. 10
+
+[PÁGINA 11]
+DEDUCCION POR ACTIVIDADES DE I + D + IT Distinción entre I + D e IT A nivel practico Con objeto de introducir una mayor seguridad jurídica en la aplicación de este incentivo fiscal se prevé que la entidad pueda aportar un informe emitido por el Ministerio de Economía y Competitividad, en el que se califique si la actividad desarrollada se considera I+D ó IT. Dicho informe tiene carácter vinculante para la Administración Tributaria y sirve para: La aplicación de la deducción, en la actuación comprobadora de la Administración Tributaria. Evacuar consultas vinculantes por la DGT. Y para la adopción de acuerdos previos de valoración de los gastos e inversiones en proyectos de I+D e IT. 11
+
+[PÁGINA 12]
+DEDUCCION POR ACTIVIDADES DE I + D + IT Procedimiento para la emisión de informes El procedimiento para solicitar dicho informe se encuentra regulado en el RD 1432/2003, de 21 de noviembre y los modelos a para formalizar la solicitud en la Orden CIN 2212/2011, de 29 de julio (https://www.idi.mineco.gob.es). El plazo para su resolución es de 3 meses a contar desde la solicitud. El incumplimiento de dicho plazo no supone aceptación de la propuesta del sujeto pasivo. La solicitud no puede referirse a proyectos que se hayan iniciado en periodos impositivos cuyo plazo de presentación haya finalizado antes de la solicitud del informe. En todo caso el informe vincula a la Administración Tributaria en cuanto a la calificación de la actividad, pero no impide que esta pueda comprobar los parámetros de la deducción (Efectiva realización de inversiones y gastos, importes, cuantificación de la deducción, etc… 12
+
+[PÁGINA 13]
+DEDUCCION POR ACTIVIDADES DE I + D + IT Actividades que no se consideran I + D e IT ➢Las actividades que no impliquen una novedad científica o tecnológica significativa. En particular, los esfuerzos rutinarios para mejorar la calidad de los productos, la adaptación de los procesos productivos para atender los requisitos exigidos por un cliente y los cambios periódicos o de temporada, excepción hecha de los muestrarios textiles, de la industria del calzado, del curtido, de la marroquinería, del juguete y de la madera. ➢Las actividades de producción industrial o de distribución de bienes y servicios. ➢Y la exploración, sondeo, o prospección de minerales e hidrocarburos. 13
+
+[PÁGINA 14]
+DEDUCCION POR ACTIVIDADES DE I + D + IT Cálculo de la deducción de I+D La deducción por actividades de I+D se subdivide a su vez en tres tipos: 1º) Deducción por gastos en actividades de I+D 2º) Deducción por inversiones en actividades de I+D 3º) Deducción por gastos de especial protección en actividades de I+D 14
+
+[PÁGINA 15]
+DEDUCCION POR ACTIVIDADES DE I + D + IT CALCULO DEDUCCION POR GASTOS EN ACTIVIDADES DE I + D Base de la deducción + Gastos de I + D, incluyendo las amortizaciones de los bienes afectos a las citadas actividades, que estén directamente relacionados con la actividad de I + D y consten específicamente individualizados por proyectos. Se excluyen pues los gastos generales, financieros y subactividad. (Rs. 28-05-2013 ICAC). La LIS aclara que dentro de este concepto también se incluyen: ➢Las cantidades satisfechas a terceros para la realización de actividades de I + D por encargo. No es necesario pues que la actividad la desarrolle la empresa. ➢En todo caso las actividades de I + D han de realizarse en España o en cualquier estado miembro de la UE o del EEE - Las subvenciones percibidas para el fomento de las actividades de I + D e imputables como ingreso en el período impositivo. 15
+
+[PÁGINA 16]
+DEDUCCION POR ACTIVIDADES DE I + D + IT CALCULO DEDUCCION POR GASTOS EN ACTIVIDADES DE I + D El importe de la deducción será la suma de: 25% x el importe de la base de la deducción hasta el importe medio de los gastos de I + D de los dos ejercicios anteriores. 42% x el importe de la base de la deducción que exceda importe medio de los gastos de I + D de los dos ejercicios anteriores. 16
+
+[PÁGINA 17]
+DEDUCCION POR ACTIVIDADES DE I + D + IT CALCULO DEDUCCION POR INVERSIONES EN ACTIVIDADES DE I + D Base de la deducción + Inversiones en elementos del inmovilizado material e intangible, excluidos los inmuebles y terrenos, afectos a las actividades de I+D. - Las subvenciones percibidas para el fomento de estas inversiones afectas a actividades de I+D e imputables como ingreso en el período impositivo. Importe de la deducción = 8% x Base de la deducción 17
+
+[PÁGINA 18]
+DEDUCCION POR ACTIVIDADES DE I + D + IT CALCULO DEDUCCION POR GASTOS DE ESPECIAL PROTECCION EN ACTIVIDADES DE I + D Base de la deducción + Gastos de personal correspondientes a investigadores cualificados y adscritos en exclusiva a las actividades de I + D - Las subvenciones percibidas por estos gastos e imputables como ingreso en el período impositivo. Importe de la deducción = 17% x Base de la deducción 18
+
+[PÁGINA 19]
+DEDUCCION POR ACTIVIDADES DE I + D + IT CALCULO DEDUCCION POR GASTOS EN ACTIVIDADES DE IT Base de la deducción + Gastos en actividades de diagnóstico tecnológico + Gastos en diseño industrial e ingeniería de procesos de producción, así como la elaboración de muestrarios textiles, de la industria del calzado, del curtido de la marroquinería, del juguete, del mueble y de la madera. + Gastos en adquisición de tecnología avanzada en forma de patentes, licencias, know-how y diseños hasta 1.000.000 €. + Gastos en obtención de certificados de cumplimiento de normas de aseguramiento de la calidad. El LIS aclara que dentro de este concepto también se incluyen: ➢Las cantidades satisfechas a terceros para la realización de actividades de IT por encargo. No es necesario pues que la actividad la desarrolle la empresa. ➢En todo caso las actividades de IT han de realizarse en España o en cualquier estado miembro de la UE o del EEE. - Las subvenciones percibidas para el fomento de las actividades de IT e imputables como ingreso en el período impositivo. 19
+
+[PÁGINA 20]
+DEDUCCION POR ACTIVIDADES DE I + D + IT CALCULO DE LA DEDUCCION POR GASTOS EN ACTIVIDADES DE IT Importe de la deducción = 12% x Base de la deducción 20
+
+[PÁGINA 21]
+DEDUCCION POR ACTIVIDADES DE I + D + IT MANTENIMIENTO DE LAS INVERSIONES AFECTAS A ACTIVIDADES DE I+D Las inversiones afectas a una actividad de I+D deben permanecer en el patrimonio de la sociedad, salvo pérdidas justificadas hasta que cumplan su finalidad específica en la citada actividad, excepto en los casos en que su vida útil, determinada en función del resultado de aplicar los coeficientes de amortización lineal establecidos en el artículo 12.1.a) de la LIS fuese inferior. 21
+
+===== FUENTE: 4. IS-Sesión 4_Videoconferencia_chunk_2.txt =====
+[PÁGINA 22]
+DEDUCCION POR ACTIVIDADES DE I + D + IT PRECISIONES •La deducción por I+D e IT no esta condicionada al resultado positivo de la actividad desarrollada, por lo que la deducción procederá aun cuando los resultados alcanzados no hayan sido satisfactorios. •Para determinar las gastos en I + D que forman parte de la base de la deducción ha de atenderse al gasto contable fiscalmente deducible, con independencia de su contabilización como gasto del ejercicio o su activación en el inmovilizado intangible. Por tanto, no se considerarían las partidas que, aunque son deducibles de la BI, no tengan la consideración de gasto contable, como sería el caso de los excesos de amortización fiscal sobre la amortización efectiva contabilizada, en aplicación de la libertad de amortización de las inversiones afectas a la actividad de I+D. 22
+
+[PÁGINA 23]
+DEDUCCION POR ACTIVIDADES DE I + D + IT PRECISIONES •En el caso de que la subvención se reconozca en un ejercicio posterior al que se realizó el gasto o la inversión en I+D ó IT la DGT ha señalado que deberá ingresarse el exceso de deducción practicado junto con los correspondientes intereses de demora, en la autoliquidación correspondiente al período impositivo en que el que se acuerde la subvención (Consulta DGT V1837-07). 23
+
+[PÁGINA 24]
+DEDUCCION POR ACTIVIDADES DE I + D + IT APLICACIÓN DE LA DEDUCCION I+D+IT Las deducciones para incentivar la realización de determinadas actividades empresariales en un periodo impositivo tiene un límite conjunto (artículo 39.1 LIS) que es: Siendo CIAP la cuota integra ajustada positiva esto es la cuota integra menos las deducciones por doble imposición internacional y las bonificaciones. 24 Deducción I+D+ IT del periodo Límite Plazo deducción I+D+IT < 10% CIAP 25% x CIAP 18 años inmediatos y sucesivos I+D+IT > 10% CIAP 50% x CIAP 18 años inmediatos y sucesivos
+
+[PÁGINA 25]
+DEDUCCION POR ACTIVIDADES DE I + D + IT APLICACIÓN DE LA DEDUCCION I+D+IT No obstante el artículo 39.2 de la LIS permite aplicar la deducción por I+D+IT de la siguiente forma: A) Aplicarla con el límite del 25% o del 50% de la CIAP y las cantidades no aplicadas en el ejercicio aplicarlas en los periodos impositivos que concluyan en los 18 años inmediatos y sucesivos. B) Aplicarlas en su totalidad sin sujeción a los citados límites pero con un descuento del 20% de su importe. De esta manera se puede generar un derecho a devolución de la deducción por I+D+IT junto con las retenciones y los PF, que se solicitará a través de la declaración del IS. El informe de la DGT de 30-01-2014 entiende que a una misma deducción se pueden aplicar ambos sistemas así, una vez aplicada la deducción hasta el límite del artículo 39.1 de la LIS, por el resto podrá solicitarse la devolución con un descuento del 20%, en aplicación del artículo 39.2 de la LIS. 25
+
+[PÁGINA 26]
+DEDUCCION POR ACTIVIDADES DE I + D + IT APLICACIÓN DE LA DEDUCCION I+D+IT Para aplicar la opción B) deben cumplirse los siguientes requisitos: 1.- Transcurso de al menos un año desde la finalización del periodo impositivo en que se generó la deducción, sin que la misma haya sido objeto de aplicación. Es decir la deducción por I+D+IT generada en 2014, se podría aplicar generando incluso derecho a la devolución, en la declaración del lS de 2015. 2.- La plantilla media, o alternativamente, la plantilla media adscrita a actividades de I+D+IT, no se vea reducida desde que se generó la deducción hasta la finalización del plazo señalado en el requisito siguiente. 26
+
+[PÁGINA 27]
+DEDUCCION POR ACTIVIDADES DE I + D + IT APLICACIÓN DE LA DEDUCCION I+D+IT 3.- Que se destine un importe equivalente al de la deducción aplicada o abonada, a gastos del I+D+IT o inversiones afectas a las mismas, en un plazo de 24 meses siguientes a la finalización del periodo en cuya declaración se realice la aplicación o abono. 4.- Que la entidad haya obtenido un informe motivado sobre la calificación de la actividad como I+D+IT o un acuerdo previo de valoración de gastos e inversiones correspondientes a dichas actividades. 27
+
+[PÁGINA 28]
+DEDUCCION POR ACTIVIDADES DE I + D + IT APLICACIÓN DE LA DEDUCCION I+D+IT En todo caso en esta opción B) el importe máximo de la deducción aplicada o abonada por I+D+IT no podrá superar los siguientes límites absolutos: (*) Además si la deducción por I+D del artículo 35.1 de la LIS generada en el periodo impositivo es superior al 10% del INCN, el límite se incrementará en 2.000.000 € mas, por lo que pasaría a 5.000.000 €. Estos limites se aplicarán a nivel de grupo mercantil (artículo 42 Código de Comercio). 28 Deducción Límite Innovación tecnológica 1.000.000 € Investigación y Desarrollo e Innovación Tecnológica (*) 3.000.000 €
+
+[PÁGINA 29]
+29 Se recogen 3 actividades diferenciadas que dan derecho a la deducción: 1.- Las inversiones en producciones españolas de largometrajes cinematográficos y de series audiovisuales. 2.- Los gastos realizados en territorio español en ejecución de producciones extranjeras de largometrajes cinematográficos o de obras audiovisuales. 3.- Los gastos realizados en la producción y exhibición de espectáculos en vivo de artes escénicas y musicales. DEDUCCIÓNPOR INVERSIONES EN PRODUCCIONES CINEMATOGRÁFICAS, SERIES AUDIOVISUALES Y ESPECTÁCULOS EN VIVO (ART 36 LIS)
+
+[PÁGINA 30]
+30 Base de la deducción La base de la deducción estará constituida por el coste total de la producción, así como por los gastos para la obtención de copias y los gastos de publicidad y promoción a cargo del productor hasta el límite para ambos del 40 por ciento del coste de producción. Al menos el 50 por ciento de la base de la deducción deberá corresponderse con gastos realizados en territorio español. d. Porcentaje de deducción Porcentaje de deducción El productor de la obra y en su caso, los contribuyentes que participen en la financiación podrán aplicar los siguientes porcentajes de deducción: •30 por ciento respecto del primer millón de base de la deducción. •25 por ciento sobre el exceso de dicho importe. Importe máximo de deducción 20 millones de euros, en el caso de series audiovisuales, la deducción se de 10 millones de euros por cada episodio producido. DEDUCCIÓNPOR INVERSIONES EN PRODUCCIONES CINEMATOGRÁFICAS, SERIES AUDIOVISUALES Y ESPECTÁCULOS EN VIVO (ART 36 LIS)
+
+[PÁGINA 31]
+31 Periodo impositivo de aplicación. Esta deducción se aplicará en la cuota íntegra del periodo impositivo correspondiente a la finalización del periodo de prueba de un año del contrato. Mantenimiento de la relación laboral. Esta deducción estará condicionada a que se mantenga la relación laboral durante al menos 3 años desde la fecha de su inicio. DEDUCCION POR CREACION DE EMPLEO (ART 37 LIS)
+
+[PÁGINA 32]
+32 DEDUCCION POR CREACION DE EMPLEO (ART 37 LIS) Consecuencia del incumplimiento de los requisitos establecidos Supondrá la pérdida de la deducción, lo que obligará a la entidad a ingresar la cuota deducida junto con los correspondientes intereses de demora en el periodo impositivo en el que se produzca el incumplimiento (artículo 125. 3 LIS). No se entenderá incumplida la obligación de mantenimiento del empleo: ✓Cuando el contrato de trabajo se extinga, una vez transcurrido el periodo de prueba de un año, por causas objetivas o despido disciplinario cuando uno u otro sea declarado o reconocido como procedente. ✓En los supuestos de dimisión, muerte, jubilación o incapacidad permanente total, absoluta o gran invalidez del trabajador.
+
+[PÁGINA 33]
+33 Incompatibilidad con otros incentivos fiscales. El trabajador contratado que diera derecho a aplicar una de las deducciones por creación de empleo señaladas, no se computará a los efectos de calcular el incremento de plantilla establecido en los incentivos fiscales de las empresas de reducida dimensión. DEDUCCION POR CREACION DE EMPLEO (ART 37 LIS)
+
+[PÁGINA 34]
+34 Incompatibilidad con otros incentivos fiscales. El trabajador contratado que diera derecho a aplicar una de las deducciones por creación de empleo señaladas, no se computará a los efectos de calcular el incremento de plantilla establecido en los incentivos fiscales de las empresas de reducida dimensión. DEDUCCION POR CREACION DE EMPLEO (ART 37 LIS)
+
+[PÁGINA 35]
+35 Creación de empleo por contratación de menores de 30 años: 3.000 euros por la contratación del primer trabajador a través de un contrato por tiempo indefinido de apoyo a los emprendedores, que sea menor de 30 años. Esta deducción será aplicable exclusivamente por aquellas entidades que carezcan de personal contratado. Creación de empleo por contratación de desempleados con prestación de desempleo: el 50 por ciento del menor de los siguientes importes: • El importe de la prestación por desempleo que el trabajador tuviera pendiente de percibir en el momento de la contratación. • El importe correspondiente a doce mensualidades de la prestación por desempleo que tuviera reconocida. DEDUCCION POR CREACION DE EMPLEO (ART 37 LIS)
+
+[PÁGINA 36]
+36 DEDUCCION POR CREACION DE EMPLEO (ART 37 LIS) La aplicación de esta segunda deducción, que no excluye la aplicación de la primera, está sujeta a los siguientes requisitos: • Tener una plantilla inferior a 50 trabajadores en el momento de la contratación de desempleados beneficiarios de una prestación contributiva por desempleo • La deducción se aplicará sobre los contratos realizados en el período impositivo hasta alcanzar una plantilla de 50 trabajadores. • En los doce meses siguientes al inicio de la relación laboral, respecto de cada trabajador se debe producir un incremento de la plantilla media total de la entidad en, al menos, una unidad respecto a la existente en los doce meses anteriores. • El trabajador contratado deberá haber percibido la prestación por desempleo durante, al menos, tres meses antes del inicio de la relación laboral. • Las cantidades no deducidas por insuficiencia de cuota en los 15 años inmediatos y sucesivos.
+
+[PÁGINA 37]
+37 DEDUCCION POR CREACION DE EMPLEO Ejemplo 1 Una sociedad inicia sus actividades el 31-03-2014 e incorpora a su plantilla a los siguientes trabajadores con los que ha suscrito contratos de trabajo por tiempo indefinido de apoyo a los emprendedores: ◼El 01-04-2014 contrata a un ingeniero de 25 años de edad recién licenciado. ◼El 01-07-2014 contrata a un trabajador inscrito en el paro desde el 01-01-2014 que tenía reconocido un periodo de paro de un año y le quedaban pendientes de cobrar 7.200 € de prestación por desempleo. ◼Finalmente el 01-10-2014 contrata a otro trabajador que estaba inscrito en el paro desde el 31-03-2014, que tenia reconocido un periodo de paro de dos años y le quedaba pendiente de cobrar una prestación por desempleo de 27.000 € (1.500 €/mes). ◼A finales de 2015 la entidad su produce el despido del trabajador contratado el 01-10-2014 por causas objetivas declarándose el despido procedente. Determinar la deducción por creación de empleo en 2015 que corresponda.
+
+[PÁGINA 38]
+38 DEDUCCION POR CREACION DE EMPLEO Solución ◼La contratación del primer trabajador de 25 años da derecho a una deducción por creación de empleo de 3.000 € en 2015 cuando se cumple el año de prueba (art. 43.1 TRLIS). ◼El trabajador contratado el 01-07-2014 da derecho en 2015, periodo en el que se cumple el año de prueba, a una deducción por creación de empleo (art. 37.2 LIS) de 3.600 € = 50% x 7.200 ya que también se cumple la condición adicional de que la plantilla media total de la empresa (PMT) se haya incrementado en al menos un trabajador en los 12 meses posteriores a la fecha de su contratación respecto de la existente en los 12 meses anteriores. En efecto comparando las PMT tenemos que: PMT (31-03-2014 a 30-06-2014) es de 0,25 trabajadores = 1 x 3/12 PMT (01-07-2014 a 30-06-2015) es de 2,75 trabajadores = 2 + (1 x 9/12)

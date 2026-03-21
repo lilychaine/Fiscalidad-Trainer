@@ -1,0 +1,402 @@
+[
+{
+"id": 1,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Residencia fiscal",
+"subtopic": "Criterios de sujeción personal",
+"question": "Una persona física trabaja habitualmente en Portugal, pero su cónyuge no separado legalmente y sus hijos menores residen de forma permanente en Madrid. No acredita residencia fiscal en otro Estado. ¿Cuál es la conclusión más correcta?",
+"options": {
+"A": "No puede ser contribuyente en España porque desarrolla su actividad fuera del territorio español",
+"B": "Se presume su residencia habitual en España, salvo prueba en contrario",
+"C": "Tributa exclusivamente por obligación real",
+"D": "Debe tributar como no residente mientras no pase más de doscientos días en España"
+},
+"answer": "B",
+"explanation": "La normativa presume la residencia habitual en territorio español cuando radican en España el cónyuge no separado legalmente y los hijos menores dependientes, salvo prueba en contrario. No se exige de forma aislada el desarrollo de la actividad en España para ser contribuyente por obligación personal.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, reglas de residencia habitual y sujeción por obligación personal",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "alto",
+"tags": ["residencia fiscal", "sujecion personal"]
+},
+{
+"id": 2,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Rendimientos del trabajo",
+"subtopic": "Delimitación frente a actividades económicas",
+"question": "Un abogado es socio de una sociedad profesional y presta servicios jurídicos a la propia sociedad utilizando medios propios relevantes y asumiendo el riesgo económico de su actividad. ¿Cómo deben calificarse, con carácter general, las cantidades percibidas?",
+"options": {
+"A": "Rendimientos del trabajo por derivar de una relación estable con la sociedad",
+"B": "Rendimientos del capital mobiliario por su condición de socio",
+"C": "Rendimientos de actividades económicas, si concurren ordenación por cuenta propia y medios propios",
+"D": "Ganancias patrimoniales no derivadas de transmisión"
+},
+"answer": "C",
+"explanation": "Cuando el socio profesional ordena por cuenta propia medios de producción o recursos humanos para intervenir en la prestación, las retribuciones se califican como rendimientos de actividades económicas y no como rendimientos del trabajo.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, delimitación de rendimientos del trabajo y de actividades económicas",
+"difficulty": "alta",
+"question_type": "caso",
+"trap_level": "alto",
+"tags": ["actividades economicas", "socios profesionales"]
+},
+{
+"id": 3,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Rendimientos del trabajo",
+"subtopic": "Retribuciones de administradores",
+"question": "Las cantidades percibidas por un administrador de una sociedad por el desempeño de su cargo, con independencia de la calificación mercantil de su vínculo, se integran con carácter general como:",
+"options": {
+"A": "Rendimientos de actividades económicas",
+"B": "Rendimientos del trabajo",
+"C": "Rendimientos del capital mobiliario",
+"D": "Ganancias patrimoniales"
+},
+"answer": "B",
+"explanation": "La normativa califica expresamente como rendimientos del trabajo las retribuciones derivadas de la condición de administrador o miembro de consejos de administración y órganos representativos.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, calificación de rendimientos del trabajo",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "alto",
+"tags": ["rendimientos del trabajo", "administradores"]
+},
+{
+"id": 4,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Rendimientos del capital inmobiliario",
+"subtopic": "Delimitación frente a actividad económica",
+"question": "Un contribuyente arrienda diez inmuebles urbanos y cuenta con una persona empleada con contrato laboral y jornada completa dedicada a la gestión de los arrendamientos. ¿Cuál es la calificación más correcta?",
+"options": {
+"A": "Rendimientos del capital inmobiliario en todo caso, por tratarse de inmuebles",
+"B": "Rendimientos de actividades económicas si concurre el requisito legal de empleada a jornada completa",
+"C": "Ganancias patrimoniales periódicas",
+"D": "Rendimientos del capital mobiliario"
+},
+"answer": "B",
+"explanation": "El arrendamiento de inmuebles se considera actividad económica cuando para su ordenación se utiliza, al menos, una persona empleada con contrato laboral y jornada completa. Sin ese requisito, la regla general conduce a capital inmobiliario.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, concepto de actividad económica en arrendamiento de inmuebles",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "alto",
+"tags": ["capital inmobiliario", "arrendamiento de inmuebles"]
+},
+{
+"id": 5,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Imputación temporal",
+"subtopic": "Regla general y excepciones",
+"question": "Un contribuyente percibe en 2026 salarios correspondientes a 2024 reconocidos mediante sentencia firme dictada en 2026. ¿En qué período deben imputarse con carácter general?",
+"options": {
+"A": "Al período en que fueron exigibles, mediante autoliquidación complementaria si procede",
+"B": "Siempre al período de cobro",
+"C": "Al período de la sentencia, sin excepción",
+"D": "Al primer período no prescrito elegido por el contribuyente"
+},
+"answer": "A",
+"explanation": "Los rendimientos del trabajo se imputan, con carácter general, al período en que sean exigibles. Cuando por circunstancias justificadas o litigio se perciben en períodos posteriores, procede la regularización en los términos previstos por la norma.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, reglas de imputación temporal de rendimientos",
+"difficulty": "alta",
+"question_type": "caso",
+"trap_level": "alto",
+"tags": ["imputacion temporal", "rendimientos del trabajo"]
+},
+{
+"id": 6,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Rendimientos del capital mobiliario",
+"subtopic": "Distribución de prima de emisión",
+"question": "La percepción por una persona física de importes derivados de una reducción de capital con devolución de aportaciones o de una distribución de prima de emisión exige, con carácter general, analizar:",
+"options": {
+"A": "Si existe siempre una ganancia patrimonial pura",
+"B": "Si la cuantía reduce el valor de adquisición y, en determinados casos, genera rendimiento del capital mobiliario",
+"C": "Si se trata necesariamente de rendimientos del trabajo",
+"D": "Si la operación queda no sujeta por proceder de fondos propios"
+},
+"answer": "B",
+"explanation": "Estas operaciones no se resuelven mecánicamente como una sola categoría de renta. La normativa prevé reglas específicas de reducción del valor de adquisición y, en ciertos supuestos, de calificación como rendimiento del capital mobiliario.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, tratamiento de la reducción de capital y de la prima de emisión",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "alto",
+"tags": ["capital mobiliario", "prima de emision"]
+},
+{
+"id": 7,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Ganancias y pérdidas patrimoniales",
+"subtopic": "Delimitación negativa",
+"question": "La pérdida derivada del consumo normal de bienes de uso personal del contribuyente:",
+"options": {
+"A": "Siempre genera pérdida patrimonial computable",
+"B": "No se computa fiscalmente",
+"C": "Se integra en la base del ahorro",
+"D": "Se compensa exclusivamente con ganancias inmobiliarias"
+},
+"answer": "B",
+"explanation": "No tienen la consideración de pérdidas patrimoniales computables las debidas al consumo ni las derivadas de pérdidas en el juego por encima de determinados límites, ni otras exclusiones legales. El desgaste del uso personal no genera una pérdida fiscalmente deducible.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, delimitación de ganancias y pérdidas patrimoniales",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "medio",
+"tags": ["perdidas patrimoniales", "delimitacion negativa"]
+},
+{
+"id": 8,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Ganancias patrimoniales",
+"subtopic": "Transmisión de vivienda habitual",
+"question": "Un contribuyente transmite su vivienda habitual obteniendo una ganancia y reinvierte parte del importe en la adquisición de otra vivienda habitual dentro del plazo legal. ¿Qué efecto produce, con carácter general?",
+"options": {
+"A": "La ganancia queda íntegramente no sujeta",
+"B": "La ganancia puede quedar exenta en proporción al importe reinvertido",
+"C": "La ganancia se transforma en rendimiento del capital inmobiliario",
+"D": "La ganancia solo se difiere hasta la venta de la nueva vivienda"
+},
+"answer": "B",
+"explanation": "La exención por reinversión en vivienda habitual opera de manera total o parcial según el importe efectivamente reinvertido y el cumplimiento de los requisitos temporales y materiales.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, exención por reinversión en vivienda habitual",
+"difficulty": "alta",
+"question_type": "caso",
+"trap_level": "medio",
+"tags": ["ganancia patrimonial", "reinversion vivienda habitual"]
+},
+{
+"id": 9,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Exenciones",
+"subtopic": "Indemnizaciones por despido",
+"question": "La indemnización por despido o cese del trabajador queda exenta en el impuesto:",
+"options": {
+"A": "Siempre que exista despido, cualquiera que sea su importe",
+"B": "Solo en la cuantía establecida con carácter obligatorio en la normativa laboral, con los límites legales aplicables",
+"C": "Únicamente si el empleador es una Administración pública",
+"D": "Solo si se cobra de forma fraccionada"
+},
+"answer": "B",
+"explanation": "La exención no es absoluta. Se circunscribe, en términos generales, a la indemnización obligatoria fijada por la normativa laboral, con el límite cuantitativo legalmente establecido.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, exenciones en indemnizaciones por despido o cese",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "alto",
+"tags": ["exenciones", "indemnizacion por despido"]
+},
+{
+"id": 10,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Rendimientos de actividades económicas",
+"subtopic": "Afectación y desafectación",
+"question": "Un empresario individual transmite un inmueble afecto a su actividad. La renta derivada de la transmisión se califica, con carácter general, como:",
+"options": {
+"A": "Rendimiento íntegro de la actividad económica",
+"B": "Ganancia o pérdida patrimonial, sin perjuicio de la incidencia contable y registral propia de la actividad",
+"C": "Rendimiento del capital inmobiliario",
+"D": "Rendimiento del trabajo"
+},
+"answer": "B",
+"explanation": "La transmisión de elementos patrimoniales afectos genera, con carácter general, ganancias o pérdidas patrimoniales, aunque estén vinculados a una actividad económica. La cuestión exige diferenciar entre rendimientos ordinarios de explotación y variaciones patrimoniales por transmisión.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, determinación de ganancias y pérdidas patrimoniales en elementos afectos",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "alto",
+"tags": ["actividades economicas", "elementos afectos"]
+},
+{
+"id": 11,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Base imponible",
+"subtopic": "Integración y compensación",
+"question": "En la base general del impuesto, los rendimientos del trabajo negativos pueden compensarse, con carácter general:",
+"options": {
+"A": "Con cualquier renta de la base del ahorro",
+"B": "En el proceso de integración y compensación de la base general conforme a las reglas legales",
+"C": "Solo con ganancias patrimoniales derivadas de transmisión",
+"D": "Nunca, porque los rendimientos del trabajo no pueden ser negativos"
+},
+"answer": "B",
+"explanation": "La base imponible general se forma mediante la integración y compensación de las rentas que la componen, conforme a las reglas específicas del impuesto. No existe una prohibición general de rendimientos negativos, aunque su tratamiento depende de cada categoría.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, estructura de la base imponible general y reglas de integración y compensación",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["base general", "integracion y compensacion"]
+},
+{
+"id": 12,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Base del ahorro",
+"subtopic": "Composición",
+"question": "¿Cuál de las siguientes rentas forma parte, con carácter general, de la base imponible del ahorro?",
+"options": {
+"A": "Los rendimientos del trabajo",
+"B": "Los rendimientos del capital mobiliario procedentes de la participación en fondos propios de entidades",
+"C": "Los rendimientos de actividades económicas",
+"D": "Las imputaciones de rentas inmobiliarias"
+},
+"answer": "B",
+"explanation": "La base del ahorro comprende, entre otras, determinadas categorías de rendimientos del capital mobiliario y las ganancias y pérdidas patrimoniales derivadas de transmisiones. Los rendimientos del trabajo y de actividades económicas se integran, como regla general, en la base general.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, composición de la base imponible del ahorro",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["base del ahorro", "capital mobiliario"]
+},
+{
+"id": 13,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Imputación de rentas inmobiliarias",
+"subtopic": "Bienes inmuebles urbanos",
+"question": "Un contribuyente posee un inmueble urbano no afecto, no arrendado y no constitutivo de vivienda habitual. ¿Qué consecuencia fiscal puede producirse?",
+"options": {
+"A": "No genera renta alguna por no existir alquiler",
+"B": "Procede una imputación de renta inmobiliaria conforme a la normativa",
+"C": "Genera rendimiento del capital inmobiliario equivalente al valor de mercado del alquiler",
+"D": "Se integra como ganancia patrimonial anual"
+},
+"answer": "B",
+"explanation": "La normativa prevé la imputación de rentas inmobiliarias respecto de determinados inmuebles urbanos no afectos ni arrendados, con las exclusiones legalmente previstas.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, imputación de rentas inmobiliarias",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "medio",
+"tags": ["imputacion de rentas", "inmuebles urbanos"]
+},
+{
+"id": 14,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Unidad familiar",
+"subtopic": "Tributación conjunta",
+"question": "La opción por la tributación conjunta en el impuesto:",
+"options": {
+"A": "Transforma al grupo familiar en un sujeto pasivo distinto de sus miembros",
+"B": "Es un régimen de determinación de la deuda dentro de la unidad familiar, manteniendo la individualidad personal de los contribuyentes",
+"C": "Es obligatoria cuando existen hijos menores",
+"D": "Solo puede ejercitarse por matrimonios sin descendencia"
+},
+"answer": "B",
+"explanation": "La tributación conjunta no crea una personalidad tributaria nueva distinta de los integrantes de la unidad familiar; es una modalidad opcional de tributación con reglas específicas de determinación de la deuda.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, unidad familiar y tributación conjunta",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "alto",
+"tags": ["tributacion conjunta", "unidad familiar"]
+},
+{
+"id": 15,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Mínimos personales y familiares",
+"subtopic": "Naturaleza",
+"question": "El mínimo personal y familiar en el impuesto responde técnicamente a la idea de:",
+"options": {
+"A": "Exención objetiva de determinadas rentas",
+"B": "Cuantía de renta no sometida a gravamen por destinarse a satisfacer necesidades básicas personales y familiares",
+"C": "Deducción autonómica por circunstancias familiares",
+"D": "Reducción exclusiva aplicable a rendimientos del trabajo"
+},
+"answer": "B",
+"explanation": "El mínimo personal y familiar no funciona como una simple deducción aislada, sino como mecanismo estructural orientado a excluir de gravamen la parte de renta destinada a cubrir necesidades básicas del contribuyente y de su familia.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, regulación del mínimo personal y familiar",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["minimo personal y familiar", "estructura del impuesto"]
+},
+{
+"id": 16,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Ganancias y pérdidas patrimoniales",
+"subtopic": "Valor de adquisición y transmisión",
+"question": "En la transmisión onerosa de un inmueble, para determinar la ganancia patrimonial debe atenderse, con carácter general, a:",
+"options": {
+"A": "La diferencia entre valor de mercado actual y valor catastral",
+"B": "La diferencia entre valor de transmisión y valor de adquisición, ajustados conforme a la normativa",
+"C": "La diferencia entre precio escriturado y coste financiero de la hipoteca",
+"D": "La diferencia entre renta imputada y amortización acumulada"
+},
+"answer": "B",
+"explanation": "La ganancia o pérdida patrimonial se calcula por diferencia entre los valores de transmisión y adquisición, determinados según las reglas legales y con los ajustes previstos.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, reglas de cálculo de ganancias y pérdidas patrimoniales",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "medio",
+"tags": ["ganancia patrimonial", "valor de adquisicion"]
+},
+{
+"id": 17,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Rendimientos del capital mobiliario",
+"subtopic": "Préstamos entre particulares",
+"question": "Cuando un contribuyente concede un préstamo a un familiar sin intereses, la Administración puede cuestionar la ausencia de rendimiento atendiendo, en su caso, a:",
+"options": {
+"A": "La regla general de estimación directa de actividades económicas",
+"B": "La posible aplicación de presunciones o reglas de valoración de operaciones vinculadas o gratuitas según proceda",
+"C": "La automática exención por parentesco",
+"D": "La imposibilidad legal de gravar cesiones gratuitas de capitales"
+},
+"answer": "B",
+"explanation": "La inexistencia de intereses pactados no impide examinar la operación conforme a las reglas fiscales aplicables a cesiones de capitales y, en su caso, a las normas de valoración pertinentes. No existe una exención general por parentesco.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, rendimientos del capital mobiliario y reglas de valoración",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "alto",
+"tags": ["capital mobiliario", "prestamos entre particulares"]
+},
+{
+"id": 18,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Exenciones",
+"subtopic": "Prestaciones públicas",
+"question": "La exención de determinadas prestaciones públicas exige, con carácter general:",
+"options": {
+"A": "Que toda prestación pública quede automáticamente exenta",
+"B": "Que la prestación encaje en un supuesto legal de exención expresamente previsto",
+"C": "Que el perceptor sea mayor de sesenta y cinco años",
+"D": "Que la prestación se perciba en pago único"
+},
+"answer": "B",
+"explanation": "En el impuesto rige el principio de sujeción general de la renta, por lo que la exención de prestaciones públicas solo procede cuando existe previsión legal expresa y se cumplen sus requisitos.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, catálogo de rentas exentas",
+"difficulty": "alta",
+"question_type": "trampa",
+"trap_level": "medio",
+"tags": ["exenciones", "prestaciones publicas"]
+},
+{
+"id": 19,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Deducciones",
+"subtopic": "Doble imposición internacional",
+"question": "Un contribuyente residente en España obtiene dividendos del extranjero sometidos a gravamen en el país de origen. En el impuesto español, la doble imposición internacional se corrige, en su caso, mediante:",
+"options": {
+"A": "Una exención plena automática de la renta extranjera",
+"B": "Una deducción en cuota con el límite y condiciones legalmente establecidos",
+"C": "Una reducción de la base imponible general",
+"D": "La no integración de los dividendos en la base del ahorro"
+},
+"answer": "B",
+"explanation": "La doble imposición internacional se corrige, con carácter general, mediante una deducción en cuota, limitada por la menor de determinadas magnitudes, no mediante una exención plena indiscriminada.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, deducción por doble imposición internacional",
+"difficulty": "alta",
+"question_type": "concepto",
+"trap_level": "alto",
+"tags": ["deduccion en cuota", "doble imposicion internacional"]
+},
+{
+"id": 20,
+"subject": "Impuesto sobre la Renta de las Personas Físicas",
+"topic": "Compatibilidad entre figuras tributarias",
+"subtopic": "Relación con el impuesto sobre sucesiones y donaciones",
+"question": "Una persona física recibe por herencia participaciones sociales y, meses después, las vende con plusvalía. ¿Qué afirmación es más correcta?",
+"options": {
+"A": "Toda la operación tributa exclusivamente por el impuesto sobre sucesiones y donaciones",
+"B": "La adquisición hereditaria tributa por el impuesto sobre sucesiones y donaciones y la posterior venta puede generar una ganancia patrimonial en el impuesto sobre la renta",
+"C": "La venta posterior queda no sujeta por haber tributado la adquisición hereditaria",
+"D": "La herencia y la venta posterior tributan conjuntamente como rendimientos del capital mobiliario"
+},
+"answer": "B",
+"explanation": "La adquisición lucrativa mortis causa se somete al impuesto sobre sucesiones y donaciones. La transmisión posterior de los bienes adquiridos es un hecho distinto que puede generar ganancia o pérdida patrimonial en el impuesto sobre la renta del heredero.",
+"reference": "Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, junto con Ley 29/1987, de 18 de diciembre, del Impuesto sobre Sucesiones y Donaciones, delimitación entre adquisición lucrativa y transmisión posterior",
+"difficulty": "alta",
+"question_type": "caso",
+"trap_level": "alto",
+"tags": ["compatibilidad entre impuestos", "transmision posterior"]
+}
+]

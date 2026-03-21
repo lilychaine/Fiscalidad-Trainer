@@ -1,0 +1,215 @@
+A partir EXCLUSIVAMENTE del siguiente contenido, genera exactamente 8 preguntas tipo test.
+
+Reglas obligatorias:
+
+- No uses conocimiento externo
+- No inventes contenido
+- Si una regla no aparece claramente en el texto, no la conviertas en pregunta
+- No hagas preguntas cuya respuesta sea únicamente el número de artículos
+- No uses abreviaturas en el contenido visible
+- Nivel profesional alto
+- Mezcla conceptos técnicos, mini casos y preguntas trampa
+- Devuelve exclusivamente un JSON válido
+- No añadas comentarios ni texto fuera del JSON
+
+Formato obligatorio:
+
+[
+  {
+    "id": 1,
+    "subject": "Irpf",
+    "topic": "...",
+    "subtopic": "...",
+    "question": "...",
+    "options": {
+      "A": "...",
+      "B": "...",
+      "C": "...",
+      "D": "..."
+    },
+    "answer": "A",
+    "explanation": "...",
+    "reference": "Nombre del PDF o bloque del que sale la regla",
+    "difficulty": "alta",
+    "question_type": "concepto/caso/trampa",
+    "trap_level": "bajo/medio/alto",
+    "tags": ["...", "..."]
+  }
+]
+
+Contenido fuente:
+
+===== FUENTE: Esquema Gral Abrev Liqu IRPF___chunk_1.txt =====
+[PÁGINA 1]
+BASE IMPONIBLE GENERAL BASE IMPONIBLE DEL AHORRO - Reducciones (con el límite de la Base Imponible General) - Reducciones (con el límite de la base imponible · Tributación conjunta del ahorro · Sistemas de Previsión Social + Remanente no aplicado en la base imponible · Pensiones compensatorias y anualidades por alimentos en favor general por tributación conjunta de personas distintas de los hijos + Remanente no aplicado en la base imponible general por pensiones compensatorias y anualidades por alimentos + Ganancias patrimoniales no justificadas BASE LIQUIDABLE GENERAL BASE LIQUIDABLE DEL AHORRO - Bases liquidables generales negativas años Compensar Tipos del ahorro Tipos del ahorro anteriores 4 años ss. (parte estatal) (parte autonómica) - Aplicación al remanente - Aplicación al rema- ESCALA ESTATAL ESCALA AUTONÓMICA del mínimo personal y nente del mínimo familiar del tipo del personal y familiar - Resultado de aplicar al mínimo - Resultado de aplicar el mínimo ahorro (parte estatal) del tipo del ahorro personal y familiar la escala estatal personal y familiar la escala autonómica (parte autonómica) CUOTA ÍNTEGRA ESTATAL CUOTA ÍNTEGRA AUTONÓMICA - 50% restantes deducciones estatales - Deducciones autonómicas CUOTA LÍQUIDA ESTATAL CUOTA LÍQUIDA AUTONÓMICA CUOTA LÍQUIDA TOTAL - Deducción doble imposición internacional por rentas obtenidas y gravadas en el extranjero - Deducción doble imposición internacional por transparencia fiscal internacional - Deducción doble imposición internacional por imputaciones en casos de derechos de imagen - Pagos a cuenta y otros CUOTA DIFERENCIAL - DEDUCCIÓN POR MATERNIDAD Y POR GASTOS DE GUARDERÍA - DEDUCCIÓN POR FAMILIA NUMEROSA Y POR PERSONA A CARGO CON DISCAPACIDAD (+) Ingresar (-) Devolver RENTA GENERAL RESULTADO DE LA LIQUIDACIÓN Compensar con el límite del 25% Compensar 4 años siguientes - + +- - -+ + - + Compensar con el límite del 25% - - Compensar 4 años ss. + + ESQUEMA GENERAL ABREVIADO DE LIQUIDACIÓN DEL IRPF ± Actividades Económicas INTEGRAR Y COMPENSAR Y COMPENSAR INTEGRAR Y COMPENSAR SIN LÍMITE Y COMPENSAR INTEGRAR INTEGRAR RENTA DEL AHORRO RENDIMIENTOS IMPUTACIONES GANANCIAS Y PÉRDIDAS RENDIMIENTOS DEL GANANCIAS Y PÉRDIDAS ± Trabajo + Rentas inmobiliarias NO DERIVADAS DE CAPITAL MOBILIARIO DERIVADAS DE ± Capital Inmobiliario …..... TRANSMISIONES INCCLUIDOS EN LA RENTA TRANSMISIONES ± Capital mobiliario que no DEL AHORRO forma parte de la Base del Ahorro - 50% Deducción por vivienda habitual en régimen transitorio - Deducción por inversión en empresas de nueva o reciente creación - 50% restantes deducciones estatales - Deducción por obras de mejora de la eficiencia energética de viviendas - Deducc. vehículos eléctricos y puntos de recarga
+
+===== FUENTE: IRPF 2025_chunk_1.txt =====
+[PÁGINA 1]
+CURSO DE RENTAJ.Felicidad Cervera Añó.jf.cervera@ucv.es
+
+[PÁGINA 2]
+NormativaLey IRPF: LEY 35/2006 Reglamento IRPF: RD 439/2007Agencia Tributaria: Iniciohttps://www.agenciatributaria.es2
+
+[PÁGINA 3]
+3 HECHO IMPONIBLE1. El hecho imponible es el presupuesto fijado por la ley para configurar cada tributo y cuyarealización origina el nacimiento de la obligación tributaria principal.2. La ley podrá completar la delimitación del hecho imponible mediante la mención desupuestos de no sujeción.HECHO IMPONIBLE IRPF: RENDIMIENTOS, GANANCIAS/PÉRDIDAS E IMPUTACIONES1 TRABAJO PERSONAL2 CAPITAL a. mobiliariob. inmobiliario3 ACTIVIDADES ECONÓMICAS4 GANANCIAS Y PERDIDAS PATRIMONIALES5 IMPUTACIONES DE RENTAS ART 20 LGT
+
+[PÁGINA 4]
+4 NO SUJETO/EXENTONO SUJETO….. Queda fuera del ámbito del impuesto, no es Hecho Imponible del impuestoEXENTO…… corresponde tributar en el IRPF, si bien la norma fija aquellas rentas que no deberán declarase, bien por su naturaleza o bien por su cuantíaDIFERENCIAS:
+
+[PÁGINA 5]
+5 OBLIGADOS IRPFContribuyentes que tengan su residencia habitual en territorio español: más de 183 días o bien, radique en España el núcleo principal o base de sus actividades o intereses.Las personas físicas de nacionalidad residentes en una “jurisdicción no cooperativa”. Serán “contribuyentes por el IRPF” el período impositivo en que se produzca el cambio de residencia y los cuatro siguientes.Personas físicas que tengan su residencia en el extranjero y pertenezcan a misiones diplomáticas, consulares, etc (art. 10 Ley IRPF)No son contribuyentes del IRPF las sociedades civiles , herencias yacentes, comunidades de bienes. Las rentas se atribuirán a sus socios o comuneros. Obligación personal
+
+[PÁGINA 6]
+6 BASE IMPONIBLEBASE IMPONIBLE GENERALRendimientos del trabajoCapital inmobiliarioCapital mobiliario (no incluidos en la base del ahorro)Actividades económicasImputación de rentasCOMPONENTES DE LA BASE IMPONIBLE GENERAL
+
+[PÁGINA 7]
+7 BASE IMPONIBLEBASE IMPONIBLE AHORROParticipación en los fondos propios de entidadesCesión a terceros de capitales propios (salvo que procedan de entidades vinculadas con el contribuyente)Operaciones de capitalizaciónContratos de seguro de vida o invalidezRentas que tengan por causa la imposición de capitalesSaldo positivo de las ganancias y pérdidas patrimoniales que se pongan de manifiesto con ocasión de transmisiones de elementos patrimoniales COMPONENTES DE LA BASE IMPONIBLE DEL AHORRO
+
+[PÁGINA 8]
+8 Rendimientos Exentosa)Las prestaciones públicas extraordinarias, medallas y condecoracionesconcedidas por actos de terrorismo.b)Las ayudas de cualquier clase percibidas por los afectados por el VIH.c) Las pensiones reconocidas por lesiones guerra Civil. d) Las indemnizaciones como consecuencia responsabilidad civil y por daños personales, en la cuantía legal o judicialmente reconocida. (Igualmente estarán exentas las indemnizaciones por idéntico tipo de daños derivadas de contratos de seguro de accidentes, salvo aquellos cuyas primas hubieran podido reducir la base imponible o ser consideradas gasto deducible).Art 7 Ley IRPF
+
+[PÁGINA 9]
+9 Rendimientos Exentose)Las indemnizaciones por despido o cese del trabajador.(La cuantía establecida concarácter obligatorio en el Estatuto de los Trabajadores, en su normativa de desarrollo o, en sucaso, en la normativa reguladora de la ejecución de sentencias, sin que pueda considerarsecomo tal la establecida en virtud de convenio, pacto o contrato-El importe de la indemnizaciónexenta a que se refiere esta letra tendrá como límite la cantidad de 180.000 euros).f)Las prestaciones por incapacidad permanente absoluta o gran invalidez.g)Las pensiones de clases pasivas en idénticas situaciones.h) Las prestaciones por maternidad o paternidad y las familiares no contributivasreguladas.i) Las prestaciones económicas percibidas de instituciones públicas con motivo delacogimiento de personas con discapacidad, mayores de 65 años o menores. Art 7 Ley IRPF
+
+[PÁGINA 10]
+10 RENDIMIENTOS DEL TRABAJOREQUISITOS:DESPIDO IMPROCEDENTE1.Reconocida en conciliación administrativa o judicial.1.45 días contratos celebrados antes 12-2-12 tope de 42 mensualidades2.A partir 12-2-12, la indemnización son 33 días por año con un tope de 24 mensualidades.2.Se excluyen las derivadas de una extinción de mutuo acuerdo.3.Importe máximo fijado en el ET para el despido improcedente4.Límite máximo 180.000€DESPIDO OBJETIVO:Exenta hasta las cuantías anteriores hasta tope improcedente.INDEMNIZACION FIN DE CONTRATO: Sujeta no exenta Supuestos especiales: Indemnización despido o cese
+
+[PÁGINA 11]
+11 Rendimientos Exentosj) Las becas públicas, las becas concedidas por las entidades sin fines lucrativos y porFundaciones bancarias(para cursar estudios reglados, tanto en España como en el extranjero, entodos los niveles y grados del sistema educativo.)k)Las anualidades por alimentos percibidas de los padres en virtud de decisión judicial.l)Los premios literarios, artísticos o científicos relevantes.m) Las ayudas de contenido económico a los deportistas de alto nivel.n)Las prestaciones por desempleo en pago único(matices)*Art 7 Ley IRPF
+
+[PÁGINA 12]
+12 Rendimientos ExentosPAGO ÚNICO DE LA PRESTACION POR DESEMPLEO: SUPUESTOS EN LOS QUE SE PUEDE SOLICITAR:El inicio de una actividad como trabajador autónomo.La incorporación a una cooperativa, existente o de nueva creación, como socio trabajador o de trabajo de carácter estable.La constitución de una sociedad laboral o la incorporación a una ya existente, como socio trabajador o de trabajo de carácter estable.Aportación al capital social de una sociedad o entidad mercantil de nueva creación o constituida en un plazo máximo de doce meses anteriores a la aportación, siempre que vayan a poseer el control efectivo de la misma, y a ejercer en ella una actividad profesional, encuadrados en el Régimen Especial de Trabajadores Autónomos (RETA) o en el Régimen Especial de la Seguridad Social de los Trabajadores del Mar. Supuestos especiales: Capitalización prestación desempleo
+
+[PÁGINA 13]
+13 Rendimientos ExentosPAGO ÚNICO DE LA PRESTACION POR DESEMPLEO:Obligación de mantenimiento de la actividad un mínimo de 5 años*Mantenimiento de la acción o participación durante el plazo de 5 años, en el supuesto deque el contribuyente se hubiera integrado en sociedades laborales o cooperativas detrabajo asociado, o al mantenimiento, durante idéntico plazo, de la actividad, en el casodel trabajador autónomo.*Si se incumple obligación debemos incluir el importe en el año del incumplimiento (no declaración complementaria) y sin reducción del 30%.CV3271-19Supuestos especiales: Capitalización prestación desempleo
+
+[PÁGINA 14]
+14 Rendimientos ExentosAplicación de la reducción para rendimientos con período de generación superior a dos años (30%) a la prestación por desempleo percibida en su modalidad de pago único que no disfrute de exención en IRPFA la prestación contributiva por desempleo percibida en su modalidad de pago único le resulta aplicable la reducción para los rendimientos irregulares que contempla el artículo 18.2 de la Ley del IRPF siempre que haya transcurrido un período previo de cotización superior a dos años, computándose este período desde el día en que el trabajador empieza a cotizar a la Seguridad Social hasta el día en que cesa la obligación de cotizar pasando a la situación legal de desempleo. Resolución TEAC 8822/2023 de 21 de octubre de 2024 Informa:147714-REDUCCIÓN: PRESTACIÓN DESEMPLEO PAGO ÚNICO
+
+[PÁGINA 15]
+15 Rendimientos Exentosñ) Los rendimientos los seguros de vida(Planes de Ahorrro a Largo Plazo, no se efectuardisposición alguna del capital resultante del Plan antes de finalizar el plazo de cinco años desde suapertura).o) Las gratificaciones extraordinarias en misiones internacionales de paz o humanitarias.p)Los rendimientos del trabajo percibidos por trabajos efectivamente realizados en elextranjero (matices)*q) Las indemnizaciones satisfechas por las Administraciones públicas por dañospersonales como consecuencia del funcionamiento de los servicios públicos.r) Las prestaciones percibidas por entierro o sepelio, con el límite del importe total de losgastos incurridos.s) Las ayudas económicas reguladas en el artículo 2 de la Ley 14/2002, de 5 de junio. Art 7 Ley IRPF
+
+[PÁGINA 16]
+16 Rendimientos Exentos1.º Que dichos trabajos se realicen para una empresa o entidad no residente en España o un establecimiento permanente radicado en el extranjero.2.º Que en el territorio en que se realicen los trabajos se aplique un impuesto denaturaleza idéntica o análoga a la de este impuesto y no se trate de un país oterritorio considerado como paraíso fiscal.Se considerará cumplido este requisito cuandoel país o territorio en el que se realicen los trabajos tenga suscrito con España un convenio paraevitar la doble imposición internacional que contenga cláusula de intercambio de información.La exención se aplicará a las retribuciones devengadas durante los días de estancia en el extranjero, con el límite máximo de 60.100 euros anuales. Reglamentariamente podrá establecerse el procedimiento para calcular el importe diario exento.Esta exención será incompatible, para los contribuyentes destinados en el extranjero, con el régimen de excesos excluidos de tributación previsto en el reglamento de este impuesto, cualquiera que sea su importe. El contribuyente podrá optar por la aplicación del régimen de excesos en sustitución de esta exención. * Requisitos art. 7 P LIRPF
+
+[PÁGINA 17]
+17 Rendimientos ExentosArt. 9.A.3.b) del Reglamento del IRPF, tiene la consideración de dietaexceptuada de gravamenel exceso que perciban sobre las retribucionestotales que obtendrían, en el supuesto de hallarse destinados en España, lassiguientes personas con destino en el extranjero, siempre que seancontribuyentes por el IRPF.Funcionarios públicos españoles.Personal al servicio de la Administración del Estado.Funcionarios y personal al servicio de otras Administraciones Públicas.Empleados de empresas con destino en el extranjero NOTA: RÉGIMEN DE EXCESOS
+
+[PÁGINA 18]
+18 Rendimientos ExentosPedro fue enviado por su empresa desde el día 1 de septiembre al 30 de noviembre de 2025 a una empresa filial situada en Brasil para formar al personal de dicha filial. Una vez realizado dicho trabajo, Pedro continua con su trabajo normal en España.Como retribución especifica por los servicios prestados en el extranjero Pedro percibió la cantidad de 9.200 euros.La empresa compro y pago los billetes de avión y le abono 80 euros al día durante los tres meses que prestó sus servicios en la filial para gastos de manutención.Determinar el importe exento de la retribución correspondiente a los trabajos realizados en el extranjero, sabiendo que el salario anual que percibe de su empresa asciende a 78.000 euros. Requisitos art. 7 P LIRPF-EJEMPLO
+
+[PÁGINA 19]
+19 Rendimientos ExentosSe cumplen los requisitos establecidos por la normativa del IRPF, procede aplicar la exención cuya cuantificación se efectúa de la siguiente forma:a) Retribuciones devengadas durante los días de estancia en el extranjero:Correspondiente al salario: (78.000 ÷ 365) x 91 = 19.446,58b) Retribuciones correspondientes a los servicios prestados en el extranjero = 9.200.Total (19.446,58 + 9.200) = 28.646,58(TODO EXENTO, Este importe entra dentro del límite máximo de exención anual que son 60.100,00 euros)Requisitos art. 7 P LIRPF-EJEMPLO
+
+===== FUENTE: IRPF 2025_chunk_10.txt =====
+[PÁGINA 157]
+157 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASMódulo “Superficie del horno”:Por superficie del horno se entenderá la quecorresponda a las características técnicas del mismo. La unidad del módulo"superficie del horno" es 100 decímetros cuadrados (dm2).Módulo “Mesas”:En los bares y cafeterías, así como en los restaurantes, launidad “mesa” se entenderá referida a la susceptible de ser ocupada por cuatropersonas. Las mesas de capacidad superior o inferior aumentarán o reducirán lacuantía del módulo en la proporción correspondiente.. Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 158]
+158 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASEJEMPLO:Juan tiene una tienda de ultramarinos. En la tienda trabajan él y su hijo menor de edaddiscapacitado (grado 35%), constando la afiliación de ambos al régimen de trabajadoresautónomos de la Seguridad Social. Determinar las unidades del módulo “personal no asalariado”en el ejercicio 2025Solución:Cómo el hijo no está afiliado al régimen general tiene la consideración de“personal no asalariado “.Horas computables: (1.800)= 1.800Módulo "personal no asalariado":Titular : 100% =1 Hijo: 50% x 75% = 0,37Total .................………..1,37 personas. Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 159]
+159 RENDIMIENTOS DE ACTIVIDADES ECONÓMICAS.Estimación objetiva, signos, índices o módulos: tabla de amortización
+
+[PÁGINA 160]
+160 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASHaber alcanzado en el ejercicio anterior, un volumen de ingresos para el conjunto desus actividades agrícolas, ganaderas y forestales que supere los siguientes importes:250.000euros anualesHaber superado en el ejercicio anterior un volumen de compras en bienes y serviciospara el conjunto de actividades económicas desarrolladas por el contribuyente lacantidad de250.000euros anuales, excluidas las adquisiciones del inmovilizado.Cuando en el año inmediato anterior hubiese iniciado una actividad, tanto el volumen deingresos, cómo en su caso, el volumen de compras, se elevarán al año.Normativa: Disposición transitoria trigésima segunda LIRPF y art. 32.2 b)Reglamento IRPF CAUSAS DE EXCLUSIÓN EO (agrícola, ganadera o forestal)
+
+[PÁGINA 161]
+161 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASDesarrollar la actividad económica, total o parcialmente, fuera del territorio español.Normativa: Art. 32.2 c) Reglamento IRPFDeterminar el rendimiento neto de alguna actividad económica en método de estimación directa, en cualquiera de sus modalidades.Normativa: Arts. 34.2 y 35 Reglamento IRPFNo obstante, cuando se inicie durante el año alguna actividad no incluida o por la que se renuncie al método de estimación objetiva, la exclusión no surtirá efectos para ese año respecto de las actividades que venían realizándose con anterioridad, sino a partir del año siguiente.La exclusión del régimen especial simplificado del IVA o del IGIC.Normativa. Art. 36.2 y 4 Reglamento IRPF CAUSAS DE EXCLUSIÓN EO (agrícola, ganadera o forestal)
+
+[PÁGINA 162]
+162 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASESQUEMA DE CÁCULO: ACTIVIDADES AGRÍCOLAS, GANADERAS Y FORESTALESVolumen total de ingresos(x) Índice de rendimiento neto(=) Rdto. neto previo(-) Amortización del inmovilizado material e intangible (excluidas actividades forestales)(=) Rendimiento neto minorado(x) Índices correctores(=) Rdto. neto de módulos(-) Reducción general (5%)(-) Reducción agricultores jóvenes(-) Gastos extraordinarios . Estimación objetiva, signos, índices o módulos-agrícolas
+
+[PÁGINA 163]
+163 RENDIMIENTOS DE ACTIVIDADES ECONÓMICAS(=)Rdto. neto de la actividad(-) Reducción rendimientos con período de generación superior a dos años u obtenidos de forma notoriamente irregular cuando se imputen en un solo ejercicio (30%). Base reducción máxima: 300.000 euros (Régimen transitorio: aplicación de esta reducción a rendimiento que vinieran percibiéndose de forma fraccionada con anterioridad a 1-1-2015)(-) Reducción para contribuyentes con rentas totales inferiores a 12.000 euros incluidas las de la actividad (=) Rdto. neto reducido . Estimación objetiva, signos, índices o módulos-agrícolas
+
+[PÁGINA 164]
+164 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASLas ayudas directas desacopladas de la Política Agraria Común, (ayuda básica a la renta para la sostenibilidad, ayuda redistributiva complementaria a la renta, regímenes en favor del clima y del medio ambiente o ayuda complementaria para jóvenes agricultores) se acumularán a los ingresos procedentes de los cultivos o explotaciones del perceptor en proporción a sus respectivos importes. No obstante, cuando el perceptor de la ayuda directa hubiera obtenido ingresos por actividades agrícolas y ganaderas, distintos de la ayuda directa, por cuantía inferior al 25% del importe del total de los ingresos de tales actividades, el índice de rendimiento neto a aplicar sobre las ayudas directas será el 0,56. Estimación objetiva, signos, índices o módulos
+
+[PÁGINA 165]
+GANANCIAS Y PÉRDIDAS
+
+[PÁGINA 166]
+166 GANANCIAS Y PÉRDIDAS PATRIMONIALESTITULARIDAD DE BIENES Y/O DERECHOS: CARÁCTER GANANCIAL O PRIVATIVOPRIVATIVOSregulados en el Art 1346 Código Civil ( en adelante CC)Son privativos de cada uno de los cónyuges:1. Los bienes y derechos que les pertenezcan al comenzar la sociedad2. los que se adquieran después por título gratuito3. Los adquiridos a costas o en sustitución de bienes privativos(…/….)GANANCIALESregulados art. 1347 CC1.Los obtenidos por el trabajo o la industria de cualquiera de los cónyuges2.Frutos, rentas o intereses que se produzcan tanto en bienes privativos como gananciales3. Las empresas y establecimientos fundados durante vigencia de la sociedad por cualquiera de los cónyuges con cargo a los bienes comunes (…/….). PRECISIONES
+
+[PÁGINA 167]
+167 GANANCIAS Y PÉRDIDAS PATRIMONIALESTITULARIDAD DE BIENES Y/O DERECHOS: SUPUESTO ESPECIALLos bienes adquiridos por uno de los cónyuges constante la sociedad, por precio aplazado, serán gananciales o privativos, según la naturaleza del primer desembolso, aunque luego se abonen con dinero privativo (1.356CC)Los bienes comprados a plazos por uno de los cónyuges antes del matrimonio tendrán siempre la consideración de privativos aunque parte del precio se abone con dinero ganancial.EXCEPCION: Si se trata de la vivienda habitual, será en parte privativo, en parte ganancial (art. 1357)PRECISIONES
+
+[PÁGINA 168]
+168 1.En los supuestos de división de la cosa común2.En la disolución de la sociedad de gananciales o en la extinción del régimen económico matrimonial de participación.3.En la disolución de comunidades de bienes o en los casos de separación de comuneros.En estos 3 supuestos si existirá alteración en la composición del patrimonio cuando exista exceso de adjudicación.1.En reducciones del capital.2.Con ocasión de transmisiones lucrativas por causa de muerte del contribuyente en la transmisión de los bienes del fallecido a sus herederos.3.Aportación al patrimonio de personas con discapacidad (art. 33.3 e) LIRPF) No existe alteración en la composición del patrimonio (art. 33 LIRPF)GANANCIAS Y PÉRDIDAS PATRIMONIALES
+
+[PÁGINA 169]
+169 GANANCIAS Y PÉRDIDAS PATRIMONIALES1.Donación determinadas entidades (fundaciones, asociaciones sin ánimo de lucro)2.Transmisión vivienda habitual (situación diferente a la exención por reinversión*)1.Mayores de 65 años, personas en situación de dependencia severa o de gran de dependencia2.Dación en pago (siempre que no disponga de otros bienes o derechos en cuantía suficiente para satisfacer la deuda y evitar la enajenación de la vivienda).Están exentas
+
+[PÁGINA 170]
+170 GANANCIAS Y PÉRDIDAS PATRIMONIALES1. Transmisión vivienda habitual (situación diferente a la exención por reinversión)Mayores de 65 años, personas en situación de dependencia severa o de gran de dependencia.Venta de la nuda propiedad de vivienda habitual por mayores de 65 años reservándose el usufructo EXENCIÓNVenta del usufructo de vivienda habitual por mayores de 65 años reservándose la nuda propiedad NO EXENCIÓNVivienda habitual en el momento de la venta o en los dos años anteriores. Están exentas
+
+[PÁGINA 171]
+171 GANANCIAS Y PÉRDIDAS PATRIMONIALESLas pérdidas no justificadasLas debidas al consumoTransmisiones lucrativas o liberalidadesPérdidas juego obtenidas en el período impositivo que excedan de las ganancias obtenidas en el juego en el mismo períodoPérdidas patrimoniales con recompra: valores homogéneos en el plazo de 1 año si no cotizan en bolsa; 2 meses si cotizan. No se computaran como pérdidas patrimoniales
+
+[PÁGINA 172]
+172 GANANCIAS Y PÉRDIDAS PATRIMONIALESVALOR ADQUISICION:+ importe real adquisición (o valor comprobado ITP)+ inversiones o mejoras+ gastos o tributos - amortizaciones (si fue gasto deducible por estar el bien afecto a aaee o alquilado-amortización mínima en cualquier caso)VALOR TRANSMISION+ importe real transmisión (siempre que no sea inferior al valor de mercado)- gastos o tributos Transmisión onerosa
+
+[PÁGINA 173]
+173 GANANCIAS Y PÉRDIDAS PATRIMONIALESVALOR ADQUISICION:+ el valor que resulte de las normas del ISyD (si la adquisición fue lucrativa)+ inversiones o mejoras+ gastos o tributos - amortizaciones (si fue gasto deducible por estar el bien afecto a aaee o alquilado-amortización mínima en cualquier caso)VALOR TRANSMISION+ el valor que resulte de las normas del ISyD- gastos o tributos Transmisión lucrativa
+
+[PÁGINA 174]
+174 GANANCIAS Y PÉRDIDAS PATRIMONIALESNOTA:En el caso de adquisiciones o transmisiones a título lucrativo, el artículo 36 de la Ley delIRPF establece que se tomará porimporte realde los respectivos valores de adquisición ytransmisión aquellos que resulten de la aplicación de lasnormas del ISD, sin que puedanexceder del valor de mercado.En la medida en que las normas del ISD establecen elvalor de referencia de los inmuebles como base imponible (salvo que el valor declaradosea superior en cuyo caso se tomará este),será este valor de referencia el que debatenerse en cuenta como importe real por el que la adquisición o transmisión se haefectuado al calcular la ganancia o pérdida patrimonial en el IRPF, sin que puedanexceder del valor de mercado. La Agencia Tributaria puede, por ello, regularizar laganancia patrimonial declarada en el IRPF teniendo en cuenta el valor de referencia delinmueble, si el contribuyente declaró valores inferiores. Transmisión lucrativa
+
+[PÁGINA 175]
+175 GANANCIAS Y PÉRDIDAS PATRIMONIALESTRANSMITENTE…………………………. IRPFADQUIRENTE…………………………….. I DONACIONESValor de transmisión: valor de mercado**** ESTAS RENTAS (ONEROSAS Y LUCRATIVAS) VAN A LA BASE DE RENTAS DEL AHORRO DEL IRPF****. Transmisión lucrativa
+
+[PÁGINA 176]
+176 GANANCIAS Y PÉRDIDAS PATRIMONIALESPara los bienes adquiridos antes del 31 de diciembre de 1.994 se aplican coeficientes reductores, coeficientes de abatimiento, y en todo caso con la fecha límite de 31-12-96 y transmisiones inferiores a 400.000€Los años se redondean por exceso, por ejemplo 2 años y un día equivale a 3 añosINMUEBLES: 11,11% anualACCIONES: 20% anualRESTO ELEMENTOS: 14,28% anual. Régimen transitorio
+
+[PÁGINA 177]
+177 GANANCIAS Y PÉRDIDAS PATRIMONIALESEl límite de valor de transmisión total de 400.000 euros es: Individual (por contribuyente)Único en “toda su vida” (no es por año). La aplicación de la DT 9ª es de aplicación: Independiente por cada transmisión realizada en el año. Optativa. Si no se aplica: el valor de transmisión no acumula a efectos del límite de 400.000 euros. Si se aplica: debe hacerse en su totalidad sin que quepa una aplicación parcial a parte de la ganancia patrimonial.. Régimen transitorio
+
+===== FUENTE: IRPF 2025_chunk_11.txt =====
+[PÁGINA 178]
+178 GANANCIAS Y PÉRDIDAS PATRIMONIALESEl 05/03/2024 se vende un inmueble por 280.000 euros un inmueble adquirido en 1979. Ganancia obtenida 30.000 euros (sin reducción). Como el valor de transmisión (280.000 euros) < 400.000 euros toda la ganancia patrimonial generada hasta el 20/01/2006 puede ser objeto de reducción. El 05/12/2025 vende un inmueble adquirido en 1980 por importe de 160.000 euros. Ganancia obtenida 40.000 euros (sin reducción) Como el valor acumulado de las dos transmisiones (280.000 + 160.000) ya es de 440.000 euros no se podrán aplicar los porcentajes reductores a la totalidad de la ganancia patrimonial generada hasta el 20/01/2006 sino que habrá que hacer un prorrateo. Remanente de valor de transmisión hasta los 400.000 euros: 400.000 – 280.000 = 120.000 Se podrá reducir la ganancia patrimonial generada con anterioridad a 20/01/2006 que proporcionalmente corresponda a un valor de transmisión de 120.000 euros Ganancia generada hasta 20/01/2006 x (120.000 /160.000) Régimen transitorio
+
+[PÁGINA 179]
+179 GANANCIAS Y PÉRDIDAS PATRIMONIALES-Se excluyen de gravamen las ganancias patrimoniales producidas por la transmisión de lavivienda habitual siempre que el importe obtenido (y descontando el préstamo pendiente)se reinvierta en la adquisición o rehabilitación de una nueva VH)Se considera vivienda habitual (y garaje hasta 2 plazas) aquella en la que se resida un mínimo de 3 años y siempre que hubiese tenido tal consideración en el momento de la venta o en los dos años anteriores.1.Compra de otra vivienda en el plazo de dos años, antes o después de la transmisión. 2.La construcción de vivienda siempre que se invierta el precio de venta en los dos años siguientes.3.En caso de reinversión parcial, se tendrá exenta la parte proporcional.4.Si no se reinvierte en el ejercicio en el que se transmite la vivienda ---se puede comprometer a reinvertir y si se incumple se deberá presentar declaración COMPLEMENTARIA del ejercicio en que se declaró la ganancia exenta. Exención por transmisión vivienda habitual
+
+[PÁGINA 180]
+180 GANANCIAS Y PÉRDIDAS PATRIMONIALESEJEMPLO:D. A.J.L transmite en enero 2025 su vivienda habitual por importe de 200.000 euros. Elprecio de adquisición de la vivienda fue de 160.000 euros gastos incluidos.En febrero de 2021 A.J.L adquiere una vivienda nueva por 150.000 euros. ¿qué partede la ganancia estaría exenta por reinversión?Qué debe reinvertir 200.000€Qué ha reinvertido: 150.000€Porcentaje que reinvierte=150.000/200.000=0,75a)Ganancia generada en la venta= 200.000€-160.000€= 40.000 €b)Ganancia exenta= 0,75x40.000=30.000€c)Ganancia sujeta= 40.000-30.000=10.000€ Exención por transmisión vivienda habitual
+
+[PÁGINA 181]
+181 GANANCIAS Y PÉRDIDAS PATRIMONIALESEjemplo:D. A.J.L transmite en 2025 su vivienda habitual por importe de 250.000 euros.El Adquirió la misma por un importe de 150.000 euros gastos incluidos. En el momento dela adquisición en el año 2.000 solicitó un préstamo del cual le queda pendiente deamortizar en el momento de la venta 80.000 euros. En diciembre de 2022 adquiereuna vivienda nueva por 240.000 euros. Vamos a suponer dos casos:a) Pide un préstamo hipotecario de 100.000 euros.b) No pide préstamo hipotecario.Qué debe reinvertir250.000€-80.000€ (préstamo pendiente)= 170.000€Qué ha reinvertido:a) 240.000€. Toda la ganancia exenta por reinversión (es indiferente que hay financiadoparte del precio con un préstamo). (sentencia TS)b) 240.000 €. Toda la ganancia exenta. Exención por transmisión vivienda habitual
+
+[PÁGINA 182]
+182 GANANCIAS Y PÉRDIDAS PATRIMONIALESTS :PLAZO REINVERSIÓN. RECURSO DE CASACIÓN Nº 6309/2019"La interpretación de los arts. 38.1 de la Ley 35/2006 (Ley IRPF) y 41 RD 439/2007(Rgto IRPF), cuando la reinversión se materializa en una vivienda que se halla enfase de construcción, es la de que el plazo de dos años establecidoreglamentariamente para reinvertir es aquel del que dispone el contribuyente, ydebe contarse desde la transmisión de su vivienda,bastando a tal efecto –para darcumplido el requisito- con que en dicho plazo reinvierta el importe correspondiente,sin necesidad de que adquiera el dominio de la nueva vivienda, mediante suentrega material, o de que la construcción de ésta haya ya concluido.. Exención por transmisión vivienda habitual
+
+[PÁGINA 183]
+183 Ganancias y Pérdidas Patrimoniales-NORMAS ESPECÍFICASValor de transmisión:El mayor entre el de cotización y el pactado.Valor de adquisición:El de compra de los valores, minorado en su caso de los derechos desuscripción enajenados hasta 31/12/2016Venta de derechos de suscripción:Hasta 31/12/2016 minora el valor de adquisición de los valores de los que procedenhasta su anulación. El exceso que hubieraganancia patrimonial.A partir de 01/01/17 la venta de DS se considera ganancia a base del ahorro por elvalor de transmisión, sujeta a retenciónSe establece la obligación de retener un 19% en la transmisión de derechos desuscripción. ART. 37 ACCIONES QUE COTIZAN e
+
+[PÁGINA 184]
+184 Ganancias y Pérdidas Patrimoniales-NORMAS ESPECÍFICASAplicación del método FIFOSe consideran transmitidos los adquiridos en primer lugar.Ejemplo:El contribuyente tiene 4000 acciones de una entidad que cotiza en bolsa. Lasfechas de adquisición han sido las siguientes:19901.400 acciones19932.000 acciones2002600 accionesSi en 20x5 transmite 2000 acciones, se consideran vendidas por orden de antigüedad, esdecir, vende las 1.400 acciones de 1990 y 600 acciones de las adquiridas en 1993.. ART. 37 ACCIONES QUE COTIZAN e
+
+[PÁGINA 185]
+185 Ganancias y Pérdidas Patrimoniales-NORMAS ESPECÍFICASTratamiento de las acciones total o parcialmente liberadas. La entrega de acciones total o parcialmente liberadas no supone para el socio o accionistauna tributación en el IRPF, toda vez que va a quedar diferida hasta el momento en queposteriormente se transmitan los títulos.1.Valor de adquisición de las acciones liberadas:a)Acciones parcialmente liberadasimporte realmente satisfecho.b)Acciones totalmente liberadasel valor de adquisición tanto de éstas como de lasque procedan, resultará de repartir el coste total entre el número de títulos, tanto losantiguos como los liberados que correspondan.. ART. 37 ACCIONES QUE COTIZAN
+
+[PÁGINA 186]
+186 Ganancias y Pérdidas Patrimoniales-NORMAS ESPECÍFICASTratamiento de las acciones total o parcialmente liberadas. 2.Antigüedad de las acciones liberadas:a)Acciones parcialmente liberadasla fecha de su adquisición.b)Acciones totalmente liberadasla de las acciones de las que proceden.RESUMENCuando se entregan acciones, total o parcialmente liberadas, no se produceningún ∆P ni RKM.Se produce un diferimiento de la tributaciónhasta el momento de suposterior transmisión.. ART. 37 ACCIONES QUE COTIZAN e
+
+[PÁGINA 187]
+187 Ganancias y Pérdidas Patrimoniales-NORMAS ESPECÍFICASSalvo prueba de que el importe efectivamente satisfecho se corresponde con el quehabrían convenido partes independientes en condiciones normales de mercado,el valorde transmisión no podrá ser inferior al mayor de los dos siguientes:1.El valor del Patrimonio Neto que corresponda a los valores transmitidos resultante delbalance correspondiente al último ejercicio cerrado con anterioridad a la fecha del devengodel Impuesto.2.El que resulte decapitalizaral tipo del 20 % el promedio de los resultados de los tresejercicios sociales cerrados con anterioridad a la fecha del devengo del Impuesto.NOTASi la venta se produce en 2025, (en general) sería el valor teórico de 2024 y losresultados a capitalizar serían los de 2024, 2023 y 2022.. ART. 37 ACCIONES QUE NO COTIZAN e
+
+[PÁGINA 188]
+188 Ganancias y Pérdidas Patrimoniales-NORMAS ESPECÍFICASVenta de derechos de suscripción:Ganancia patrimonial sujeta a retención. Cuando nose transmita la totalidad de los derechos de suscripción se considerarán transmitidos loscorrespondientes a las acciones adquiridas en primer lugar.Aplicación del método FIFO ytratamiento de las acciones total o parcialmenteliberadasIgual que las acciones que cotizan.El valor de transmisión así calculado se tendrá en cuenta para determinar el valor deadquisición de los valores o participaciones que corresponda al adquirente.Se declaran en el apartado de transmisión de otros elementos patrimoniales.. ART. 37 ACCIONES QUE NO COTIZAN
+
+[PÁGINA 189]
+189 Ganancias y Pérdidas Patrimoniales-NORMAS ESPECÍFICASEjemplo:Un contribuyente es titular de 3.000 acciones de una sociedad que no cotiza en Bolsa. Dichas acciones las compró en 2019 por 19.300 €.En 2025 se transmiten dichas acciones por 18.000 €, no pudiendo probar ante la administración tributaria que el importe satisfecho se corresponde con el que habrían convenido partes independientes en condiciones normales de mercado.a)El VT de la sociedad resultante del balance de 2024 es de220.500€.b) Resultados 2024, 2023, 202255.000 €, 5.000 €, 90.000 €c) El capital social de la entidad está distribuido en 30.000 acciones. ART. 37 ACCIONES QUE NO COTIZAN
+
+[PÁGINA 190]
+190 Ganancias y Pérdidas Patrimoniales-NORMAS ESPECÍFICASSOLUCIÓN:a) VT del ejercicio 2024220.500 €b) Capitalización al 20%250.000 €Promedio(55.000 + 5.000 + 90.000) / 3 =50.000 €Capitalización(50.000 / 0,20) =250.000 €Al ser mayor el Valor de capitalización, este será el valor de venta:Valor de capitalización por acción = (250.000 / 30.000 acciones) = 8,3333 €/acción∆P = (3.000 acc. x8,3333 €/acc) – 19.300 = 25.000 – 19.300 = 5.700 €. ART. 37 ACCIONES QUE NO COTIZAN
+
+[PÁGINA 191]
+191 Ganancias y Pérdidas Patrimoniales-NORMAS ESPECÍFICASAportaciones no dinerarias a sociedades:Valor de transmisión: el mayor de:Valor nominal acciones/participaciones recibidas + prima de emisión.Valor de cotización de los títulos recibidos.Valor de mercado del bien o derecho aportado.Separación de socios – disolución de sociedades:Cuantificación GP: diferencia entre el valor de la cuota de liquidación o el valor demercado de los bienes recibidos y el valor de adquisición de los títulos.Escisión – fusión- absorción:Cuantificación GP:diferencia entre el valorde adquisición de los títulos y el valor demercado de los títulos recibidos o entregados. VARIOS E
+
+[PÁGINA 192]
+192 Ganancias y Pérdidas Patrimoniales-NORMAS ESPECÍFICASTraspaso:Valor de transmisión: importe del derecho de traspaso.ARRENDATARIO O CEDENTE⇒La ganancia se calcula por diferencia entre el importe percibido por el traspaso y elprecio pagado por el mismo en su día,PROPIETARIO⇒Para el propietario, la participación en el traspaso constituye rendimiento del capitalmobiliarioEjemplo:El Sr. Pérez adquirió el 05/10/2015 mediante traspaso, el derecho dearrendamiento de un local por 20.000 euros. En marzo de 2021 cede el local en traspaso,siendo su participación en dicho traspaso de 35.000 euros.⇒Ganancia: 35.000 – 20.000 = 15.000 VARIOS E
+
+[PÁGINA 193]
+193 Ganancias y Pérdidas Patrimoniales-NORMAS ESPECÍFICASSeparación de socios y disolución de sociedadesGANANCIA/PÉRDIDAen los casos de separación de los socios o disolución desociedades, se considerará ganancia o pérdida patrimonial, sin perjuicio de lascorrespondientes a la sociedad, ladiferencia entre el valor de la cuota de liquidación social oel valor de mercado de los bienes recibidos y el valor de adquisición del título o participaciónde capital que corresponda.Ejemplo:en febrero de 2025 se liquidó la entidad LAB, de la cual era socio al 100% el Sr.OGS. La cuota de liquidación ha ascendido a 30.000 euros. Las acciones las adquirió en laconstitución por 6.000 euros. No obstante, ante los malos resultados de la entidad, el Sr.OGS ha realizado aportaciones a la entidad por 20.000 euros.⇒Valor de transmisión: 30.000⇒Valor de adquisición: 6.000 + 20.000 = 26.000 VARIOS E

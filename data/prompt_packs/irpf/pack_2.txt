@@ -1,0 +1,211 @@
+A partir EXCLUSIVAMENTE del siguiente contenido, genera exactamente 8 preguntas tipo test.
+
+Reglas obligatorias:
+
+- No uses conocimiento externo
+- No inventes contenido
+- Si una regla no aparece claramente en el texto, no la conviertas en pregunta
+- No hagas preguntas cuya respuesta sea únicamente el número de artículos
+- No uses abreviaturas en el contenido visible
+- Nivel profesional alto
+- Mezcla conceptos técnicos, mini casos y preguntas trampa
+- Devuelve exclusivamente un JSON válido
+- No añadas comentarios ni texto fuera del JSON
+
+Formato obligatorio:
+
+[
+  {
+    "id": 1,
+    "subject": "Irpf",
+    "topic": "...",
+    "subtopic": "...",
+    "question": "...",
+    "options": {
+      "A": "...",
+      "B": "...",
+      "C": "...",
+      "D": "..."
+    },
+    "answer": "A",
+    "explanation": "...",
+    "reference": "Nombre del PDF o bloque del que sale la regla",
+    "difficulty": "alta",
+    "question_type": "concepto/caso/trampa",
+    "trap_level": "bajo/medio/alto",
+    "tags": ["...", "..."]
+  }
+]
+
+Contenido fuente:
+
+===== FUENTE: IRPF 2025_chunk_12.txt =====
+[PÁGINA 194]
+194 Ganancias y Pérdidas Patrimoniales-NORMAS ESPECÍFICASCon carácter general se imputan en el ejercicio que tenga lugar la alteración patrimonialESPECIALIDADES1.OPERACIONES A PLAZO se puede optar por imputar proporcionalmente las ganancias (o pérdidas) a medida que se hagan exigibles los cobros2.AYUDAS PÚBLICAS se imputarán en el período que se produzca su cobro (no su reconocimiento) con las siguientes especialidades:Para las ayudas por rehabilitación defectos estructurales o directa a la entrada de la vivienda, ayudas para titulares de bienes del patrimonio histórico español, y jóvenes agricultores para su primera instalación: puede imputarse por ¼3. Si fallece el contribuyente las rentas pendientes se integran en el último período impositivo. Imputación Temporal
+
+[PÁGINA 195]
+195 IMPUTACIÓN DE RENTA INMOBILIARIASe imputa renta inmobiliaria por los siguientes inmuebles:bienes inmuebles urbanos no afectos a actividades económicasexcluida la vivienda habitual y el suelo no edificadorenta a imputar: el 2 por ciento al valor catastral. Renta a imputar
+
+[PÁGINA 196]
+196 IMPUTACIÓN DE RENTA INMOBILIARIAo el 1,1 por ciento al valor catastral, en el caso de inmuebles cuyos valores catastrales hubiesen sido revisados de conformidad con la normativa catastral y hubieran entrado en vigor en el período impositivo o en el plazo de los diez períodos impositivos anteriores período impositivo.imputaremos el 1,1 por ciento si el valor catastral ha sido revisado, de conformidad con la normativa catastral, siempre que hubieran entrado en vigor a partir de 1 de enero de 2012. Renta a imputar
+
+[PÁGINA 197]
+197 IMPUTACIÓN DE RENTA INMOBILIARIAInmuebles que, a la fecha de devengo del impuesto (normalmente, el 31 de diciembre), carecieran de valor catastral o este no haya sido notificado al titular. El porcentaje del 1,1 por 100 se aplicará sobre el 50 por 100 del mayor de los siguientes valores:-El precio, contraprestación o valor de adquisición del inmueble. -El valor del inmueble comprobado por la Administración a efectos de otros tributos. Renta a imputar
+
+[PÁGINA 198]
+REDUCCIONES DE LA BASE IMPONIBLE
+
+[PÁGINA 199]
+199 DETERMINACIÓN DE LA BASE IMPONIBLERENTA GENERAL: La suma de los RN de trabajo, capital inmobiliario ,capital mobiliario no incluido en la renta del ahorro, actividades económicas e imputaciones de renta =BASE IMPONIBLE GENERALReducciones: Reducción por tributación conjunta* +Aportaciones planes de pensiones* + Pensiones compensatorias=BASE LIQUIDABLE GENERALRENTA DEL AHORRO: La suma de los RN de ganancias y pérdidas patrimoniales, capital mobiliario, previa compensación. Si saldo negativo a compensar en los siguientes 4 años=BASE IMPONIBLE AHORROReducciones: Remanente no aplicado en la base general= BASE LIQUIDABLE DEL AHORRO. General y del ahorro E
+
+[PÁGINA 200]
+200 DETERMINACIÓN DE LA BASE LIQUIDABLEReducción por tributación conjunta:3.400€ (Familia monoparental: 2.150€)Aportaciones planes de pensiones, mutualidades de previsión social,…: 1.500€ máximo 30% RNTP Y AE;Si discapacitados 24.250 ó 10.000 si la aportación la efectúa persona con parentesco. El exceso puede reducir en ejercicios posteriores.Pensiones compensatorias satisfechas por resolución judicial o convenio regulador formalizado ante el letrado de la Administración de Justicia o el notario, en virtud del régimen de separación o divorcio de mutuo acuerdo. STS 444/2021Anualidades por alimentos satisfechas a los hijos…. Especialidad para el cálculo de la cuota Reducciones de la Base Imponible
+
+[PÁGINA 201]
+201 DETERMINACIÓN DE LA BASE LIQUIDABLEEjemplo 1: El contribuyente se encuentra separado legalmente, y estáobligado por sentencia de separación a pagar 300 euros al mes enconcepto de anualidad por alimentos a su hijo.Para el hijo de este contribuyente se trata de unarenta exentay queno tributaEl contribuyente consignará en la declaración, la cantidad satisfechadurante el año en el apartado de anualidades por alimentos, demanera que el va a suponer una menor tributación.. Reducciones de la Base Imponible
+
+[PÁGINA 202]
+202 DETERMINACIÓN DE LA BASE LIQUIDABLEEjemplo 2: El Sr. Pérez y la Sra. Serra se han separado, y en convenio aprobadojudicialmente se ha establecido que el Sr. OGS debe pagar mensualmente 300 euros a laSra. LAB en concepto de pensión compensatoria.Para la Sra. Serra, el importe percibido supone rendimientos del trabajo que debeconsignar en la declaración (siempre que esté obligada a declarar).Para el Sr. Pérez, el importe satisfecho (300 x 12) supone una reducción de baseimponible, de manera que implica una menor tributación. Reducciones de la Base Imponible
+
+[PÁGINA 203]
+203 DETERMINACIÓN DE LA BASE LIQUIDABLELímites de reducción en la base imponible de las aportaciones y contribuciones empresariales a sistemas de previsión socialSe modifica el apartado 1 del artículo 52de la LIRPF por el apartado Uno del artículo 62 de la LPGE para 2023Se modifican las aportaciones máximas que el trabajador puede hacer al mismo instrumento de previsión social al que se hubieran realizado contribuciones empresariales:Límite máximo conjuntoComo límite máximo conjunta para las aportaciones o contribuciones a sistemas de previsión social, se aplicará la menor de las cantidades siguientes: a) El 30 por 100 de la suma de los rendimientos netos del trabajo y de actividades económicas percibidos individualmente en el ejercicio. b) 1.500 euros. REDUCCIÓN APORTACIONES SPS E
+
+[PÁGINA 204]
+204 DETERMINACIÓN DE LA BASE LIQUIDABLE.REDUCCIÓN APORTACIONES SPS E Importe anual de la contribución Aportación máxima del trabajadorIgual o inferior a 500 euros.El resultado de multiplicar la contribución empresarial por 2,5.Entre 500,01 y 1.500 euros.1.250 euros, más el resultado de multiplicar por 0,25 la diferencia entre la contribución empresarial y 500 euros.Más de 1.500 euros.El resultado de multiplicar la contribución empresarial por 1. 1º. En 8.500 euros, siempre que tal incremento provenga de contribuciones empresariales, o de aportaciones del trabajador al mismo instrumento de previsión social (mismo plan de pensiones, plan de previsión social empresarial, mutualidad de previsión social, etc.) al que se han realizado las contribuciones empresariales, por importe igual o inferior a las cantidades que resulten del siguiente cuadro en función del importe anual de la contribución empresarial:
+
+[PÁGINA 205]
+205 DETERMINACIÓN DE LA BASE LIQUIDABLENo obstante, en todo caso se aplicará el multiplicador 1 cuando el trabajador obtenga en el ejercicio rendimientos íntegros del trabajo superiores a 60.000 euros procedentes de la empresa que realiza la contribución. Las cantidades aportadas por la empresa que deriven de una decisión del trabajador tendrán la consideración de aportaciones del trabajador. .2º. En 4.250, siempre que tal incremento provenga de:- Aportaciones a planes de pensiones sectoriales realizadas por trabajadores por cuenta propia o autónomos que se adhieran a dichos planes por razón de su actividad. - Aportaciones a los planes de pensiones de empleo simplificados de trabajadores por cuenta propia o autónomos. REDUCCIÓN APORTACIONES SPS E
+
+[PÁGINA 206]
+206 DETERMINACIÓN DE LA BASE LIQUIDABLE-Aportaciones propias que el empresario individual realice a planes de pensiones de empleo o mutualidades de previsión social, de los que, a su vez, sea promotor y partícipe o mutualista, así como las que realice a planes de previsión social empresarial o seguros colectivos de dependencia de los que, a su vez, sea tomador y asegurado. Además, se mantiene el límite de 5.000 euros anuales para las primas a seguros colectivos de dependencia satisfechas por la empresa, que ya existía con anterioridad. REDUCCIÓN APORTACIONES SPS PARA EL 2023-Incremento de cuantías E
+
+[PÁGINA 207]
+207 STS 444/2021 (RECURSO CASACIÓN 1202/2020), de 25 de marzoCuestión de interés casacional:Determinar si la reducción en la base imposible del IRPF por el pago de pensionescompensatorias cabe ser aplicada únicamente cuando la aprobación de la pensión selleva a cabo por resolución judicial o, por el contrario, cabe interpretar que abarcatambién a los supuestos de fijación mediante un convenio regulador formalizado ante elletrado de la Administración de Justicia o el notario, en virtud del régimen de separación odivorcio de mutuo acuerdo”.La reducción en la base imposible del IRPF por el pago de pensiones compensatoriasabarca también a los supuestos de fijación mediante un convenio regulador formalizadoante el letrado de la Administración de Justicia o el notario, en virtud del régimen deseparación o divorcio de mutuo acuerdo. Reducción Base Imponible por pensiones compensatorias
+
+[PÁGINA 208]
+UNIDAD FAMILIAR, MÍNIMOS PERSONALES Y FAMILIARES
+
+[PÁGINA 209]
+209 UNIDAD FAMILIARConstituyen modalidades de unidad familiar: 1.La integrada por los cónyuges no separados legalmente, y si los hubiere: a) los hijos menores, con excepción de los que, con el consentimiento de los padres, vivan independientes de éstos. b) los hijos mayores de edad incapacitados judicialmente sujetos a patria potestad prorrogada o rehabilitada. A partir de la entrada en vigor de la ley 8/2021 de reforma del Código Civil, también se incluirán aquellos hijos mayores de edad con discapacidad sobre los que se haya establecido una curatela representativa por resolución judicial. (informa 134710)2. En los casos de separación legal o cuando no existiera vínculo matrimonial, la formada por el padre o la madre y todos los hijos que convivan con uno u otro y cumplan los requisitos del apartado anterior.. DECLARACIÓN CONJUNTA-INDIVIDUAL
+
+[PÁGINA 210]
+210 UNIDAD FAMILIARLa declaración individual de cualesquiera de los miembros de la UF obliga al resto de miembros a su presentación individual.Nadie podrá formar parte de dos unidades familiares al mismo tiempo. La determinación de los miembros de la unidad familiar se realizará atendiendo a la situación existente a 31 de diciembre de cada año. Esta opción no puede cambiarseuna vez pasado el plazo legal de presentación de la declaración (normalmente el 30 de junio)NO FORMAN PARTE DE LA UNIDAD FAMILIARlos hijos mayores de 18 años (salvo discapacitados más 33% sujetos a patria potestad prorrogada o rehabilitada o curatela representativa), no obstante, se puede aplicar deducción por los hijos menores de 25 años si se cumple con los requisitos de rentas: no superar los 8,000€ ni presentar declaración por más de 1.800€. DECLARACIÓN CONJUNTA-INDIVIDUAL
+
+[PÁGINA 211]
+211 UNIDAD FAMILIAR. E
+
+[PÁGINA 212]
+212 UNIDAD FAMILIAR: RECORDATORIO IMPORTE REDUCCIÓN. E
+
+[PÁGINA 213]
+213 MÍNIMOS Y TRIBUTACIÓN CONJUNTA Supuesto especial: fallecimiento: El fallecido tributa siempre de forma individual.En su declaración se aplicará el 50% del mínimo familiar por descendientes. El resto de miembros de la unidad familiar pueden optar por tributar de forma conjunta y aplican el otro 50 por 100 del mínimo familiar por descendientes.PERSONALES Y FAMILIARES-opción tributación
+
+[PÁGINA 214]
+214 MÍNIMOS Y TRIBUTACIÓN CONJUNTA David falleció el 30/06/2023, estaba casado con Luisa. El matrimonio tiene un hijo Juan que nació el 02/09/2007. Posibilidades de tributación y aplicaciones del mínimo. David (fallecido) deberá presentar declaración individual aplicando el 50% del mínimo por descendiente.Luisa puede presentar cualquiera de estas dos opciones: Declaración conjunta aplicando la reducción de 2.150 € anuales por unidad familiar monoparental y el 50 % del mínimo por descendiente Declaración individual aplicando el 50 % del mínimo por descendiente. Ejemplo
+
+===== FUENTE: IRPF 2025_chunk_13.txt =====
+[PÁGINA 215]
+215 UNIDAD FAMILIARMínimo del contribuyente: 5.550Incremento por edad>65 años: 1.150>75 años: 1.400Mínimo por descendientes: Debe existir convivencia y/o dependencia económica y no obtenga rentas >8.000€ ni presente declaración con rentas superiores a 1.800€.2.400 por el primero2.700 por el segundo4.000 por el tercero4.500 por el cuarto y siguientesmenores de 3 años adicionalmente 2.800€ MÍNIMOS PERSONALES Y FAMILIARES E
+
+[PÁGINA 216]
+216 MINIMOS POR DESCENDIENTESEXCLUSIVAMENTE en línea directa (hijo, nieto, biznieto), sea por naturaleza oadopción, adoptados acogidos y tutelados. El descendiente puede estar casado.A efectos de la aplicación del mínimo por descendientesse asimilana los descendientesaquellaspersonas vinculadas al contribuyente por razón de tutelayacogimiento así comolas personas sobrelas que tengan atribuida por resolución judicial su guarda y custodia,en los términos previstos en la legislación civil.El mínimo por descendientes es por cada uno de ellos< de 25 años o con discapacidadcualquiera que sea su edad, siempre queconviva con el contribuyente y/o dependaeconómicamente y no tenga rentas anuales, excluidas las exentas, superiores a 8.000eurosy no presente declaración con rentas superiores a 1.800 euros.¿QUIÉNES SON DESCENDIENTES?
+
+[PÁGINA 217]
+217 MINIMOS POR DESCENDIENTESEl incremento del mínimo paramenores de 3 años (2.800€), en los supuestos deadopción o acogimiento(preadoptivo o permanente) dicho aumento se producirácon independencia de la edad del menor, en el período impositivo en el que seinscriba en el Registro Civil y en los dos siguientes (o en el período impositivo en quese produzca la resolución judicial o administrativa y en los dos siguientes).No obstante,tutela, acogimiento familiar simple(actuales acogimientos familiares de urgencia otemporales) o en los casos de menores sobre los que se tenganla guarda y custodia por resoluciónjudicial,el incremento del mínimo por descendientes no se aplica con independencia de la edad delmenor, sino que éste sólo será aplicable cuando el descendiente sea menor de 3 años.Se asimila a la convivencia ladependencia económica(un padre/madre quepaga anualidades por alimentos a favor de los hijos puede optar por aplicar elmínimo por descendientes en lugar de la especialidad prevista en la Ley para lasanualidades). MÍNIMOS PERSONALES Y FAMILIARES
+
+[PÁGINA 218]
+218 MÍNIMOS POR DESCENDIENTES1. El acogimiento familiar podrá tener lugar en la propia familia extensa del menor o en familia ajena, pudiendo en este último caso ser especializado.2. El acogimiento familiar podrá adoptar las siguientes modalidades atendiendo a su duración y objetivos:a)Acogimiento familiar de urgencia, en general para menores de seis años, y máximo 6 meses.b)Acogimiento familiar temporal, carácter transitorio. Duración máxima de dos años, salvo que el interés superior del menor aconseje la prórroga de la medida por la previsible e inmediata reintegración familiar, o la adopción de otra medida de protección definitiva.c) Acogimiento familiar permanente, que se constituirá bien al finalizar el plazo de dos años de acogimiento temporal por no ser posible la reintegración familiar, o bien directamente en casos de menores con necesidades especiales o cuando las circunstancias del menor y su familia así lo aconsejen. ACOGIMIENTO FAMILIAR-art. 173 bis del Código Civil
+
+[PÁGINA 219]
+219 MÍNIMOS POR DESCENDIENTESNOTA:La ley del IRPF hace referencia al acogimiento simple, preadoptivo o permanente.Estas referencias debemos tenerlas en cuenta ahora referidas a los nuevos conceptosAcogimiento simple equivaldría al acogimiento de urgencia y temporalAcogimiento preadoptivo equivaldría a la situación de guarda con fines de adopción. (art. 76 bis del Código Civil)oLa Entidad Pública podrá delegar la guarda de un menor declarado en situación de desamparo hasta que se dicte la resolución judicial de adopción Los guardadores con fines de adopción tendrán los mismos derechos y obligaciones que los acogedores familiares.Acogimiento permanente equivaldría al acogimiento permanente ACOGIMIENTO FAMILIAR
+
+[PÁGINA 220]
+220 UNIDAD FAMILIAREJEMPLO: Pedro y Andrea tienen un hijo de 21 años que convive con ellos, que en el año 2025 ha obtenido 9.500 euros de rendimiento íntegro por trabajar en una empresa. Los gastos de SS han sido 500 euros. Renta anual del descendiente :Ingresos íntegros: ……………………………… 9.500,00 Seguridad Social……………………………… - 500,00 Gastos Art.19.2.f ……………………………… - 2.000,00Renta neta anual hijo …….…………………… 7.000,00 NOTA 1: Si el hijo NO presenta declaración, los padres podrían aplicar el mínimo por descendientes.NOTA 2: Si el hijo presenta declaración los padres NO podrán aplicar el mínimo por descendientes, pero el hijo podrá solicitar la anulación de la presentación para que los padres puedan aplicar este mínimo. MÍNIMOS PERSONALES Y FAMILIARES
+
+[PÁGINA 221]
+221 MÍNIMOS Y TRIBUTACIÓN CONJUNTA Un contribuyente vive con su hija de 22 años, que es madre soltera y que no tiene rentas superiores a 8.000 € . También convive el hijo de ésta que tiene 2 años. ¿Puede hacer declaración conjunta?, ¿puede aplicar el mínimo por descendientes? Solución: El contribuyente no puede presentar declaración conjunta con su hija porque es mayor de 18 años. Tampoco puede presentar declaración conjunta con su nieto porque no es su hijo (unidad familiar sólo con hijos). Puede aplicar el mínimo por descendiente, tanto por la hija como por el nieto (por el nieto puede aplicarse el mínimo porqué la hija tiene rentas inferiores a 8.000 €). PERSONALES Y FAMILIARES-ejemplo
+
+[PÁGINA 222]
+222 MÍNIMOSResolución del TEAC de 29 de mayo de 2023, en la que se establece la siguiente doctrinavinculante: Tras la entrada en vigor de la Ley 26/2014, de 27 de noviembre, no resulta posible laaplicación simultánea, en el mismo período impositivo, del mínimo por descendientes delartículo 58 de la LIRPF y del régimen previsto para las anualidades por alimentos en favor de loshijos por decisión judicial en los artículos 64 y 75 de dicha norma.De este modo:-Los progenitores que tengan asignada la guarda y custodia compartidade los hijos tendrán derecho a la aplicación del mínimo por descendientes, que se prorratearápor partes iguales, nosiendo posible la aplicación del régimen previsto para las anualidades por alimentos por el progenitor que, en su caso, las satisfaga.El progenitor que satisfaga anualidades por alimentos en favor de los hijos y que no tenga asignada la guarda y custodia de éstos, ni siquiera de forma compartida, aplicará el régimen previsto para las anualidades por alimentos pero no el mínimo por descendientes. PERSONALES Y FAMILIARES
+
+[PÁGINA 223]
+223 MÍNIMOSEl progenitor que sin tener asignada la guarda y custodia de los hijos, ni siquierade forma compartida,y sin satisfacer anualidades por alimentos en favor de estospor decisión judicial,contribuye, no obstante, al mantenimiento económicodeaquéllos, tendrá derecho a la aplicación del mínimo por descendientes con baseen el criterio de dependencia al que se refiere el artículo 58 de la LIRPF, mínimoque deberá ser prorrateado por partes iguales con el progenitor que tenga laguarda y custodiaNO GUARDA Y CUSTODIA Y NO ANUALIDADES PORALIMENTOS PERO JUSTIFICA MANTENIMIENTO ECONÓMICO----puede aplicarmínimo por descendientes.PERSONALES Y FAMILIARES
+
+[PÁGINA 224]
+224 UNIDAD FAMILIARMínimo por ascendientes: convivenciamayores de 65 años o discapacidad igual o superior al 33%no obtenga rentas >8.000€ ni haga renta >1.800CUANTÍA:1.150 ascendiente > 65 años o discapacidad1.400 ascendiente >75 añosMÍNIMOS PERSONALES Y FAMILIARES
+
+[PÁGINA 225]
+225 UNIDAD FAMILIARMínimo por discapacidad- 33% hasta 64%............... 3.000 (si movilidad reducida o ayuda 3as personas: 6.000)- 65% o superior………………… 12.000Requisitos: El ascendiente no puede tener rentas netas superiores a 8.000 euros (excluidas las exentas)oEntre otros casos, se considera quehay convivencia en el caso deascendiente discapacitado que dependiendo del contribuyente estáinternado en un centro especializado.(el ascendiente no debe tener rentassuficientes para financiar su estancia en el centro especializado)1.400 ascendiente >75 años MÍNIMOS PERSONALES Y FAMILIARES E
+
+[PÁGINA 226]
+226 MÍNIMOSACREDITACIÓN DEL GRADO DE DISCAPACIDAD-ART. 60 LIRPFPersonas con discapacidad contribuyentes que un grado de discapacidad igual o superior al 33 por ciento Certificado expedido por el Instituto de Migraciones y Servicios Sociales o el órgano competente de las Comunidades autónomas.También acreditado un grado de minusvalía igual o superior al 33 por ciento en el caso de los pensionistas de la Seguridad Social que tengan reconocida una pensión de incapacidad permanente total, absoluta o gran invalidez y en el caso de los pensionistas de clases pasivas que tengan reconocida una pensión de jubilación o retiro por incapacidad permanente para el servicio o inutilidad. PERSONALES Y FAMILIARES
+
+[PÁGINA 227]
+227 MÍNIMOSACREDITACIÓN DEL GRADO DE DISCAPACIDAD-ART. 60 LIRPF y 72 RIRPFTambién se considerará acreditado un grado de minusvalía igual o superior al 65 por ciento, cuando se trate de personas cuya incapacidad sea declarada judicialmente, aunque no alcance dicho grado.Estas serían las formas de acreditar la discapacidad sin perjuicio de la posibilidad de utilizar cualquier otro medio de prueba admitido en derecho. STS 1269/2021 PERSONALES Y FAMILIARES
+
+[PÁGINA 228]
+228 UNIDAD FAMILIAREl concepto de renta anual, a estos efectos, está constituido por la sumaalgebraica de los rendimientos netos(del trabajo, capital mobiliario e inmobiliario, y de actividades económicas), de imputaciones de rentas y de las ganancias y pérdidas patrimoniales computadas en el año, sin aplicar las reglas de integración y compensación.Ahora bien, los rendimientos deben computarse por su importe neto, esto es, una vez deducidos los gastos pero sin aplicación de las reducciones correspondientes, salvo en el caso de rendimientos del trabajo, en los que se podrán tener en cuenta la reducción prevista en el artículo 18 de la Ley del IRPF al aplicarse con carácter previo a la deducción de gastos. CONCEPTO DE RENTAS
+
+[PÁGINA 229]
+229 UNIDAD FAMILIARLuis y Elisa conviven sin estar casados y tienen una hija de 7 años . Elisa tiene un hijo de 12 años de un matrimonio anterior del que tiene la guardia y custodia en exclusiva. Posibles formas de tributar:Elisa puede presentar declaración individual o conjunta con todos sus hij@s, pero NOpuede aplicar reducción por tributación conjunta de 2.150 € (los progenitores conviven).Luis puede presentar declaración individual o conjunta con la hija común pero no puede aplicar reducción por tributación conjunta de 2.150 € (los progenitores conviven).Si uno de los dos presenta declaración conjunta el otro debe obligatoriamente presentar declaración individual.Tanto en declaración conjunta como en individual, el mínimo por la hija común lo aplicarían al 50%.Elisa podría aplicar el 100% del mínimo por el hijo propio. EJEMPLO:
+
+[PÁGINA 230]
+230 UNIDAD FAMILIARMaría y Juan son pareja de hecho y tienen dos hijos de 10 y 7 años. Juan tiene un hijo de una anterior matrimonio de 16 años del que tiene la guarda y custodia exclusiva. Además, con ellos vive una sobrina de María sobre la que ésta tiene la tutoría legal. Posibles formas de tributar:Al ser pareja de hecho la declaración conjunta sería de unode los progenitores con todos los hijos que conviven con él.Opción 1) María conjuntacon todos sus hijos y Juan individual.Si María presenta declaración conjunta con sus dos hijos, NOaplicará la reducción por tributación conjunta (los progenitores conviven). La sobrina NOforma parte de la unidad familiar porque no es hija, aunque sí podría aplicar el mínimo por ella.Si Maríapresenta declaración conjunta, Juanpresentará declaración individual. EJEMPLO
+
+===== FUENTE: IRPF 2025_chunk_14.txt =====
+[PÁGINA 231]
+231 UNIDAD FAMILIAROpción 2) Juan conjuntacon todos sus hijos y María individual.Si Juan presenta declaración conjuntacon los dos hijos comunes y con el propio, Maríapresentará declaración individual, aunque aplicaría el 50%del mínimo por descendientes por sus dos hijos y el que corresponda por su sobrina.En cualquier caso, pueden también optar por presentar declaración individual cada uno de ellos.Por otro lado, tanto en declaración conjunta como en individual, el mínimo por los descendientes comunes lo aplicarían al 50%.Y Juan aplicará el 100% del mínimo por su hijo propio por tener la guarda y custodia en exclusiva. EJEMPLO
+
+[PÁGINA 232]
+CÁLCULO DE CUOTAS
+
+[PÁGINA 233]
+233 CÁLCULO DE CUOTASRENTA GENERAL: Escala de gravamen estatal + autonómica= CUOTA ÍNTEGRA ESTATAL + AUTONÓMICARENTA DEL AHORRO: Tipo estatal+ autonómico= CUOTA ÍNTEGRA ESTATAL+ AUTONÓMICACUOTA INTEGRA
+
+[PÁGINA 234]
+234 CÁLCULO DE CUOTASCon efectos desde el 1 de enero de 2023, se añade un nuevo tramo a la escala degravamen del ahorro que queda como sigue:CUOTA INTEGRABase liquidable–Hasta eurosCuota íntegra–EurosResto base liquidable–Hasta eurosTipo aplicable–Porcentaje0,00 0,00 12.450,00 9,5012.450,00 1.182,75 7.750,00 12,0020.200,00 2.112,75 15.000,00 15,0035.200,00 4.362,75 24.800,00 18,5060.000,00 8.950,75 En adelante 22,50
+
+[PÁGINA 235]
+235 CÁLCULO DE CUOTAS A la base liquidable general se le aplicarán los tipos de la escala autonómica del Impuesto que, conforme a lo previsto en la Ley 22/2009, por el que se regula el sistema de financiación de las Comunidades Autónomas de régimen común y Ciudades con Estatuto de Autonomía, hayan sido aprobadas por la Comunidad Autónoma.La cuantía resultante se minorará en el importe derivado de aplicar a la parte de la base liquidable general correspondiente al mínimo personal y familiar que resulte de los incrementos o disminuciones a que se refiere el artículo 56.3 de la Ley del IRPF, la escala autonómica aprobada por cada Comunidad Autónoma.Cada Comunidad Autónoma puede aprobar su escala de gravamen. CUOTA INTEGRA
+
+[PÁGINA 236]
+DEDUCCIONES
+
+[PÁGINA 237]
+237 DEDUCCIONESTramo estatal: Deducción vivienda habitual* ( compras anteriores a 1/1/2013)Tramo estatal: Deducción alquileres ( contratos anteriores a 1/1/2015)Tramo estatal: Deducción por obras de eficiencia energéticaDeducciones autonómicas en el tramo autonómico= CUOTA LIQUIDAPagos a cuenta/ retenciones.Deducción por maternidad* (salvo abono anticipado)Deducción familia numerosa, cónyuge discapacitado a cargo y/o discapacidad* (salvo abono anticipado)=CUOTA DIFERENCIAL. Deducciones: Cuota líquida estatal y autonómica
+
+[PÁGINA 238]
+238 DEDUCCIONESSe considera VH cuando:1. constituya la residencia habitual durante el plazo continuadode, al menos, tres años (también para la exención por reinversión V-3312-19)Excepcionalmente no pierde tal consideración aún no habiendo transcurrido el plazo de 3 años en los supuestos de fallecimiento, matrimonio, separación, traslado laboral u otras circunstancias análogas justificadas. Si se incumple----------REINTEGRO DE CUOTAS2. Que la habite de manera efectiva y con carácter permanente en el plazo no superior a 12 meses desde la compra o finalización de las obras.3. Se considera VH también las plazas de garajeadquiridas conjuntamente hasta 2 que se encuentren en el mismo edificio o conjunto inmobiliario y a disposición del adquirente. Vivienda habitual E
+
+[PÁGINA 239]
+239 DEDUCCIONESEsta deducción se suprime con fecha de efectos 01/01/2013, si bien ser permite seguir practicando la deducción en los siguientes supuestos:1. Los que hubieran adquirido su vivienda habitual antes del 1/1/20132. Los que hubieran satisfecho cantidades con anterioridad a 1/1/2013 por la construcción de la vivienda habitual; obras de rehabilitación o ampliación de la VH y obras de adecuación de la VH de personas con discapacidad-------------------FINALIZADAS ANTES 1/1/2017.3. Hubieran aplicado deducción en un período impositivo anterior al 2013.Supuestos especiales: Vivienda que fue habitual antes de 2.013 y se alquila: deja de ser habitual, pero puede volver a deducir cuando vuelva a residir en ella durante el plazo continuado de al menos 3 años (V0122-17 V3262-17). Deducciones: Cuota líquida estatal y autonómica E
+
+[PÁGINA 240]
+240 DEDUCCIONESBASES DEDUCCION:-Adquisición, rehabilitación, construcción o ampliación: 9.040€PORCENTAJES DE DEDUCCION-Tramo Estatal……………………. 7,5%-Tramo Autonómico……………. 7,5%Deducciones: Cuota líquida estatal y autonómica
+
+[PÁGINA 241]
+241 DEDUCCIONESDeducción suprimida con efectos desde el 1 de enero de 2.015Régimen transitorio (DT15ª LIRPF): Posibilidad de seguir aplicando deducción para quienes venían practicando esta deducción con anterioridad (cabe también por prórrogas y nuevo contrato) V2469-16Requisitos: Para BI inferior a 24.107,20€Deducción: 10,05% s/ máximo de 9.040€ en bases inferiores a 17.707,20€Resto de bases s/ formula 9.040-[1,1425 x(BI-17707,20)]. Deducciones: Deducción por alquiler estatal vivienda habitual
+
+[PÁGINA 242]
+242 DEDUCCIONESAdquisición de participaciones o acciones de sociedades (SA, SL, SRL,SAL….) no admitidas a cotización, que no superen el 40% del capitalsocial, que ejerzan una actividad económica, con una cifra defondos propios inferior a 400.000€BASES DEDUCCION: Hasta 100.000€ (estará formada por el valor de adquisición de las acciones o participaciones suscritas).PORCENTAJES DE DEDUCCION: 50% (deducción únicamente estatal). Inversión en empresas de nueva o reciente creación E
+
+[PÁGINA 243]
+243 DEDUCCIONESPRESUPUESTO: Actividades en ED y previstas en el IS con el límite conjunto del 25/50%-Actividades de investigación y desarrollo (art. 35.1 LIS)-Actividades de innovación tecnológica (art. 35.2 LIS)-Inversiones en producciones cinematográficas, series audiovisuales… (art.36 LIS)-Por reinversión de beneficios. Antiguo art. 37 LIS-Creación de empleo para trabajadores con discapacidad (art. 38 LIS). Incentivos y estímulos a la inversión empresarial E
+
+[PÁGINA 244]
+244 DEDUCCIÓN POR OBRAS DE MEJORA ENERGÉTICAReal Decreto-ley 18/2022, de 18 de octubre, por el que se aprueban medidas de refuerzo de la protección de los consumidores de energía y de contribución a la reducción del consumo de gas natural en aplicación del "Plan + seguridad para tu energía (+SE)“Con efectos desde 1 de enero de 2024, Ley 35/2006 (REAL DECRETO 8/2023, de 27 de diciembre) se modifica la DA 50ª de la Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas ampliándose el plazo durante el cual pueden realizarse las obras de mejora de eficiencia para aplicar esta deducción: Con esta modificaciónse amplió un año más el ámbito de aplicación de las deduccionespor obras de mejora de la eficiencia energética de las viviendas.¿aprobación Real Decreto para nueva ampliación? Pdte a fecha de la elaboración del material. DEDUCCIÓN AHORRO ENERGÉTICO-AMPLIACIÓN E
+
+[PÁGINA 245]
+245 DEDUCCIÓN POR OBRAS DE MEJORA ENERGÉTICAViviendas en las que se pueden realizar las obras: Vivienda habitual del contribuyente o cualquier otra de su titularidad que tuviera arrendada para su uso como vivienda o en expectativa de alquiler, siempre que, en este último caso, la viviendase alquile antes de 31 de diciembre de 2025.Obras que dan derecho a deducción: Las realizadas desde el 6 de octubre de 2021hasta el 31 de diciembre de 2024.Base de deducción: Las cantidades satisfechas desde el 6 de octubre de 2021hasta el 31 de diciembre de 2024por las obras.La base máxima anual será de 5.000 euros anuales.Periodo impositivo en el que se aplica: Aquel en el que se haya expedido el certificado de eficiencia energética emitido después de las obras. Estos certificados deberán ser expedidosantes del 1 de enero de 2025. Por obras para la reducción de la demanda de calefacción y refrigeración: 20%
+
+[PÁGINA 246]
+246 DEDUCCIÓN POR OBRAS DE MEJORA ENERGÉTICALa demanda energética de calefacción y refrigeración es la energía necesaria para mantener las condiciones internas de confort del edificio.A estos efectos se entenderá que se ha reducido la demanda de calefacción y refrigeración de la vivienda cuandose reduzca en al menos un 7 por 100la suma de los indicadores de demanda de calefacción y refrigeración del certificado de eficiencia energética expedido por el técnico competente después de la realización de las obras, respecto del expedido antes del inicio de las mismas.Quedan excluidas las obras que se realicen en:Las partes de las viviendas afecta a una actividad económica.Las plazas de garaje, trasteros, jardines, parques, piscinas e instalaciones deportivas y otros elementos análogos.Las viviendas a disposición de sus propietarios (las segundas viviendas) y que no se encuentren arrendadas o en expectativa de alquiler. Por obras para la reducción de la demanda de calefacción y refrigeración: 20%
+
+[PÁGINA 247]
+247 DEDUCCIÓN POR OBRAS DE MEJORA ENERGÉTICAViviendas en las que se pueden realizar las obras: Vivienda habitual del contribuyente o cualquier otra de su titularidad que tuviera arrendada para su uso como vivienda o en expectativa de alquiler, siempre que, en este último caso, la vivienda se alquileantes de 31 de diciembre de 2025.Obras que dan derecho a deducción: Las realizadas desde el 6 de octubre de 2021hasta el 31 de diciembre de 2024.Base de deducción: Las cantidades satisfechas desde el 6 de octubre de 2021hasta el 31 de diciembre de 2024por las obras.La base máxima anual será de 7.500 euros anuales.Periodo impositivo en el que se aplica: Aquel en el que se haya expedido el certificado de eficiencia energética emitido después de las obras. Estos certificados deberán ser expedidosantes del 1 de enero de 2025. Por obras para la mejora en el consumo de energía primaria no renovable: 40% E
+
+[PÁGINA 248]
+248 DEDUCCIÓN POR OBRAS DE MEJORA ENERGÉTICASe entenderá que se ha mejorado el consumo de energía primaria no renovable en la vivienda en la que se hubieran realizado tales obras cuando:Se reduzca enal menos un 30 por 100 el indicador de consumo de energía primaria no renovable, o bienSe consigauna mejora de la calificación energética de la vivienda para obtener una clase energética «A» o «B»,Quedan excluidas las obras que se realicen en:Las partes de las viviendas afecta a una actividad económica.Las plazas de garaje, trasteros, jardines, parques, piscinas e instalaciones deportivas y otros elementos análogos.Las viviendas a disposición de sus propietarios (las segundas viviendas) y que no se encuentren arrendadas o en expectativa de alquiler. Por obras para la mejora en el consumo de energía primaria no renovable: 40%
+
+[PÁGINA 249]
+249 DEDUCCIÓN POR OBRAS DE MEJORA ENERGÉTICAObras que dan derecho a deducción:Las realizadas desde el 6 de octubre de 2021hasta el 31 de diciembre de 2025.Base de deducción:•Cuando se haya expedido el certificado en el periodo impositivo: las cantidades satisfechas desde el 6 de octubre de 2021 hasta la finalización del periodo impositivo.•Cuando el certificado se hubiera expedido en un periodo impositivo anterior: las cantidades satisfechas en el año.La base máxima anual será de 5.000 euros anuales.Las cantidades satisfechas no deducidas por exceder de la base máxima anual de deducción podrán deducirse, con el mismo límite, en los cuatro ejercicios siguientes, sin que en ningún caso la base acumulada de la deducción pueda exceder de15.000 euros. Por obras de rehabilitación energética: 60%

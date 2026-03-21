@@ -1,0 +1,117 @@
+A partir EXCLUSIVAMENTE del siguiente contenido, genera exactamente 8 preguntas tipo test.
+
+Reglas obligatorias:
+
+- No uses conocimiento externo
+- No inventes contenido
+- Si una regla no aparece claramente en el texto, no la conviertas en pregunta
+- No hagas preguntas cuya respuesta sea únicamente el número de artículos
+- No uses abreviaturas en el contenido visible
+- Nivel profesional alto
+- Mezcla conceptos técnicos, mini casos y preguntas trampa
+- Devuelve exclusivamente un JSON válido
+- No añadas comentarios ni texto fuera del JSON
+
+Formato obligatorio:
+
+[
+  {
+    "id": 1,
+    "subject": "Itp Ajd",
+    "topic": "...",
+    "subtopic": "...",
+    "question": "...",
+    "options": {
+      "A": "...",
+      "B": "...",
+      "C": "...",
+      "D": "..."
+    },
+    "answer": "A",
+    "explanation": "...",
+    "reference": "Nombre del PDF o bloque del que sale la regla",
+    "difficulty": "alta",
+    "question_type": "concepto/caso/trampa",
+    "trap_level": "bajo/medio/alto",
+    "tags": ["...", "..."]
+  }
+]
+
+Contenido fuente:
+
+===== FUENTE: IMPUESTO DE TRANSMISIONES-ONLINE-2025-2026_chunk_4.txt =====
+[PÁGINA 43]
+AUMENTO DE CAPITAL MODALIDADES: - AMPLIACIÓN DE CAPITAL ORDINARIA, que puede ser en metálico o mediante la aportación de bienes o derechos. - AMPLIACIÓN CON CARGO A RESERVAS, ya sean legales o voluntarias, que siempre estarán sujetas al Impuesto sobre Operaciones societarias, todo ello por cuanto suponen un incremento en el valor de la sociedad, que debe quedar sometido a tributación. - AMPLIACIÓN CON CARGO a la reserva constituida exclusivamente POR PRIMA DE EMISIÓN DE ACCIONES, que en virtud del artículo 54.2 del Reglamento, no está sujeta al Impuesto. La Base Imponible del Impuesto será el importe nominal en que el capital quede ampliado. Actualmente exento art-45-IB-11 Texto Refundido ITP
+
+[PÁGINA 44]
+CASOS ESPECIALES(ver consultas) - Ampliación de capital que, en parte, será suscrita mediante la compensación o capitalización de préstamos participativos - Ampliación de capital de una sociedad limitada, con aportación no dineraria de inmuebles como contrapartida de la suscripción de las participaciones sociales que se emitan - Ampliación de capital mediante la aportación de un inmueble hipotecado - Aplicación de la exención por aportación de rama de actividad en una ampliación de capital mixta. - TODOS LOS ACTOS EXENTOS
+
+[PÁGINA 45]
+DISMINUCIÓN DE CAPITAL FINALIDADES: • Devolución de las aportaciones efectuadas por los socios • Incremento de reservas voluntarias • Condonación de dividendos pasivos La Base Imponible de la reducción de capital será el valor real de los bienes y derechos entregados a los socios, y por ello, en el presente caso de reducción de capital, cabrá la posibilidad de la práctica de expedientes de comprobación de valor. Cuando se trate de reducciones de capital para reponer pérdidas sociales, el valor entregado a los socios será cero, y por tanto no será objeto de tributación efectiva. En el caso de reducciones de capital para amortizar acciones propias, será sujeto pasivo la propia sociedad.El tipo impositivo será del 1 %, similar que a, resto de operaciones societarias sujetas al Impuesto. Se llama a este acto OPERACIÓN ACORDEÓN
+
+[PÁGINA 46]
+FUSIÓN Y ESCISIÓN DE SOCIEDADES. Operaciones no sujetas y exentas en algunos casos FUSIÓN: (tipos) 1. Cuando una o varias sociedades transmiten en bloque a otra entidad ya existente 2. Cuando dos o más sociedades transmiten en bloque a otra NUEVA 3. Cuando una entidad transmite, como consecuencia y en el momento de su disolución sin liquidación, el conjunto de su patrimonio social a la entidad que es titular de la totalidad de los valores representativos de su capital social. La Base Imponible estará constituida por el HABER LÍQUIDO de la nueva sociedad en los casos de fusión pura, o en el aumento de capital de la sociedad absorbente ESCISIÓN DE SOCIEDADES: a) Cuando una sociedad divide en dos o más partes la totalidad de su patrimonio social y los transmite en bloque a dos o más entidades ya existentes o nuevas, como consecuencia de su disolución sin liquidación b) Cuando una sociedad segrega una o varias partes de su patrimonio social que formen ramas de actividad y las transmite en bloque a una o varias entidades de nueva creación o ya existentes, recibiendo a cambio, valores representativos del capital social de éstas ultimas La Base Imponible estará constituida por el HABER LÍQUIDO de la nueva sociedad, cuando se haya creado una nueva, o el aumento de capital de la sociedad adquirente de la rama de actividad.
+
+[PÁGINA 47]
+DISOLUCIÓN DE SOCIEDADES Es aplicable a todas las entidades, ya sean societarias como asimiladas fiscalmente. Asimismo también estará sujeto por asimilación, los supuestos de disolución de los contratos de cuentas en participación. La base imponible será el valor real de los bienes y derechos adjudicados a los socios, y el sujeto pasivo será el socio adjudicatario de los bienes. En cuanto a las comunidades de bienes, quedarán sujetas la disolución de las mismas, en cuanto se hubiera gravado su constitución, pero en cuanto a la disolución de comunidades que no hayan ejercitado actividades empresariales no tributará por el concepto operaciones societarias.
+
+[PÁGINA 48]
+La consulta de la DGT de fecha 25 de Junio de 2010, ha considerado que las operaciones de disolución y liquidación de sociedades con adjudicación de inmuebles está sujeta a la modalidad operaciones societarias, cuyos sujetos pasivos serán los socios por los bienes y derechos recibidos, siendo la base imponible el valor real de los bienes y derechos adjudicados y el tipo de gravamen será el 1 %. Si las adjudicaciones no guardan la debida proporción con sus cuotas de participación en el capital social, se devenga por dichos excesos de adjudicación liquidación correspondiente al ITP. En caso de DISOLUCIÓN DE SOCIEDADES PATRIMONIALES, están exentas de tributación siempre que se hubieran acogido al régimen tasado por la disposición transitoria vigésimo cuarta del Texto Refundido de la Ley del Impuesto sobre Sociedades, que basaba los requisitos para gozar de exención a que hubieran tenido la consideración de sociedades patrimoniales
+
+[PÁGINA 49]
+APORTACIONES DE LOS SOCIOS PARA REPONER PÉRDIDAS SOCIALES El motivo de la sujeción al Impuesto en concepto de operaciones societarias viene dada por su asimilación a los supuestos de ampliaciones de capital. La Base Imponible de éste supuesto, vendrá determinado por el valor neto de la aportación, esto es, el valor real del bien aportado, menos las cargas, gastos y deudas. El tipo impositivo como en el resto de supuestos, será el del 1 %. El sujeto pasivo, será la sociedad que recibe las aportaciones, como beneficiaría de la misma. Actualmente exento art. 45-IB-11 Texto Refundido ITP
+
+[PÁGINA 50]
+TRASLADO DE LA SEDE DE DIRECCIÓN EFECTIVA Exigencias: 1.- Que se trate de sociedades que previamente no hayan tenido su sede o domicilio en España. 2.- Que la sede o domicilio de la sociedad no hubiese estado previamente situado en algún país de la Unión Europea, o en éstos no hubiese sido gravada por un Impuesto similar. La Base Imponible será el haber líquido de la entidad, y por tanto será el activo real de la sociedad menos su pasivo exigible (es decir VALOR NETO).El sujeto pasivo, será la sociedad y el tipo impositivo el 1 %.
+
+[PÁGINA 51]
+OPERACIONES SOCIETARIAS ESPECIALES - Ampliación de capital con cargo a reservas constituidas exclusivamente por primas de emisión de acciones. - Modificación de sociedad por cambio de objeto social - Transformación de sociedad: no sujeta a Operaciones Societarias - Disminución de capital, sin devolución de bienes y derechos a los socios. La base imponible será 0 € - Desembolso de dividendos pasivos
+
+[PÁGINA 52]
+TEMA 79 “ACTOS JURÍDICOS DOCUMENTADOS” CUOTA FIJA: - Las ESCRITURAS, son documentos notariales que recogen las declaraciones de voluntad, los actos jurídicos que impliquen prestación de consentimiento y los contratos de todas clases, tal como las define el artículo 144 del Reglamento Notarial. - Las ACTAS, por el contrario, no se califican de actos o contratos, y a título de ejemplo, se formalizan mediante actas, los depósitos que admiten los Notarios, notificaciones a inquilinos, protocolización de partición hereditaria realizada por el comisario, o contador partidor albacea, de notoriedad, etc. - Los TESTIMONIOS son documentos notariales que carecen de matriz, y que tienen por objeto la afirmación de un hecho o de un juicio de un Notario. Los más normales, son los testimonios que reproducen documentos que obran en poder del Notario. - Todos los documentos notariales citados están sujetos al Impuesto sobre Actos Jurídicos Documentados, en su modalidad de cuota fija, SIN EXENCIÓN ALGUNA, y es compatible con la cuota variable del Impuesto, que pasamos a desarrollar. CUOTA VARIABLE: Circunstancias: 1ª.- Que se trate de primeras copias de escrituras o actas notariales. 2ª.- Que tengan por objeto cantidad o cosa valuable. Se entenderá que es de objeto no valuable, cuando durante toda su vigencia incluso en el momento de su extinción, no pueda determinarse la cuantía de la base. 3ª." Que contengan actos o contratos inscribibles en los Registros de la Propiedad, Mercantil o Propiedad Industrial y de Bienes Muebles. 4ª Que los actos o contratos no estén sujetos al Impuesto sobre Sucesiones y Donaciones, ni a los conceptos transmisiones patrimoniales onerosas ni a operaciones societarias.
+
+[PÁGINA 53]
+Actos inscribibles en el Registro de la Propiedad a) Transmisión o declaración del dominio de bienes inmuebles y de derechos reales sobre bienes inmuebles. b) Constitución, reconocimiento, transmisión, modificación o extinción de los derechos reales de usufructo, uso, habitación, enfiteusis, hipoteca, censos, servidumbres y cualquier otro derecho real sobre bienes inmuebles. c) Actos y contratos de adjudicación de bienes inmuebles o derechos reales, aunque sea con obligación de transmitirlos o invertir su importe en objeto determinado. d) Contratos de arrendamiento de bienes inmuebles y subarriendos, cesiones y subrogaciones de dichos (disposición adicional segunda de la Ley 29/1994, de 24 de noviembre. de Arrendamientos Urbanos). e) Títulos de adquisición de bienes inmuebles o derechos reales del Estado o de corporaciones civiles o eclesiásticas. f) Contratos de opción de compra (de bienes inmuebles), siempre que haya convenio expreso de las partes para su inscripción, precio estipulado y plazo determinado para su ejercicio (no superior a cuatro años).
+
+[PÁGINA 54]
+Actos inscribibles en el Registro Mercantil •Constitución de la sociedad. •Modificación del contrato y de los estatutos sociales, así como aumentos y reducciones del capital. •Prórroga del plazo de duración. •Apertura, cierre y demás actos relativos a sucursales. •Transformación, fusión, escisión, rescisión parcial, disolución y liquidación de la sociedad.
+
+[PÁGINA 55]
+Registro de la Propiedad Industrial Registro de Patentes: para la protección de las invenciones industriales se conceden los siguientes títulos de propiedad industrial: a) Patentes de invención. b) Certificados de protección de modelos de utilidad. En el Registro de Patentes se pueden inscribir: - Solicitud de patentes de invención. - Concesión de patentes de invención Registro de Marcas: para la protección de los signos distintivos se conceden los siguientes derechos de propiedad industrial: a) Marcas. b) Nombres comerciales. En el Registro de Marcas se pueden inscribir: - Marcas nacionales. - Marcas internacionales. - Nombres comerciales.
+
+[PÁGINA 56]
+LETRAS DE CAMBIO-DOCUMENTOS MERCANTILES La letra de cambio es un título valor eminentemente formal, puesto que no es tal hasta que el impreso así denominado recoge alguna declaración cambiaria. De otro modo, la observancia de los requisitos que establece la Ley condiciona su existencia y su omisión le priva de su privilegiado carácter de documento mercantil ejecutivo. Un documento realiza función de giro cuando acredite remisión de fondos o signo equivalente de un lugar a otro, o implique una orden de pago, aun en el mismo en que ésta se haya dado, o en el que figure la cláusula «a la orden». 1) Cuando acredite la remisión de fondos o signo equivalente de un lugar a otro 2) Los citados documentos impliquen una orden de pago, aun en el mismo lugar en que la orden se haya dado, o sea que en el documento una persona ordene a otra para que pague en su nombre o por su cuenta a un tercero
+
+===== FUENTE: IMPUESTO DE TRANSMISIONES-ONLINE-2025-2026_chunk_5.txt =====
+[PÁGINA 57]
+BASE IMPONIBLE: en las letras de cambio servirá de base la cantidad girada, pero cuando la letra tenga un vencimiento superior a seis meses se exigirá el impuesto que corresponda al duplo de la base. Si en sustitución de la letra de cambio que correspondiere a un acto o negocio jurídico se expidieran dos o más letras, originando una disminución del impuesto, procederá la adición de las bases respectivas, a fin de exigir la diferencia. No se considerará producido el expresado fraccionamiento cuando entre las fechas de vencimiento de los efectos exista una diferencia superior a 15 días o cuando se hubiera pactado documentalmente el cobro mediante giros escalonados. SUJETO PASIVO: está obligado al pago el librador, salvo que la letra de cambio se hubiera expedido en el extranjero, en cuyo caso lo estará el primer tenedor en España. CUOTA TRIBUTARIA: las letras de cambio se extenderán necesariamente en el efecto timbrado de la clase que corresponda a su cuantía. La extensión de la letra en efecto timbrado de cuantía inferior privará a estos documentos de la eficacia ejecutiva que les atribuyen las leyes.
+
+[PÁGINA 58]
+EXENCIONES SUBJETIVAS en función del sujeto pasivo - Estado, Administraciones Públicas territoriales e institucionales y sus establecimientos de beneficiencia, cultura, Seguridad Social, docentes o de fines científicos - Entidades sin fines lucrativos acogidas al régimen fiscal especial de estas entidades regulado en la ley 49/2002 de 23 - Fundaciones - Asociaciones declaradas de utilidad pública - Organizaciones no gubernamentales de desarrollo a que se refiere la Ley 23/1998, de 7 julio (RCL 1998, 1693) , que tengan la forma de fundación o asociación declarada de utilidad pública - Delegaciones de fundaciones extranjeras inscritas en el Registro de Fundaciones - Federaciones deportivas españolas y autonómicas - El Comité Olímpico y el Comité Paralímpico Español
+
+[PÁGINA 59]
+TEMA 80 “PRESENTACIÓN DE DOCUMENTOS” No será necesaria la presentación en las oficinas liquidadoras de los documentos por lo que se formalice la transmisión de efectos públicos, acciones, obligaciones, y valores negociables de todas clases, intervenidos por corredores de comercio, y por sociedades y agencias de valores. El Impuesto será objeto de autoliquidación con carácter general. Por lo que una vez presentado el documento y despachado, las posteriores actuaciones de la Administración deberán efectuase directamente con el sujeto pasivo.
+
+[PÁGINA 60]
+EXENCIONES OBJETIVAS-1 - Las aportaciones de bienes y derechos verificadas por los cónyuges a la sociedad conyugal, las adjudicaciones que en su favor y en pago de las mismas se verifiquen a su disolución y las transmisiones que por tal causa se hagan a los cónyuges en pago de su haber de gananciales. Art.45-IB-3 Texto Refundido ITP. - Transmisión de participaciones sociales o acciones salvo excepciones del artículo 314.2 del Texto Refundido de Ley de Mercado de Valores Real Decreto Legislativo 4/2015 de 23 de Octubre . Art.45-IB-9 Texto Refundido ITP - Entregas de dinero. Art.45-IB-4 Texto Refundido ITP - Transmisión de solares para construcción V.P.O. Art.45-IB-3 Texto Refundido ITP - Exención en viviendas autonómicas de protección pública - Transmisiones de vehículos usados a empresas de compraventa
+
+[PÁGINA 61]
+EXENCIONES OBJETIVAS-2 - Las cancelaciones de hipoteca. Art.45-IB-18 Texto Refundido ITP - Los arrendamientos de uso de vivienda. Art.45-IB-26 Texto Refundido ITP - Los préstamos entre particulares. Art.45-IB-15 Texto Refundido ITP
+
+[PÁGINA 62]
+REGLAS DE COMPETENCIA - ACTOS JURÍDICOS DOCUMENTADOS: Será Oficina competente el Registro de la propiedad que deba proceder a la inscripción o anotación de los bienes. - TRANSMISIÓN DE BIENES INMUEBLES, CONSTITUCIÓN DE DERECHOS REALES sobre los mismos: Oficina del territorio en el que radiquen los bienes inmuebles. TRANSMISIÓN DE BIENES MUEBLES Y CONSTITUCIÓN DE DERECHOS REALES sobre los mismos. OFICINA donde el ADQUIRENTE tenga su RESIDENCIA HABITUAL si es persona física, o su DOMICILIO FISCAL si es persona jurídica - TRANSMISIÓN DE VALORES: En la Oficina correspondiente al territorio donde se formalice la operación
+
+[PÁGINA 63]
+SUPUESTO ESPECIAL DE FRACCIONAMIENTO Se pude fraccionar en tres anualidades como máximo, las autoliquidaciones o liquidaciones complementarias practicadas correspondiente al Impuesto, concepto transmisiones onerosas, como consecuencia de la adquisición de viviendas destinadas a domicilio habitual y permanente del sujeto pasivo, y cuya superficie útil no exceda de 120 metros cuadrados. La Administración tendrá preferencia sobre cualquier acreedor. Los fraccionamientos quedarán sin efecto cuando se enajene total, o parcialmente la vivienda a que la transmisión se refiera.
+
+[PÁGINA 64]
+COMPROBACIÓN DE VALORES 1.- La anulación de una comprobación de valores no deja sin efecto la interrupción del plazo de prescripción, producida anteriormente por consecuencia de las actuaciones realizadas ante los Tribunales Económico Administrativos manteniéndose dicha interrupción con plenitud de efectos 2.- La anulación de un acto administrativo no significa en absoluto que decaiga o se extinga el derecho de la administración tributaria a retrotraer acciones y volver a actuar, pero ahora respetando las formas y garantías de los interesados. Se utilizan medios de comprobación recogidos en el artículo 57 LEY GENERAL TRIBUTARIA
+
+[PÁGINA 65]
+TIPOS IMPOSITIVOS PLAZOS PRESENTACIÓN: 1 mes a contar desde la fecha de la escritura o documento. COMUNIDAD VALENCIANA TIPOS AÑO 2026: 1.TRANSMISIONES PATRIMONIALES ONEROSAS: - Adquisición inmuebles en general 10 €. Para devengos a partir del 1 de junio de 2026, el tipo pasa a ser del 9% - Adquisición Bienes Muebles en general 6% 2. ACTOS JURÍDICOS DOCUMENTADOS: - Tipo General: 1,5 % 3. OPERACIONES SOCIETARIAS - Tipo General: 1 %
+
+[PÁGINA 66]
+TIPOS IMPOSITIVOS COMUNIDAD VALENCIANA TIPOS AÑO 2026: 2. ACTOS JURÍDICOS DOCUMENTADOS: TIPOS ESPECIALES Ventas con renuncia a exención de IVA: 2,00 % Adquisición vivienda habitual sujeta al IVA: 0,10 - Hay casi todas las CCAA hay tipos especiales para adquisiciones por vivienda habitual para familia numerosa, o con minusvalía, o para jóvenes menores de 35 años.
+
+[PÁGINA 67]
+TARIFA ARRENDAMIENTOS Hasta 30,05 euros 0,09 De 30,06 a 60,10 0,18 De 60,11 a 120,20 0,39 De 120,21 a 240,40 0,78 De 240,41 a 480,81 1,68 De 480,82 a 961,62 3,37 De 961,63 a 1.923,24 7,21 De 1.923,25 a 3.846,48 14,42 De 3.846,49 a 7.692,95 30,77 De 7.692,96 en adelante, 0,024040 euros por cada 6,01 euros o Fracción. EXENTO SI LA VIVIENDA SE DESTINA A RESIDENCIA HABITUAL

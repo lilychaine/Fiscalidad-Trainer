@@ -1,0 +1,202 @@
+A partir EXCLUSIVAMENTE del siguiente contenido, genera exactamente 8 preguntas tipo test.
+
+Reglas obligatorias:
+
+- No uses conocimiento externo
+- No inventes contenido
+- Si una regla no aparece claramente en el texto, no la conviertas en pregunta
+- No hagas preguntas cuya respuesta sea únicamente el número de artículos
+- No uses abreviaturas en el contenido visible
+- Nivel profesional alto
+- Mezcla conceptos técnicos, mini casos y preguntas trampa
+- Devuelve exclusivamente un JSON válido
+- No añadas comentarios ni texto fuera del JSON
+
+Formato obligatorio:
+
+[
+  {
+    "id": 1,
+    "subject": "Irpf",
+    "topic": "...",
+    "subtopic": "...",
+    "question": "...",
+    "options": {
+      "A": "...",
+      "B": "...",
+      "C": "...",
+      "D": "..."
+    },
+    "answer": "A",
+    "explanation": "...",
+    "reference": "Nombre del PDF o bloque del que sale la regla",
+    "difficulty": "alta",
+    "question_type": "concepto/caso/trampa",
+    "trap_level": "bajo/medio/alto",
+    "tags": ["...", "..."]
+  }
+]
+
+Contenido fuente:
+
+===== FUENTE: IRPF 2025_chunk_6.txt =====
+[PÁGINA 88]
+88 RENDIMIENTOS CAPITAL INMOBILIARIOSerán amortizables siempre que su adquisición haya supuesto un coste para el contribuyente. En estos casos es preciso distinguir:Si el derecho o facultad tiene plazo de duración determinado,la amortización anual deducible será la que resulte de dividir el coste de adquisición satisfecho entre el número de años de duración del mismo.Si el derecho o facultad fuese vitalicio,la amortización computable será el resultado de aplicar el coeficiente del 3 por 100 sobre el coste de adquisición satisfecho.En ambos casos, el importe de las amortizaciones deducibles en el ejercicio no podrá superar la cuantía de los rendimientos íntegros derivados de cada derecho. Cálculo de la amortización en los bienes alquilados-usufructo
+
+[PÁGINA 89]
+89 RENDIMIENTOS CAPITAL INMOBILIARIO=RENDIMIENTO PREVIO-60% vivienda habitual contrato anterior al 26 de mayo de 2023-90%, 70%, 60% ó 50% contrato a partir de 26 de mayo de 2023-30% irregularesRENDIMIENTO NETO(puede ser negativosalvo alquiler a familiares*)*como mínimo el importe que resultaría de la imputación de rentasDeterminación Rendimiento Neto
+
+[PÁGINA 90]
+90 RENDIMIENTOS CAPITAL INMOBILIARIOReducción 60 por 100En los supuestos dearrendamiento de bienes inmuebles destinados a vivienda, elrendimiento neto positivo, calculado por diferencia entre la totalidad de ingresos íntegros y losgastos necesarios que tengan la consideración de deducibles en los términos anteriormentecomentados, sereducirá en un 60 por 100, cualquiera que sea la edad del arrendatario.Esta reducción sólo resultará aplicable sobre losrendimientos netos positivos que hayan sidocalculados por el contribuyente en una autoliquidación presentadaantes de que se hayainiciado un procedimiento de verificación de datos, de comprobación limitada o de inspección queincluya en su objeto la comprobación de tales rendimientos.La reducción también será aplicable a los rendimientos netos derivados del arrendamiento debienes inmuebles cuando siendoel arrendatario una persona jurídica, quede acreditado que elinmueble se destina a la vivienda de determinadas personas físicas(Criterio fijado por el TribunalEconómico-Administrativo Central, en su Resolución de 8 de septiembre de 2016, en recursoextraordinario de alzada para la unificación de criterio). Reducción rendimientos arrendamiento vivienda
+
+[PÁGINA 91]
+91 RENDIMIENTOS CAPITAL INMOBILIARIOSe modula la reducción del 60% estableciéndose que el rendimiento neto positivo se reducirá: a) En un 90% cuando se haya formalizado por el mismo arrendador un nuevo contrato de arrendamiento sobre una vivienda situada en zonas de mercado residencial tensionado, con una reducción en la renta de al menos un 5% sobre el contrato anterior. b) En un 70% cuando, no cumpliéndose los requisitos de la letra anterior, se trate de la incorporación al mercado de viviendas destinadas al alquiler en zonas de mercado residencial tensionado y se alquilen a jóvenes de entre 18 y 35 años en dichas áreas, o bien, se trate de vivienda asequible incentivada o protegida, arrendada a la administración pública o entidades del tercer sector o de la economía social que tengan la condición de entidades sin fines lucrativos, o acogida a algún programa público de vivienda que limite la renta del alquiler. Rendimiento Neto a partir del 1-01-2024:
+
+[PÁGINA 92]
+92 RENDIMIENTOS CAPITAL INMOBILIARIOc) En un 60% cuando, no cumpliéndose los requisitos de las letras anteriores, la vivienda hubiera sido objeto de una actuación de rehabilitación que hubiera finalizado en los dos años anteriores a la fecha de celebración del contrato. d) En un 50% en cualquier otro caso. Los requisitosseñalados se tienen que cumplir en el momento de celebrar el contrato de arrendamiento y la reducción será aplicable mientras se sigan cumpliendo los mismos. Las zonas de mercado residencial tensionado serán las recogidas en la resolución que, de acuerdo con lo dispuesto en la legislación estatal en materia de vivienda, apruebe el Ministerio de Transportes, Movilidad y Agenda urbana. Rendimiento Neto a partir del 1-01-2024
+
+[PÁGINA 93]
+93 RENDIMIENTOS CAPITAL INMOBILIARIOLa reducción del 30 por 100 del rendimiento neto resultante en los siguientes supuestos:Rendimientos netos cuyo período de generación sea superior a dos años, siempre que se imputen a un único periodo impositivo.Rendimientos netos obtenidos de forma notoriamente irregular en el tiempo, cuando se imputen en un único período impositivo.Tienen la consideración de rendimientos del capital inmobiliarioobtenidos de forma notoriamente irregularen el tiempo exclusivamente los siguientes:Importes obtenidos por eltraspaso o la cesióndel contrato de arrendamiento de locales de negocio.Indemnizacionespercibidas del arrendatario, subarrendatario o cesionario por daños o desperfectos en el inmueble.Importes obtenidos por la constitución o cesión dederechos de uso o disfrutede carácter vitalicio.La cuantía máxima de rendimiento neto sobre la que se aplicará el 30 por 100 serán 300.000 euros. Reducción rendimientos irregulares- art. 15 Reglamento IRPF
+
+[PÁGINA 94]
+94 RENDIMIENTOS CAPITAL INMOBILIARIOCuando el arrendatario del bien inmueble… sea el cónyuge o un pariente, incluidos los afines, hasta el 3º grado inclusive, del contribuyente, el RN total no podrá ser inferior al que resulte de las reglas del art. 85 LIRP. (IMPUTACION INMOBILIARIA).EJEMPLO:Ingresos 10.000 Valor catastral del inmueble revisado en el 2021=150.000€GastosIbi 1.200 Intereses 8.800Amortización 2.500Rendimiento neto= -2500A) Alquilado a un sobrino: RN:1.650 euros (1,1% sobre 150.000€)B) Alquilado a un amigo: -2.500 euros Arrendamiento a familiar
+
+[PÁGINA 95]
+95 RENDIMIENTOS DEL CAPITAL INMOBILIARIOJosé tiene un inmueble alquilado todo el ejercicio 2025. Valor de adquisición con gastos= 70.000 euros y el valor catastral revisado en 2020 es de 80.000 euros , de los cuales= 60.000 euros se corresponden a la construcción. Gastos: IBI= 200, comunidad= 900, sustitución del aire acondicionado 2.000 euros. Ingresos mensuales 500 euros. El inmueble es vivienda habitual del inquilino.-Ingresos= 6000-reparación= 2000-comunidad= 900-Ibi=200-amortización =(3%s/60.000)=1.800 (aplicamos la amortización s/vcatastral al ser superior)-RNPrevio=1.100------reducción por arrend vh= 660 (60%1100) RN=440 euros(1100-660). Ejemplo:
+
+[PÁGINA 96]
+96 RENDIMIENTOS DEL CAPITAL INMOBILIARIOAntonia tiene un inmueble alquilado todo el ejercicio 2023. Elvalor de adquisicióncon gastos fuede100.000 eurosy el valor catastral revisado en 2020 es de80.000euros, de los cuales 60.000euros se corresponden a la construcción. El detalle de gastos es el siguiente: IBI= 200,comunidad= 900. Ingresos mensuales 500 euros. El inquilino destina el inmueble a su viviendahabitual.-Ingresos= 6.000--comunidad= 900-Ibi=200-amortización =(3%s/75.000)=2.250 (La amortización se calcula sobre el mayor valor-coste de adquisición o valor catastral pero siempre sobre la parte que se corresponde a la construcción).-RNPrevio=2.650-----reducción por arrend vh= 1590 (60%1590) RN=1.060 (2650-1590) Ejemplo: E
+
+[PÁGINA 97]
+97 RENDIMIENTOS DEL CAPITAL INMOBILIARIOPedro tiene alquilado el apartamento de la playa los meses de julio, y agosto.Valor de adquisición:60.000 euros más 5.000euros de gastos.Valor catastral: 80.000 euros, de los cuales 60.000euros se corresponden a la construcción. Gastos: IBI= 200, comunidad= 100 euros mensuales yreparación del aire acondicionado= 800 euros. Ingresos de los 2 meses de alquiler 2000€.-Ingresos= 2.000-Reparación=800-comunidad= 200-Ibi=(200/365)*62=33,98-amortización =(3%s/60.000)*(62/365)=305,75 (La amortización se calcula sobre el mayor valor-coste de adquisición o valor catastral pero siempre sobre la parte que se corresponde a la construcción)-RNPrevio=660,27euros IMPUTAC RENTA INMOB= 1,1%s/80.00(303/365)=730,52euros. Ejemplo:
+
+[PÁGINA 98]
+98 TRIBUTACIÓN DE INMUEBLESAlquiladosrendimientos del capital inmobiliarioA disposición de contribuyenteimputación inmobiliaria (salvo excepciones)Excepciones=suelo no edificado, inmuebles en construcción, inmuebles que, porrazones urbanísticas no sean susceptibles de uso e inmuebles rústicos (salvo quetengan construcciones no indispensables para el desarrollo de la actividad).Afectos a actividades económicasno tributanVivienda habitual y vivienda a disposición del ex cónyuge y/o hijosno tributayademás posible deducción en vivienda (régimen transitorio/deducciones autonómicas).. Resumen: E
+
+[PÁGINA 99]
+RENDIMIENTOS DE ACTIVIDADES ECONÓMICAS
+
+[PÁGINA 100]
+100 RENDIMIENTOS DE ACTIVIDADES ECONÓMICAS- ESTIMACION DIRECTANORMALSIMPLIFICADA- ESTIMACIÓN OBJETIVA POR SIGNOS, INDICES O MODULOSMétodos de determinación
+
+[PÁGINA 101]
+101 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASEFECTO “ARRASTRE”EDN (Estimación Directa Normal)EDS (Estimación Directa Simplificada)MODULOS (Estimación Objetiva)EFECTOS DE LA RENUNCIA O EXCLUSIONEFECTO “EXPULSIÓN” 3 AÑOS, a partir del año inmediato posterior. A efecto de todas las actividades económicas del contribuyente.RENUNCIA A través de la declaración censal (inicio o mes diciembre del ejercicio anterior) o tácita.REVOCACIÓN DE LA RENUNCIA A través de la declaración censal. Mes de diciembre anterior al inicio del año natural en que deba surtir efectos. “No tácita” INCOMPATIBILIDAD ABSOLUTA ENTRE LOS REGÍMENES DE EO Y EDDENTRO DE ED, INCOMPATIBILIDAD ABSOLUTA ENTRE EDN Y EDS (SALVO EL AÑO DE INICIO DE NUEVA ACTIVIDAD)
+
+[PÁGINA 102]
+102 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASLa exclusión de la modalidad simplificada se produce por el hecho de queel importe neto de la cifrade negocios correspondiente al conjunto de las actividades desarrolladas por el contribuyentesupere la cuantía de 600.000 euros anuales.La exclusión producirá efectos desde el inicio del año inmediato posteriora aquel en que se produzca dicha circunstancia. En consecuencia, en el año en que se supera el importe de 600.000 euros anuales, se permanece en la modalidad simplificada del método de estimación directa.Una vez excluido el rendimiento se calculará en EDN los 3 años siguientes (el cuarto año dependerá de la cifra de negocios del año anterior). Exclusión AAEE ESTIMACIÓN DIRECTA SIMPLIFICADA
+
+[PÁGINA 103]
+103 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASESTIMACIÓN DIRECTA NORMAL-Importe de la cifra de negocios >600.000€ o renuncia a EDS+ INGRESOS-GASTOS (afectos a la actividad)-Amortizaciones= RENDIMIENTO NETO- reducciones art. 32 LIRPFOBLIGACIONES FORMALES: Contabilidad ajustada al PGC si actividad mercantil RESTO: libros de ingresos y gastos + registro de suplidos si actividad profesionalCOMPARATIVA ESTIMACION DIRECTA
+
+[PÁGINA 104]
+104 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASESTIMACIÓN DIRECTA SIMPLIFICADA+ INGRESOS-Gastos deducibles (afectos a la actividad)-Amortizaciones (tabla simplificada)-5% gastos difícil justificación Límite 2.000 euros= RENDIMIENTO NETO- reducciones art. 32 LIRPF-OBLIGACIONES FORMALES: Libros registro ingresos y gastos + registro de suplidos si actividad profesional COMPARATIVA ESTIMACION DIRECTA
+
+[PÁGINA 105]
+LIBROS OBLIGATORIOS 105 ED Normal1. Actividadempresarial con o sin carácter mercantildeacuerdo con el Ccolibros registros: ventas eingresos, compras y gastos y bienes de inversión.2.Actividad profesionallibros registros: ingresos,gastos, bienes de inversión y provisiones de fondos ysuplidos. 1.Actividadempresarial de carácter mercantil:contabilidad ajustada a lo dispuesto en el CCo.2. Actividadempresarial de carácter no mercantilde acuerdocon el Ccolibros registros: ventas e ingresos, compras ygastos y bienes de inversión.3.Actividad profesionallibros registros: ingresos, gastos,bienes de inversión y provisiones de fondos y suplidos.EDSimplificada
+
+===== FUENTE: IRPF 2025_chunk_7.txt =====
+[PÁGINA 106]
+LIBROS OBLIGATORIOS 106E OBJETIVA1. Loscontribuyentes que deduzcan amortizacioneshan dellevar un libro registro de bienes de inversión.2. Además, en lasactividades cuyo rendimiento se determineteniendo en cuenta el volumen de operaciones(así ocurre en elcaso de actividades agrícolas, ganaderas y forestales), debellevarse unlibro registro de ventas o ingresos(artículo 68.7RIRPF).3. Asimismo,durante el plazo de prescripcióndeben conservarlos siguientes documentos (artículo 68.6RIRPF):Las facturas emitidas de acuerdo a lo previsto en el Reglamentopor el que se regulan las obligaciones de facturación,numeradas por orden de fechas y agrupadas por trimestres.Las facturas y justificantes de otro tipo recibidos.Los justificantes de los signos, índices o módulos aplicados deconformidad con lo que, en su caso, prevea la Orden Ministerialque los aprueba.
+
+[PÁGINA 107]
+107 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASDistinción entre rendimientos de actividades empresariales mercantiles y no mercantilesDe acuerdo con la normativa mercantil, no tienen la consideración de actividades empresariales mercantiles las agrícolas, las ganaderas y las actividades de artesanía, siempre que en este último caso las ventas de los objetos construidos o fabricados por los artesanos se realicen por estos en sus talleres. El resto de actividades empresariales mercantiles.COMPARATIVA ESTIMACION DIRECTA
+
+[PÁGINA 108]
+108 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASIngresos de explotación: derivados de la venta de bienes oprestaciones de servicios que constituyan el objeto propio de laactividad, incluidos, en su caso,los procedentes de serviciosaccesorios a la actividad principalEjemplo: tengo un comercio y me pagan por ponerpublicidad.Otros ingresos: el resto de ingresos como, subvenciones, ayudaspúblicas, indemnizaciones percibidas por siniestros….Autoconsumo ESTIMACION DIRECTA INGRESOS
+
+[PÁGINA 109]
+109 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASDe acuerdo con el artículo 11.1 de la IS, elcriterio generaldeimputación fiscal está constituido por elprincipio de devengo,conforme al cual los ingresos y gastos derivados de lastransacciones o hechos económicos se imputarán al períodoimpositivo en que se produzca su devengo, con arreglo a lanormativa contable, con independencia de la fecha de su pago o desu cobro,respetando la debida correlación entre unos y otros.IMPUTACIÓN TEMPORAL
+
+[PÁGINA 110]
+110 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASSalvo los titulares de actividades empresariales mercantiles cuyo rendimientoneto se determine mediante el método de estimación directa, modalidadnormal,obligados a llevar contabilidad ajustada a lo dispuesto en el Códigode Comercio, así como de los que, sin estar obligados a ello, llevenvoluntariamente dicha contabilidad,podrán optar por el criterio de "cobros ypagos"para imputar temporalmente los ingresos y gastos derivados de todassus actividades.El criterio se entiende aprobado por la Administración tributaria por el solohecho de así manifestarlo en la correspondiente declaración por el IRPF.La opción por dicho criterio tiene unaduración mínima de tres años(salvoque con posterioridadel contribuyente desarrollase alguna actividadempresarial de carácter mercantil enEDN o llevase contabilidad ajustada alCódigo de Comercio). IMPUTACIÓN TEMPORAL
+
+[PÁGINA 111]
+111 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASESTIMACIÓN DIRECTARendimientos netos con período degeneración > 2 años, así como aquéllos que secalifiquen reglamentariamente como obtenidosde forma notoriamente irregular, sereducirán en un30 %, cuando, en ambos casos,se imputen en un único períodoimpositivo.El RN sobre el que se aplicará la reducciónno podrá superar 300.000 euros anuales.Notoriamente irregulares(art. 25 RIRPF) :a) Subvenciones de capital para la adquisición de elementos del inmovilizado no amortizables.b)Indemnizaciones y ayudas por ceseen la actividad económica..................... REDUCCIÓN ART. 32.1 LEY IRPF
+
+[PÁGINA 112]
+112 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASRequisitos y condiciones que deben cumplir los gastos para tener laconsideración fiscal de deducibles :Que estén vinculados a la actividad económica desarrollada. Es decir, quesean propios de la actividad (no los privados).Que estén convenientemente justificados (preferentemente factura).Que se hallen registrados en la contabilidad o en los libros-registroGASTOS DEDUCIBLES
+
+[PÁGINA 113]
+113 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASArt. 28.2 LIRPFPara la determinación del rendimiento neto de las actividades económicas no seincluirán las Ganancias o Pérdidas Patrimoniales derivadas de los elementospatrimoniales afectos a las mismas.Las transmisiones de estos elementos patrimoniales afectos generangananciaso pérdidas patrimoniales.No les resulta de aplicación la Disposición Transitoria 9ª(Régimen transitorioaplicable a las ganancias patrimoniales derivadas de elementos patrimonialesadquiridos con anterioridad a 31 de diciembre de 1994).Distinción con otras rentas
+
+[PÁGINA 114]
+114 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASSe considerarán elementos patrimoniales afectos a una actividad económica(art. 22 RIRPF) desarrollada por el contribuyente, con independencia de quesu titularidad, en caso de matrimonio, resultecomún a ambos cónyuges:a)Los bienesinmueblesen los que se desarrolle la actividadb)Los bienes destinados a losservicios económicos y socioculturalesdelpersonal al servicio de la actividadc)Cualesquiera otros elementos patrimoniales que seannecesariospara laobtención de los respectivos rendimientos.Elementos patrimoniales afectos
+
+[PÁGINA 115]
+115 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASCuando se trate de elementos patrimoniales que sirvan sólo parcialmente alobjeto de la actividad, la afectación se entenderá limitada a aquella parte de losmismos que realmente se utilice en la actividad de que se trate.En este sentido,sólo se considerarán afectadas aquellas partes de los elementospatrimoniales que sean susceptibles de un aprovechamiento separado eindependiente del resto.En ningún caso serán susceptibles de afectaciónparcial los elementos patrimoniales indivisibles.Elementos patrimoniales afectos
+
+[PÁGINA 116]
+116 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASLa Ley 6/17 Reformas Urgentes Trabajo Autónomo: añadió letra b al art.30.2 5ª LIRPFb)En los casos en que el contribuyente afecte parcialmente su vivienda habitual aldesarrollo de la Actividad Económica, losgastos de suministros de dicha vivienda,tales como agua, gas, electricidad, telefonía e Internet, en el porcentaje resultante deaplicarel 30% a la proporción existente entre los metros cuadradosde la viviendadestinados a la actividad respecto a su superficie total, salvo que se pruebe unporcentaje superior o inferior.Elementos parcialmente afectos-suministros
+
+[PÁGINA 117]
+117 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASEjemplo:Gastos deducibles por Suministros (total 4.000 euros Iva incluido) para un profesionalque utiliza parte de su casa (modelo 036 informó que afecta 35m2) (total 100m2) y nodispone de otro local.Suministros Totales x 0,35 x0,30= Importe Suministros deduciblesGasto Deducible= 4000€ x 0,35 x0,30 = 420 eurosElementos parcialmente afectos-suministros
+
+[PÁGINA 118]
+118 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASRequisito:que el contribuyente lo utilicepara los finesde la misma.No se considerarán afectos:Los que se utilicen simultáneamente para lasAAEE y para necesidades privadas, salvo que la utilización para éstas últimassea accesoria y notoriamente irrelevante(únicamente se dará esta circunstanciacuando, aquéllos, se destinen al uso personal del contribuyenteen días u horasinhábilesdurante los cuales se interrumpa el ejerciciode la actividad Ej.: unORDENADOR).Elementos sin aprovechamiento separado o independiente.
+
+[PÁGINA 119]
+119 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASAutomóviles de turismoy sus remolques, ciclomotores, motocicletas, aeronaves,embarcacionesdeportivas o de recreo,salvo en los siguientes supuestos:1.Losvehículos mixtosdestinados al transporte demercancías2.Los destinados a la prestación de servicios detransporte de viajerosmediante contraprestación3.Los destinados a laprestación de servicios de enseñanzade conductores o pilotos mediantecontraprestación4.Los destinados a los desplazamientos profesionales derepresentantes o agentes comerciales.5.Los destinados a ser objeto decesión de usocon habitualidad y onerosidad.No se considerarán afectos:Los que siendo titularidad del contribuyente,no figuren en lacontabilidado registros oficiales de la actividad económica que esté obligado a llevar, salvo prueba encontrario No se admiten usos irrelevantes o accesorios 22.4 RIRPF
+
+[PÁGINA 120]
+120 RENDIMIENTOS DE ACTIVIDADES ECONÓMICAS1.Un gestor administrativo utiliza el ordenador de su despacho profesional para finesparticulares algunos días festivos.El ordenador puede considerarse en su totalidad como bien afecto.2.Un abogado utiliza una habitación de su casa para ejercer su actividad, estahabitación tiene 30m2 y representa el 30 por 100 del la superficie de la vivienda.La parte de la vivienda que utiliza exclusivamente para su actividad puedeconsiderarse como afecta.3.Un taxista utiliza su vehículo en días de descanso para fines particulares.El taxi puede considerarse plenamente afecto a la actividad. EJEMPLOS
+
+[PÁGINA 121]
+121 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASCantidades abonadas en virtud de contratos de seguro, concertados con MutualidadesPrevisión Social por profesionales no integrados en el RETAde la Seguridad Social,cuando actúen como alternativas al régimen especial mencionado, en la parte que tengapor objeto la cobertura de contingencias atendidas por la Seguridad Social, conel límitede la cuota máxima por contingencias comunes que esté establecida, en cada ejercicioeconómico, en el citado régimen especial.Cantidades satisfechas al cónyuge, o hijos menores del contribuyente que convivan con él,cuando resulte acreditado con elcorrespondiente contrato laboral y afiliación a laSeguridad Social,que trabajan habitualmente y con continuidad en las actividadeseconómicas siempre queno sean superiores a las de mercado correspondientes a sucualificación profesional y trabajo desempeñado.Estas cantidadestendrán para elcónyugee hijos menores la consideración derendimientos de trabajo. GASTOS DEDUCIBLES –art30 LIRPF
+
+[PÁGINA 122]
+122 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASUnaabogada profesionalpor cuenta propia, contrata a su hijo menor queconvive con ella, como auxiliar administrativo para que le ayude en eldespacho, dándole de alta en la Seguridad Social.Ejemplo 1:Le paga un sueldo de 12.000 euros al año. Entendemos que sería gastodeducible en su totalidad.Ejemplo 2:Le paga un sueldo de 120.000 euros al año. Entendemos que sólo sería gastodeducible hasta el importe correspondiente al valor de mercado de su trabajo(Convenio colectivo). EJEMPLOS
+
+[PÁGINA 123]
+123 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASCuandoel cónyuge o los hijos menores del contribuyente que convivan conél, cedan bienes o derechos que sirvan al objeto de la actividad económicadesarrollada por el contribuyente, tendrán la condición de gasto deducible,lacontraprestación estipulada, siempre que no exceda del valor de mercado, y,a falta de aquélla, podrá deducirse éste último.La contraprestación o el valorde mercado, tendrán la consideración,para el cónyuge o hijosmenores delcontribuyente que convivan con él, derendimiento del capital.Lo dispuesto en esta reglanoserá de aplicación cuando losbienes oderechos sean comunes a amboscónyuges.GASTOS DEDUCIBLES-art. 30 LIRPF
+
+===== FUENTE: IRPF 2025_chunk_8.txt =====
+[PÁGINA 124]
+124 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASEj.:El local que una asesora fiscal utiliza como despacho profesional tienenaturaleza ganancial.Por ello, paga un alquiler a su esposo de 6.000 eurosanuales que coincide con el 50% del valor de mercado de unarrendamiento equivalente en esa zona.¿La asesora fiscal puede deducir ese gasto? No.Por ser unbien común aamboscónyuges y se entiende afecto al 100%. Puede deduciramortización.Suponga elmismo ejemplo pero ahora el local es privativodel esposo dela asesora fiscal y ésta no paga alquiler a su marido ¿se puede deducir ungasto?Sí.Incluso aunque no se pague podría deducir el valor demercado.Ese importe sería rendimiento del capital inmobiliario para elcónyuge. EJEMPLOS
+
+[PÁGINA 125]
+125 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASPrimas de seguro de enfermedadsatisfechas en la partecorrespondiente a su propia cobertura y a la de sucónyuge e hijosmenores de 25 años que convivancon él. Ellímite máximo dededucción será de 500 euros para cada personade las acabadasde mencionaro 1.500 eurospor cada uno en el caso dediscapacidad.GASTOS DEDUCIBLES-art. 30 LIRPF
+
+[PÁGINA 126]
+126 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASGastos de ManutenciónQue sean gastos del propio contribuyente. Que se realicen en el desarrollo de la actividad económica ( Es decir, que sean propios de la actividad) Que se produzcan en establecimientos de restauración y hostelería. Que se abonen utilizando cualquier medio electrónico de pago. Que no superen los límites cuantitativos que reglamentariamente se establece el artículo 9.A.3.a) del Reglamento del IRPF para las dietas y asignaciones para gastos normales de manutención de los trabajadores.GASTOS DEDUCIBLES-art. 30 LIRPFPernoctando en municipio distinto 53,34 euros/día (ESPAÑA) 91,35 euros/día (EXTRANJERO)Sin pernoctar en municipio distinto 26,67 euros/día (ESPAÑA) 48,08 euros/día (EXTRANJERO)
+
+[PÁGINA 127]
+127 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASESTIMACIÓN DIRECTAReducción por Trabajador autónomo económicamente dependiente(art. 32.2LIRPF) Requisitos (art. 26 R):a) El R.N. de deberá determinarse enE.D. No obstante,si se determina conarreglo a la modalidad de EDS, la reducción será incompatible con laaplicación del porcentaje del 5%en concepto de provisiones y gastos difíciljustificación.b) Latotalidad de sus entregas de bienes o prestaciones de servicios debenefectuarse a una única persona, física o jurídica, no vinculada en los términosart. 16 del TRLIS,o que el contribuyentetenga la consideración detrabajadorautónomo económicamente dependienteconforme a lo dispuesto en elCapítulo III del Título II de la Ley 20/2007, de 11 de julio, del Estatuto del trabajoautónomo y el cliente del que dependa económicamente no sea una entidadvinculada en los términos de la LIS. REDUCCIÓN ART. 32.2.2º LEY IRPF
+
+[PÁGINA 128]
+128 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASESTIMACIÓN DIRECTAEstatuto del trabajo autónomo: Lostrabajadores autónomoseconómicamente dependientesa los que se refiere el artículo 1.2.d)de la presente Ley son aquéllos que realizan una actividadeconómica o profesional a título lucrativo y de forma habitual,personal, directa y predominantepara una personafísica o jurídica,denominada cliente,del que dependen económicamente porpercibir de él, al menos, el 75 % de sus ingresospor RT y deactividades económicas o profesionales.En el contrato debe constar la condición de económicamentedependiente del trabajador autónomo respecto del cliente con elque contrata. REDUCCIÓN ART. 32.2.2º LEY IRPF
+
+[PÁGINA 129]
+129 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASESTIMACIÓN DIRECTAc)La totalidad de gastos deducibles no puede exceder del 30%de losrendimientos íntegros declarados.d) Se cumplirán durante todo el periodo impositivo, todas lasobligacionesformalesdel art. 68 RIRPF.e)No percibir durante el periodo impositivo R.T. No se entenderá que se incumpleeste requisito cuando se perciban prestaciones por desempleo o cualquiera delas prestaciones previstas en el art. 17.2 a, siempre que su importe no sea superiora 4.000 euros anuales.f) Que al menos el70 % de los ingresos estén sujetos a retencióno ingreso acuenta.g) Que no realice ninguna actividad económica a través de entidades enrégimen de atribución de rentas REDUCCIÓN ART. 32.2.2º LEY IRPF
+
+[PÁGINA 130]
+130 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASESTIMACIÓN DIRECTACuando se cumplan los requisitos anteriores (los del art. 32.2.2.º), los contribuyentes podrán reducir el RN de las AAEE en 2.000 euros.Adicionalmente,el Rendimiento neto de estas AAEE se minorará en las siguientescuantías:a) Cuando los rendimientos netos de actividades económicas sean inferiores a19.747,50euros siempre que no tengan rentas, excluidas las exentas, distintas de las deactividades económicas, superiores a6.500euros. CUANTÍAS:a´)Contribuyentes con rendimientos netos de actividades económicas iguales oinferiores a 14.047,50 euros:6.498 euros anuales REDUCCIÓN ART. 32.2.2º LEY IRPF
+
+[PÁGINA 131]
+131 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASESTIMACIÓN DIRECTAb´)Contribuyentes con rendimientos netos de actividades económicas comprendidosentre 14.047,50 y 19.747,50 euros:6.498 euros menos el resultado de multiplicar por1,14 la diferencia entre el rendimiento del trabajo y 14.047,50 euros anuales.b) Cuando se trate depersonas con discapacidadque obtengan RN derivados delejercicio efectivo de estas AAEE,3.500 euros anuales.Dicha reducción será de7.750 euros anuales, para las personas con discapacidadque ejerzan de forma efectiva estas AAEE y acrediten necesitar ayuda de terceraspersonas o movilidad reducida, o un grado de discapacidad igual o superior al 65%.REDUCCIÓN ART. 32.2.2º LEY IRPF
+
+[PÁGINA 132]
+132 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASESTIMACIÓN DIRECTA3ºCuando no se cumplan los requisitos nº 2.º, los contribuyentescon rentasno exentas inferiores a 12.000 euros, incluidas las de la propia AE, podránreducir el RN en las siguientes cuantías:a) Cuando la suma de las citadas rentas sea igual o inferior a 8.000 eurosanuales: 1.620 euros anuales.b) Cuando la suma de las citadas rentas esté comprendida entre 8.000,01 y12.000 euros anuales: 1.620 euros menos el resultado de multiplicar por0,405 la diferencia entre las citadas rentas y 8.000 euros anuales.REDUCCIÓN ART. 32.2.3º LEY IRPF
+
+[PÁGINA 133]
+133 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASESTIMACIÓN DIRECTALa reducción prevista en este nº 3º conjuntamente con la prevista enart. 20 Ley(Reducción por obtención de rendimientos del trabajo)no podrá exceder de3.700 euros.4.º Como consecuencia de la aplicación de las reducciones previstas eneste apartado, el saldo resultante no podrá ser negativo.REDUCCIÓN ART. 32.2.3º LEY IRPF
+
+[PÁGINA 134]
+134 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASESTIMACIÓN DIRECTALos contribuyentes queinicien el ejercicio de una AEy determinen el rendimiento netode la misma con arreglo al método de RD,podrán reducir en un 20 % el RN positivodeclarado con arreglo a dicho método,minorado en su caso por las reduccionesanteriores, en elprimer período impositivo en que el mismo sea positivo y en el períodoimpositivo siguiente(2 años desde que empiecen los beneficios).A efectos de lo dispuesto en el párrafo anterior se entenderá que se inicia una AEcuando no se hubiera ejercido actividad económica alguna en el año anterior a lafecha de inicio de la misma, sin tener en consideración aquellas actividades en cuyoejercicio se hubiera cesado sin haber llegado a obtener RN positivos.REDUCCIÓN ART. 32.3 LEY IRPF-INICIO NUEVA ACTIVIDAD
+
+[PÁGINA 135]
+135 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASESTIMACIÓN DIRECTALa cuantía de los rendimientos netos a que se refiere este apartado sobrela que se aplicará la citada reducción no podrá superar el importe de 100.000euros anuales.No resultará de aplicación la reducción prevista en este apartado en elperíodo impositivoen el que más del 50 % de los ingresosdel mismo procedande una persona o entidad de la que el contribuyente hubiera obtenidorendimientos del trabajoen el año anterior a la fecha de inicio de la actividad.REDUCCIÓN ART. 32.3 LEY IRPF-INICIO NUEVA ACTIVIDAD
+
+[PÁGINA 136]
+136 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASEjemplo:Don X inicia una actividad el 2-01-2025 y percibe (por actividad económica) de laempresa A90.000€ de ingresos y de laempresa B12.000€.En el 2024 Don X percibió rendimientos del trabajo de laempresa Apor importe de65.000€ y de laempresa C: 24.000€¿puede aplicar la reducción por inicio de actividad en el 2025?NO,más del 50 % de los ingresosdel mismo procedan de una entidad de laobtuvorendimientos del trabajoen el año anterior a la fecha de inicio de laactividad.. REDUCCIÓN ART. 32.3 LEY IRPF-INICIO NUEVA ACTIVIDAD
+
+[PÁGINA 137]
+137 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASHaber alcanzado en el ejercicio anterior, un volumen de rendimientos íntegros derivadosdel ejercicio de actividades económicas que supere los siguientes importes:250.000euros anuales, considerando todas las operaciones desarrolladas por elcontribuyente,excepto las agrícolas, ganaderas y forestalesA estos efectos, se computarála totalidad de las operacionescon independencia deldestinatario de las mismas, esto es, de que exista o no obligación de expedir factura deacuerdo con lo dispuesto en el Reglamento por el que se regulan las obligaciones defacturación, aprobado por el Real Decreto 1619/2012, de 30 de noviembre.Para este cómputo no se tienen en cuenta el volumen de ingresos de las actividadesagrícolas, ganaderas y forestales. CAUSAS DE EXCLUSIÓN EO (no agrícola, ganadera o forestal)
+
+[PÁGINA 138]
+138 RENDIMIENTOS DE ACTIVIDADES ECONÓMICAS125.000euros anuales, cuando corresponda a operaciones por las que estén obligadosa expedir factura al ser el destinatario un empresario o profesional que actúe como talde acuerdo con lo dispuesto en el artículo 2.2.a) del Reglamento por el que se regulanlas obligaciones de facturación.El artículo 2.2.a) del Reglamento por el que se regulan las obligaciones de facturaciónestablece que deberá expedirse factura y copia de esta en todo caso en las siguientesoperaciones: “a) Aquellas en las queel destinatario sea un empresario o profesionalque actúe como tal, con independencia del régimen de tributación al que se encuentreacogido el empresario o profesional que realice la operación, así como cualesquieraotras en las que el destinatario así lo exija para el ejercicio de cualquier derecho denaturaleza tributaria".Cuando en el año inmediato anterior se hubiese iniciado una actividad, el volumen deingresos se elevará al año. CAUSAS DE EXCLUSIÓN EO (no agrícola, ganadera o forestal)
+
+[PÁGINA 139]
+139 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASHaber superado en el ejercicio anterior el volumen de compras en bienes y servicios lacantidad de250.000euros anuales,excluidas las adquisiciones del inmovilizado.Normativa: Art. 32.2 b) Reglamento IRPF.Desarrollar la actividad económica, total o parcialmente, fuera del territorio españolNormativa: Art. 32.2 c) Reglamento IRPF.Haber superado durante el año anterior la magnitud específica máxima (número depersonas empleadas ode vehículoso de bateas utilizados) establecida para cadaactividad en la Orden de Módulos. CAUSAS DE EXCLUSIÓN EO (no agrícola, ganadera o forestal)
+
+[PÁGINA 140]
+140 RENDIMIENTOS DE ACTIVIDADES ECONÓMICASDeterminar el rendimiento neto de alguna actividad económica en el método deestimación directa, en cualquiera de sus dos modalidades.No obstante, cuando se inicie durante el año alguna actividad no incluida opor la que se renuncie al método de estimación objetiva,la incompatibilidad no surtiráefectos para ese año respecto de las actividades que se venían realizando conanterioridad, sino a partir del año siguiente.La exclusión del régimen especial simplificado del IVA o del IGICNormativa: Arts. 34.2 y 36 Reglamento IRPF.Otras CAUSAS DE EXCLUSIÓN EO (no agrícola, ganadera o forestal)

@@ -1,0 +1,199 @@
+A partir EXCLUSIVAMENTE del siguiente contenido, genera exactamente 8 preguntas tipo test.
+
+Reglas obligatorias:
+
+- No uses conocimiento externo
+- No inventes contenido
+- Si una regla no aparece claramente en el texto, no la conviertas en pregunta
+- No hagas preguntas cuya respuesta sea únicamente el número de artículos
+- No uses abreviaturas en el contenido visible
+- Nivel profesional alto
+- Mezcla conceptos técnicos, mini casos y preguntas trampa
+- Devuelve exclusivamente un JSON válido
+- No añadas comentarios ni texto fuera del JSON
+
+Formato obligatorio:
+
+[
+  {
+    "id": 1,
+    "subject": "Irpf",
+    "topic": "...",
+    "subtopic": "...",
+    "question": "...",
+    "options": {
+      "A": "...",
+      "B": "...",
+      "C": "...",
+      "D": "..."
+    },
+    "answer": "A",
+    "explanation": "...",
+    "reference": "Nombre del PDF o bloque del que sale la regla",
+    "difficulty": "alta",
+    "question_type": "concepto/caso/trampa",
+    "trap_level": "bajo/medio/alto",
+    "tags": ["...", "..."]
+  }
+]
+
+Contenido fuente:
+
+===== FUENTE: IRPF 2025_chunk_3.txt =====
+[PÁGINA 36]
+36 RENDIMIENTOS DEL TRABAJOEjemplo 1:El hijo de un profesor va gratis al colegio privado en el que trabaja supadre. El niño cursa bachiller:Rendimiento trabajo en especie exento (42.3 d)Ejemplo 2:Una empresa de automoción paga los mensualidades del primer ciclo deeducación infantil a una guardería a la que van los hijos de sus empleados:Rendimiento trabajo en especie exento (42.3 b)Ejemplo 3:Una empresa paga mensualidades al colegio en el que estudia bachillerel hijo de un empleado:Retribución en especie (debe realizar ingreso a cuenta).Rendimientos del trabajo en especie-exentos art. 42.3 LIRPF
+
+[PÁGINA 37]
+37 RENDIMIENTOS DEL TRABAJOEn el supuesto de entrega del vehículoLa retribución se valorará en elcoste de adquisición del vehículo para el empleador,incluidos los gastos y tributos que graven la operación. En consecuencia, deberá incluirsela totalidad del IVA satisfecho, con independencia de que resulte o no deducible para elpagador.En el supuesto de utilización del vehículoa.Vehículo que sea propiedad del pagador:el valor será el 20 por 100 anual del coste deadquisición del vehículo para el empleador, incluidos los gastos y tributos que graven laoperación.b.Vehículo que no sea propiedad del pagador: el valor será el 20 por 100 anual sobre elvalor de mercado, incluidos los gastos y tributos inherentes a la adquisición, quecorrespondería al vehículo si fuese nuevo. EJEMPLO VALORACIÓN RETRIBUCIÓN DEL TRABAJO EN ESPECIE
+
+[PÁGINA 38]
+38 RENDIMIENTOS DEL TRABAJOEn el supuesto de cesión del vehículo.Juan tiene cedido por su empresa un automóvil que utiliza para fines laborales y para usosparticulares. Teniendo en cuenta la naturaleza y características de las funcionesdesarrolladas por el trabajador en su empresa,el porcentaje de utilización del vehículopara fines laborales de la empresa se estima en un 30 por 100.El coste de adquisición para la empresa de dicho vehículo ascendió a unimporte de 20.000 euros.Ingreso a cuenta no repercutido 1.100 euros.¿Cuál sería la retribución es especie que tendría que declarar?EJEMPLO VALORACIÓN RETRIBUCIÓN DEL TRABAJO EN ESPECIE-vehículo
+
+[PÁGINA 39]
+39 RENDIMIENTOS DEL TRABAJOEn el supuesto de cesión del vehículoSOLAMENTEConstituye retribución en especie EL USO PARA FINES PARTICULARES,conindependencia de que exista o no utilización efectivadel mismo para fines particulares(100%) – (30%) = 70 por 100.Valor de la retribución en especie:Valoración total anual : (20% s/20.000) = 4.000,00Disponibilidad para fines particulares: (4.000 x 70%) = 2.800,00Ingreso a cuenta no repercutido = 1.100 euros.Total retribución en especie (2.800 + 1.100) = 3.900,00 EJEMPLO VALORACIÓN RETRIBUCIÓN DEL TRABAJO EN ESPECIE
+
+[PÁGINA 40]
+40 RENDIMIENTOS DEL TRABAJOEn el supuesto de cesión del vehículoSOLAMENTEConstituye retribución en especie EL USO PARA FINES PARTICULARES,conindependencia de que exista o no utilización efectivadel mismo para fines particulares(100%) – (30%) = 70 por 100.Valor de la retribución en especie:Valoración total anual : (20% s/20.000) = 4.000,00Disponibilidad para fines particulares: (4.000 x 70%) = 2.800,00Ingreso a cuenta no repercutido = 1.100 euros.Total retribución en especie (2.800 + 1.100) = 3.900,00 EJEMPLO VALORACIÓN RETRIBUCIÓN DEL TRABAJO EN ESPECIE
+
+[PÁGINA 41]
+RENDIMIENTOS DEL TRABAJO.Reglas especialesVivienda propiedad del pagador10% del VALOR CATASTRAL5% del VC si VC revisado en el período impositivo o los 10 anterioresSi no hay VC: 5% del 50% del mayor de: valor comprobado por la Administración o precio adquisiciónEl límite máximo de la valoración será el 10% de las restantes contraprestaciones del trabajo.Vivienda no propiedad del pagadorEl mayor deCoste para el pagador incluidos tributosValoración si la vivienda fuese propiedad del pagadorAplicable desde 01/01/2015PréstamosDiferencia entre el interés legal y el interés pagado a la empresa(Si el Tipo interés pactado es menor al Tipo interés legal LPGE).Contribuciones empresa a planes pensionesImporte satisfecho.41
+
+[PÁGINA 42]
+42 RENDIMIENTOS DEL TRABAJOEn el ejercicio 2025, don A.P.G., soltero, ha percibido como sueldo íntegro 50.000 euros,residiendo en una vivienda nueva, propiedad de la empresa, cuyo valor catastral, que fueobjeto de revisión en 2024, asciende a 60.000 euros.¿Cómo debe valorarse esta retribución, si los ingresos a cuenta efectuados por la empresaen el ejercicio 2025 por dicha retribución en especie, queno han sido repercutidosaltrabajador, han ascendido a 696 euros?Retribución en especie:(Resultado de sumar a la valoración fiscal de la retribución enespecie por utilización de vivienda los ingresos a cuenta efectuados por la empresa):3.696€.Valoración fiscal por utilización vivienda (5% x 60.000) = 3.000,00 Ejemplo 1:Vivienda propiedad del pagador
+
+[PÁGINA 43]
+43 RENDIMIENTOS DEL TRABAJOSueldo íntegro = 50.000 eurosLímite máximo de valoración fiscal(10% x 50.000) = 5.000,00Valoración fiscal que prevalece = 3.000,00Ingresos a cuenta = 696,00Los ingresos a cuenta no han sido repercutidos al trabajador, por lo que deben sumarse a la valoración fiscal con objeto de determinar el rendimiento íntegro del trabajo.Importe íntegro (3.000+ 696) = 3.696,00Total Ingresos Íntegros del trabajo: 50.000 + 3.696,00 = 53.696,00 euros Ejemplo 1:Vivienda propiedad del pagador
+
+[PÁGINA 44]
+44 RENDIMIENTOS DEL TRABAJOEl contribuyente A obtiene rendimientos del trabajo íntegros de 30.000 euros, y ademáspercibe una retribución en especie correspondiente a la utilización de una viviendaarrendada por su empresa en la que trabaja y por la que satisface un alquiler que asciende a700 euros mensuales.La vivienda arrendada tiene un valor catastral de 120.000 euros, que fue objeto de revisiónen 2023.¿Cómo debe valorarse esta retribución, si los ingresos a cuenta efectuados por la empresaen el ejercicio 2025 por dicha retribución en especie, queno han sido repercutidos altrabajador, han ascendido a1.259 euros?Solución: Sueldo íntegro = 30.000,00 Ejemplo 2:Vivienda NO propiedad del pagador
+
+[PÁGINA 45]
+45 RENDIMIENTOS DEL TRABAJORetribución en especie:(Resultado de sumar a la valoración fiscal de la retribución en especie porutilización de vivienda los ingresos a cuenta efectuados por la empresa) =9.659,00€(8.400+1259)Coste para el pagador (700 x 12) = 8.400,00Valoración fiscal en caso de vivienda propiedad de la empresa (5% x 120.000), con un límite máximode valoración fiscal (10% x 30.000 = 3.000) =3.000,00Valoración fiscal que prevalece = 8.400,00Prevaleceel coste para el pagador al ser dicha valoración superior a la que hubiera correspondido dehaber aplicado la regla de valoración por la utilización de viviendas propiedad del pagador. Se le añadeel ingreso a cuenta al no haber sido repercutido al contribuyente.Total Ingresos Íntegros del trabajo:30.000+9659 = 39.659,00 euros. Ejemplo 2:Vivienda NO propiedad del pagador
+
+[PÁGINA 46]
+46 RENDIMIENTOS DEL TRABAJOReglas generales:Quedarán exceptuadas de gravamen las siguientes cuantías:Gastos de locomoción:Cantidades destinadas por la empresa a compensar losgastos de locomoción del empleado o trabajador que se desplace fuera de la fábrica,taller, oficina, o centro de trabajo, para realizar su trabajo en lugar distinto, en lassiguientes condiciones e importes:•a) Cuando se utilice medios de transporte público, el importe del gasto que sejustifique mediante factura o documento equivalente.•b) En otro caso, la cantidad que resulte de computar 0,26 euros por kilómetrorecorrido, siempre que se justifique la realidad del desplazamiento, más los gastos depeaje y aparcamiento que se justifiquen. Dietas y gastos de manutención y estancia
+
+[PÁGINA 47]
+47 RENDIMIENTOS DEL TRABAJO1.º Cuando se haya pernoctado en municipio distinto del lugar de trabajo habitual y del que constituya la residencia del perceptor, las siguientes:Por gastos de estancia, los importes que se justifiquen.Por gastos de manutención,53,34 euros diarios, si corresponden a desplazamientodentro delterritorio español, o91,35 euros diarios, si corresponden a desplazamientosaterritorio extranjero.2.º Cuando no se haya pernoctado en municipio distinto del lugar de trabajohabitual y del que constituya la residencia del perceptor, las asignaciones paragastos de manutenciónque no excedan de26,67 ó 48,08 euros diarios, según setrate de desplazamiento dentro del territorio español o al extranjero,respectivamente. Dietas y gastos de manutención y estancia
+
+[PÁGINA 48]
+48 RENDIMIENTOS DEL TRABAJOEstarán exceptuadas de gravamen lascantidades que se abonen alcontribuyente con motivo del traslado de puesto de trabajo a municipio distinto,siempre que dicho traslado exija el cambio de residencia y correspondan,exclusivamente, a gastos de locomoción y manutención del contribuyente y desus familiares durante el traslado y a gastos de traslado de su mobiliario y enseres.Estarán exceptuadas de gravamen lascantidades percibidas por loscandidatosa jurado y por los jurados titulares, así como las percibidas por los miembros delas Mesas Electorales.Dietas y gastos de manutención y estancia
+
+[PÁGINA 49]
+49 RENDIMIENTOS DEL TRABAJO+Importe íntegro percibido(dinerario y especie)- Reducción 30% rendimientos irregulares= RENDIMIENTO INTEGRO-Gastos deducibles:Cotizaciones Colegios profesionales (máx. 500€)SindicatosDefensa jurídica (máx. 300€)Otros: -General: 2000€-Movilidad geográfica*-Discapacidad* = RENDIMIENTO NETO-reducción art. 20 LIRPF= RENDIMENTO POSITIVONETO A BASE GENERAL Determinación del rendimiento neto
+
+[PÁGINA 50]
+50 RENDIMIENTOS DEL TRABAJOEjemplo:Si un abogado paga cuotas al colegio de abogados por 400 euros serán deducibles,siempre que sea obligatorio para su trabajo, bien porque trabaja por cuenta propia comoabogado o bien por cuenta ajena para una empresa pero con funciones propias deabogado, para lo cual resulta obligatoria la colegiaciónSi ese mismo abogado trabaja para una empresa redactando informes o asesorando ala empresa pero sin el ejercicio de las funciones propias de abogado, las cuotas alcolegio de abogados no serían obligatorias.Determinación del rendimiento neto
+
+[PÁGINA 51]
+51 RENDIMIENTOS DEL TRABAJORendimientos con período de generación superior a dos años yaquellos que se califiquen como irregulares en el RIRF, y no seperciban en forma de renta:Rendimiento reducible en un 30 por 100 sobre un máximo de 300.000 euros.Debe de imputarse a un único período impositivo, salvo para rendimientosderivados de extinción de la relación laboral, en que se permite suimputación a varios períodos.No se podrá aplicar la reducción si en los 5 períodos impositivos anterioreshubiera obtenido otros rendimientos con período de generación superior ados años,a los que hubiera aplicado la reducción prevista en esteapartado. REDUCCIÓN DEL 30% . ART. 18 LIRPF Y 12 RIRPF
+
+[PÁGINA 52]
+52 RENDIMIENTOS DEL TRABAJO-Reducción del 30% para rendimientos obtenidos de forma irregular,siempre que se imputen a un único período impositivo (art. 12 RIRPF):a) Las cantidades satisfechas por la empresa a los empleados con motivo deltraslado a otro centro de trabajo que excedan de los importes previstos en elartículo 9.º de este Reglamento.b) Las indemnizaciones derivadas de los regímenes públicos de SeguridadSocial o Clases Pasivas, así como las prestaciones satisfechas por colegios dehuérfanos e instituciones similares, en los supuestos de lesiones no invalidantes.c) Las prestaciones satisfechas por lesiones no invalidantes o incapacidadpermanente, en cualquiera de sus grados, por empresas y por entes públicos. REDUCCIÓN DEL 30% . ART. 18 LIRPF Y 12 RIRPF
+
+===== FUENTE: IRPF 2025_chunk_4.txt =====
+[PÁGINA 53]
+53 RENDIMIENTOS DEL TRABAJOd) Las prestaciones por fallecimiento, y los gastos por sepelio o entierro queexcedan del límite exentos.e) Las cantidades satisfechas en compensación o reparación decomplementos salariales, pensiones o anualidades de duración indefinida opor la modificación de las condiciones de trabajo.f) Cantidades satisfechas por la empresa a los trabajadores por la resoluciónde mutuo acuerdo de la relación laboral.g) Premios literarios, artísticos o científicos que no gocen de exención en esteImpuesto.⇒En estos casos se exige únicamente su imputación a un único período impositivo.REDUCCIÓN DEL 30% . ART. 18 LIRPF Y 12 RIRPF
+
+[PÁGINA 54]
+54 RENDIMIENTOS DEL TRABAJOA partir de 1 de enero de 2007 a las prestaciones en forma de capital derivadas delos sistemas privados de previsión social no les resulta aplicable el régimen general dereducciones, salvo las que procedan del régimen transitorio.Los beneficiarios de prestaciones derivadas de contingencias acaecidas conposterioridad a 1 de enero de 2013, pueden aplicar el régimen de reduccionesvigente a 31 de diciembre de 2006 pero sólo a la parte de la prestacióncorrespondiente a las aportaciones realizadas hasta dicha fecha (31 de diciembrede 2006).El coeficiente reductor del 40 por 100 únicamente podrá ser aplicado, en sucaso, en relación con las prestaciones percibidas en el ejercicio en el queacaezca la contingencia determinante de la prestación y en los dosejercicios siguientes. REDUCCIÓN PRESTACIONES SISTEMAS DE PREVISIÓN SOCIAL
+
+[PÁGINA 55]
+55 RENDIMIENTOS DEL TRABAJOoGASTOS DE DEFENSA JURIDICA: máximo 300€ por procedimientos reclamación salariosoMOVILIDAD GEOGRÁFICA: Para desempleados(inscritos) que acepten un puesto de trabajo que exija traslado….. 2.000€ adicionales durante el ejercicio y el siguiente.oTRABAJADOR ACTIVO DISCAPACITADODiscapacidad superior al 33% e inferior al 65%: 3.500€ Si necesita ayuda de 3as personas o movilidad reducida o discapacidad >65%: 7.750€*REDUCCION rendimientos netos del trabajo inferiores a 19.747,50 eurossiempre que no tengan rentas, excluidas las exentas, distintas de las del trabajo, superiores a 6.500 RN 14.047,50o inferior……………………6.498RN entre 14.047,50y 19.747,50 ……….. 6.498 – [1,14 x (RNT-14.047,50 )] Determinación Rendimiento Neto
+
+[PÁGINA 56]
+56 RENDIMIENTOS DEL TRABAJORendimientos de actividades artísticas obtenidos de manera excepcional.Cuando los rendimientos íntegros del trabajo obtenidos en el período impositivo a los que no les resulte de aplicación la reducción prevista en el artículo 18.2 LIRPF (reducción por irregularidad) derivados de elaboración de obras literarias, artísticas o científicas (calificados como rendimientos del trabajo porque se cede su explotación) y de la relación laboral especial de las personas artistas que desarrollan su actividad en las artes escénicas, audiovisuales y musicales, así como de las personas que realizan actividades técnicas o auxiliares necesarias para el desarrollo de dicha actividad excedan del 130 por ciento de la cuantía media de los referidos rendimientos imputados en los tres períodos impositivos anteriores, se reducirá en un 30 por ciento el citado exceso.Máximo sobre 150.000€ DISPOSICIÓN ADICIONAL SEXAGÉSIMA
+
+[PÁGINA 57]
+57 RENDIMIENTOS DEL TRABAJOSTS 3518/2020Cuestión interés casacional: La cuestión controvertidala de si puede calificarse comotrabajador activo con derecho a la reducción a quien se encuentra en situación de ILT.Criterio del TS: El art. 20.3 LIRPF, interpretado en conexión con el artículo 12 RIRPF, asícomo con las normas que regulan las relaciones laborales, permiteequiparar a laspersonas que perciben una prestación por ILT con los trabajadores activos, a los efectosde la reducción que dicha norma legal prevéTRABAJADOR ACTIVO DISCAPACITADO
+
+[PÁGINA 58]
+58 RENDIMIENTOS DEL TRABAJOJuan con una discapacidad reconocida del 44 por 100, durante 2025 estuvotrabajando el mes de enero en una empresa obteniendo unos rendimientos de 1.500euros y se le descontaron 100 euros de seguridad social. El resto del año estuvodesempleado y obtuvo 8.000 euros por la situación del desempleo.SOLUCIÓN:Existe una reducción por trabajador activo con discapacidad de 3.500euros o de 7.750 euros si la discapacidad es igual o superior al 65 por 100 ( presenta movilidad reducida o ayuda de terceras personas). No obstante tenemos una limitación que es el rendimiento neto que se obtenga por ser trabajador activo y discapacitado.Límite de los gasto por trabajador en activo discapacitado 1.500 -100= 1.400 euros Ejemplo:
+
+[PÁGINA 59]
+59 RENDIMIENTOS DEL TRABAJOD. T estuvo desempleado el mes desde enero hasta el hasta el mes de octubre inclusive einscrito en una oficina de empleo, cobró por desempleo 7.000€. El mes de noviembre acepta unpuesto de trabajo que le exigió cambiar su residencia a otro municipio y por el que obtuvo unosrendimientos de 2.200€, seguridad social 400€.Determinar los gastos deducibles en concepto de incremento por movilidad geográfica.Solución:Por movilidad geográfica: 2.000 eurosLímite de los gastos incrementados que podrá descontar:1.800 euros(2.200 -400) ..................… 1.800 euros.Ejemplo:
+
+[PÁGINA 60]
+60 RENDIMIENTOS DEL TRABAJOLos rendimientos del trabajo se imputarán al período impositivo en que sean exigibles por su perceptor, con aplicación de la reducción del 30% si procede:Rendimientos percibidos por sentencia judicialAtrasos por convenio percibidos en un ejercicio pero que comprende varios añosPlanes de pensiones percibidos en forma de capital.2. Debe efectuarse DECLARACION COMPLEMENTARIA:Salarios adeudados (importes cuantificados)Si los pagos los efectúa el FOGASA, no se imputarán al año de la sentencia sino al año en que se deberían haber cobrado estos salarios. Imputación temporal de los rendimientos
+
+[PÁGINA 61]
+61 RENDIMIENTOS DEL TRABAJOCon carácter general, los rendimientos del trabajo seatribuyen exclusivamentea quien haya generado el derecho a supercepción, y ello con independencia de que, bajo determinadosregímenes económico-matrimoniales (v. gr., el régimen de gananciales),la propiedad sobre las percepciones obtenidas por un trabajador puedacorresponder en la mitad o en una parte a su cónyuge.Comoregla especial, las prestaciones asistenciales y rentas asimiladasrelacionadas en el artículo 17.2.a) de la LIRPF/2006, se atribuyen a laspersonas físicas en cuyo favor estén reconocidas.Individualización de rendimientos art. 11 LIRPF
+
+[PÁGINA 62]
+62 RENDIMIENTOS DEL TRABAJOCantidades pendientes de resolución judicial:Cuando no se hubiera satisfecho latotalidad o parte de una renta, porencontrarse pendiente de resolución judicial ladeterminación del derecho a su percepción o su cuantía, los importes nosatisfechos se imputarán al período impositivo en que aquélla adquiera firmeza.¡IMPORTANTE¡lo que se reclama es el derecho a percibir la renta o su cuantía, no elpago, ya que en tal caso se estaría en la regla de atrasos.LasRENTAS PENDIENTES DE RESOLUCION JUDICIALse declaran cuando setenga resolución judicial firme y además se declararán en ese ejercicio por losimportes totales. Si la sentencia reconoce ingresos de más de dos años, seaplicará la reducción del 30%.La resolución es firme cuando contra la misma no cabe recurso alguno.Si lo reconocido por la resolución judicial se percibiese en un ejercicio posterior, sepresentará complementaria del ejercicio en que la resolución sea firme. Imputación temporal de los rendimientos-Regla especial
+
+[PÁGINA 63]
+RENDIMIENTOS DEL CAPITAL
+
+[PÁGINA 64]
+64 RENDIMIENTOS DE CAPITALArt. 21 Ley IRPFLa totalidad de las utilidades o contraprestaciones, cualquiera que sea su denominación o naturaleza, dinerarias o en especie, que provengan, directa o indirectamente, de elementos patrimoniales, bienes o derechos, cuya titularidad corresponda al contribuyente y no se hallen afectos a actividades económicas realizadas por este.CLASES:Inmobiliario:- arrendamiento inmuebles no afectos AE: Ingresos - Gastos(Imputación rentas inmobiliarias: % valor inmueble)Mobiliario: dividendos, primas de asistencia a juntas, intereses cuentas bancarias, rendimientos contratos seguros de vida o invalidez, propiedad intelectual, industrial, etc Concepto y clases
+
+[PÁGINA 65]
+65 RENDIMIENTOS DE CAPITALRendimientos procedentes de propiedad intelectual, cuando el contribuyente no sea el autor, y de propiedad industrial no derivados de AE.Prestación de asistencia técnica que no sean derivados de una AE.Arrendamiento de bienes muebles, negocios o minas, así como derivados del subarriendo.Cesión de derechos a la explotación de la imagen, salvo que sea dentro del ámbito de una AE.**INTEGRAN LA BASE GENERAL DEL IRPF** Otros rendimientos de capital mobiliario
+
+[PÁGINA 66]
+66 RENDIMIENTOS DE CAPITALArrendamiento de un negocio.El importe percibido por el subarrendador .EJEMPLO:A es propietario de un local que alquila a B, el cual a su vez lo subarrienda a C.Los rendimientos que obtiene A son RC InmobiliarioLos rendimientos que obtiene B son RC MobiliarioLos RCM base general más comunes
+
+[PÁGINA 67]
+67 RENDIMIENTOS CAPITAL INMOBILIARIOLos rendimientos del capital inmobiliario se imputanal contribuyentetitular de los bienes.Hay que tener en cuenta en cuenta que,en caso de alquileres debienes heredados(y por tanto civilmente bienes privativos) losrendimientos se imputan únicamenteal titular del bien, aunque estécasado en régimen de gananciales (y aunque civilmente los alquileresse consideren gananciales).Asimismo, en caso deusufructo y nuda propiedad,los rendimientos losdebe declarar el usufructuario.Individualización
+
+[PÁGINA 68]
+68 RENDIMIENTOS CAPITAL INMOBILIARIOArt. 27.2 Ley IRPFLos rendimientos derivados del arrendamiento de bienes inmuebles tienenla consideración de rendimientos delcapital inmobiliario, salvo que elarrendamiento se realice comoactividad económica.A estos efectos, se entiende que el arrendamiento de bienes inmuebles serealiza como actividad económica únicamente cuando para laordenación de ésta se utilice, al menos,una persona empleada concontrato laboral y a jornada completa.ARRENDAMIENTO VERSUS AAEE
+
+[PÁGINA 69]
+69 RENDIMIENTOS CAPITAL INMOBILIARIOLa indemnización satisfecha como consecuencia de la resoluciónanticipada del contrato de arrendamiento tiene para elpropietario-arrendador la consideración de mejora.Para elarrendatario que lapercibe constituye una ganancia patrimonialcuyo período degeneración será el que corresponda en función de la antigüedad delcontrato de arrendamiento.Si la rescisión es voluntad del arrendatario paraél será una pérdidapatrimonialy parael arrendador RCI.INDEMNIZACIÓN POR RESOLUCIÓN ANTICIPADA DEL CONTRATO
+
+[PÁGINA 70]
+70 RENDIMIENTOS CAPITAL INMOBILIARIOIMPUTACIÓN TEMPORAL DE INGRESOS Y GASTOS DEL CAPITALINMOBILIARIO :Exigibilidad (no devengo ni cobro).Imputación Temporal
+
+[PÁGINA 71]
+71 RENDIMIENTOS CAPITAL INMOBILIARIO+Ingresos percibidos: Alquiler + gastos repercutidos -Gastos -Reparación y conservaciónIntereses y demás gastos de financiaciónImpuestosGastos C. PropietariosAmortización (inmueble: 3% sin suelo; 10% mobiliario)Primas de segurosSaldos de dudoso cobro=RENDIMIENTO PREVIO Determinación Rendimiento Neto
+
+[PÁGINA 72]
+72 RENDIMIENTOS CAPITAL INMOBILIARIO=RENDIMIENTO PREVIO-60% (90%, 70%, 60% ó 50%)vivienda habitual-30% irregularesRENDIMIENTO NETO(puede ser negativosalvo alquiler a familiares*)*como mínimo el importe que resultaría de la imputación de rentasDeterminación Rendimiento Neto
+
+===== FUENTE: IRPF 2025_chunk_5.txt =====
+[PÁGINA 73]
+73 RENDIMIENTOS CAPITAL INMOBILIARIOArt. 23 LIRPF Lista abierta de gastosTodos los gastos necesarios para la obtención de los rendimientos (PROPORCIONALES AL TIEMPO DE DURACIÓN DEL ARRENDAMIENTO, salvo reparación y conservación pero necesarios para el arrendamiento) Se considerarán gastos necesarios para la obtención de los rendimientos, entre otros:Intereses y demás gastos de financiación. (Limite Max. Rtos. Íntegros)Conservación y reparación. (Limite Max. Rtos. Íntegros)Tributos no estatales (IBI, tasa basura, etc.)Seguros.Los de formalización del contrato de arrendamiento.Cantidades destinadas a servicios (comunidad, etc.)Saldos de dudoso cobro (deudor en situación de concurso o entre la 1ª gestión de cobro y el 31/12/13 más de 6 mesesAMORTIZACIÓN3% s/ Mayor (V.Compra y V.Catastral), sin incluir suelo. Determinación Rendimiento Neto
+
+[PÁGINA 74]
+74 RENDIMIENTOS CAPITAL INMOBILIARIOIntereses y demás gastos de financiación.Son deducibles los intereses y demás gastos de financiación de los capitales ajenos invertidos en la adquisición o mejora del bien.Conservación y reparación. Tienen la consideración de gastos de conservación y reparación, a estos efectos: Los efectuados regularmente con la finalidad de mantener el uso normal de los bienes materiales, como el pintado, revoco o arreglo de instalaciones. Los de sustitución de elementos, como instalaciones de calefacción, ascensor, puertas de seguridad u otros. Determinación Rendimiento Neto
+
+[PÁGINA 75]
+75 RENDIMIENTOS CAPITAL INMOBILIARIOGastos de conservación y reparación, la deducibilidad está condicionada a la obtención de unos ingresos. Debe existir una correlación entre esos gastos de conservación y reparación y los ingresos derivados del posterior arrendamiento del inmueble. las reparaciones y actuaciones de conservación efectuadas deben ir dirigidas exclusivamente a la futura obtención de rendimientos del capital inmobiliario, a través del arrendamiento y no al disfrute, siquiera temporal, del inmueble por el titular.Lo mismo cabría decir de los gastos de publicidad y agencia que tengan por objeto el arrendamiento de la vivienda, serían deducibles en la medida en que vayan dirigidos a la futura obtención de rendimientos del capital inmobiliario. Gastos de conservación y reparación-Inmuebles en expectativa de alquiler. Gastos deducibles
+
+[PÁGINA 76]
+76 RENDIMIENTOS CAPITAL INMOBILIARIOIntereses y demás gastos de financiación. Conservación y reparación.El importe máximo a deducir por estos gastos no podrá exceder, para cada bien o derecho, de la cuantía de los rendimientos íntegros obtenidos.El exceso se podrá deducir en los 4 años siguientesGastos de conservación y reparación
+
+[PÁGINA 77]
+77 RENDIMIENTOS CAPITAL INMOBILIARIOEjemplo:El sr. A posee tiene un inmueble arrendado desde el 2020. En 2025, los ingresos íntegros han sido de10.000€. Gastos por intereses 5.000€ y reparación debido a unos desperfectos que ha tenido quearreglar 5.500€. Amortización 1.000€CÁLCULO DEL RENDIMIENTO:*Ingresos íntegros: 10.000€-Gastos por intereses y reparación: -10.000€-Amortización: - 1.000€Rendimiento Neto: -1.000€Los gasto de intereses y reparación suman 10.500€ aplicará en la declaracióndel 2025:10.000 €Para ejercicios posteriores : 500€ LÍMITE GASTOS: intereses, conservación y reparación
+
+[PÁGINA 78]
+78 RENDIMIENTOS CAPITAL INMOBILIARIOOtros gastos fiscalmente deducibles. 1º. Los tributos y recargos no estatales, así como las tasas y recargos estatales: IBI, tasa de basura, alumbrado, etc. Estos gastos tienen que tener relación con los inmuebles alquilados y no tienen que tener carácter sancionador. 2º. Cantidades devengadas por prestación de servicios de terceros, como pueden ser gastos de administración, vigilancia, portería, jardinería, primas de contratos de seguros (de responsabilidad civil, incendio, robo, rotura de cristales u otros de naturaleza análoga), gastos ocasionados por la formalización de los contratos de arrendamiento, etc. Determinación Rendimiento Neto
+
+[PÁGINA 79]
+79 RENDIMIENTOS CAPITAL INMOBILIARIO1.°El deudor se halle en situación deconcurso.2.°Entre el momento de la primera gestión de cobro realizada por el contribuyente y elde la finalización del período impositivo hubiesen transcurrido más de seis meses y no sehubiese producido una renovación de crédito.Cuando un saldo dudosofuese cobrado posteriormente a su deducción, se computarácomoingresoen el ejercicio en que se produzca dicho cobro.oEn relación a los 6 meses para que el saldo sea de dudoso cobro,se exigen para cadauna de las mensualidades, por lo que hay que realizar una gestión de cobro para cadamensualidady, en su caso, estar en condiciones de probar esa gestión (V0777-09)oPodrán consignarse como gasto aunque en dicho año ya no existan ingresos dandolugar a un rendimiento negativo (V1625-12). SALDOS DE DUDOS COBRO-será gasto cuando:
+
+[PÁGINA 80]
+80 RENDIMIENTOS CAPITAL INMOBILIARIODEDUCIBLES SI SE JUSTIFICAN Se entiende suficientemente justificado:Cuando el deudor se halle en situación de concurso.Cuando entre el momento de la primera gestión de cobro realizada por el contribuyente y el de la finalización del período impositivo hubiese transcurrido más de seis meses, y no se hubiese producido una renovación de crédito.Se declaran los ingresos aunque no se hayan cobradolos rendimientos se imputan al período impositivo en que seanexigibles por su perceptor (artículo 14.1.a) de la Ley del IRPF)Cuando un saldo dudoso fuese cobrado posteriormente a su deducción, se computará como ingreso en el ejercicio en que se produzca dicho cobro. SALDOS DE DUDOSO COBRO
+
+[PÁGINA 81]
+81 RENDIMIENTOS CAPITAL INMOBILIARIOSaldos de dudoso cobro:En relación a los 6 meses para que el saldo sea de dudoso cobro, seexigen para cada una de las mensualidades, por lo que hay querealizar una gestión de cobro para cada mensualidad y, en su caso,estar en condiciones de probar esa gestión (V0777-09)Podrán consignarse como gasto aunque en dicho año ya no existaningresos dando lugar a un rendimiento negativo (V1625-12)Determinación Rendimiento Neto
+
+[PÁGINA 82]
+82 RENDIMIENTOS CAPITAL INMOBILIARIOJuan tiene un inmueble alquilado durante todo 2025. El inquilino ha dejado de pagar los meses de junio, julio, agosto y septiembre. Juan puede acreditar esta circunstancia. El importe de la mensualidad es de 400 euros exigibles del 1 al 5 de cada mes. En 2025 declarará cómo ingresos 4.800 euros e incluirá entre sus gastos como saldo de dudoso cobro 400 euros (correspondiente a la mensualidad de junio). Nota:Desde que esta mensualidad es exigible (del 1 al 5 de junio-2025) hasta el final del período impositivo (31-12-2025) han transcurrido más de 6 meses. En2026 declarará los ingresos que procedan e incluirá entre sus gastos como saldo de dudoso cobro 1.200 euros (correspondiente a la mensualidad de julio-agosto y septiembre). Nota: Desde la fecha en que son exigibles estas mensualidades hasta el final del período impositivo (31-12-2026) han transcurrido más de 6 meses. SALDOS DE DUDOSO COBRO-Ejemplo:
+
+[PÁGINA 83]
+83 RENDIMIENTOS CAPITAL INMOBILIARIOInmuebles:3 % sobre el mayor de los siguientes valores:A)Coste de adquisición satisfecho.ADQUISICIÓN ONEROSA: PRECIO COMPRA + GASTOS + TRIBUTOS + MEJORASADQUISICIÓN POR HERENCIA O DONACIÓN: valor del bien adquirido en la aplicación de las normas sobre el Impuesto sobre Sucesiones o Donaciones o su valor comprobado en estos gravámenes más los gastos y tributos +MEJORASB) Valor catastral.Sin incluir el valor del suelo en ningún caso.(Cuando no se conozca el valor deconstrucción se calculará prorrateando el coste de adquisición satisfecho entre los valorescatastrales del suelo y de la construcción de cada año).Bienes muebles: 10 % (Tabla de amortizaciones de EDS) Cálculo de la amortización en los bienes alquilados
+
+[PÁGINA 84]
+84 RENDIMIENTOS CAPITAL INMOBILIARIOEl límite de la amortización acumulada será el valor de adquisición del inmueble generador de los rendimientos.Bienes adquiridos a título oneroso, la amortización acumulada no podrá superar su valor de adquisición conforme al artículo 35 de la Ley del IRPF (excluido del cómputo el valor del suelo).A.El importe real por el que dicha adquisición se hubiera efectuado.B.El coste de las inversiones y mejoras efectuadas en los bienes adquiridos y los gastos y tributos inherentes a la adquisición, excluidos los intereses, que hubieran sido satisfechos por el adquirente.Bienes adquiridos a título lucrativo, la amortización acumulada no podrá superar el valor de adquisición en los términos del artículo 36 de la Ley de IRPF (excluido del cómputo el valor del suelo).Según el artículo 36 de la Ley del IRPF, en estos casos se tomará por importe real de los valores respectivos aquéllos que resulten de la aplicación de las normas del Impuesto sobre Sucesiones y Donaciones, sin que puedan exceder del valor de mercado. Límite de la amortización acumulada
+
+[PÁGINA 85]
+85 RENDIMIENTOS CAPITAL INMOBILIARIOEjemplo:Raúl adquirió por herencia un inmueble cuyo valoratribuido en la liquidación del Impuesto sobre Sucesiones y Donaciones (ISD) y que consta en la escritura pública de adjudicación de herencia fue de 200.000 euros. Los gastos y tributos inherentes a la adquisición (notaria, registro, ISD) ascienden a 4.000 euros. El valor catastral del inmueble heredado: 80.000 euros, de los cuales 56.000 euros se son el valor de la construccióny 24.000 euros el valor del suelo.Una vez heredado, el inmueble se destinó al arrendamiento a terceros. Calcular la amortización que corresponde a un bien inmueble que se encuentra alquilado y el límite de amortización acumulada Cálculo de la amortización en los bienes alquilados-EJEMPLO
+
+[PÁGINA 86]
+86 RENDIMIENTOS CAPITAL INMOBILIARIOSe tomará para el cálculo de la amortización el mayor de los siguientes valores: -Coste de adquisición satisfecho que corresponde a la construcción: 70% s/(200.000 + 4.000) = 142.800 (parte correspondiente a la construcción 56.000/80.000=70%)-Valor catastral que se corresponde con la construcción: 56.000El importe de la amortización deducible como gasto para determinar el rendimiento de capital inmobiliario no podrá exceder del resultado de aplicar el porcentaje del 3 por 100 sobre el mayor de los valores anteriores. Por tanto, en este caso el importe de la amortización anual máxima deducible será el 3% s/142.800 euros = 4.284 euros Cálculo de la amortización en los bienes alquilados-EJEMPLO
+
+[PÁGINA 87]
+87 RENDIMIENTOS CAPITAL INMOBILIARIO2. Límite amortización acumulada.El contribuyente podrá amortizar el inmueble hasta que el importe de la amortización acumulada alcance el valor de adquisición del inmueble que, conforme a lo que establece el artículo 36 de la Ley del IRPF, es el valor del inmueble a efectos del ISD (excluyendo del cómputo el valor del suelo) más tributos y gastos inherentes a la transmisión, esto es, 70% x (200.000 + 4.000) = 142.800 euros.Mismo ejemplo pero el valor catastral del inmueble son 240.000 euros ( de los cuales 168.000 se corresponden a la valor de construcción), aplicaré como amortización el 3 por 100 sobre 168.000 euros (es el mayor valor)Importe amortización= 3%s/168.000=5.040 euros pero el límite será hasta que el importe de la amortización acumulada alcance el valor de adquisición del inmueble (esto es 142.800). Cálculo de la amortización en los bienes alquilados-EJEMPLO

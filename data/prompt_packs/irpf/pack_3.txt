@@ -1,0 +1,206 @@
+A partir EXCLUSIVAMENTE del siguiente contenido, genera exactamente 8 preguntas tipo test.
+
+Reglas obligatorias:
+
+- No uses conocimiento externo
+- No inventes contenido
+- Si una regla no aparece claramente en el texto, no la conviertas en pregunta
+- No hagas preguntas cuya respuesta sea únicamente el número de artículos
+- No uses abreviaturas en el contenido visible
+- Nivel profesional alto
+- Mezcla conceptos técnicos, mini casos y preguntas trampa
+- Devuelve exclusivamente un JSON válido
+- No añadas comentarios ni texto fuera del JSON
+
+Formato obligatorio:
+
+[
+  {
+    "id": 1,
+    "subject": "Irpf",
+    "topic": "...",
+    "subtopic": "...",
+    "question": "...",
+    "options": {
+      "A": "...",
+      "B": "...",
+      "C": "...",
+      "D": "..."
+    },
+    "answer": "A",
+    "explanation": "...",
+    "reference": "Nombre del PDF o bloque del que sale la regla",
+    "difficulty": "alta",
+    "question_type": "concepto/caso/trampa",
+    "trap_level": "bajo/medio/alto",
+    "tags": ["...", "..."]
+  }
+]
+
+Contenido fuente:
+
+===== FUENTE: IRPF 2025_chunk_15.txt =====
+[PÁGINA 250]
+250 DEDUCCIÓN POR OBRAS DE MEJORA ENERGÉTICAViviendas en las que se pueden realizar las obras:Puede tratarse de cualquier tipo de vivienda (tanto en la vivienda habitual como en segundas residencias o viviendas arrendadas) que sea de propiedad del contribuyente, salvo las viviendas afectas a actividades económicas.Se asimilarán a viviendas lasplazas de garaje y trasterosque se hubieran adquirido con estas.Tendrán derecho a la deducción las obras llevadas a cabo en elementos comunes del edificio que se efectúen en jardines, parques, piscinas e instalaciones deportivas y otros elementos análogos.No darán derecho a practicaresta deducción por las obras realizadas en la parte de la vivienda que se encuentre afecta a una actividad económica.Las obras a las que se hace referencia han de realizarse sobre el conjunto del edificio (vivienda unifamiliar) o sobre un bloque completo (edificio plurifamiliar). Por obras de rehabilitación energética: 60%
+
+[PÁGINA 251]
+251 DEDUCCIÓN POR OBRAS DE MEJORA ENERGÉTICAPeriodos impositivos en los que se aplica:En principio se puede aplicar en2021, 2022, 2023, 2024 y 2025.No obstante, es requisito para poder aplicar la deducción que se haya expedido el certificado de eficiencia energética emitido después de las obras.Estos certificados deberán ser expedidosantes del 1 de enero de 2026.Obras de rehabilitación energética del edificio aquéllas que contribuyan a la mejora de la eficiencia energética del edificio en el que se ubica la vivienda, debiendo acreditarse con el certificado de eficiencia energética expedido por el técnico competente después de la realización de aquéllas:una reducción del consumo de energía primaria no renovable, referida a la certificación energética, de un 30 por ciento como mínimo, o bien,la mejora de la calificación energética del edificio para obtener una clase energética «A» o «B», Por obras de rehabilitación energética: 60%
+
+[PÁGINA 252]
+252 DEDUCCIÓN POR OBRAS DE MEJORA ENERGÉTICAPodrán aplicar las deducciones:Los contribuyentes que ostenten la plena propiedad de la vivienda objeto de tales obras Por tanto, quedan excluidos los nudos propietarios, usufructuarios y arrendatarios.Cada copropietario de la vivienda podrá practicar la deducción por las cantidades que haya satisfecho por la realización de las obras en la parte que proporcionalmente se corresponda con su porcentaje de titularidad en la vivienda habitual, con independencia de que la factura correspondiente a las obras se haya expedido únicamente a nombre de uno de los cotitulares de la vivienda.No se benefician de la deducción:Las cantidades satisfechas que correspondan a costes relativos a la instalación o sustitución de equipos que utilicen combustibles de origen fósil. Normas comunes
+
+[PÁGINA 253]
+253 DEDUCCIÓN POR OBRAS DE MEJORA ENERGÉTICALa base de esta deducción estará constituida por:Las cantidades satisfechas, mediantetarjeta de crédito o débito, transferencia bancaria, cheque nominativo o ingreso en cuenta en entidades de crédito, a las personas o entidades que realicen tales obras, así como a las personas o entidades que expidan los citados certificados.No obstante,se descontarán aquellas cuantías que, en su caso, hubieran sido subvencionadasa través de un programa de ayudas públicas o fueran a serlo en virtud de resolución definitiva de la concesión de tales ayudas.NOTA: los referidos medios de pago (tarjetas de crédito o débito, transferencia bancaria, cheque nominativo o ingreso en cuentas en entidades de crédito) deben ser utilizados por la comunidad de propietarios al satisfacer las obras a las personas o entidades que realicen las mismas.. Normas comunes
+
+[PÁGINA 254]
+254 DEDUCCIÓN ADQUISICIÓN DE VEHÍCULOS ELÉCTRICOS «ENCHUFABLES» Y DE PILA DE COMBUSTIBLE Y PUNTOS DE RECARGAAdquisición vehículo eléctrico comprado desde el 30/06/2023 hasta el 31/12/2025. Porcentaje de deducción: 15% del valor de adquisición incluidos los gastos y tributos inherentes a la adquisición, debiendo descontar aquellas cuantías que, en su caso, hubieran sido subvencionadas o fueran a serlo a través de un programa de ayudas públicas).Base máxima anual: 20.000euros anuales y se practicará en el período impositivo en el que el vehículo sea matriculado (o se haya efectuado un pago a cuenta de al menos el 25% del valor de adquisición).Los vehículos deberán pertenecer a ciertas categorías (Turismos M1, Cuadriciclos ligeros L6e, Cuadriciclos pesados L7e ó Motocicletas L3e, L4e, L5e), figurar en la base de vehículos del IDAE (Instituto para la Diversificación y Ahorro de Energía) y cumplir una serie de requisitos.El vehículo nopodrá estar afecto a una actividad económica. Disposición adicional quincuagésima octava (LIRPF).
+
+[PÁGINA 255]
+255 DEDUCCIÓN ADQUISICIÓN DE VEHÍCULOS ELÉCTRICOS «ENCHUFABLES» Y DE PILA DE COMBUSTIBLE Y PUNTOS DE RECARGAPor la instalación de puntos de recarga.Porcentaje de deducción:15% de las cantidades satisfechas desde el 30/06/2023 hasta el 31/12/2025, para la instalación en un inmueble de su propiedad de sistemas de recarga de baterías para vehículos eléctricos. La instalación no puede estar afecta a una aaee y si se afectara con posterioridad se perdería el derecho a la deducción practicada.Base máxima anual: 4.000euros y se practicará en el período impositivo en el que finalice la instalación, que no podrá ser posterior a 2025Se debe descontar aquellas cuantías que hubieran sido subvencionadas a través de un programa de ayudas públicas. Disposición adicional quincuagésima octava (LIRPF).
+
+[PÁGINA 256]
+256 DEDUCCIONESDEDUCCION INVERSIONES EMPRESARIALES EN CANARIASDEDUCCIONES POR DONATIVOSDEDUCCIONES POR RENTAS OBTENIDAS EN CEUTA O MELILLADEDUCCIONES PROTECCION Y DIFUSIÓN PATRIMONIO HISTÓRICO ESPAÑOLOtras deducciones E
+
+[PÁGINA 257]
+257 DEDUCCION CUOTA DIFERENCIALUna vez practicadas las oportunas deducciones, se obtiene la CUOTA DIFERENCIALaplicando las RETENCIONES E INGRESOS A CUENTA PRACTICADOS EN EL EJERCICIO:rentas de trabajo personal, capital mobiliario, retenciones, pagos a cuenta, etc.Sobre el resultado de la declaración se podrán aplicar las siguientes:Deducción por maternidad hijos <3 años + gastos custodiaDeducción por descendientes con discapacidadDeducción por ascendientes con discapacidadDeducción por cónyuge con discapacidadDeducción familia numerosa CUOTA DIFERENCIAL E
+
+[PÁGINA 258]
+258 DEDUCCION CUOTA DIFERENCIALLas mujeres con hijos < 3 años conderecho a la aplicación delmínimo por descendientesprevisto en el art. 58 LIRPF, que:oen el momento del nacimientoperciban prestaciones contributivas oasistenciales del sistema de protección de desempleo, o que en dichomomento o en cualquier momento posterior estén dadas de alta en elrégimen correspondiente de la SSo mutualidad con unperíodo mínimo,en este último caso, de30 días cotizados,podrán minorar la cuotadiferencial de este Impuesto hasta en 1.200 eurosanuales por cada hijo< 3 añoshasta que el menor alcance los 3 años de edad(tb. 1.000guardería)Ya no se exige realizar una actividad por cuenta propia o ajena DEDUCCIÓN POR MATERNIDAD+GASTOS DE GUARDERÍA-2023
+
+[PÁGINA 259]
+259 DEDUCCION CUOTA DIFERENCIALCumplidos cualquiera de los requisitos anteriores,se mantiene elderechoa seguir percibiendo esta deducción hasta que el menoralcance los 3 años de edad.La deducción se calcula de forma proporcional al número de meses posteriores al momento en se cumplan los requisitos, en los que la mujer tenga derecho al mínimo por descendientes, siempre que durante dichos meses no se perciba por ninguno de los progenitores en relación con dicho descendiente el complemento de ayuda para la infanciaprevisto en la Ley 19/2021, del ingreso mínimo vital, (*) salvo que lo vinieran percibiendo con anterioridad a 1 de enero de 2023.(*) Nueva DTr 37ª LIRPFintroducidapor el art. 73 del Real D-ley 20/2022. DEDUCCIÓN POR MATERNIDAD+GASTOS DE GUARDERÍA-2023
+
+[PÁGINA 260]
+260 DEDUCCION CUOTA DIFERENCIALA efectos del cómputo del periodo mínimo de 30 días cotizados, se tendrán en cuenta los días de cotización previos al nacimiento, siendo necesario que con posterioridad al nacimiento se produzca el alta en el régimen correspondiente de la Seguridad Social o mutualidad.Si bien es una deducción que aplicará la madre TAMBIÉN PODRÁ APLICARLA EL padre o tutor, en caso de fallecimiento de la madre o cuando ostente la guarda o custodia de forma exclusiva y cumpla los requisitos, éste tendrá derecho a la deducción pendiente.DEDUCCIÓN POR MATERNIDAD-PRECISIONES
+
+[PÁGINA 261]
+261 DEDUCCION CUOTA DIFERENCIALLos requisitos señalados para poder aplicar la deducción padre supérstite o tutor con hijos menores de tres años con derecho a la aplicación del mínimo por descendientes, que:-en el momento del nacimiento del menor perciba prestaciones contributivas o asistenciales del sistema de protección de desempleo, -o que en dicho momento o en cualquier momento posterior esté dado de alta en el régimen correspondiente de la Seguridad Social o mutualidad con un período mínimo, en este último caso, de 30 días cotizados, tendrá derecho a la deducción por maternidad pendiente (la deducción que corresponda al tiempo que reste hasta que el hijo o tutelado alcance los tres años de edad). DEDUCCIÓN POR MATERNIDAD-PRECISIONES -
+
+[PÁGINA 262]
+262 DEDUCCION CUOTA DIFERENCIALCuando se tenga derecho a la deducción por haberse dado de alta en la Seguridad Social o mutualidad con posterioridad al nacimiento del menor, la deducción correspondiente al mes en el que se cumpla el período de cotización de 30 días, se incrementa en 150 € (ese incremento NO se aplica en el abona anticipado). Ejemplo: Hijo que nace el 08/10/2022. En dicha fecha, la madre no tiene derecho a aplicar la deducción por maternidad; el 09/03/2023 cumple el requisito de tener un período mínimo de 30 días cotizados. Deducción por maternidad = 1.150 € [100 € x 10 meses de 2023 (de febrero a diciembre) + 150 €]. DEDUCCIÓN POR MATERNIDAD-PRECISIONES -
+
+[PÁGINA 263]
+263 DEDUCCION CUOTA DIFERENCIALTrabajadora durante el período correspondiente a vacaciones anuales retribuidas que no han sido disfrutadas con anterioridad a la finalización del contrato. Pese a existir cotización no se encuentra de alta en Seguridad Social sino en situación asimilada al alta. Cuidadores no profesionales. Pese a existir cotización no se encuentra de alta en Seguridad Social sino en situación asimilada al alta. Situaciones de excedencia por cuidado de hijos, por cuidado de otros familiares o excedencia forzosa o excedencia voluntaria al no encontrarse de alta en Seguridad Social, sino en su caso, en situación asimilada al alta. Trabajadora fija discontinua que en el momento del nacimiento del menor se encuentra en un periodo de inactividad y no percibe en ese momento prestación contributiva o asistencial del sistema de protección de desempleo. DEDUCCIÓN POR MATERNIDAD-SITUACIONES QUE NO DAN DERECHO -
+
+[PÁGINA 264]
+264 DEDUCCION CUOTA DIFERENCIALLos hijos por naturaleza, desde el mes de su nacimiento hasta el mes anterior a aquél en que cumplan los tres años de edad, ambos inclusive. La determinación de los hijos que dan derecho a la percepción de la deducción se realiza de acuerdo con su situación el último día de cada mes por lo que el mes en el que ha nacido el hijo se computa por entero (DGT V2992-11).Los hijos adoptadosy los menores vinculados al contribuyente por razón de tutela o acogimiento, permanente o preadoptivo, o de delegación de guarda para la convivencia.SOLAMENTE EN LOS SUPUESTOS DE: adoptados o acogidos (permanente o preadoptivo)o de delegación de guarda para la convivencia preadoptiva la deducción se podrá practicar, con independencia de la edad del menor, durante los tres años siguientes a la fecha de la inscripción en el Registro Civil o cuando ésta no sea necesaria, a la fecha de la resolución judicial o administrativa. DEDUCCIÓN POR MATERNIDAD+GASTOS DE GUARDERÍA-quien da derecho?
+
+===== FUENTE: IRPF 2025_chunk_16.txt =====
+[PÁGINA 265]
+265 DEDUCCION CUOTA DIFERENCIALNo dan derecho a la deducción:Nietos y demás descendientes por consanguinidad distintos de los hijosCuando se trate de acogimientos familiares simples, de urgencia o temporalesEn los casos de menores (distintos de los hijos) respecto de los que se tenga la guarda y custodia por resolución judicial.Tutelados mayores de 3 años. DEDUCCIÓN POR MATERNIDAD+GASTOS DE GUARDERÍA-quien da derecho?
+
+[PÁGINA 266]
+266 DEDUCCION CUOTA DIFERENCIALSe incrementa en 1.000 euros adicionales la deducción pormaternidad cuando se satisfagan gastos de custodia en guardería ocentros de educación infantil autorizados por hijos menores de 3años.No obstante, en el ejercicio en el que el hijo menor cumpla 3 años,este incremento puede ser de aplicación respecto de los gastosincurridos con posterioridad al cumplimiento de dicha edad hasta elmes anterior en que pueda comenzar el 2º ciclo de educacióninfantil INCREMENTO POR GASTOS DE GUADERÍA
+
+[PÁGINA 267]
+267 DEDUCCION CUOTA DIFERENCIALNo se podrá solicitar el abono anticipado de este incremento de ladeducción por maternidad.Se consideran gastos de custodia las cantidades que:Sean satisfechas a guarderías y centros de educación infantil autorizados.Se abonen por la inscripción y matricula, la asistencia, en horario general yampliado, y la alimentación, siempre que se hayan producido por mesescompletos.No tengan la consideración de rendimientos del trabajo exentos (artículo 42.3.c) yd) de la LIRPF). INCREMENTO POR GASTOS DE GUADERÍA
+
+[PÁGINA 268]
+268 DEDUCCION CUOTA DIFERENCIAL-Requisitos para el contribuyente que pretenda aplicarse una deducción:oRealicen una actividad por cuenta propia o ajenaoPerceptores de prestaciones por desempleo (contributivas y asistenciales)oPensionistas de régimen general de la seguridad social o clases pasivas- Deducción por descendiente/ascendiente discapacitado (1.200€).- Deducción por cónyuge discapacitado.-En el caso de familia monoparental con dos hijos y no se perciba anualidades por alimentos-Familia numerosa: 1.200€ (familia numerosa especial 2.400€)Definición de familia numerosa general o especial viene previsto en la Ley 40/2003 DEDUCCIONES FAMILIARES
+
+[PÁGINA 269]
+269 DEDUCCION CUOTA DIFERENCIALa) Por cadadescendiente con discapacidadcon derecho a laaplicación del mínimo por descendientes previsto en el artículo 58de esta Ley, hasta 1.200 euros anuales.b)Por cadaascendiente con discapacidadcon derecho a laaplicación del mínimo por ascendientes previsto en el artículo 59de esta Ley, hasta 1.200 euros anuales.DEDUCCIONES FAMILIARES-descendiente/ascendiente discapacitado.
+
+[PÁGINA 270]
+270 DEDUCCION CUOTA DIFERENCIALPor cónyuge no separado legalmente con discapacidad, siempre que no tengarentas anuales, excluidas las exentas, superiores a 8.000 eurosni genere el derechoalas deducciones previstas en las letras c) y d) del nº 1 del art. 81 bis (descendiente condiscapacidad o ascendiente con discapacidad con derecho a la aplicación delmínimo), hasta 1.200 euros anuales.Para el abono anticipado de la deducción por cónyuge discapacitado, la cuantíade las rentas anuales a tomar en consideración serán las correspondientes al últimoperíodo impositivo cuyo plazo de presentación de autoliquidación hubiera finalizado alinicio del ejercicio en que solicita su abono anticipado (para el ejercicio 2025, elejercicio de referencia será 2023)Si los ingresos en el ejercicio 2025 fueransuperiores a los que exige la Ley se tendría que regularizar en la declaración IRPF2025. DEDUCCIONES FAMILIARES-cónyuge no separado
+
+[PÁGINA 271]
+271 DEDUCCION CUOTA DIFERENCIALLaexpresión"ni genere el derecho a las deducciones por ascendiente odescendiente con discapacidad”,se debe entender según su literal, esto es,dicho requisito no se refiere a que, por razón de esa persona con discapacidad,un contribuyente haya aplicado de forma efectiva en su declaración (u obtenidoel pago adelantado) la deducción por descendiente o ascendiente condiscapacidad.Basta con que el cónyuge con discapacidad genere el derecho aun contribuyente a la deducción por descendiente o ascendiente condiscapacidad respectivamente, para que no sea posible aplicar la deducción porcónyuge con discapacidad.EXISTE UNA CASILLA EN LA DECLARACIÓN PARA MARCAR LOS MESESEN QUE GENERA EL DERECHO EN OTRA PERSONA.Si algún descendiente o ascendiente tiene derecho a aplicar, respecto del cónyuge condiscapacidad, las deducciones por ascendiente o descendiente con discapacidad acargo, marque la casilla. DEDUCCIONES FAMILIARES-cónyuge no separado
+
+[PÁGINA 272]
+272 DEDUCCION CUOTA DIFERENCIALEJEMPLO: Un matrimonio y un hijo que convive con ellos. Uno de los dos cónyuges tiene discapacidad y no tiene rentas superiores a 8.000€, el otro cónyuge percibe una pensión de jubilación de 22.000€.El hijo ha trabajado desde enero hasta marzo inclusive y desde abril hasta final deaño no cobra ningún tipo de prestación.El hijo tendría derecho a la deducción por ascendiente discapacitado a cargo losmeses de enero, febrero y marzo.El cónyuge que no tiene discapacidad tendría derecho a la deducción porcónyuge discapacitado el resto de meses ( es decir, desde abril hasta diciembre). DEDUCCIONES FAMILIARES
+
+[PÁGINA 273]
+273 DEDUCCION CUOTA DIFERENCIALResolución del TEAC de 24 de junio de 202, Reclamación número 00/00816/2021 recurso extraordinario de alzada para la unificación de criterio, fijó el siguiente criterio:Para poder aplicar la deducción por familia numerosa es necesario acreditar la concurrencia de los requisitos y condiciones establecidos en los artículos 2 y 3 de la Ley 40/2003, de 18 de noviembre, de Protección a las Familias Numerosas, por cualquier medio de prueba admisible en Derecho y no exclusivamente mediante el título oficial de familia numerosa al que se refiere el artículo 5.1 de esta última ley.DEDUCCIONES FAMILIARES-familia numerosa
+
+[PÁGINA 274]
+274 DEDUCCION CUOTA DIFERENCIALDebe estar separado legalmente o sin vínculo matrimonial.Notener derecho a percibir anualidades por alimentos por los hijos (o teniendo derecho pueden acreditar que no las perciben) SENTENCIA TS 1368/2022.oEl derecho a percibir alimentos exige una resolución judicial que así lo determine o el acuerdo de los cónyuges mediante formulación de un convenio regulador ante el Secretario judicial o es escritura pública ante Notario.Tener derecho por los hijos a la totalidad del mínimo por descendientes.oSeparados legalmente si tienen guardia y custodia exclusiva.oAscendientes sin vínculo matrimonial, cuando no haya convivencia con el otro progenitor y los hijos convivan única y exclusivamente con un ascendiente. DEDUCCIONES FAMILIARES-ascendiente separado o sin vínculo....
+
+[PÁGINA 275]
+275 DEDUCCION CUOTA DIFERENCIALTodas las deducciones se aplican por meses (100 euros/mes). La deducción por FAMILIANUMEROSA se incrementa hasta en 600 euros anuales(50 euros/mes)por cada uno de los hijosque formen parte de la FAMILIA NUMEROSAque exceda del número mínimo de hijos exigido paraque dicha familia haya adquirido la condición de familia numerosade categoría general o especial,según corresponda.Cuando2 o más contribuyentestengan derecho a alguna de las anteriores deducciones respectode un mismo descendiente, ascendiente o familia numerosa,su importe se prorrateará entre ellospor partes iguales.También cabe la cesióncuando dos o más contribuyentes tengan derecho a la aplicación dealguna de las deducciones respecto de un mismo descendiente, ascendiente o familia numerosa,podrá ceder el derecho a la deducción a uno de ellos.. DEDUCCIONES FAMILIARES
+
+[PÁGINA 276]
+276 DEDUCCION CUOTA DIFERENCIALINCOMPATIBILIDADES:La deducción por familia numerosa y la deducción por ascendiente, separado legalmente o sin vínculo matrimonial, con dos hijos sin derecho a percibir anualidades por alimentos son incompatibles entre sí.La deducción por cónyuge no separado legalmente es incompatible con la deducción por descendientes y ascendientes con discapacidad respecto a la misma persona.DEDUCCIONES FAMILIARES
+
+[PÁGINA 277]
+277 DEDUCCION CUOTA DIFERENCIAL¿Pueden aplicar las deducciones previstas en el artículo 81 bis de la LIRPF loscontribuyentes que perciben una prestación por el ingreso mínimo vital?El ingreso mínimo vital se ha configurado por el Real Decreto-ley 20/2020, de 29 de mayo (artículos1, 2 y 32, especialmente), como una prestación de naturaleza no contributiva (y como tal se haincluido expresamente en el artículo 109. 3b) 6ª del TRLGSS), financiada mediante aportaciones delEstado, y dirigida a prevenir el riesgo de pobreza y exclusión social de las personas que vivan solaso integradas en una unidad de convivencia, cuando se encuentren en una situación de vulnerabilidadpor carecer de recursos económicos suficientes para la cobertura de sus necesidades básicas.Como se indica expresamente en el artículo 2 del citado Real Decreto-ley, a través de este instrumento se persigue garantizar una mejora de oportunidades reales de inclusión social y laboral de las personas beneficiarias. DEDUCCIONES FAMILIARES
+
+[PÁGINA 278]
+278 DEDUCCION CUOTA DIFERENCIALPor todo ello, cabe concluir que no participa de ninguno de los rasgos que caracterizan alas prestaciones contempladas en el artículo 81 bis de la Ley 35/2006.Por lo tanto,la percepción de la prestación por el ingreso mínimo vital noda derecho a las deducciones familiares previstas en el artículo 81 bis de laLIRPF.DEDUCCIONES FAMILIARES
+
+[PÁGINA 279]
+OBLIGACIÓN DE PRESENTAR DECLARACIÓN
+
+[PÁGINA 280]
+280 OBLIGACIÓN DE PRESENTAR DECLARACIÓNA. Rendimientos íntegros del trabajo (incluidas, entre otras, las pensiones y haberes pasivos, comprendidos los procedentes del extranjero, así como las pensiones compensatorias y las anualidades por alimentos no exentas) cuyo importe no supere la cantidad de:• 22.000 € anuales, con carácter general y más de un pagador, SIEMPRE que la suma de las cantidades percibidas del segundo y restantes pagadores, por orden de cuantía, no superen en su conjunto la cantidad de 1.500 euros anuales.• 15.876€ anuales, en los siguientes supuestos:oCuando los rendimientos del trabajo procedan de más de un pagador.oCuando, Cuando se perciban pensiones compensatorias del cónyuge o anualidades por alimentos no exentas.oCuando el pagador de los rendimientos del trabajo no esté obligado a retener.oCuando se perciban rendimientos íntegros del trabajo sujetos a tipo fijo de retención. REQUISITOS
+
+[PÁGINA 281]
+281 OBLIGACIÓN DE PRESENTAR DECLARACIÓNB. Rendimientos íntegros del capital mobiliario (dividendos de acciones, intereses de cuentas, de depósitos o de valores de renta fija, etc.) y ganancias patrimoniales (ganancias derivadas de reembolsos de participaciones en Fondos de Inversión, premios por la participación en concursos o juegos, etc.), siempre que unos y otras hayan estado sometidos a retención o ingreso a cuenta y su cuantía global no supere la cantidad de 1.600 euros anuales.C. Rentas inmobiliarias imputadas, rendimientos íntegros del capital mobiliario no sujetos a retención derivados de Letras del Tesoro y subvenciones para la adquisición de viviendas de protección oficial o de precio tasado y demás ganancias patrimoniales derivadas de ayudas públicas, con el límite conjunto de 1.000 euros anuales.REQUISITOS E
+
+===== FUENTE: IRPF 2025_chunk_17.txt =====
+[PÁGINA 282]
+282 OBLIGACIÓN DE PRESENTAR DECLARACIÓN2. Los contribuyentes que hayan obtenido exclusivamente rendimientos íntegros del trabajo,del capital (mobiliario o inmobiliario) o de actividades económicas, así como gananciaspatrimoniales, sometidos o no a retención, hasta un importe máximo conjunto de 1.000€anuales y pérdidas patrimoniales de cuantía inferior a 500 euros, en tributación individual o conjunta.OBLIGADOS TODOS LOS MIEMBROS DE LA UNIDAD DE CONVIVENCIA SI SE COBRA MINIMO VITALEstarán obligados a declarar en todo caso los contribuyentes que tengan derecho a deducción por doble imposición internacional o que realicen aportaciones a patrimonios protegidos de las personas con discapacidad, planes de pensiones, planes de previsión asegurados o mutualidades de previsión social, planes de previsión social empresarial y seguros de dependencia que reduzcan la base imponible, en las condiciones que se establezcan reglamentariamente REQUISITOS E
+
+[PÁGINA 283]
+283 OBLIGACIÓN DE PRESENTAR DECLARACIÓNEl Real Decreto-ley 13/2022, de 26 de julio, por el que se establece un nuevo sistema decotización para los trabajadores por cuenta propia o autónomos y se mejora la protecciónpor cese de actividad establece:con efectos desde el 1de enero del 2023la siguiente obligación de declararLa disposición final primera modifica el artículo 96.2 de la Ley 35/2006, al establecerlaobligación de declararpara "todas aquellas personas físicas que en cualquier momentodel período impositivo hubieran:estado de alta, como trabajadores por cuenta propia, en el Régimen Especial de Trabajadores por Cuenta Propia o Autónomos, o en el Régimen Especial de la Seguridad Social de los Trabajadores del Mar." REQUISITOS-NOVEDAD 2023 E
+
+[PÁGINA 284]
+284 OBLIGACIÓN DE PRESENTAR DECLARACIÓNLos límites de la regla 2ª son independientes de la regla 1ª, actuando en todo caso como un criterio corrector de la regla 1ª para rentas de escasa cuantía. Si un contribuyente no está obligado a declarar por la regla 1ª tampoco lo está por la 2ª. Si un contribuyente está obligado a presentar declaración por la regla 1ª, habría que comprobar la obligación por la 2ª y sus límites, para comprobar si opera la exclusión de la obligación al tratarse de rentas de escasa cuantía.A TENER EN CUENTA estos límites no operan si en cualquier momento del período impositivo el contribuyente hubiera estado de alta, como trabajadores por cuenta propia, en el Régimen Especial de Trabajadores por Cuenta Propia o Autónomos, o en el Régimen Especial de la Seguridad Social de los Trabajadores del Mar pues en estos casos existe la obligación de declarar con independencia de la cuantía de las rentas. REGLAS
+
+[PÁGINA 285]
+285 OBLIGACIÓN DE PRESENTAR DECLARACIÓNContribuyente que trabajó en diferentes empresas. Los ingresos percibidos son 400 € de la primera entidad, 700 € de la segunda y 15.500 € de la tercera. ¿Existe obligación de presentar declaración? NO. Aunque haya percibido rentas del trabajo de varios pagadores, el límite que se aplicaría en este caso es de 22.000 €, puesto que por, orden de cuantía, el segundo y siguientes pagadores, no alcanzan los 1.500 €. Profesional con alta en la actividad durante el mes de marzo de 2023. En el ejercicio ha tenido 1.800 € de ingresos íntegros y 1.000 de gastos. ¿Debe declarar? SI. Todas aquellas personas físicas que en cualquier momento del período impositivo hubieran estado de alta, como trabajadores por cuenta propia, en el Régimen Especial de Trabajadores por Cuenta Propia o Autónomos, o en el Régimen Especial de la Seguridad Social de los Trabajadores del Mar. EJEMPLOS
+
+[PÁGINA 286]
+286 OBLIGACIÓN DE PRESENTAR DECLARACIÓNContribuyente con las siguientes imputaciones en el 2023.Rendimientos íntegros del trabajo: 2.000 € Ganancia patrimonial por venta de participaciones de un fondo: 250 € Pérdidas patrimoniales: 300 € Si aplicamos la regla primera el contribuyente “SI” porque tiene rendimientos de una fuente diferente a las establecidas en dicha regla: pérdidas patrimoniales. Al estar obligado por la regla primera y ser el importe de los rendimientos NO muy elevados es necesario comprobar la obligación por la segunda regla (en ningún caso tendrán que declarar los contribuyentes que obtengan exclusivamente rendimientos íntegros del trabajo, de capital o de actividades económicas, así como ganancias patrimoniales, con el límite conjunto de 1.000 € anuales y pérdidas patrimoniales de cuantía inferior a 500 €), circunstancia que no se cumple en el presente caso, al ser los rendimientos de trabajo obtenidos superiores a 1.000 € anuales obligado a declarar EJEMPLOS
+
+[PÁGINA 287]
+GRACIAS POR SU ATENCIÓN
+
+===== FUENTE: IRPF 2025_chunk_2.txt =====
+[PÁGINA 20]
+20 Rendimientos ExentosINFORMA 135112 Cómo cuantificar la renta exenta cuando el trabajador ha estado en el extranjero parte del año o ha realizado varios desplazamientos durante el mismoLa norma declara exentos los rendimientos obtenidos por trabajos efectivamente realizados en el extranjero, y durante los días que efectivamente el trabajador esté desplazado en el extranjero, con un límite máximo de 60.100 euros anuales, diferenciando dos cuantías retributivas:Las retribuciones específicas correspondientes a los servicios prestados en el extranjero que están exentas en su totalidad.Resolución TEAC 8685/2023, de 19 de julio de 2024 (unificación criterio)
+
+[PÁGINA 21]
+21 Rendimientos ExentosLas retribuciones no específicas, que son las percibidas ordinariamente en el marco de la relación laboral o estatutaria y que se devengan también durante los días del desplazamiento al extranjero. Cálculo del importe exento= criterio de reparto proporcional.a.Si la duración del contrato abarca todo el año natural: Se tiene en cuenta el número total de días del año (retribuciones no específicas x días en el extranjero / 365 ó 366).b.Si la duración del contrato es inferior al año natural: Se dividen las retribuciones no específicas entre el tiempo de duración de la relación laboral o estatutaria (retribuciones no específicas satisfechas por la empresa pagadora x días en el extranjero / días de trabajo en el año en dicha empresa). Resolución TEAC 8685/2023, de 19 de julio de 2024 (unificación criterio)
+
+[PÁGINA 22]
+22 Rendimientos ExentosINFORMA 141806 DOS PAGADORES DISTINTOSEjemplo: Un contribuyente ha trabajado en el mismo año 185 días para el empleador A percibiendo una remuneración de 20.000 euros y los restantes 180 días para el empleador B del que ha percibido un salario bruto de 100.000 euros y una gratificación específica de 15.000 euros correspondiente a su trabajo realizado durante 30 días en el extranjero.Las retribuciones específicas satisfechas al trabajador como consecuencia del desplazamiento al extranjero exentas.Resolución TEAC 8685/2023, de 19 de julio de 2024 (unificación criterio)
+
+[PÁGINA 23]
+23 Rendimientos ExentosINFORMA 141806 DOS PAGADORES DISTINTOSEn cuanto a las retribuciones no específicas, se cuantifica de forma individualizada.Por tanto está exenta la gratificación específica de 15.000 euros y en cuanto a las retribuciones no específicas el contribuyente dividirá las obtenidas del empleador B entre el número de días de trabajo del año para dicho empleador y la renta exenta será el resultado de multiplicar dicho cociente por los días que estuvo desplazado en el extranjero para efectuar el trabajo contratado. La parte del salario que corresponde a esos días de trabajo en el extranjero y a la que resulta aplicable la exención es de 16.666,67 euros (100.000 x 30/180).Límite conjunto: 60.100 euros Resolución TEAC 8685/2023, de 19 de julio de 2024 (unificación criterio)
+
+[PÁGINA 24]
+24 Rendimientos Exentost) Las derivadas de la aplicación de los instrumentos de cobertura cuando cubranexclusivamente el riesgo de incremento del tipo de interés variable de los préstamoshipotecarios destinados a la adquisición de la vivienda habitual.u) Las indemnizaciones previstas en la legislación del Estado y de las Comunidades Autónomas para compensar la privación de libertad en establecimientos penitenciarios como consecuencia de los supuestos contemplados en la Ley 46/1977, de 15 de octubre, de Amnistía.w) Los rendimientos del trabajo derivados de las prestaciones obtenidas en forma de renta por las personas con discapacidad correspondientes a las aportaciones a las que se refiere el artículo 53 de esta Ley, hasta un importe máximo anual de tres veces el indicador público de renta de efectos múltiples. Art 7 Ley IRPF
+
+[PÁGINA 25]
+25 Rendimientos ExentosContribuyente con un grado de discapacidad del 33% que desde 2017 realizaaportaciones a un plan de pensiones, habiendo comunicado su discapacidad.El artículo 53 se refiere a las “aportaciones realizadas a planes de pensiones a favor de personas con discapacidad con un grado de minusvalía física o sensorial igual o superior al 65 por ciento, psíquica igual o superior al 33 por 100, así como de personas que tengan una incapacidad declarada judicialmente con independencia de su grado, de acuerdo con lo previsto en la disposición adicional décima de esta Ley”.Régimen fiscal especial al que NOse podrán acoger las prestaciones que deriven de aportaciones realizadas a planes de pensiones conforme al régimen general, aunque se tenga reconocida una discapacidad.Se podrá acoger a la exención SI LAS PRESTACIONES EN FORMA DE RENTA derivaran de aportaciones realizadas a planes de pensiones constituidos a favor de personas con discapacidad. CV1294-23 CV2692-18 Los rendimientos del trabajo derivados de las prestaciones obtenidas en forma de renta por las personas con discapacidad (Art. 53)
+
+[PÁGINA 26]
+26 Rendimientos Exentosx) Las prestaciones económicas públicas Ley Dependencia.y) La prestación de la Seguridad Social del Ingreso Mínimo Vital, las prestacioneseconómicas establecidas por las Comunidades Autónomas en concepto de rentamínima de inserción para garantizar recursos económicos de subsistencia a laspersonas que carezcan de ellos, así como las demás ayudas para atender acolectivos “en riesgo”(importe máximo anual conjunto de 1,5 veces el indicador públicode rentas de efectos múltiples---IPREM 2023 =8.400 euros).También ayudas a las Victimas de delitos violentos.z) Las prestaciones y ayudas familiares percibidas de cualquiera de lasAdministraciones Públicas.(vinculadas a nacimiento, adopción, acogimiento o cuidadode hijos menores). Art 7 Ley IRPF
+
+[PÁGINA 27]
+RENDIMIENTOS DEL TRABAJO
+
+[PÁGINA 28]
+28 RENDIMIENTOS DEL TRABAJOSe consideraránrendimientos íntegros del trabajo todas las contraprestaciones o utilidades,cualquiera que sea su denominación o naturaleza,dinerarias o en especie, que deriven, directa oindirectamente, del trabajo personal o de la relación laboral o estatutaria y no tengan el carácter derendimientos de actividades económicas. En particular:Sueldos, salarios y desempleo.Las dietas no exentas (Locomoción, manutención y estancia)Aportaciones empresariales a sistemas de previsión social del trabajador.Pensiones/prestaciones de la SS (viudedad, jubilación, incapacidad, etc.)Prestaciones percibidas por beneficiarios de PP y otros SPS.Pensiones compensatorias recibidas del cónyuge en virtud de decisión judicial.Becas no exentas.Rendimientos derivados de impartir charlas, conferencias, etc.Rendimientos derivados de la elaboración de obras literarias, artísticas o científicas, siempre que se ceda el derecho a su explotación. Art. 17 LIRPF
+
+[PÁGINA 29]
+29 RENDIMIENTOS DEL TRABAJONOTA: en todos los ejemplos que se analizan, hay que en cuenta que una cosa es lacalificación como rendimientos del trabajo, y otra cuestión distinta será que el contribuyenteesté o no obligado a declararlos, bien porque pueda haber alguna exención o porque nollegue a los límites para declararEjemplo 1: El Sr. X ha percibido del desempleo 4.000 euros anuales:Rendimientos del trabajoEjemplo 2:El Sr. X está jubilado y percibe una pensión de 9.000 euros:Rendimientos del trabajoEjemplo 3:El Sr. X, ha impartido un curso por el que ha cobrado 3.000 euros. El curso loorganiza una escuela de negocios:Rendimientos del trabajo. Art. 17 LIRPF
+
+[PÁGINA 30]
+30 RENDIMIENTOS DEL TRABAJOConstituyen rendimientos del trabajo en especiela utilización, consumo u obtención, parafines particulares, de bienes derechos o servicios de forma gratuita o por precio inferior alnormal de mercado, aun cuando no supongan un gasto real para quien los conceda,siempre que deriven de una relación laboral o estatutaria. (art. 42).Elelemento decisivo para identificar las retribuciones en especiees la existencia de «finesparticulares », en la entrega del bien o la prestación del servicio, para el trabajador.Ejemplo:utilizar el vehículo de la empresa para los desplazamiento profesionales no implicaretribución en especie. Utilizarlo para fines particulares sí implica retribución en especie.No tendrán la consideración de rentas en especie, sino de rentas dinerarias,cuando elpagador de las rentas entregue al contribuyente importes en metálico para que esteadquiera los bienes, derechos o serviciosRendimientos de trabajo en especie
+
+[PÁGINA 31]
+31 RENDIMIENTOS DEL TRABAJOLas retribuciones en especie deben valorarse por su valor normal en el mercado.No obstante, en la valoración de determinadas retribuciones del trabajo enespecie deben aplicarse lasnormas especiales de valoración.Ejemplo norma especial valoraciónCantidades satisfechas por empresarios para hacer frente a compromisos porpensiones y cantidades satisfechas por empresarios a seguros de dependencia.Lavaloración coincidirá con el importede las contribuciones o cantidadessatisfechas que hayan sido imputadas al perceptor.Rendimientos de trabajo en especie-VALORACIÓN
+
+[PÁGINA 32]
+32 RENDIMIENTOS DEL TRABAJOLas retribuciones en especie deben valorarse por suvalor normal en el mercado.Ingreso a cuenta-Normativa: Arts. 43.2 Ley IRPF y 102 Reglamento IRPFAl importe de la valoración de la retribución en especie del trabajo se leadicionará el ingreso a cuenta que corresponda realizar al pagador de dichasretribuciones, con independencia de que dicho ingreso a cuenta haya sidoefectivamente realizado.La cuantía del ingreso a cuenta será la que resulte deaplicar el porcentaje de retención que corresponda sobre la valoración de laretribución en especie.Rendimiento íntegro = Valoración + Ingreso a cuenta norepercutido.No obstante, en la valoración de determinadas retribuciones del trabajo enespecie deben aplicarse lasnormas especiales de valoración. Rendimientos de trabajo en especie-VALORACIÓN
+
+[PÁGINA 33]
+33 RENDIMIENTOS DEL TRABAJONoprocederá adicionar el ingreso a cuenta cuando el mismo hayasidorepercutido al trabajadorNicuando no exista obligación de efectuar ingresos a cuenta sobreretribuciones en especie del trabajo, como es el caso de lascontribuciones satisfechas por los promotores de planes depensiones, de planes de previsión social empresarial y demutualidades de previsión social que reduzcan la base imponible.Rendimientos de trabajo en especie-VALORACIÓN
+
+[PÁGINA 34]
+34 RENDIMIENTOS DEL TRABAJOEntregas a empleados de productos a precios rebajados que se realicen en comedo-res de empresa, cantinas o economatos de carácter social.Utilización de los bienes destinados a los servicios sociales y culturales del personalempleado.Entre otros, los espacios y locales, debidamente homologados por laAdministración pública competente, destinados por las empresas oempleadores a prestar el servicio deprimer ciclo de educación infantil alos hijos de sus trabajadores,así como lacontratación, directa oindirectamente, de este serviciocon terceros debidamente autorizados,en los términos que reglamentariamente se establezcanGastos por seguros de enfermedad(trabajadores, cónyuge y descendientes).500 euros o 1.500 euros (si discapacidad) Rendimientos del trabajo en especie-exentos art. 42.3 LIRPF
+
+[PÁGINA 35]
+35 RENDIMIENTOS DEL TRABAJOCantidades satisfechas por la empresa para el transporte colectivo de sus empleadosentre su lugar de residencia y el centro de trabajo.Límite de 1.500 euros anuales para cada trabajador.Entrega a los trabajadores de acciones o participaciones de la propia empresa o deotras de grupo de sociedades (con las condiciones prevista en el art. 43 delReglamento del IRPF).La prestación del servicio de educación preescolar, infantil, primaria, secundariaobligatoria, bachillerato y formación profesional por centros educativos autorizados,alos hijos de sus empleados, con carácter gratuito o por precio inferior al normal demercado.Rendimientos del trabajo en especie-exentos art. 42.3 LIRPF

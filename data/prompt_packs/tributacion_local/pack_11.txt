@@ -1,0 +1,227 @@
+A partir EXCLUSIVAMENTE del siguiente contenido, genera exactamente 8 preguntas tipo test.
+
+Reglas obligatorias:
+
+- No uses conocimiento externo
+- No inventes contenido
+- Si una regla no aparece claramente en el texto, no la conviertas en pregunta
+- No hagas preguntas cuya respuesta sea únicamente el número de artículos
+- No uses abreviaturas en el contenido visible
+- Nivel profesional alto
+- Mezcla conceptos técnicos, mini casos y preguntas trampa
+- Devuelve exclusivamente un JSON válido
+- No añadas comentarios ni texto fuera del JSON
+
+Formato obligatorio:
+
+[
+  {
+    "id": 1,
+    "subject": "Tributacion Local",
+    "topic": "...",
+    "subtopic": "...",
+    "question": "...",
+    "options": {
+      "A": "...",
+      "B": "...",
+      "C": "...",
+      "D": "..."
+    },
+    "answer": "A",
+    "explanation": "...",
+    "reference": "Nombre del PDF o bloque del que sale la regla",
+    "difficulty": "alta",
+    "question_type": "concepto/caso/trampa",
+    "trap_level": "bajo/medio/alto",
+    "tags": ["...", "..."]
+  }
+]
+
+Contenido fuente:
+
+===== FUENTE: Sistema tributario local (1)_chunk_1.txt =====
+[PÁGINA 1]
+SISTEMA TRIBUTARIO LOCAL Sistema Tributario Local
+
+[PÁGINA 2]
+Introducción • Art. 3 de la Ley 7/1985 dispone que se consideran entidades locales territoriales • Los municipios, cuyo gobierno y administración corresponde al ayuntamiento, integrado por el Alcalde y los Concejales • Las provincias, cuyo gobierno y administración corresponde a la diputación • Las islas cuyo gobierno y administración corresponde a los consejos o cabildos insulares. • También tienen la consideración de entidades locales • Las entidades de ámbito territorial inferior al municipal • Las comarcas u otras entidades que agrupen varios municipios • Las áreas metropolitanas • Las mancomunidades de municipios
+
+[PÁGINA 3]
+Introducción • Los art. 133-137 de la LBRL se regulan las especialidades del régimen económico-financiero de los denominados municipios de gran población • Los municipios cuya población supere los 250.000 habitantes • Los municipios que sean capitales de provincia cuya población sea superior a los 175.000 habitantes • Los municipios que sean capitales de provincia, capitales autonómicas o sedes de las instituciones autonómicas • Los municipios cuya población supere los 75.000 habitantes, que presenten circunstancias económicas, sociales, históricas o culturales especiales • Estos municipios disponen de un régimen económico- financiero diferenciado y que tiene especial relevancia en el ámbito tributario
+
+[PÁGINA 4]
+Introducción • Los art. 137 y 142 de la CE garantizan la autonomía y la suficiencia financiera de las EELL • El art. 105 de la LBRL establece los principios básicos de la Hacienda Local: • La suficiencia de las Haciendas Locales para cumplir los fines y competencias que la LBRL determina para cada EELL • Que dichas Haciendas se nutrirán fundamentalmente de tributos propios y de participaciones en los tributos del Estado y de las CCAA • El régimen financiero básico se regula en el RD Legislativo 2/2004 LRHL • El Sistema Tributario Local es una competencia exclusiva del Estado • No puede ser desarrollada comunidades autónomas
+
+[PÁGINA 5]
+Sistema Tributario Local • Existen unos recursos tributarios o de carácter público que son comunes a todas las EELL • Tasas, contribuciones especiales y precios públicos • Recursos exclusivos de los municipios • Impuestos • Recursos exclusivos de las Diputaciones Provinciales y las Áreas Metropolitanas • Recargos sobre impuestos • Las EELL disponen de lo que se ha denominado “poder (potestad) tributario derivadbnbnmn12345667890’¡12o” y que conjuga el principio de reserva de ley art. 31.3 y 133.1 CE y el principio de autonomía local art. 140 CE
+
+[PÁGINA 6]
+Sistema Tributario Local • Resultan de aplicación los principios tributarios generales art. 31.1 de la CE • Capacidad económica, justicia tributaria, igualdad, progresividad y no confiscatoriedad • Principios específicos previstos en el art. 6 de la LRHL • No se someterán a gravamen bienes situados, actividades desarrolladas, rendimientos originados, ni gastos realizados fuera del término municipal • No se gravarán como tales negocios, actos hechos, celebrado o realizados fuera del territorio del municipio, ni el ejercicio o la transmisión de bienes, derechos u obligaciones que no hayan nacido, ni hubieren de cumplirse dentro de dicho territorio
+
+[PÁGINA 7]
+Sistema Tributario Local • No implicar obstáculo alguno para la libre circulación de personas, mercancías, servicios o capitales, ni afectar de manera efectiva a la fijación de la residencia de las personas o a la ubicación de las empresas y capitales dentro del territorio español, sin que ello obste para que las entidades locales puedan instrumentar la ordenación urbanística de su territorio • En este sentido, el Tribunal Constitucional ha tenido la ocasión de expresar que el hecho de que los residentes en una determinada zona del territorio nacional hayan de soportar obligaciones y cargas mayores que los de otras zonas del estado no limita o restringe su derecho a la libre elección de residencia (STC nº 8/1986, de 21 de enero)
+
+[PÁGINA 8]
+Competencias Gestión Tributaria • El art. 106.3 de la LBRL dispone que es competencia de las EELL la gestión, recaudación e inspección de sus tributos propios • sin perjuicio de posibles delegaciones o fórmulas de colaboración con otras EELL, CCAA o AGE • Sin perjuicio de esta asunción general de las competencias de gestión tributaria encontramos dos excepciones • La gestión catastral del IBI es competencia de la AGE • La gestión censal del IAE es competencia de la AGE, sin perjuicio de que pueda ser delegada en el propio municipio
+
+[PÁGINA 9]
+Competencias Gestión Tributaria • El art. 7 de la LRHL permite que los municipios puedan delegar sus competencias de gestión tributaria • El acuerdo que adopte el Pleno de la corporación habrá de fijar el alcance y contenido de la referida delegación • La adopción del acuerdo de delegación ha de ser aprobado por el pleno del ayuntamiento por el proceso establecido para los acuerdos de imposición y ordenación de los tributos locales • La delegación debe de ser formalmente aceptada por la Entidad Delegada • El acuerdo deberá ser publicado en el Boletín Oficial de la Provincia y en el de la comunidad autónoma • La entidad delegada puede ejercer sus funciones en todo su ámbito territorial, incluso en el de aquellos municipios que no le han delegado sus competencias
+
+[PÁGINA 10]
+Competencias Gestión Tributaria • Además de los supuestos de delegación de competencias de gestión tributaria, existen los denominados mecanismos de colaboración con otras Administraciones públicas • El art. 8 de la LRHL diseña los mecanismos de colaboración de forma muy amplia, siendo las de mayor trascendencia las siguientes • Intercambio de información • Prestación mutua de asistencia, e intercambio de datos y antecedentes • Intercomunicación de hechos con trascendencia tributaria • Elaboración de planes de inspección conjunta
+
+[PÁGINA 11]
+Competencias Gestión Tributaria • Art. 12 LRHL señala que la gestión, liquidación, inspección y recaudación de los tributos locales se realizará de acuerdo con lo prevenido en la LGT y su normativa de desarrollo • A través de sus ordenanzas fiscales las EELL podrán adaptar la normativa estatal al régimen de organización y funcionamiento interno propio de cada una de ellas • sin que tal adaptación pueda contravenir el contenido material de dicha normativa • No podrán reconocerse otros beneficios fiscales en los tributos locales que los expresamente previstos en las normas con rango de ley o los derivados de la aplicación de los tratados internacionales
+
+[PÁGINA 12]
+Competencias Gestión Tributaria • Los plazos de pago de los tributos liquidados por las EELL serán los mismos que establezca la normativa tributaria general art. 62.2 y 62.3 LGT • Los recargos e intereses de demora se exigirán y determinarán en los mismos casos, forma y cuantía que en la exacción de los tributos del Estado art. 10 LRHL • Con las especificaciones que establezca la LRHL y en su caso las OF • Se aplicará el régimen de infracciones y sanciones regulado en la LGT y en las disposiciones que la complementen y desarrollen art. 11 LRHL • Con las especificaciones que establezca la LRHL y en su caso las OF
+
+[PÁGINA 13]
+Competencias Gestión Tributaria • Art. 13 LRHL La competencia para evacuar las consultas a que se refiere el artículo 88 de la LGT corresponde a la entidad que ejerza dichas funciones • Subdirección General de Tributos Locales del Ministerio de Hacienda y Función Pública
+
+[PÁGINA 14]
+Revisión Actos Gestión Tributaria • El 108 de la LBRL se dispone que contra los actos sobre aplicación y efectividad de los tributos locales se formulará el recurso de reposición regulado en la LRHL • El art. 14.2 de la LRHL se dispone que contra los actos de aplicación y efectividad de los tributos y restantes ingresos de derecho público de las EELL, sólo podrá interponerse el recurso de reposición • Son impugnables todos los actos dictados por las EELL en vía de gestión de sus tributos propios y de sus restantes ingresos de derecho público • La competencia para conocer y resolver el recurso de reposición está asignada al órgano que haya dictado el acto administrativo impugnado • Plazo de interposición 1 mes desde la notificación del acto o publicación oficial del acuerdo • Podrán interponerlo los sujetos pasivos, responsables, obligados al pago o cualquier persona con intereses legítimos afectados
+
+[PÁGINA 15]
+Revisión Actos Gestión Tributaria • Los recurrentes podrán comparecer por sí mismos o por medio de representante, sin que sea preceptiva la intervención de abogado ni procurador • El escrito de interposición del recurso se presentará en la sede del órgano de la entidad local que dictó el acto administrativo que se impugna • La interposición del recurso de reposición no suspenderá la ejecución del acto impugnado • salvo que se promueva la suspensión o se trate de sanciones, de acuerdo con lo que se dispone en la LGT y normativa de desarrollo • La revisión somete a conocimiento del órgano competente todas las cuestiones que ofrezca el expediente, hayan sido o no planteadas en el recurso • El recurso será resuelto, con carácter general, en el plazo de un mes • Se entiende desestimado por silencio administrativo en el caso de no resolverse en dicho plazo
+
+[PÁGINA 16]
+Revisión Actos Gestión Tributaria • La resolución expresa del recurso se producirá siempre de forma escrita, que será siempre motivada, contendrá una sucinta referencia a los hechos y a las alegaciones del recurrente • Expresará de forma clara las razones por las que se confirma o revoca total o parcialmente el acto impugnado • La resolución expresa deberá ser notificada a los interesados en el plazo máximo de 10 días desde que aquélla se produzca • La resolución del recurso pone fin a la vía administrativa por lo que no es susceptible de un nuevo recurso • Contra la resolución del recurso podrá interponerse recurso contencioso administrativo en el plazo de 2 meses desde la notificación o desde que se entiende desestimada la pretensión por silencio administrativo
+
+[PÁGINA 17]
+Revisión Actos Gestión Tributaria • Los Municipios de Gran Población tienen un régimen especial de revisión de actos de gestión tributaria • El art. 137 LRBRL prevé que en estos municipios existirá un órgano especializado para la resolución de las reclamaciones económico-administrativas que ejercerá las siguientes funciones • El conocimiento y resolución de las reclamaciones sobre actos de gestión, liquidación, recaudación e inspección de tributos e ingresos de derecho público • El dictamen sobre los proyectos de ordenanzas fiscales • En el caso de ser requerido por los órganos municipales competentes en materia tributaria, la elaboración de estudios y propuestas en esta materia
+
+[PÁGINA 18]
+Revisión Actos Gestión Tributaria • Régimen jurídico de la reclamación económico-administrativa • Los interesados podrán, con carácter potestativo, presentar previamente el recurso de reposición previsto en el artículo 14 de la LRHL • Se puede interponer reclamación contra • El acto administrativo • Resolución expresa o presunta del recurso de reposición • Se interpondrá en el plazo de 1 mes desde la notificación del acto o resolución del recurso • La resolución será siempre de forma expresa pone fin a la vía administrativa por lo que no podrá ser objeto de recurso • Contra la resolución de la reclamación podrá interponerse recurso contencioso administrativo en el plazo de 2 meses desde la notificación
+
+[PÁGINA 19]
+Procedimientos Especiales de Revisión • El art. 110 de la LBRL y en el artículo 14.1 de la LRHL, con carácter general son aplicables las normas de la LGT respecto a los procedimientos especiales de revisión • Revisión de actos nulos de pleno derecho • Declaración de lesividad de actos anulables • Revocación de actos de aplicación de los tributos y de imposición de sanciones • Rectificación de errores materiales • Devolución de ingresos indebidos
+
+===== FUENTE: Sistema tributario local (1)_chunk_2.txt =====
+[PÁGINA 20]
+Potestad Reglamentaria Tributaria • El art. 106.2 LRBRL indica que la potestad reglamentaria de las EELL en materia tributaria se ejercerá a través de ordenanzas fiscales reguladoras de sus tributos propios y de ordenanzas generales de gestión, recaudación e inspección • Las EELL podrán regular, mediante la aprobación de la correspondiente ordenanza fiscal, la totalidad de sus tributos propios de carácter potestativo o voluntario • Tasas, Contribuciones Especiales, ICIO e IIVTNU • Los ayuntamientos podrán regular, mediante la aprobación de la correspondiente ordenanza fiscal, los elementos esenciales para la determinación de las cuotas tributarias de sus impuestos propios de carácter obligatorio • IBI, IAE e IVTM
+
+[PÁGINA 21]
+Potestad Reglamentaria Local • Respecto a los tributos potestativos las EELL deberán acordar la imposición y supresión de sus tributos propios y aprobar las correspondientes ordenanzas fiscales reguladoras de estos art. 15 LRHL • La Ordenanza Fiscal deberá identificar como mínimo art. 16.1 LRHL: • La determinación del hecho imponible, sujeto pasivo, responsables, exenciones, reducciones y bonificaciones, base imponible y liquidable, tipo de gravamen o cuota tributaria, periodo impositivo y devengo • Los regímenes de declaración y de ingreso • Las fechas de su aprobación y el comienzo de su aplicación • No podrán modificar la regulación de los elementos esenciales de algunos de los tributos propios (principio reserva Ley)
+
+[PÁGINA 22]
+Potestad Reglamentaria Tributaria • Tributos de exacción preceptiva se exigirán aún cuando el Ayuntamiento no apruebe su Ordenanza Fiscal • La LRHL dispone los elementos necesarios para su exacción • Los Ayuntamiento podrán regular en su Ordenanza Fiscal • En el Impuesto sobre Bienes Inmuebles, el tipo de gravamen y los beneficios fiscales aplicables • En el Impuesto sobre Actividades Económicas, la escala de coeficientes de situación y los beneficios fiscales aplicables • En el Impuesto sobre Vehículos de Tracción Mecánica, los coeficientes de incremento y los beneficios fiscales aplicables • La Ordenanza Fiscal deberá identificar las fechas de su aprobación y el comienzo de su aplicación
+
+[PÁGINA 23]
+Potestad Reglamentaria Tributaria • El procedimiento para la aprobación de las Ordenanzas Fiscales se establece en el art. 17 de la LRHL • La Ordenanza Fiscal es una norma reglamentaria por lo que su aprobación es competencia del Pleno de la Corporación por mayoría simple • La aprobación inicial tendrá carácter provisional y se publicará en el Boletín Oficial de la Provincia • Los acuerdos serán expuestos en el tabón de anuncios de la Entidad por al menos 30 días desde la publicación oficial • Los ayuntamientos de más de 10.000 habitantes habrán de publicar un anuncio en un diario de los de mayor difusión de la provincia
+
+[PÁGINA 24]
+Potestad Reglamentaria Local • Finalizado el período de exposición pública, las corporaciones locales adoptarán los acuerdos definitivos que procedan, resolviendo las reclamaciones que se hubieran presentado y aprobando la redacción definitiva de la ordenanza • Si no hay reclamaciones el acuerdo provisional se entenderá definitivo • Los acuerdos definitivos y el texto íntegro de las ordenanzas habrán de ser publicados en el BOP entrando en vigor con su publicación • Las diputaciones provinciales, consejos, cabildos insulares y EELL con población superior a 10.000 hab editarán el texto íntegro de las ordenanzas fiscales reguladoras de sus tributos dentro del primer cuatrimestre del ejercicio económico correspondiente
+
+[PÁGINA 25]
+Potestad Reglamentaria Local • Según el art. 18 LRHL tendrán la consideración de interesados para interponer reclamaciones • Los que tuvieran un interés directo o resulten afectados por tales acuerdos • Los colegios oficiales, cámaras oficiales, asociaciones y demás entidades legalmente constituidas para velar por los intereses profesionales, económicos o vecinales, cuando actúen en defensa de los que les son propios • Contra las Ordenanzas Fiscales válidamente aprobadas únicamente podrá interponerse recurso contencioso-administrativo art. 19 LRHL • Si por resolución judicial firme resultaren anulados o modificados los acuerdos locales o el texto de las ordenanzas fiscales, la entidad local vendrá obligada a: • Adecuar a la sentencia todas las actuaciones que lleve a cabo con posterioridad • Se mantienen los actos firmes salvo que la sentencia así lo determine
+
+[PÁGINA 26]
+Impuestos • Los ayuntamientos exigirán, de acuerdo con la LHL y las disposiciones que la desarrollan, los siguientes impuestos obligatoriamente: – Impuesto sobre Bienes Inmuebles – Impuesto sobre Actividades Económicas – Impuesto sobre Vehículosde TracciónMecánica • Los ayuntamientos podrán establecer y exigir, de acuerdo con esta ley, las disposiciones que la desarrollen y las respectivas ordenanzas fiscales. – Impuesto sobre Construcciones, Instalaciones y Obras – Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana
+
+[PÁGINA 27]
+Tasas y Contribuciones Especiales • Los ayuntamientospodrán establecer y exigir tasas por: – La prestación de servicios o la realización de actividades de su competencia. – La utilización privativa o el aprovechamiento especial de los bienes del dominio público municipal. • *Desde el 1 de abril de 2025 será obligatoria la tasa por recogida y tratamiento de residuos • Los ayuntamientos podrán establecer y exigir contribuciones especiales por: • la realización de obras públicas • el establecimiento o ampliación de servicios municipales.
+
+[PÁGINA 28]
+Impuesto sobre Bienes Inmuebles • Tributo de exacción obligatoria • La ley recoge los elementos necesarios para su aplicación • Los Ayuntamientos pueden regular algunos aspectos a través de una Ordenanza Fiscal • El impuesto se regula en los artículos del 60 al 78 de la LRHL • Art. 60 lo define como Tributo directo de carácter real que grava el valor de los bienes inmuebles en los términos de la LRHL • Constituye el Hecho Imponible la titularidad de los siguientes derechos sobre bienes inmuebles (art. 61.1 LRHL) • De una concesión administrativa sobre los propios inmuebles o sobre los servicios públicos a que se hallen afectos • De un derecho real de superficie • De un derecho real de usufructo • Del derecho de propiedad • La realización del hecho imponible que corresponda de entre los definidos anteriormente, por el orden en él establecido, determinará la no sujeción del inmueble a las restantes modalidades en el mismo previstas
+
+[PÁGINA 29]
+Impuesto sobre Bienes Inmuebles • La clasificación de los BBII a efectos del impuesto se ajusta a la normativa catastral. Ley del Catastro Inmobiliario RDL 1/2004 • Esta clasificación tiene repercusión en elementos como el tipo de gravamen y los beneficios fiscales aplicables • La calificación del inmueble responderá a la naturaleza del suelo en el que se asiente • A efectos del impuesto se tendrán en consideración tanto la construcción (art. 7.4 LCI) como el suelo. • A los efectos de este impuesto los bienes inmuebles se clasifican en 3 tipos • Urbanos • Rústicos • De características especiales
+
+[PÁGINA 30]
+Impuesto sobre Bienes Inmuebles • Supuestos de no sujeción art. 61.5 LRHL • Exenciones • Obligatorias art. 62.1 aplicables de oficio por ley en todos los casos • Rogadas art. 62.2 aplicables a instancia del interesado en todos los casos • Potestativas art. 62.3 y 62.4 el Ayuntamiento puede establecerlas para su municipio en la Ordenanza fiscal
+
+[PÁGINA 31]
+Impuesto sobre Bienes Inmuebles • Según el art. 63.1 del LRHL determina que serán sujetos pasivos a título de contribuyente las personas naturales y jurídicas y las entidades a que se refiere el artículo 35.4 de la Ley 58/2003 que ostenten la titularidad del derecho que, en cada caso, sea constitutivo del hecho imponible de este impuesto a fecha de devengo • En caso de cotitularidad todos ellos serán obligados tributarios y quedarán solidariamente obligados al pago de la cuota completa • Pueden solicitar la división de la liquidación proporcional a la titularidad • Art. 62.1 LRHL prevé facultad del sujeto pasivo de repercutir la carga tributaria soportada conforme a las normas de derecho común
+
+[PÁGINA 32]
+Impuesto sobre Bienes Inmuebles BASE IMPONIBLE • Según el art. 65 LRHL la base imponible del IBI es el valor catastral de los bienes inmuebles • Valor del suelo + Valor de la Construcción • El Valor Catastral se determinará, notificará y será susceptible de impugnación conforme a lo dispuesto en las normas reguladoras del Catastro Inmobiliario • El valor catastral LO ESTABLECE CATASTRO NO EL AYUNTAMIENTO • Reducción de base imponible art. 66 LRHL solo en casos en los que se haya incrementado el VC
+
+[PÁGINA 33]
+Impuesto sobre Bienes Inmuebles • Art. 71.1 LRHL La cuota íntegra de este impuesto será el resultado de aplicar a la base liquidable el tipo de gravamen del art. 72 LRHL • Art. 71.2 LRHL La cuota líquida se obtendrá minorando la cuota íntegra en el importe de las bonificaciones previstas legalmente • El art. 72 LRHL establece inicialmente las horquillas en las que el Ayuntamiento podrá fijar los tipos en su Ordenanza Fiscal • Posibilidad de ampliar tipos en situaciones especiales art. 72.3 • Posibilidad tipos diferenciados 10% mayor valor urbano no residencial Tipo de BBII Mínimo Supletorio Máximo Urbanos 0,4% 0,4% 1,1% Rústicos 0,3% 0,3% 0,9% C. Especiales 0,4% 0,6% 1,3%
+
+[PÁGINA 34]
+Impuesto sobre Bienes Inmuebles • Las bonificaciones del IBI se distinguen en dos grandes grupos • Bonificaciones obligatorias art. 73 LRHL • Bonificaciones potestativas art. 74 LRHL • El impuesto se devengará el primer día del período impositivo art. 75.1 LRHL • No existe previsión alguna a periodos inferiores al año • El período impositivo coincide con el año natural art. 75.2 LRHL • El IBI es un impuesto de gestión compartida entre la AGE y los Ayuntamientos • La gestión catastral corresponde al Catastro Inmobiliario y finaliza con la determinación de la Base Imponible
+
+[PÁGINA 35]
+Impuesto sobre Bienes Inmuebles • Art. 77.1 LRHL La gestión tributaria del impuesto corresponde al Ayuntamiento sin perjuicio de posibles delegaciones que puedan acordarse y comprenderán • Reconocimiento y denegación de exenciones y bonificaciones • Realización de las liquidaciones conducentes a la determinación de las deudas tributarias • Emisión de los documentos de cobro • Resolución de los expedientes de devolución de ingresos indebidos • Resolución de los recursos que se interpongan contra dichos actos • Actuaciones para la asistencia e información al contribuyente • Los ayuntamientos podrán agrupar en un único documento de cobro todas las cuotas de este impuesto relativas a un mismo sujeto pasivo cuando se trate de bienes rústicos • Competen también las Ayuntamiento las competencias en materia de inspección y recaudación sin perjuicio de su posible delegación
+
+[PÁGINA 36]
+Impuesto sobre Actividades Económicas • Tributo de exacción obligatoria • Regulado en los art. 78-91 de la LRHL • Art. 78 lo define como Tributo directo de carácter real • Constituye el Hecho Imponible la mero ejercicio, en territorio nacional, de actividades empresariales, profesionales o artísticas (art. 78.1 LRHL) • Se ejerzan o no en un local determinado • Se hallen o no especificadas en las tarifas del impuesto • El hecho imponible de este impuesto se estructura al margen de la capacidad económica de los sujetos pasivos • Las cuotas se determinan en las Tarifas del impuesto las cuales tienen carácter fijo • No se tienen en cuenta los beneficios ciertos sino los presuntos
+
+===== FUENTE: Sistema tributario local (1)_chunk_3.txt =====
+[PÁGINA 37]
+Impuesto sobre Actividades Económicas • Exenciones art. 82 LRHL, a destacar • Las personas físicas • Sujetos Pasivos del IS, sociedades civiles y sujetos del art. 35.4 LGT que tengan un importe neto de la cifra de negocios inferior a 1M de euros • Los sujetos pasivos vienen definidos en el art. 83 de la LRHL siendo las personas físicas, jurídicas o entidades del art. 35.4 LGT que realicen en territorio nacional cualquiera de las actividades que originan el hecho imponible • Que realicen su actividad en territorio español • Con independencia del lugar en el que tengan su residencia
+
+[PÁGINA 38]
+Impuesto sobre Actividades Económicas • La cuota tributaria será la resultante de aplicar las tarifas del impuesto, los coeficientes y las bonificaciones previstos por la ley y, en su caso, acordados por cada ayuntamiento y regulados en las ordenanzas fiscales respectivas art. 84 LRHL • No existe base imponible ni tipo de gravamen, aunque no se trata de un impuesto de cuota fija • El art. 85.1 LRHL establece que las tarifas del impuesto, en las que se fijarán las cuotas mínimas, así como la Instrucción para su aplicación, se aprobarán por real decreto legislativo del Gobierno • Real Decreto Legislativo 1175/1990 • Las actividades que se realicen desde un local determinado añadirán a la cuota de tarifa la valoración del Elemento Tributario Superficie
+
+[PÁGINA 39]
+Impuesto sobre Actividades Económicas • En virtud de lo dispuesto en el art. 85.1.5ª LRHL, y en la Regla 9ª de la Instrucción del IAE, las cuotas iniciales pueden ser de tres clases, según el ámbito en el que se desarrolle la actividad económica • Cuotas mínimas municipales (Regla 10ª) habilitan para el desarrollo de la actividad en el término municipal • Cuotas provinciales (Regla 11ª) habilitan para el desarrollo de la actividad en el territorio de la provincia sin necesidad de satisfacer cuotas municipales • Cuotas nacionales (Regla 12ª) habilitan para el desarrollo de la actividad en el territorio nacional sin necesidad de satisfacer cuotas provinciales • Cuando la actividad de que se trate tenga asignada más de una de las clases de cuotas a que se refiere la Regla 9.ª, el sujeto pasivo podrá optar por el pago de cualquiera de ellas
+
+[PÁGINA 40]
+Impuesto sobre Actividades Económicas • El art. 86.1 LRHL Sobre las cuotas municipales, provinciales o nacionales fijadas en las tarifas del impuesto se aplicará, en todo caso, un coeficiente de ponderación, determinado en función del importe neto de la cifra de negocios del sujeto pasivo • El INCF será el correspondiente al conjunto de actividades económicas ejercidas por el sujeto pasivo INCF (euros) COEFICIENT E Desde 1.000.000,00 hasta 5.000.000,00 1,29 Desde 5.000.000,01 hasta 10.000.000,00 1,30 Desde 10.000.000,01 hasta 50.000.000,00 1,32 Desde 50.000.000,01 hasta 100.000.000,00 1,33 Más de 100.000.000,00 1,35 Sin cifra neta de negocio 1,31
+
+[PÁGINA 41]
+Impuesto sobre Actividades Económicas • El art. 87.1 LRHL señala que los ayuntamientos podrán establecer una escala de coeficientes que pondere la situación física del local dentro de cada término municipal • El Ayuntamiento que quiera aplicar este coeficiente deberá clasificar las calles del término municipal en diferentes categorías y asignar coeficientes según las siguientes normas: • El coeficiente no podrá ser inferior a 0,4 ni superior a 3,8 • El número de categorías de calles no podrá ser inferior a 2 ni superior a 9 • Si no se puede distinguir más de 1 categoría no puede establecer coeficiente • La variación del coeficiente para cada categoría no podrá ser inferior a 0,1
+
+[PÁGINA 42]
+Impuesto sobre Actividades Económicas • Sobre las cuotas municipales las Diputaciones provinciales pueden establecer un recargo de hasta el 40% • Requiere Ordenanza Fiscal de la Diputación • La gestión y recaudación le corresponde al Ayuntamiento • Es un ingreso para la Diputación Provincial • Bonificaciones Obligatorias art. 88.1 LRHL • Se aplican de oficio en todo caso • Bonificaciones potestativas art. 88.2 LRHL • El Ayuntamiento puede aplicarlas si lo aprueba en la Ordenanza Fiscal
+
+[PÁGINA 43]
+Impuesto sobre Actividades Económicas • Art. 89.1 LRHL El período impositivo coincide con el año natural • En declaraciones de alta abarcará desde la fecha de comienzo de la actividad hasta el final del año natural • Art. 89.2 El impuesto se devenga el primer día del período impositivo por el importe completo • En los casos de alta se prorratea por trimestres incluyendo el de inicio de la actividad • En los casos de cese de actividad se prorratea por trimestres sin incluir el de cese • En este supuesto el sujeto pasivo podrá solicitar la devolución parcial de las cuotas satisfechas
+
+[PÁGINA 44]
+Impuesto sobre Actividades Económicas • En la gestión del impuesto pueden distinguirse • La gestión censal: formación y mantenimiento de la matrícula • La gestión tributaria: actuaciones de gestión tributaria ordinarias • El art. 90.1 LRHL determina que el Impuesto se gestiona a partir de la matrícula, que se elabora anualmente para cada municipio • La matrícula es elaborada por la AEAT con las declaraciones censales remitidas por los sujetos pasivos modelo 840 • Los Ayuntamientos pueden solicitar delegación de gestión censal • La gestión tributaria le corresponde al Ayuntamiento sin perjuicio de posibles delegaciones • La inspección tributaria corresponde a la AEAT • Puede delegarse en los municipios
+
+[PÁGINA 45]
+Impuesto sobre Vehículos de Tracción Mecánica • Impuesto de exacción preceptiva • Regulado en los art. 92-99 de la LRHL • Art. 92.1 LRHL establece que: • Es un tributo directo • Grava la titularidad de los vehículos de esta naturaleza • Que sean aptos para circular por las vías públicas • Cualesquiera que sean su clase y categoría • Se trata de un impuesto periódico, que se devenga anualmente, con una cuota fija en el que no existe base imponible, pues cada tipo de vehículo tiene asignada una cuota tributaria • Es irrelevante el hecho de que el vehículo haya circulado de forma efectiva en el periodo impositivo
+
+[PÁGINA 46]
+Impuesto sobre Vehículos de Tracción Mecánica • Supuestos de no sujeción art. 92.3 • Supuestos de exención art. 93 • Los sujetos pasivos del impuesto son las personas físicas o jurídicas, así como las entidades a las que se refiere el artículo 35.4 de la LGT,a cuyo nombre conste el vehículo en el permiso de circulación art. 94 LRHL • El hecho imponible del impuesto se realiza por la persona a cuyo nombre esté expedido el permiso de circulación del vehículo por la DGT • La situación particular de quién sea el usuario real del vehículo no altera la relación jurídico-tributaria
+
+[PÁGINA 47]
+Impuesto sobre Vehículos de Tracción Mecánica • El tributo se configura con una cuota fija inicial definida en el art. 95.1 LRHL en el que no existe ni base imponible y ni tipo de gravamen • El cuadro de tarifas distingue las cuotas atendiendo a la clase y categoría del vehículo • Los ayuntamientos podrán incrementar las cuotas fijadas mediante la aplicación de un coeficiente art. 95.4 LRHL • No podrá ser superior a 2 • El coeficiente debe indicarse en la Ordenanza Fiscal • Puede establecerse un coeficiente distinto para cada clase y categoría • Si no se establece coeficiente se exige según tarifa del 95.1 LRHL
+
+[PÁGINA 48]
+Impuesto sobre Vehículos de Tracción Mecánica • Bonificaciones potestativas art. 95.6 • Para su aplicación requiere que el Ayuntamiento las establezca en la Ordenanza Fiscal • El periodo impositivo coincide con el año natural, salvo cuando se trate de la primera adquisición del vehículo art. 96 LRHL • En primera adquisición el período impositivo comenzará el día en que se produzca dicha adquisición • Art. 96.2 el impuesto se devenga el primer día del período impositivo • El importe de la cuota del impuesto se prorrateará por trimestres naturales en los casos de primera adquisición o baja definitiva del vehículo • Se incluye el trimestre de alta o baja • También procederá el prorrateo de la cuota en los supuestos de baja temporal por sustracción o robo de vehículo • Desde el momento en que se produzca dicha baja temporal en el Registro público correspondiente • La transmisión del vehículo no altera el periodo impositivo, ni por tanto la cuota exigida al sujeto pasivo, en tanto el vehículo continúe con la aptitud para circular
+
+[PÁGINA 49]
+Impuesto sobre Vehículos de Tracción Mecánica • La gestión, liquidación, inspección y recaudación, así como la revisión de los actos dictados en vía de gestión tributaria corresponde al ayuntamiento del domicilio que conste en el permiso de circulación del vehículo art. 97 LRHL • El Ayuntamiento liquidará el impuesto según los datos obrantes en el padrón de vehículos, que se actualizará con la información que remite la DGT • La DGT notificará al Ayuntamiento las altas y bajas procedentes de las nuevas matriculaciones, traslados de domicilio fiscal o bajas temporales y definitivas. • Los cambios de domicilio fiscal del vehículo se tramitan por la DGT y no por los Ayuntamientos afectados • El domicilio fiscal del vehículo debe coincidir con el domicilio del titular
+
+[PÁGINA 50]
+Impuesto sobre Vehículos de Tracción Mecánica • El art. 99 LRHL recoge que quienes soliciten ante la Jefatura Provincial de Tráfico la matriculación o la certificación de aptitud para circular de un vehículo, deberán acreditar previamente el pago del impuesto • No se tramitará el cambio de titularidad en tanto su titular registral no haya acreditado el pago del impuesto correspondiente al período impositivo del año anterior a aquel en que se realiza el trámite • Los Ayuntamientos comunicarán a la DGT al finalizar el periodo voluntario de pago los vehículos que no se encuentran al corriente de pago de la cuota
+
+[PÁGINA 51]
+Impuesto sobre Instalaciones Construcciones y Obras • Regulado en los art. 100-103 de la LRHL • Es un tributo potestativo por lo que para su exigencia debe acordarse su exacción y aprobarse una Ordenanza Fiscal reguladora • Es un impuesto indirecto que se aplica sobre una manifestación indirecta o mediata de la capacidad económica • Art. 100.1 El hecho imponible del impuesto está constituido por la realización, dentro del término municipal, de cualquier construcción, instalación u obra para la que se exija obtención de la correspondiente licencia de obras o urbanística o para la que se exija presentación de declaración responsable o comunicación previa • Se haya obtenido o no la licencia • Se haya presentado o no la declaración previa • Siempre que la expedición de la licencia o la actividad de control correspondan al Ayuntamiento de imposición del tributo
+
+[PÁGINA 52]
+Impuesto sobre Instalaciones Construcciones y Obras • La normativa que regule el desarrollo de las diferentes actuaciones en materia de construcción, instalaciones y obras será la que determine en que casos es exigible la actuación de control municipal por o tanto el cumplimiento del H. Imp. • Exención prevista para determinadas obras de la Administración Pública art. 101.2 • El art. 101.1 LRHL indica que son sujetos pasivos de este impuesto, a título de contribuyentes las personas físicas, personas jurídicas o entidades del artículo 35.4 de la LGT, que sean dueños de la construcción, instalación u obra, sean o no propietarios del inmueble sobre el que se realice aquélla • Tendrá la consideración de dueño de la construcción, instalación u obra quien soporte los gastos o el coste que comporte su realización
+
+===== FUENTE: Sistema tributario local (1)_chunk_4.txt =====
+[PÁGINA 53]
+Impuesto sobre Instalaciones Construcciones y Obras • En el supuesto de que la construcción, instalación u obra no sea realizada por el sujeto pasivo contribuyente tendrán la condición de sujetos pasivos sustitutos del contribuyente: • Quienes soliciten las correspondientes licencias • Quienes presenten las correspondientes declaraciones responsables o comunicaciones previas • Quienes realicen las construcciones, instalaciones u obras • El sustituto podrá exigir del contribuyente el importe de la cuota tributaria satisfecha • La base imponible del impuesto está constituida por el coste real y efectivo de la construcción, instalación u obra, y se entiende por tal, a estos efectos, el coste de ejecución material de aquélla art. 102.1 LRHL
+
+[PÁGINA 54]
+Impuesto sobre Instalaciones Construcciones y Obras • La cuota de este impuesto será el resultado de aplicar a la base imponible el tipo de gravamen art. 102.2 LRHL • El tipo de gravamen del impuesto será el fijado por cada ayuntamiento en lo Ordenanza Fiscal • El tipo de gravamen no puede exceder el 4% art. 102.3 LRHL • Bonificaciones potestativas art. 103.2 • Requieren aprobarse por el Ayuntamiento en la Ordenanza Fiscal • El art. 102.4 LRHL El impuesto se devenga en el momento de iniciarse la construcción, instalación u obra, aun cuando no se haya obtenido la correspondiente licencia • Si la obra se ha realizado sin licencia el impuesto se ha devengado en cualquier caso
+
+[PÁGINA 55]
+Impuesto sobre Instalaciones Construcciones y Obras • El art. 103.1 LRHL dispone que se practicará una liquidación provisional, la cual tendrá la consideración de pago a cuenta de la liquidación definitiva que se practique • Esta liquidación provisional se puede realizar: • Cuando se conceda la licencia preceptiva • Cuando se presente la declaración responsable o la comunicación previa • Cuando se inicie la construcción, instalación u obra (sin licencia) • Según el art. 103.1 LRHL la liquidación provisional a cuenta se realizará sobre la base de: • El presupuesto presentado por los interesados, visado por el Colegio Oficial correspondiente si procede • Los índices o módulos que la ordenanza fiscal establezca al efecto
+
+[PÁGINA 56]
+Impuesto sobre Instalaciones Construcciones y Obras • La liquidación definitiva se realizará una vez finalizada la construcción, instalación y obra • El ayuntamiento, tras realizar la oportuna comprobación administrativa, modificará, en su caso, la base imponible utilizada para la liquidación provisional • La Ordenanza Fiscal establecerá el mecanismo para la realización de la liquidación definitiva • El impuesto puede exigirse en régimen de autoliquidación • Debe de indicarlo la Ordenanza
+
+[PÁGINA 57]
+Impuesto sobre el Incremento de Valor de los T errenos de Naturaleza Urbana • Impuesto potestativo que requiere Ordenanza Fiscal • Regulado en los art. 104-110 de la LRHL • Art. 104.1 LRHL establece que: • Es un tributo directo • Grava el incremento de valor que experimenten dichos terrenos y que se ponga de manifiesto con ocasión de: • La transmisión de la propiedad de los terrenos por cualquier título • La constitución o transmisión de cualquier derecho real de goce, limitativo del dominio, sobre los referidos terrenos • Únicamente grava los incrementos manifestados sobre BBII que deban tener la consideración de Urbanos o de características especiales a efectos del IBI
+
+[PÁGINA 58]
+Impuesto sobre el Incremento de Valor de los T errenos de Naturaleza Urbana • Supuestos de no sujeción art. 104.3 y ss LRHL • Cuando se acredita que no existe incremento (venta a pérdidas) • Existen también otros supuestos establecidos vía jurisprudencia • Supuestos de exención • Objetivas art. 105.1 LRHL • Subjetivas art. 105.2 LRHL • De conformidad con el art. 106.1 LRHL es sujeto pasivo a título de contribuyente • En las transmisiones de terrenos o en la constitución o transmisión de derechos reales de goce limitativos del dominio a título lucrativo la persona física o jurídica, o la entidad a que se refiere el artículo 35.4 LGT que adquiera el terreno o a cuyo favor se constituya o transmita el derecho real de que se trate • En las transmisiones de terrenos o en la constitución o transmisión de derechos reales de goce limitativos del dominio a título oneroso, la persona física o jurídica, o la entidad a que se refiere el artículo 35.4 LGT que transmita el terreno, o que constituya o transmita el derecho real de que se trate
+
+[PÁGINA 59]
+Impuesto sobre el Incremento de Valor de los T errenos de Naturaleza Urbana • El art. 107.1 LRHL establece que la BI está constituida por el incremento del valor de los terrenos puesto de manifiesto en el momento del devengo y experimentado a lo largo de un periodo máximo de veinte años • El incremento se determinará multiplicando el valor del terreno en el momento del devengo por el coeficiente que corresponda al periodo de generación • De conformidad con las normas indicadas en el citado artículo • No obstante lo anterior, el art. 107.5 LRHL indica que cuando, a instancia del sujeto pasivo se constate que el importe del incremento de valor es inferior al importe de la base imponible se tomará como base imponible el importe de dicho incremento de valor • Esto supone que existen dos mecanismos de cálculo para la Base Imponible siendo de aplicación aquel en el que el incremento sea inferior • 1º Cálculo según Valor art. 107.2 x coeficiente art.107.4 • 2º Cálculo por diferencia entre Valor de Adquisición – Valor de Transmisión
+
+[PÁGINA 60]
+Impuesto sobre el Incremento de Valor de los T errenos de Naturaleza Urbana • Transmisiones de terrenos • Con carácter general el valor de estos en el momento del devengo será el que tengan determinado en dicho momento a efectos del IBI (V. Catastral) • Constitución o transmisión de derechos reales • Con carácter general el valor de estos en el momento del devengo será el que le correspondería para una transmisión (Valor Catastral) ponderado por el porcentaje de los referidos derechos calculado mediante la aplicación de las normas fijadas a efectos del ITPAJD • Una vez obtenido el valor del terreno la base imponible se obtiene aplicando el coeficiente de la Ordenanza Fiscal que no podrá exceder el establecido en el art. 107.4 LRHL
+
+[PÁGINA 61]
+Impuesto sobre el Incremento de Valor de los T errenos de Naturaleza Urbana • El art. 107.5 LRHL indica que cuando, a instancia del sujeto pasivo se constate que el importe del incremento de valor es inferior al importe de la base imponible se tomará como base imponible el importe de dicho incremento de valor • El incremento de valor real de los terrenos se calcula por la diferencia entre los valores de dichos terrenos en las fechas de transmisión y adquisición • El sujeto pasivo estará obligado a aportar los títulos que documenten la transmisión y la adquisición • Los gastos de la operación no se incluyen en el valor • En las transmisiones onerosas el valor será el declarado en el ISD • El impuesto puede exigirse en régimen de autoliquidación
