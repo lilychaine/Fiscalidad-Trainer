@@ -23,6 +23,8 @@ def load_questions():
 
 QUESTIONS = load_questions()
 
+SUBJECTS = sorted({q["subject"] for q in QUESTIONS})
+
 MODES = [
     "Simulacro de examen",
     "Repaso de errores"
@@ -36,6 +38,7 @@ def init_state():
     defaults = {
         "started": False,
         "mode": MODES[0],
+        "subject": SUBJECTS[0] if SUBJECTS else "",
         "queue": [],
         "index": 0,
         "answered": False,
@@ -54,21 +57,29 @@ init_state()
 # FUNCTIONS
 # ==============================
 
-def build_exam():
-    q = QUESTIONS[:]
+def build_exam(subject):
+    if subject == "Todas":
+        q = QUESTIONS[:]
+    else:
+        q = [x for x in QUESTIONS if x["subject"] == subject]
+
     random.shuffle(q)
     return q[:20]
 
-def build_errors():
+def build_errors(subject):
     q = [x for x in QUESTIONS if x["id"] in st.session_state.wrong_ids]
+
+    if subject != "Todas":
+        q = [x for x in q if x["subject"] == subject]
+
     random.shuffle(q)
     return q[:20] if len(q) > 20 else q
 
 def start():
     if st.session_state.mode == "Simulacro de examen":
-        st.session_state.queue = build_exam()
+        st.session_state.queue = build_exam(st.session_state.subject)
     else:
-        st.session_state.queue = build_errors()
+        st.session_state.queue = build_errors(st.session_state.subject)
 
     st.session_state.index = 0
     st.session_state.answered = False
@@ -112,9 +123,13 @@ st.title("Fiscalidad Trainer")
 
 if not st.session_state.started:
 
-    st.subheader("Modo de entrenamiento")
+    st.subheader("Configuración")
 
-    st.session_state.mode = st.selectbox("Selecciona modo", MODES)
+    st.session_state.mode = st.selectbox("Modo", MODES)
+
+    SUBJECT_OPTIONS = ["Todas"] + SUBJECTS
+
+    st.session_state.subject = st.selectbox("Materia", SUBJECT_OPTIONS)
 
     if st.session_state.mode == "Simulacro de examen":
         st.info("20 preguntas tipo examen real")
@@ -197,9 +212,4 @@ else:
 
             if st.button("Siguiente"):
                 next_q()
-                st.rerun()
-            st.write(q["reference"])
-
-            if st.button("Siguiente pregunta"):
-                next_question()
                 st.rerun()
