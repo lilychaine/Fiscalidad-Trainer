@@ -23,30 +23,17 @@ def load_questions():
         return json.load(f)
 
 QUESTIONS = load_questions()
-
 SUBJECTS = sorted({q["subject"] for q in QUESTIONS})
 
-TOPICS_BY_SUBJECT = {
-    subject: sorted({q["topic"] for q in QUESTIONS if q["subject"] == subject})
-    for subject in SUBJECTS
-}
-
-MODES = [
-    "Estudio por bloque",
-    "Simulacro de examen",
-    "Repaso de errores",
-]
-
 # ==============================
-# STATE INIT
+# STATE
 # ==============================
 
 def init_state():
     defaults = {
         "started": False,
-        "mode": MODES[0],
-        "subject": SUBJECTS[0] if SUBJECTS else "",
-        "topic": "",
+        "mode": None,                 # "simulacro" | "errores"
+        "subject": "Todas",
         "queue": [],
         "index": 0,
         "answered": False,
@@ -55,9 +42,9 @@ def init_state():
         "score_bad": 0,
         "wrong_ids": [],
     }
-    for key, value in defaults.items():
-        if key not in st.session_state:
-            st.session_state[key] = value
+    for k, v in defaults.items():
+        if k not in st.session_state:
+            st.session_state[k] = v
 
 init_state()
 
@@ -65,45 +52,38 @@ init_state()
 # FUNCTIONS
 # ==============================
 
-def reset_quiz():
-    st.session_state.queue = []
+def filter_questions_by_subject(subject):
+    if subject == "Todas":
+        return QUESTIONS[:]
+    return [q for q in QUESTIONS if q["subject"] == subject]
+
+def build_simulacro(subject, n=20):
+    pool = filter_questions_by_subject(subject)
+    random.shuffle(pool)
+    return pool[:min(n, len(pool))]
+
+def build_error_review(subject, n=20):
+    pool = [q for q in QUESTIONS if q["id"] in st.session_state.wrong_ids]
+    if subject != "Todas":
+        pool = [q for q in pool if q["subject"] == subject]
+    random.shuffle(pool)
+    return pool[:min(n, len(pool))]
+
+def start_simulacro(subject):
+    st.session_state.mode = "simulacro"
+    st.session_state.subject = subject
+    st.session_state.queue = build_simulacro(subject)
     st.session_state.index = 0
     st.session_state.answered = False
     st.session_state.selected = None
     st.session_state.score_ok = 0
     st.session_state.score_bad = 0
+    st.session_state.started = True
 
-def build_block_queue(subject, topic):
-    items = [
-        q for q in QUESTIONS
-        if q["subject"] == subject and q["topic"] == topic
-    ]
-    random.shuffle(items)
-    return items
-
-def build_exam_queue():
-    items = QUESTIONS[:]
-    random.shuffle(items)
-    return items[:20]
-
-def build_error_queue():
-    items = [q for q in QUESTIONS if q["id"] in st.session_state.wrong_ids]
-    random.shuffle(items)
-    return items[:20] if len(items) > 20 else items
-
-def start_quiz():
-    mode = st.session_state.mode
-
-    if mode == "Estudio por bloque":
-        st.session_state.queue = build_block_queue(
-            st.session_state.subject,
-            st.session_state.topic
-        )
-    elif mode == "Simulacro de examen":
-        st.session_state.queue = build_exam_queue()
-    else:
-        st.session_state.queue = build_error_queue()
-
+def start_errors(subject):
+    st.session_state.mode = "errores"
+    st.session_state.subject = subject
+    st.session_state.queue = build_error_review(subject)
     st.session_state.index = 0
     st.session_state.answered = False
     st.session_state.selected = None
@@ -121,23 +101,23 @@ def next_question():
     st.session_state.answered = False
     st.session_state.selected = None
 
-def back_to_menu():
+def back_to_home():
     st.session_state.started = False
+    st.session_state.mode = None
     st.session_state.queue = []
     st.session_state.index = 0
     st.session_state.answered = False
     st.session_state.selected = None
 
 # ==============================
-# UI
+# SIDEBAR
 # ==============================
 
-st.title("Fiscalidad Trainer")
-
 with st.sidebar:
-    st.subheader("Marcador")
+    st.subheader("Progreso")
+
     total = st.session_state.score_ok + st.session_state.score_bad
-    pct = round((st.session_state.score_ok / total) * 100, 2) if total else 0.0
+    pct = round((st.session_state.score_ok / total) * 100, 2) if total else 0
 
     st.write(f"Aciertos: {st.session_state.score_ok}")
     st.write(f"Errores: {st.session_state.score_bad}")
@@ -149,78 +129,84 @@ with st.sidebar:
         st.write(f"Pregunta: {pos}/{len(st.session_state.queue)}")
         st.progress(st.session_state.index / len(st.session_state.queue))
 
+# ==============================
+# HOME
+# ==============================
+
+st.title("Fiscalidad Trainer")
+
 if not st.session_state.started:
-    st.subheader("Configuración inicial")
+    st.subheader("Entrenamiento")
 
-    st.session_state.mode = st.selectbox(
-        "Modalidad",
-        MODES,
-        index=MODES.index(st.session_state.mode)
-    )
+    subject_options = ["Todas"] + SUBJECTS
+    subject = st.selectbox("Materia", subject_options)
 
-    if st.session_state.mode == "Estudio por bloque":
-        st.session_state.subject = st.selectbox(
-            "Materia",
-            SUBJECTS,
-            index=SUBJECTS.index(st.session_state.subject)
-        )
+    col1, col2 = st.columns(2)
 
-        topics = TOPICS_BY_SUBJECT.get(st.session_state.subject, [])
+    with col1:
+        st.markdown("### Simulacro")
+        st.write("20 preguntas seguidas, sin interrupciones.")
+        if st.button("Empezar simulacro", use_container_width=True):
+            start_simulacro(subject)
+            st.rerun()
 
-        if topics:
-            default_topic = topics[0]
-            if st.session_state.topic in topics:
-                default_topic = st.session_state.topic
+    with col2:
+        st.markdown("### Repaso de errores")
+        st.write("Repite preguntas que has fallado.")
+        disabled = len(st.session_state.wrong_ids) == 0
+        if st.button("Repasar errores", use_container_width=True, disabled=disabled):
+            start_errors(subject)
+            st.rerun()
 
-            st.session_state.topic = st.selectbox(
-                "Bloque",
-                topics,
-                index=topics.index(default_topic)
-            )
-        else:
-            st.warning("No hay bloques disponibles para esta materia.")
+    if disabled:
+        st.info("Todavía no hay preguntas falladas para repasar.")
 
-    elif st.session_state.mode == "Simulacro de examen":
-        st.info("Se mezclarán 20 preguntas de todas las materias.")
-
-    elif st.session_state.mode == "Repaso de errores":
-        if st.session_state.wrong_ids:
-            st.info("Se usarán las preguntas falladas.")
-        else:
-            st.warning("Todavía no hay preguntas falladas.")
-
-    if st.button("Empezar test"):
-        start_quiz()
-        st.rerun()
+# ==============================
+# QUIZ
+# ==============================
 
 else:
     q = current_question()
 
-    if q is None:
+    if q is None or len(st.session_state.queue) == 0:
+        st.subheader("No hay preguntas disponibles")
+        st.write("Prueba otra materia o vuelve al simulacro.")
+        if st.button("Volver al inicio"):
+            back_to_home()
+            st.rerun()
+
+    elif st.session_state.index >= len(st.session_state.queue):
         st.subheader("Test finalizado")
 
         total = st.session_state.score_ok + st.session_state.score_bad
-        pct = round((st.session_state.score_ok / total) * 100, 2) if total else 0.0
+        pct = round((st.session_state.score_ok / total) * 100, 2) if total else 0
 
         st.write(f"Aciertos: {st.session_state.score_ok}")
         st.write(f"Errores: {st.session_state.score_bad}")
         st.write(f"Porcentaje: {pct}%")
 
-        col1, col2 = st.columns(2)
+        col1, col2, col3 = st.columns(3)
 
         with col1:
-            if st.button("Volver al menú"):
-                back_to_menu()
+            if st.button("Inicio"):
+                back_to_home()
                 st.rerun()
 
         with col2:
             if st.button("Repetir"):
-                start_quiz()
+                if st.session_state.mode == "simulacro":
+                    start_simulacro(st.session_state.subject)
+                else:
+                    start_errors(st.session_state.subject)
+                st.rerun()
+
+        with col3:
+            if st.button("Repasar errores"):
+                start_errors(st.session_state.subject)
                 st.rerun()
 
     else:
-        st.caption(f"Materia: {q['subject']}")
-        st.caption(f"Bloque: {q['topic']} | Subbloque: {q['subtopic']}")
+        st.caption(q["subject"])
         st.subheader(f"Pregunta {st.session_state.index + 1}")
         st.write(q["question"])
 
@@ -231,10 +217,10 @@ else:
             key=f"radio_{q['id']}_{st.session_state.index}"
         )
 
-        col1, col2 = st.columns(2)
+        col1, col2 = st.columns([1, 1])
 
         with col1:
-            if st.button("Responder") and not st.session_state.answered:
+            if st.button("Responder", use_container_width=True) and not st.session_state.answered:
                 st.session_state.selected = selected
                 st.session_state.answered = True
 
@@ -248,8 +234,8 @@ else:
                 st.rerun()
 
         with col2:
-            if st.button("Salir al menú"):
-                back_to_menu()
+            if st.button("Salir", use_container_width=True):
+                back_to_home()
                 st.rerun()
 
         if st.session_state.answered:
@@ -264,6 +250,6 @@ else:
             st.markdown("**Referencia:**")
             st.write(q["reference"])
 
-            if st.button("Siguiente pregunta"):
+            if st.button("Siguiente pregunta", use_container_width=True):
                 next_question()
                 st.rerun()
